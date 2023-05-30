@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="1243I - PCO 2 - Tracking">
+    <title>1243I - PCO 2 - Tracking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='../../../styles/styles.css'>
+    <script src="../../../library/labor.js"></script>
+    <script src="../../../library/equipment.js"></script>
+
+    <link rel="icon" type="image/png" href="../../../legend/1243I_fav.png" />
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+</head>
+
+<body>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th>FAR No.</th>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+                        <td>700-30-01</td>
+                        <td>5/23/2023</td>
+                        <td>PCO 2 Work Day - 1</td>
+                        <td><button class="btn btn-default btn-xs">$1000</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="hiddenRow">
+                            <div class="accordian-body collapse" id="demo1">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr data-toggle = "collapse" class="accordion-toggle" data-target="#demo10">
+                                            <td>Equipment</td>
+                                            <td><button class="btn btn-default btn-xs">$500</button></td>
+                                            <td colspan ="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="12" class="hiddenRow">
+                                                <div class="accordian-body collapse" id="demo10">
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <td><a href="#"> XPTO 1</a>
+                                                                </td>
+                                                                <td>XPTO 2 </td>
+                                                                <td>Obs </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>item 1 </th>
+                                                                <th>item 2 </th>
+                                                                <th>item 3 </th>
+                                                                <th>item 4 </th>
+                                                                <th>item 5 </th>
+                                                                <th>Actions </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>item 1 </td>
+                                                                <td>item 2 </td>
+                                                                <td>item 3 </td>
+                                                                <td>item 4 </td>
+                                                                <td>item 5 </td>
+                                                                <td>
+                                                                    <a href="#"
+                                                                        class="btn btn-default btn-sm">
+                                                                        <i
+                                                                            class="glyphicon glyphicon-cog"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+    </script>
+</body>
+
+</html>
