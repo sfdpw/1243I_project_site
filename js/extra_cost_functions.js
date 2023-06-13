@@ -126,6 +126,46 @@ function extra_cost_details_from_far(far_no_arg) {
         }
 
     }
+    
+    for (const material of Object.entries(material_pool))
+
+    {
+    
+      for (const extra_work_utilization_day of Object.entries(material[1].extra_work_utilization))
+      
+      {
+          
+          for (const far_no of Object.entries(extra_work_utilization_day))
+
+            {
+
+                if (far_no[1] == far_no_arg)
+
+                {
+    
+       		 far_material_piece_details = {};
+    	         far_material_piece_details.general_name = material[0];
+         	 far_material_piece_details.unit = material[1].unit;
+        	 far_material_piece_details.base_unit_price = material[1].base_unit_price;
+        
+        //console.log( far_material_piece_details.unit);
+
+          } 
+     
+
+         }
+
+       }
+       
+
+     }
+
+
+
+
+
+
+
 
     far_cost.total_amount = far_cost.labor_total + far_cost.equipment_total + far_cost.material_total + far_cost.subcontractor_total;
 
@@ -322,6 +362,20 @@ function accordion_table_far_entry(far_obj_arg) {
                                         </div>\
                                     </td>\
                                 </tr>\
+                                <tr data-toggle="collapse" data-target="#' + far_obj_arg.tag_no + '_materials" class="accordion-toggle">\
+                                    <td style="text-indent:20px">Materials</td>\
+                                    <td style="text-align: right">Subtotal:</td>\
+                                    <td><button id="' + far_obj_arg.tag_no + '_equipment_button" class="btn btn-default btn-xs"></button></td>\
+                                </tr>\
+                                <tr>\
+                                    <td colspan="3" class="hiddenRow">\
+                                        <div class="accordian-body collapse" id="' + far_obj_arg.tag_no + '_materials">\
+                                            <table class="table" id="' + far_obj_arg.tag_no + '_materials_table"\
+                                                   style="width: 90%; margin-left: auto; margin-right: auto;\
+                                                          font-size: 12px; font-family: monospace;"></table>\
+                                        </div>\
+                                    </td>\
+                                </tr>\
                             </table>\
                         </div>\
                     </td>\
@@ -350,6 +404,12 @@ document.getElementById('FAR_summary_table_body').innerHTML +=
                <td>&nbsp;</td>\
                <td style="text-align:right"><b>Equipment:</b></td>\
                <td>' + currency_formatter(far_cost_summary.equipment) + '</td>\
+               <td>&nbsp;</td>\
+             </tr>\
+             <tr>\
+               <td>&nbsp;</td>\
+               <td style="text-align:right"><b>Materials:</b></td>\
+               <td>' + currency_formatter(far_cost_summary.materials) + '</td>\
                <td>&nbsp;</td>\
              </tr>\
            </table>\
