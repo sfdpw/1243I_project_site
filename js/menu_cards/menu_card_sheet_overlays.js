@@ -1,28 +1,28 @@
 var overlay_menu_subsection_content_sw = "";
 var overlay_menu_subsection_content_u = "";
-var overlay_menu_subsection_content_pr = "";
+var overlay_menu_subsection_content_r = "";
 var overlay_menu_subsection_content_cr = "";
 
-for (var ii = 0; ii < layer_filter('SW', json_1070I_plan_boundaries)['features'].length; ii++) {
+for (var ii = 0; ii < layer_filter('SW', json_1243I_plan_boundaries)['features'].length; ii++) {
   overlay_menu_subsection_content_sw += popup_sheet_entry_creator('_twin_menu',
-    layer_filter('SW', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
-    layer_filter('SW', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+    layer_filter('SW', json_1243I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('SW', json_1243I_plan_boundaries)['features'][ii].properties.dwg_no
                                                                  ) + '<br>';
 }
 
 overlay_menu_subsection_content_u = overlay_menu_subsection_content_sw.replace(/SW/g,'U');
 
-for (var ii = 0; ii < layer_filter('PR', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_pr += popup_sheet_entry_creator('_twin_menu',
-    layer_filter('PR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
-    layer_filter('PR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+for (var ii = 0; ii < layer_filter('R', json_1243I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_r += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('R', json_1243I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('R', json_1243I_plan_boundaries)['features'][ii].properties.dwg_no
                                                                  ) + '<br>';
 }
 
-for (var ii = 0; ii < layer_filter('CR', json_1070I_plan_boundaries)['features'].length; ii++) {
+for (var ii = 0; ii < layer_filter('CR', json_1243I_plan_boundaries)['features'].length; ii++) {
   overlay_menu_subsection_content_cr += popup_sheet_entry_creator('_twin_menu',
-    layer_filter('CR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
-    layer_filter('CR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+    layer_filter('CR', json_1243I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('CR', json_1243I_plan_boundaries)['features'][ii].properties.dwg_no
                                                                  ) + '<br>';
 }
 var menu_card_sheet_overlay_content =
@@ -84,20 +84,20 @@ var menu_card_sheet_overlay_content =
            </div>\
 \
            <div class="card">\
-             <div class="card-header p-0" id="sheet_overlays_pr">\
+             <div class="card-header p-0" id="sheet_overlays_r">\
                <h2 class="mb-0">\
                  <button class="btn btn-link collapsed" type="button"\
-                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_pr"\
-                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_pr">\
-                   <strong>PR - Pavement Restoration</strong>\
+                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_r"\
+                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_r">\
+                   <strong>R - Flatwork</strong>\
                  </button>\
                </h2>\
              </div>\
-             <div id="heading_sheet_overlays_0_collapse_pr" class="collapse"\
-                      aria-labelledby="sheet_overlays_pr" data-parent="#heading_sheet_overlays_0">\
+             <div id="heading_sheet_overlays_0_collapse_r" class="collapse"\
+                      aria-labelledby="sheet_overlays_r" data-parent="#heading_sheet_overlays_0">\
                <div class="card-body">\
                  <div class="scroll_card_sub">' +
-  overlay_menu_subsection_content_pr +
+  overlay_menu_subsection_content_r +
   '</div>\
                </div>\
              </div>\

@@ -121,7 +121,7 @@ function layer_card_entry_generator(layer_index)
 
         '<tr><td>\
            <input type="checkbox" id="L_' + layer_index + '" onchange="master_layer_array[' + layer_index + '].toggle()">\
-             </td><td><img src="legend/1070I_L_' + layer_index + '.png" width="13" height="13"\
+             </td><td><img src="legend/1243I_L_' + layer_index + '.png" width="13" height="13"\
                          alt="Feature Symbol -' + master_layer_array[layer_index].layer_description + '"/>\
                     <label class="layer_label" for="L_' + layer_index + '">' +
         master_layer_array[layer_index].layer_description + '</label></td></tr>';
