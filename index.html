@@ -48,6 +48,7 @@
     <script src="js/layer_filter.js"></script>    
 
     <script src="data/1243I_plan_boundaries.js"></script>
+    <script src="tcps/tcp_list.js"></script>
     <script src="data/1243I_sewer_lines.js"></script>
     <script src="data/1243I_sewer_points.js"></script>
     <script src="js/popup_content_return.js"></script>    
@@ -180,7 +181,7 @@
         var bounds_group = new L.featureGroup([]);
 
         function setBounds() {
-            map.setView(new L.LatLng(37.7493, -122.4154), 13);
+          //  map.setView(new L.LatLng(37.7493, -122.4154), 13);
         }
         
         function style_1243I_project_dwgs(feature) {

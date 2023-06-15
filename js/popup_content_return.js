@@ -12,7 +12,7 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_01" class="collapse" aria-labelledby="PLAN_sheet" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no) + '</div>\
+                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no, feature.properties.specifier) + '</div>\
                                 </div>\
                                 </div>\
 \
@@ -63,7 +63,7 @@ if ( feature.properties.dwg_type == 'SW' )
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_05" class="collapse" aria-labelledby="U_PLANS" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type.replace('SW','U'), feature.properties.dwg_no) + '</div>\
+                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type.replace('SW','U'), feature.properties.dwg_no, feature.properties.specifier) + '</div>\
                                 </div>\
                                 </div>';
  

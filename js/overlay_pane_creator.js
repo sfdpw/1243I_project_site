@@ -612,7 +612,7 @@
         map.createPane('pane_1243I_dwg_CR_05_b_00');
         map.getPane('pane_1243I_dwg_CR_05_b_00').style.zIndex = 476;
         var img_1243I_dwg_CR_05_b_00 = 'raster_overlay/1243I_dwg_CR_05_b_00.png';
-        var img_bounds_1243I_dwg_CR_05_b_00 = [[37.772027650165626,-122.41847380892578],[37.7725536979576,-122.41796366355032]];
+        var img_bounds_1243I_dwg_CR_05_b_00 = [[37.77192027139506,-122.41845529754956],[37.77245376999528,-122.41793153738442]];
         var layer_1243I_dwg_CR_05_b_00 = new L.imageOverlay(img_1243I_dwg_CR_05_b_00,
                                               img_bounds_1243I_dwg_CR_05_b_00,
                                               {pane: 'pane_1243I_dwg_CR_05_b_00'});
