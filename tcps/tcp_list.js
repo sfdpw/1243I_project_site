@@ -136,19 +136,19 @@ var project_tcp_array = [
  'numb': '058', 'desc': 'PSP - 10th St from Market to Folsom', 'rlvn': ['R_01_a', 'R_01_b', 'R_02_a', 'R_02_b']
  }, 
 { 
- 'numb': '059', 'desc': 'PSP - 10th St from Folsom to Division', 'rlvn': ['R_02_b', 'R_03_a', 'R_03_b', 'R_04_a']
+ 'numb': '059', 'desc': 'PSP - 10th St from Folsom to Division', 'rlvn': ['SW_11_b', 'R_02_b', 'R_03_a', 'R_03_b', 'R_04_a']
  }, 
 { 
- 'numb': '060', 'desc': 'PSP - 12th St / Bryant St', 'rlvn': ['R_04_b', 'R_05', 'R_09_a', 'R_09_b']
+ 'numb': '060', 'desc': 'PSP - 12th St / Bryant St', 'rlvn': ['SW_07', 'SW_10', 'R_04_b', 'R_05', 'R_09_a', 'R_09_b']
  }, 
 { 
- 'numb': '061', 'desc': 'PSP - Lenand / Visitacion', 'rlvn': ['R_10_a', 'R_10_b', 'R_11_a', 'R_11_b', 'R_12_a', 'R_12_b']
+ 'numb': '061', 'desc': 'PSP - Leland / Visitacion', 'rlvn': ['SW_01', 'SW_02', 'SW_11_a', 'R_10_a', 'R_10_b', 'R_11_a', 'R_11_b', 'R_12_a', 'R_12_b']
  }, 
 { 
- 'numb': '062', 'desc': 'PSP - Velasco, Wilde, Campbell and SVN', 'rlvn': ['R_08_b', 'R_13_a', 'R_13_b', 'R_14', 'R_15']
+ 'numb': '062', 'desc': 'PSP - Velasco, Wilde, Campbell and SVN', 'rlvn': ['SW_03', 'SW_08', 'SW_09', 'R_08_b', 'R_13_a', 'R_13_b', 'R_14', 'R_15']
  }, 
 { 
- 'numb': '063', 'desc': 'PSP - SVN from 14th to Mission', 'rlvn': ['R_06_a', 'R_06_b', 'R_07_a']
+ 'numb': '063', 'desc': 'PSP - SVN from 14th to Mission', 'rlvn': ['SW_04', 'SW_05', 'SW_06', 'R_06_a', 'R_06_b', 'R_07_a']
  }
  
  ]
