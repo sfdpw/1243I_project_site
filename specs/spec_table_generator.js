@@ -94,9 +94,8 @@ function spec_table()
                  aria-labelledby="heading_' + 'SPEC_GEN' + '"\
                  data-parent="#accordion">\
               <div style="max-height:140pt; overflow-y:scroll" class="card-body">\
-                <a href=\"./1243I_Project_Manual_Vol_1_of_2.pdf\" target=\"_blank\">Project Specification Manual - Volume 1</a><br>\
-                <a href=\"./1243I_Project_Manual_Vol_2_of_2.pdf\" target=\"_blank\">Project Specification Manual - Volume 2</a><br>\
-                <a href=\"./1243I_Project_Manual_Complete_Conformed.pdf\" target=\"_blank\">Project Specification Manual - Complete, Conformed</a><br>\
+                <a href=\"./1243I_project_manual_complete_conformed.pdf\" target=\"_blank\">Project Specification Manual</a><br>\
+                <a href=\"../sheets/1243I_plan_set_as_of_2023_06_16.pdf\" target=\"_blank\">Project  Plan Set</a><br>\
                 <a href=\"./SFPW_STD_SPECS_draft_as_of_2021_08_09.pdf\" target=\"_blank\">SFPW Engineering Standard Specifications</a><br>\
                 <a href=\"https://sfpublicworks.org/sites/default/files/PW-Order-187005-Signed.pdf\" target=\"_blank\">SFPW Excavation Order 187,005</a>\
              </div>\
