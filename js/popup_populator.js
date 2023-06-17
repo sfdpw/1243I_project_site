@@ -41,6 +41,45 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
 }
 
 
+/*################# RELEVANT DOC ENTRY CREATOR ########################################################## */
+
+function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
+
+{
+
+    var output_string = "";
+
+        //var overlay_checkbox = "";
+        //var file_name = "";
+        //var file_name_length = "";
+        //var file_desc = "";
+
+
+         for (const striping_plan of striping_plan_array)
+
+        {
+
+          output_string += "<a href=\".\\sheets\\1243I_dwg_T_".concat(striping_plan, ".pdf\" target=\"_blank\">".concat("T-",  striping_plan).replace("-0","-")," - Striping Plan<\/a><br>");
+
+         }        
+
+        for (const rlvnt_doc of rlvnt_array)
+
+        {
+
+          output_string += "<a href=\".\\sheets\\".concat(rlvnt_doc.file_name, ".pdf\" target=\"_blank\">",
+                            rlvnt_doc.file_name.concat(' - ' ,rlvnt_doc.desc).replace('1243I_dwg_', 'Project Sheet ').replace(/_/g,' ') , "<\/a><br>");
+
+         } 
+  
+         
+         
+
+    return output_string
+
+}
+
+
 
 /*################# UTILITY PLAN ENTRY CREATOR ########################################################## */
 

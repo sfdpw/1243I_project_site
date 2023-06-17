@@ -45,7 +45,7 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + "none" + '</div>\
+                                <div class="card-body">' + feature.properties.rlvnt + '</div>\
                                 </div>\
                                 </div>'
                                 
