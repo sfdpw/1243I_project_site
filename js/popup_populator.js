@@ -5,12 +5,14 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
 
     var output_string = "";
     var overlay_checkbox = "";
-
+    var specifier_text = '';
+    
     for (let nn = 0; nn <= dwg_no[1]; nn++) {
 
         if (specifier != '' ) {
 
           overlay_checkbox = 'layer_1243I_dwg_'.concat(dwg_type, "_", dwg_no[0], "_", specifier, "_", num_pad(nn, 2));
+          specifier_text = ' - '.concat(specifier);
 
         } else {
 
@@ -25,12 +27,12 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
         if (nn > 0) {
 
             output_string += "<a href=\".\\sheets\\1243I_dwg_".concat(dwg_type, "_", dwg_no[0],
-                "_rev", num_pad(nn, 2), ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], " Rev. ", nn, "<\/a><br>");
+                "_rev", num_pad(nn, 2), ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], " Rev. ", nn, specifier_text,"<\/a><br>");
 
         } else {
 
             output_string += "<a href=\".\\sheets\\1243I_dwg_".concat(dwg_type, "_", dwg_no[0],
-                ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], "<\/a><br>");
+                ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], specifier_text, "<\/a><br>");
 
         }
 
@@ -72,28 +74,49 @@ function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
 
          } 
   
-         
-         
-
     return output_string
 
 }
 
+/*################# UTILITY PLAN ENTRY CREATOR ########################################################## */
 
+//function utility_plan_entry_creator(utility_plan_array)
+
+//{
+
+//    var output_string = "";
+//    var overlay_checkbox = "";
+
+//   for (const utility_plan of utility_plan_array)
+
+//        {
+
+//         overlay_checkbox = 'layer_1243I_dwg_'.concat(utility_plan);
+
+//         output_string += "<input type=\"checkbox\" id=\"".concat(overlay_checkbox, '_twin_popup',
+//            "\" onchange=\"handleChange(this, ", overlay_checkbox, ");\">", 
+//            " <a href=\".\\sheets\\1243I_dwg_".concat(utility_plan.substring(0,4)),
+//            ".pdf\" target=\"_blank\">", 'aaa' , "<\/a><br>");
+     
+//        }
+        
+//    return output_string
+
+//}
 
 /*################# UTILITY PLAN ENTRY CREATOR ########################################################## */
 
-function popup_u_plan_entry_creator(dwg_no) {
+//function popup_u_plan_entry_creator(dwg_no) {
 
-    var output_string = "";
+//    var output_string = "";
 
     //output_string = output_string.concat(
     //       "<a href=\".\\sheets\\1243I_dwg_U_", dwg_no , ".pdf\" target=\"_blank\">U-", dwg_no, "<\/a>"
     //       ); 
 
-    return output_string
+//    return output_string
 
-}
+//}
 
 
 

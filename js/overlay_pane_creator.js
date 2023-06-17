@@ -122,14 +122,14 @@
         bounds_group.addLayer(layer_1243I_dwg_U_05_b_00);
        //map.addLayer(layer_1243I_dwg_U_05_b);
 
-       map.createPane('pane_1243I_dwg_U_06_00');
-        map.getPane('pane_1243I_dwg_U_06_00').style.zIndex = 400;
-        var img_1243I_dwg_U_06_00 = 'raster_overlay/1243I_dwg_U_06_00.png';
-        var img_bounds_1243I_dwg_U_06_00 = [[37.71184882754469,-122.41702769505656],[37.714499071541134,-122.4129070142805]];
-        var layer_1243I_dwg_U_06_00 = new L.imageOverlay(img_1243I_dwg_U_06_00,
-                                              img_bounds_1243I_dwg_U_06_00,
-                                              {pane: 'pane_1243I_dwg_U_06_00'});
-        bounds_group.addLayer(layer_1243I_dwg_U_06_00);
+       map.createPane('pane_1243I_dwg_U_06_02');
+        map.getPane('pane_1243I_dwg_U_06_02').style.zIndex = 400;
+        var img_1243I_dwg_U_06_02 = 'raster_overlay/1243I_dwg_U_06_02.png';
+        var img_bounds_1243I_dwg_U_06_02 = [[37.71184882754469,-122.41702769505656],[37.714499071541134,-122.4129070142805]];
+        var layer_1243I_dwg_U_06_02 = new L.imageOverlay(img_1243I_dwg_U_06_02,
+                                              img_bounds_1243I_dwg_U_06_02,
+                                              {pane: 'pane_1243I_dwg_U_06_02'});
+        bounds_group.addLayer(layer_1243I_dwg_U_06_02);
        //map.addLayer(layer_1243I_dwg_U_06);
        
 // SW

@@ -16,6 +16,16 @@ document.getElementById("map_master_menu").innerHTML +=
                aria-labelledby="heading_sheet_layers" data-parent="#map_master_menu">\
             <div class="card-body">\
               <table>\
+                 <tr>\
+                  <td>\
+                    <input type="checkbox" id="checkbox_u" onchange="toggle_u()">\
+                  </td>\
+                  <td>\
+                    <img src="legend/1243I_plan_boundary_u.png" width="13" height="13"\
+                         alt="Layer Symbol - U - Utilities"/>\
+                    <label class="layer_label" for="checkbox_u">U - Utilities</label>\
+                  </td>\
+                </tr>\
                 <tr>\
                   <td>\
                     <input type="checkbox" id="checkbox_sw" onchange="toggle_sw()" checked>\
