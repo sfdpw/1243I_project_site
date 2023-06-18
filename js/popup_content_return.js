@@ -194,8 +194,8 @@ function pop_up_creator_for_domain(feature, layer)
 
 
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_ss[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_ss[1])
+    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_lt[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_lt[1])
 
     {
 

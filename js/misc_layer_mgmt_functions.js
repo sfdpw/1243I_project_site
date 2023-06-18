@@ -214,8 +214,7 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
         master_layer_array[layer_index].layer_description = scope;
         master_layer_array[layer_index].toggle = 
        
-        function() {toggle_sw_mn(type, layer_index, master_layer_array,
-                                         local_json_layer_obj, scope, rgba_code);}
+        function() {toggle_sw_mn(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                             
        }
    
@@ -226,8 +225,7 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {toggle_sw_mh(type, layer_index, master_layer_array,
-                                        local_json_layer_obj, scope, rgba_code);}
+         function() {toggle_sw_mh(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
        }
        
@@ -238,8 +236,7 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {toggle_sw_cl(type, layer_index, master_layer_array,
-                                          local_json_layer_obj, scope, rgba_code);}
+         function() {toggle_sw_cl(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
 
@@ -251,20 +248,18 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {toggle_sw_cb(type, layer_index, master_layer_array,
-                                           local_json_layer_obj, scope, rgba_code);}
+         function() {toggle_sw_cb(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
  
-     else if (type == 'ss')
+     else if (type == 'lt')
 
       {
       
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {toggle_sw_ss(type, layer_index, master_layer_array,
-                                             local_json_layer_obj, scope, rgba_code);}
+         function() {toggle_sw_lt(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
       
@@ -293,174 +288,7 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
      //  }       
       
     }                                                                          
-                                                                              
- 
-function sw_line_layer_styler(feature) {
-
-    var dash_code = '';
-    var status_line_weight = 4.0;
-    
-    switch (String(feature.properties.status)) {
-        case 'No Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-
-        case 'Scope Deleted':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: 4.0,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-
-        case '(E) Capped':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-        case '(E) Not Found':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-        case 'Pre-Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-
-        case 'Pending Direction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-         case 'Post-Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: 10.0,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;           
-
-    }
-} 
-   
-function sw_point_layer_styler(feature) {
-
-                    
-  switch (String(feature.properties.status)) {
-    case 'No Construction':
-
-      return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 4.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
-      }
-      break;
-      
-    case 'Pre-Construction':
-      return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 4.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
-      }
-      break;
-
-    case 'Post-Construction':
-      return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 8.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
-      }
-      break;
-
-   
-  }
-}
+                                                                             
 
 
 function num_pad(num, size) {

@@ -17,10 +17,10 @@ var sw_sewer_feature_menu =
               <div class="scroll_card">\
               <table>\
                 <tr>\
-                  <td><input type="checkbox" id="7xx_SWMN_checkbox"\
-                             onchange="feature_layer_toggle(\'7xx_SWMN_checkbox\',' 
+                  <td><input type="checkbox" id="sw_mn_checkbox"\
+                             onchange="feature_layer_toggle(\'sw_mn_checkbox\',' 
                              + index_limits_sw_mn[0] + ',' + index_limits_sw_mn[1] + ')"></td>\
-                  <td><label class="layer_label" for="7xx_SWMN_checkbox"><strong>Mains</strong></label></td>\
+                  <td><label class="layer_label" for="sw_mn_checkbox"><strong>Mains</strong></label></td>\
                 </tr>'
                
  
@@ -34,10 +34,10 @@ for (var ll = index_limits_sw_mn[0]; ll <= index_limits_sw_mn[1]; ll++) // SEWER
                   <td colspan="2">&nbsp;</td>\
                 </tr>\
                 <tr>\
-                  <td><input type="checkbox" id="7xx_SW_clvt_checkbox"\
-                             onchange="feature_layer_toggle(\'7xx_SW_clvt_checkbox\','
-                             + index_limits_sw_cl[0] + ',' + index_limits_sw_cl[1] + ')"></td>\
-                  <td><label class="layer_label" for="7xx_SW_clvt_checkbox"><strong>Culverts</strong></label></td>\
+                  <td><input type="checkbox" id="sw_cl_checkbox"\
+                             onchange="feature_layer_toggle(\'sw_cl_checkbox\','
+                             + index_limits_sw_cl[0] + ',' + index_limits_sw_cl[1] + ')" checked></td>\
+                  <td><label class="layer_label" for="sw_cl_checkbox"><strong>Culverts</strong></label></td>\
                 </tr>'
                 
                 
@@ -52,31 +52,31 @@ for (ll = index_limits_sw_cl[0]; ll <= index_limits_sw_cl[1]; ll++) // SEWER clv
                   <td colspan="2">&nbsp;</td>\
                 </tr>\
                 <tr>\
-                  <td><input type="checkbox" id="7xx_SW_lateral_checkbox"\
-                             onchange="feature_layer_toggle(\'7xx_SW_lateral_checkbox\','
-                             + index_limits_sw_ss[0] + ',' + index_limits_sw_ss[1] + ')"></td>\
-                  <td><label class="layer_label" for="7xx_SW_lateral_checkbox"><strong>Laterals</strong></label></td>\
+                  <td><input type="checkbox" id="sw_lt_checkbox"\
+                             onchange="feature_layer_toggle(\'sw_lt_checkbox\','
+                             + index_limits_sw_lt[0] + ',' + index_limits_sw_lt[1] + ')" checked></td>\
+                  <td><label class="layer_label" for="sw_lt_checkbox"><strong>Laterals</strong></label></td>\
                 </tr>'
                 
-for (ll = index_limits_sw_ss[0]; ll <= index_limits_sw_ss[1]; ll++) // SEWER lateral
+for (ll = index_limits_sw_lt[0]; ll <= index_limits_sw_lt[1]; ll++) // SEWER lateral
  
    {sw_sewer_feature_menu += layer_card_entry_generator(ll);}    
   
     sw_sewer_feature_menu +=
  
-               '<tr>\
+              '<tr>\
                   <td colspan="2">&nbsp;</td>\
                 </tr>\
                 <tr>\
-                  <td><input type="checkbox" id="7xx_SW_MH_checkbox"\
-                             onchange="feature_layer_toggle(\'7xx_SW_MH_checkbox\','
+                  <td><input type="checkbox" id="sw_mh_checkbox"\
+                             onchange="feature_layer_toggle(\'sw_mh_checkbox\','
                              + index_limits_sw_mh[0] + ',' + index_limits_sw_mh[1] + ')"></td>\
-                  <td><label class="layer_label" for="7xx_SW_MH_checkbox"><strong>Manholes</strong></label></td>\
+                  <td><label class="layer_label" for="sw_mh_checkbox"><strong>Manholes</strong></label></td>\
                 </tr>'          
 
 for (ll = index_limits_sw_mh[0]; ll <= index_limits_sw_mh[1]; ll++) // SEWER MHs
  
-   {sw_sewer_feature_menu += layer_card_entry_generator(ll);} 
+ {sw_sewer_feature_menu += layer_card_entry_generator(ll);} 
 
 sw_sewer_feature_menu +=                
                 
@@ -84,10 +84,10 @@ sw_sewer_feature_menu +=
                   <td colspan="2">&nbsp;</td>\
                 </tr>\
                 <tr>\
-                  <td><input type="checkbox" id="7xx_SW_drain_checkbox"\
-                             onchange="feature_layer_toggle(\'7xx_SW_drain_checkbox\','
+                  <td><input type="checkbox" id="sw_cb_checkbox"\
+                             onchange="feature_layer_toggle(\'sw_cb_checkbox\','
                              + index_limits_sw_cb[0] + ',' + index_limits_sw_cb[1] + ')"></td>\
-                  <td><label class="layer_label" for="7xx_SW_drain_checkbox"><strong>Drains</strong></label></td>\
+                  <td><label class="layer_label" for="sw_cb_checkbox"><strong>Drains</strong></label></td>\
                 </tr>'
                 
 for (ll = index_limits_sw_cb[0]; ll <= index_limits_sw_cb[1]; ll++) // Sewer Catch Basins

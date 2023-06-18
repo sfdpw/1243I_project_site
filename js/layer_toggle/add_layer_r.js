@@ -1,5 +1,5 @@
 map.createPane('pane_1243I_r_dwgs');
-map.getPane('pane_1243I_r_dwgs').style.zIndex = 51;
+map.getPane('pane_1243I_r_dwgs').style.zIndex = 203;
 map.getPane('pane_1243I_r_dwgs').style['mix-blend-mode'] = 'normal';
 
 var layer_1243I_r_dwgs = new L.geoJson(layer_filter('R', json_1243I_plan_boundaries), {
@@ -9,7 +9,7 @@ var layer_1243I_r_dwgs = new L.geoJson(layer_filter('R', json_1243I_plan_boundar
     layerName: 'layer_1243I_r_dwgs',
     pane: 'pane_1243I_r_dwgs',
     onEachFeature: add_layer_pop_function,
-    style: style_1243I_project_dwgs,
+    style: project_dwgs_layer_styler,
 
 });
 
@@ -27,7 +27,7 @@ function toggle_r() {
             layerName: 'layer_1243I_r_dwgs',
             pane: 'pane_1243I_r_dwgs',
             onEachFeature: add_layer_pop_function,
-            style: style_1243I_project_dwgs,
+            style: project_dwgs_layer_styler,
         });
 
         //bounds_group.addLayer(layer_1243I_r_dwgs);
