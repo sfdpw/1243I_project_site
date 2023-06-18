@@ -33,7 +33,7 @@
     <script src="../js/sewer_line_reflexive_functions.js"></script>
     <script src="../js/sewer_status_codes.js"></script>
     <script src="../data/1243I_sewer_lines.js"></script>
-
+    <link rel="icon" type="image/png" href="../legend/1243I_fav.png" />
 
 </head>
 
@@ -55,10 +55,14 @@
 		   data-minimum-count-columns="1"
 		   data-pagination="true"
 		   data-sortable="true"
-		   data-page-list="[8]"
-		   data-page-size="8"
+		   data-page-list="[10]"
+		   data-page-size="10"
 		   data-response-handler="responseHandler"
 		   data-filter-control="true"
+		   data-row-style="row_styler"
+		   data-header-style="header_styler"
+		   style="border-color: black;"
+
                    ></table>
         </div>
     </div>
@@ -93,14 +97,16 @@
                 {
                     field: 'properties.id_a',
                     title: 'ASSET ID',
-                    sortable: true
+                    sortable: true,
+                    searchable: true,
                     //width: '5',
                     //widthUnit: "%"
                 },
                 {
                     field: 'asset_coordinate',
                     title: 'LOCATION',
-                    sortable: true
+                    sortable: true,
+                    searchable: true,
                     //width: '20',
                     //widthUnit: "%"
                 },
@@ -125,56 +131,135 @@
                // },
                  {
                     field: 'properties.submittals.tvi_pre_con.submittal_no',
-                    title: '<u>PRECON</u><br>SUBMITTAL',
+                    title: 'PRECON<br>SUBMITTAL',
                     sortable: true,
                     filterControl: "select"
                 },
                  {
                     field: 'properties.submittals.tvi_pre_con.video_no',
-                    title: 'VIDEO',
+                    title: '&nbsp;<br>VIDEO',
                     sortable: true
                 },
                  {
                     field: 'properties.submittals.tvi_pre_con.response',
-                    title: 'RESPONSE<br>&nbsp;',
+                    title: '&nbsp;<br>RESPONSE',
                     sortable: true,
                     filterControl: "select"
                 },
                  {
                     field: 'properties.submittals.tvi_pre_con.response_date',
-                    title: 'RESPONSE<br>DATE',
+                    title: '&nbsp;<br>RESPONSE DATE',
                     sortable: true
                 },
                  {
                     field: 'properties.submittals.tvi_post_con.submittal_no',
-                    title: '<u>POSTCON</u><br>SUBMITTAL',
+                    title: 'POSTCON<br>SUBMITTAL',
                     sortable: true,
                     filterControl: "select"
                 },
                  {
                     field: 'properties.submittals.tvi_post_con.video_no',
-                    title: 'VIDEO',
+                    title: '&nbsp;<br>VIDEO',
                     sortable: true
                 },
                  {
                     field: 'properties.submittals.tvi_post_con.response',
-                    title: 'RESPONSE<br>&nbsp;',
+                    title: '&nbsp;<br>RESPONSE',
                     sortable: true,
                     filterControl: "select"
                 },
                  {
                     field: 'properties.submittals.tvi_post_con.response_date',
-                    title: 'RESPONSE<br>DATE',
+                    title: '&nbsp;<br>RESPONSE DATE',
                     sortable: true
                 },
             ]
         })
+  
+  
+// Row shading  
        
+function row_styler(row, index) {
+ 
+//   'Status Not Found',                            // 00
+//   'No Construction',                             // 01
+//   'Status Not Tracked',                          // 02
+//   'Pending Post-Con Television',                 // 03
+//   'Post-Con Televised - Accepted',               // 04
+//   'Post-Con Televised - Rejected',               // 05
+//   'Pre-Construction',                            // 06
+//   'Pending Direction',                           // 07
+//   'Pre-Con Televised - Lining Directed',         // 08   
+//   'Pre-Con Televised - No Other Work Directed',  // 09   
+//   'Pre-Con Televised - Replacement Directed',    // 10  
+//   'Scope Deleted',                               // 11
+//   '(E) Capped',                                  // 12 
+//   '(E) Not Found',                               // 13 
+    
+    var row_color_by_status = '';
+    
+         if ( 
+              row.properties.status == sewer_status_code_array[1] ||
+              row.properties.status == sewer_status_code_array[2] ||
+              row.properties.status == sewer_status_code_array[9] || 
+              row.properties.status == sewer_status_code_array[11] ||          
+              row.properties.status == sewer_status_code_array[12] ||    
+              row.properties.status == sewer_status_code_array[13]            
+              ) { row_color_by_status = '#ededed';} // grey 
+         
+    else if (
+              row.properties.status == sewer_status_code_array[4]
+              ) { row_color_by_status = '#c8ebb7';} // green    
+    
+    else if ( 
+              row.properties.status == sewer_status_code_array[3] || 
+              row.properties.status == sewer_status_code_array[6] ||
+              row.properties.status == sewer_status_code_array[7] ||
+              row.properties.status == sewer_status_code_array[8] ||
+              row.properties.status == sewer_status_code_array[10]              
+              ) { row_color_by_status = '#f7f78f';}  // yellow     
+  
+    else if (
+             row.properties.status == sewer_status_code_array[5]
+              ) { row_color_by_status = '#f5cede';}  // red  
+            
+  
+    return {
+      css: {
+        background: row_color_by_status
+      }
+    }
+  } 
+       
+function header_styler(column) {
+
+    var column_header_text_color = '#000000';
+
+//         if (column.title.includes('PRECON')) { column_header_text_color = '#fa2f58' }
+ //   else if (column.title.includes('POSTCON')) { column_header_text_color = '#f58f29' }
+
+
+    return {
+
+        css: { 
+            
+            color: column_header_text_color,
+            background: '#e4edf7'
+            
+            }
+    
+    }
+    
+  } 
+  
+  
+  
         
        
-
+             
     </script>
 
 </body>
+
 
 </html>

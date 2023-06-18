@@ -126,9 +126,9 @@ function pop_up_creator_for_domain(feature, layer)
     {
 
         var popupContent =
-            '<strong>Asset ID</strong><br>' +
+            '<strong>Node ID</strong><br>' +
             (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
-<strong>Node ID</strong><br>' +
+<strong>Asset ID</strong><br>' +
             (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
@@ -177,9 +177,9 @@ function pop_up_creator_for_domain(feature, layer)
     {
 
         var popupContent =
-            '<strong>Asset ID</strong><br>' +
+            '<strong>Node ID</strong><br>' +
             (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
-<strong>Node ID</strong><br>' +
+<strong>Asset ID</strong><br>' +
             (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
