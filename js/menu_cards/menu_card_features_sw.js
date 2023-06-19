@@ -36,7 +36,7 @@ for (var ll = index_limits_sw_mn[0]; ll <= index_limits_sw_mn[1]; ll++) // SEWER
                 <tr>\
                   <td><input type="checkbox" id="sw_cl_checkbox"\
                              onchange="feature_layer_toggle(\'sw_cl_checkbox\','
-                             + index_limits_sw_cl[0] + ',' + index_limits_sw_cl[1] + ')" checked></td>\
+                             + index_limits_sw_cl[0] + ',' + index_limits_sw_cl[1] + ')"></td>\
                   <td><label class="layer_label" for="sw_cl_checkbox"><strong>Culverts</strong></label></td>\
                 </tr>'
                 
@@ -54,7 +54,7 @@ for (ll = index_limits_sw_cl[0]; ll <= index_limits_sw_cl[1]; ll++) // SEWER clv
                 <tr>\
                   <td><input type="checkbox" id="sw_lt_checkbox"\
                              onchange="feature_layer_toggle(\'sw_lt_checkbox\','
-                             + index_limits_sw_lt[0] + ',' + index_limits_sw_lt[1] + ')" checked></td>\
+                             + index_limits_sw_lt[0] + ',' + index_limits_sw_lt[1] + ')"></td>\
                   <td><label class="layer_label" for="sw_lt_checkbox"><strong>Laterals</strong></label></td>\
                 </tr>'
                 

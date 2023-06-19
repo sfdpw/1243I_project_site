@@ -29,7 +29,7 @@ var json_1243I_sewer_points = {
 
 { "type": "Feature", "properties": { "id_a": "318717", "id_b": "none", "location": "101 South Van Ness Ave", "scope": "Install (N) manhole per std 87,181", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.418139660574738, 37.77194446043702 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "unknown_manhole_001", "id_b": "none", "location": "Intersection of South Van Ness Ave and 15th St", "scope": "Remove (E)", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417690051505232, 37.766877506348102 ] } },
+{ "type": "Feature", "properties": { "id_a": "316603", "id_b": "none", "location": "Intersection of South Van Ness Ave and 15th St", "scope": "Remove (E)", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417690051505232, 37.766877506348102 ] } },
 
 { "type": "Feature", "properties": { "id_a": "318926", "id_b": "none", "location": "101 Campbell Ave", "scope": "Install (N) manhole per std 87,181", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": null },
 
@@ -81,7 +81,7 @@ var json_1243I_sewer_points = {
 
 { "type": "Feature", "properties": { "id_a": "18386", "id_b": "none", "location": "Intersection of South Van Ness Ave and 15th St", "scope": "Mortar (E) manhole", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417686013922918, 37.766830065380773 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "316603", "id_b": "none", "location": "South Van Ness Ave - North of 15th St", "scope": "Install (N) manhole per std 87,181", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417693354981807, 37.766918708875998 ] } },
+{ "type": "Feature", "properties": { "id_a": "unknown_manhole_001", "id_b": "none", "location": "South Van Ness Ave - North of 15th St", "scope": "Install (N) manhole per std 87,181", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "mh", "status": "Pre-Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417693354981807, 37.766918708875998 ] } },
 
 { "type": "Feature", "properties": { "id_a": "168088", "id_b": "none", "location": "Intersection of South Van Ness Ave and 15th St - NEC", "scope": "(E) catch basin to remain", "pp_history": { 'SW-0': { 'PP0': { 'SFPUC-SW': { 'QTY': 0, 'UNIT': '' } } } }, "rlvnt": "none", "sw_type": "cb", "status": "No Construction" }, "geometry": { "type": "Point", "coordinates": [ -122.417574980407522, 37.766880553014694 ] } },
 
