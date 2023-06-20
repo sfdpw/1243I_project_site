@@ -9,8 +9,8 @@ var json_1243I_sewer_lines = {
     },
     "features": [
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-106530",
@@ -48,9 +48,9 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
-                
+
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -66,8 +66,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-101999",
@@ -105,7 +105,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -122,8 +122,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-86104",
@@ -161,7 +161,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -178,8 +178,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-86769",
@@ -217,7 +217,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -234,8 +234,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-86804",
@@ -273,7 +273,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -290,8 +290,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122752",
@@ -329,7 +329,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -346,8 +346,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122753",
@@ -385,7 +385,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -402,8 +402,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122754",
@@ -441,7 +441,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -458,8 +458,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122755",
@@ -497,7 +497,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -514,8 +514,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-126385",
@@ -553,7 +553,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -570,8 +570,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417625",
@@ -609,7 +609,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -626,8 +626,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-86105",
@@ -665,7 +665,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -682,8 +682,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76800",
@@ -721,7 +721,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -738,8 +738,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-126193",
@@ -777,7 +777,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -794,8 +794,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416321",
@@ -833,7 +833,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -850,8 +850,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416325",
@@ -889,7 +889,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -906,8 +906,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416326",
@@ -945,7 +945,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -962,8 +962,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416340",
@@ -1001,7 +1001,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1018,8 +1018,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416341",
@@ -1057,7 +1057,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1074,8 +1074,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417582",
@@ -1113,7 +1113,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1130,8 +1130,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417593",
@@ -1169,7 +1169,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1186,8 +1186,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417594",
@@ -1225,7 +1225,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1242,8 +1242,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417595",
@@ -1281,7 +1281,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1298,8 +1298,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416320",
@@ -1337,7 +1337,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1354,8 +1354,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417624",
@@ -1393,7 +1393,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1410,8 +1410,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416496",
@@ -1449,7 +1449,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1466,8 +1466,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416497",
@@ -1505,7 +1505,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1522,8 +1522,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-412529",
@@ -1561,7 +1561,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1578,8 +1578,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-363634",
@@ -1634,8 +1634,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-124540",
@@ -1673,7 +1673,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals )
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1690,8 +1690,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157826",
@@ -1729,7 +1729,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1746,8 +1746,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160015",
@@ -1785,7 +1785,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1802,8 +1802,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364280",
@@ -1841,7 +1841,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1858,8 +1858,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160217",
@@ -1897,7 +1897,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1914,8 +1914,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160216",
@@ -1953,7 +1953,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -1970,8 +1970,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159956",
@@ -2009,7 +2009,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2026,8 +2026,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160020",
@@ -2065,7 +2065,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2082,8 +2082,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160021",
@@ -2121,7 +2121,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2138,8 +2138,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364135",
@@ -2177,7 +2177,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals, '(E) Not Found')
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -2194,8 +2194,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159482",
@@ -2233,7 +2233,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2250,8 +2250,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266706",
@@ -2289,7 +2289,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2306,8 +2306,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265824",
@@ -2345,7 +2345,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2362,8 +2362,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266173",
@@ -2401,7 +2401,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2418,8 +2418,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266112",
@@ -2457,7 +2457,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2474,8 +2474,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265768",
@@ -2513,7 +2513,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2530,8 +2530,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266884",
@@ -2569,7 +2569,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2586,8 +2586,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266060",
@@ -2625,7 +2625,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2642,8 +2642,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267622",
@@ -2681,7 +2681,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2698,8 +2698,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267329",
@@ -2737,7 +2737,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2754,8 +2754,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-363532",
@@ -2793,7 +2793,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2810,8 +2810,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-326774",
@@ -2849,7 +2849,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2866,8 +2866,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157893",
@@ -2905,7 +2905,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -2922,70 +2922,14 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
-            "type": "Feature",
-            "properties": {
-                "id_a": "L-160210",
-                "id_b": "3548001",
-                "location": "300 South Van Ness Ave",
-                "scope": "Improve (E) side sewer as directed",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                "submittals": {
-                    "tvi_pre_con": {
-                        "submittal_no": "76",
-                        "video_no": "1",
-                        "response": "MCN - Do Not Replace",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    },
-                    "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "lt",
-                get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
-                }
-            },
-            "geometry": {
-                "type": "MultiLineString",
-                "coordinates": [
-                    [
-                        [-122.417814114334604, 37.768204037966434],
-                        [-122.417913809614248, 37.768198482841939]
-                    ]
-                ]
-            },
-            get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
-            }
-        },
-
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159955",
                 "id_b": "none",
                 "location": "301 South Van Ness Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -3017,15 +2961,15 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [-122.417698616074077, 37.768247913325375],
-                        [-122.417817612632405, 37.768241756683004]
+                        [-122.417534509931244, 37.768363969965968],
+                        [-122.417544955875101, 37.768442940944787]
                     ]
                 ]
             },
@@ -3034,8 +2978,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160220",
@@ -3073,7 +3017,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3090,8 +3034,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160017",
@@ -3129,7 +3073,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3146,8 +3090,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159592",
@@ -3185,7 +3129,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3202,8 +3146,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159591",
@@ -3241,7 +3185,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3258,8 +3202,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364287",
@@ -3297,7 +3241,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3314,8 +3258,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159481",
@@ -3353,7 +3297,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3370,8 +3314,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266034",
@@ -3409,7 +3353,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3426,8 +3370,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364267",
@@ -3465,7 +3409,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3482,8 +3426,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265813",
@@ -3521,7 +3465,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3538,8 +3482,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266110",
@@ -3577,7 +3521,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3594,8 +3538,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364273",
@@ -3633,7 +3577,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3650,8 +3594,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157824",
@@ -3689,7 +3633,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3706,8 +3650,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364276",
@@ -3745,7 +3689,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3762,8 +3706,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157838",
@@ -3801,7 +3745,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3818,8 +3762,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160218",
@@ -3857,7 +3801,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3874,13 +3818,13 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160214",
                 "id_b": "none",
-                "location": "338 South Van Ness Ave",
+                "location": "340 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -3896,7 +3840,7 @@ var json_1243I_sewer_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Replace (per Email)",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3913,7 +3857,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -3930,8 +3874,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364292",
@@ -3969,7 +3913,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals, '(E) Not Found' )
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3986,8 +3930,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160012",
@@ -4025,7 +3969,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4042,8 +3986,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160014",
@@ -4081,7 +4025,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4098,8 +4042,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160221",
@@ -4137,7 +4081,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4154,8 +4098,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160019",
@@ -4193,7 +4137,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4210,8 +4154,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159594",
@@ -4249,7 +4193,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4266,8 +4210,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364286",
@@ -4305,7 +4249,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4322,8 +4266,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-161769",
@@ -4361,7 +4305,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4378,8 +4322,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266887",
@@ -4417,7 +4361,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4434,8 +4378,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266583",
@@ -4473,7 +4417,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4490,8 +4434,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265758",
@@ -4529,7 +4473,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4546,8 +4490,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267270",
@@ -4585,7 +4529,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4602,8 +4546,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267620",
@@ -4641,7 +4585,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4658,8 +4602,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267271",
@@ -4697,7 +4641,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4714,8 +4658,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267558",
@@ -4753,7 +4697,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4770,8 +4714,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267615",
@@ -4809,7 +4753,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4826,8 +4770,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159957",
@@ -4865,7 +4809,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4882,8 +4826,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364291",
@@ -4921,7 +4865,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals, '(E) Not Found')
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -4938,8 +4882,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158683",
@@ -4958,9 +4902,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "20",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4977,7 +4921,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -4994,8 +4938,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266734",
@@ -5033,7 +4977,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5050,8 +4994,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266328",
@@ -5089,7 +5033,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5106,8 +5050,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267465",
@@ -5145,7 +5089,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5162,8 +5106,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266402",
@@ -5201,7 +5145,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5218,8 +5162,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266886",
@@ -5257,7 +5201,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5274,8 +5218,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266403",
@@ -5313,7 +5257,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5330,8 +5274,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265771",
@@ -5369,7 +5313,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5386,8 +5330,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265825",
@@ -5425,7 +5369,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5442,8 +5386,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266061",
@@ -5481,7 +5425,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5498,8 +5442,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267621",
@@ -5537,7 +5481,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5554,8 +5498,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267327",
@@ -5593,7 +5537,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5610,8 +5554,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267559",
@@ -5649,7 +5593,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5666,8 +5610,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-363629",
@@ -5705,7 +5649,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5722,8 +5666,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158311",
@@ -5761,7 +5705,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5778,8 +5722,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158312",
@@ -5817,7 +5761,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5834,8 +5778,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364275",
@@ -5873,7 +5817,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5890,8 +5834,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157616",
@@ -5929,7 +5873,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -5946,8 +5890,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160010",
@@ -5985,7 +5929,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6002,8 +5946,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160211",
@@ -6041,7 +5985,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6058,8 +6002,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159593",
@@ -6097,7 +6041,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6114,8 +6058,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159954",
@@ -6153,7 +6097,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6170,8 +6114,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364284",
@@ -6209,7 +6153,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6226,13 +6170,13 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364288",
                 "id_b": "none",
-                "location": "490 South Van Ness Ave",
+                "location": "483 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -6246,9 +6190,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "19",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -6265,7 +6209,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6282,8 +6226,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159484",
@@ -6321,7 +6265,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6338,8 +6282,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265841",
@@ -6377,7 +6321,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6394,8 +6338,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267459",
@@ -6433,7 +6377,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6450,8 +6394,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266400",
@@ -6489,7 +6433,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6506,8 +6450,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266457",
@@ -6545,7 +6489,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6562,8 +6506,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266393",
@@ -6601,7 +6545,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6618,8 +6562,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265757",
@@ -6657,7 +6601,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6674,8 +6618,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_010",
@@ -6713,7 +6657,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6730,8 +6674,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266109",
@@ -6769,7 +6713,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6786,8 +6730,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-363650",
@@ -6825,7 +6769,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6842,8 +6786,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267328",
@@ -6881,7 +6825,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6898,8 +6842,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267331",
@@ -6937,7 +6881,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -6954,8 +6898,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-363534",
@@ -6993,7 +6937,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7010,8 +6954,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158113",
@@ -7049,7 +6993,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7066,8 +7010,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157828",
@@ -7105,7 +7049,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7122,8 +7066,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160011",
@@ -7161,7 +7105,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7178,8 +7122,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160013",
@@ -7217,7 +7161,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7234,8 +7178,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160016",
@@ -7273,7 +7217,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7290,8 +7234,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159480",
@@ -7329,7 +7273,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7346,8 +7290,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266401",
@@ -7385,7 +7329,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7402,8 +7346,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266667",
@@ -7441,7 +7385,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7458,8 +7402,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266629",
@@ -7497,7 +7441,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7514,8 +7458,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265761",
@@ -7553,7 +7497,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7570,8 +7514,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265759",
@@ -7609,7 +7553,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7626,8 +7570,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265767",
@@ -7665,7 +7609,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7682,8 +7626,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265769",
@@ -7721,7 +7665,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7738,8 +7682,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265770",
@@ -7777,7 +7721,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7794,8 +7738,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266059",
@@ -7833,7 +7777,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7850,8 +7794,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267623",
@@ -7889,7 +7833,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7906,8 +7850,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267333",
@@ -7945,7 +7889,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -7962,8 +7906,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-231289",
@@ -8001,7 +7945,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8018,8 +7962,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160213",
@@ -8057,7 +8001,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8074,8 +8018,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160212",
@@ -8113,7 +8057,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8130,8 +8074,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160018",
@@ -8169,7 +8113,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8186,8 +8130,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-161765",
@@ -8225,7 +8169,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8242,8 +8186,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266888",
@@ -8281,7 +8225,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8298,8 +8242,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266769",
@@ -8337,7 +8281,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8354,8 +8298,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267466",
@@ -8393,7 +8337,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8410,8 +8354,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266033",
@@ -8449,7 +8393,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8466,8 +8410,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266528",
@@ -8505,7 +8449,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8522,8 +8466,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266819",
@@ -8561,7 +8505,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8578,8 +8522,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266404",
@@ -8617,7 +8561,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8634,8 +8578,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266628",
@@ -8673,7 +8617,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8690,8 +8634,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266058",
@@ -8729,7 +8673,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8746,8 +8690,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267617",
@@ -8785,7 +8729,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8802,8 +8746,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267332",
@@ -8841,7 +8785,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8858,8 +8802,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364269",
@@ -8897,7 +8841,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8914,8 +8858,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157825",
@@ -8953,7 +8897,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -8970,8 +8914,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157829",
@@ -9009,7 +8953,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9026,8 +8970,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160215",
@@ -9048,7 +8992,7 @@ var json_1243I_sewer_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Replace (per Email)",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -9065,7 +9009,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9082,8 +9026,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-160219",
@@ -9121,7 +9065,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9138,8 +9082,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159483",
@@ -9177,7 +9121,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9194,8 +9138,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364283",
@@ -9214,9 +9158,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "32",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -9233,7 +9177,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9250,8 +9194,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-161766",
@@ -9289,7 +9233,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -9306,8 +9250,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266885",
@@ -9345,7 +9289,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9362,8 +9306,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-265760",
@@ -9401,7 +9345,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9418,8 +9362,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267268",
@@ -9457,7 +9401,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9474,8 +9418,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267624",
@@ -9513,7 +9457,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9530,8 +9474,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267269",
@@ -9569,7 +9513,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9586,8 +9530,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267330",
@@ -9625,7 +9569,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9642,8 +9586,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-420922",
@@ -9681,7 +9625,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals )
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9698,8 +9642,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416349",
@@ -9738,7 +9682,7 @@ var json_1243I_sewer_lines = {
                 "sw_type": "cl",
 
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals )
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9755,8 +9699,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-420850",
@@ -9794,7 +9738,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9811,8 +9755,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417367",
@@ -9850,7 +9794,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9867,8 +9811,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417368",
@@ -9906,7 +9850,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9923,8 +9867,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417583",
@@ -9962,7 +9906,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -9979,8 +9923,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417602",
@@ -10018,7 +9962,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10035,8 +9979,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417603",
@@ -10074,7 +10018,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10091,8 +10035,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417611",
@@ -10130,7 +10074,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10147,8 +10091,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417621",
@@ -10186,7 +10130,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10203,8 +10147,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416480",
@@ -10242,7 +10186,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10259,8 +10203,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417356",
@@ -10298,7 +10242,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10315,8 +10259,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417357",
@@ -10354,7 +10298,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10371,8 +10315,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417359",
@@ -10410,7 +10354,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10427,8 +10371,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122658",
@@ -10466,7 +10410,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10483,8 +10427,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110273",
@@ -10522,7 +10466,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10539,8 +10483,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110270",
@@ -10578,7 +10522,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10595,8 +10539,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110271",
@@ -10634,7 +10578,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10651,8 +10595,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-93764",
@@ -10690,7 +10634,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10707,8 +10651,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-99453",
@@ -10746,7 +10690,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10763,8 +10707,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-120386",
@@ -10802,7 +10746,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10819,8 +10763,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-98147",
@@ -10858,7 +10802,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10875,8 +10819,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110269",
@@ -10914,7 +10858,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10931,8 +10875,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-102085",
@@ -10970,7 +10914,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -10987,8 +10931,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-104310",
@@ -11026,7 +10970,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11043,8 +10987,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-104127",
@@ -11082,7 +11026,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11099,8 +11043,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417617",
@@ -11138,7 +11082,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11155,8 +11099,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417618",
@@ -11194,7 +11138,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11211,8 +11155,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_main_001",
@@ -11250,7 +11194,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11267,8 +11211,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116033",
@@ -11306,7 +11250,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11323,8 +11267,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-118880",
@@ -11362,7 +11306,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11379,8 +11323,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-118881",
@@ -11418,7 +11362,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11435,8 +11379,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116034",
@@ -11474,7 +11418,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11491,8 +11435,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-412451",
@@ -11530,7 +11474,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11547,8 +11491,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-412447",
@@ -11586,7 +11530,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11603,8 +11547,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-350142",
@@ -11642,7 +11586,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals )
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11659,8 +11603,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76477",
@@ -11698,7 +11642,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11715,8 +11659,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76513",
@@ -11754,7 +11698,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11771,8 +11715,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-100207",
@@ -11810,7 +11754,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11827,8 +11771,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-126485",
@@ -11866,7 +11810,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11883,8 +11827,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-341235",
@@ -11922,7 +11866,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11939,8 +11883,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-126441",
@@ -11978,7 +11922,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": 'cl',
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -11995,8 +11939,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-113300",
@@ -12034,7 +11978,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12051,8 +11995,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416346",
@@ -12090,7 +12034,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12107,8 +12051,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416345",
@@ -12146,7 +12090,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12163,8 +12107,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-341229",
@@ -12202,7 +12146,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12219,8 +12163,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-341231",
@@ -12258,7 +12202,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12276,8 +12220,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112819",
@@ -12315,7 +12259,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12332,8 +12276,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112818",
@@ -12371,7 +12315,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12388,8 +12332,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122323",
@@ -12427,7 +12371,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12445,8 +12389,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122322",
@@ -12484,7 +12428,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12501,8 +12445,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122274",
@@ -12540,7 +12484,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12557,8 +12501,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-100143",
@@ -12596,7 +12540,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12613,8 +12557,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-96279",
@@ -12652,7 +12596,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12669,8 +12613,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110348",
@@ -12708,7 +12652,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12725,8 +12669,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-297197",
@@ -12764,7 +12708,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12781,8 +12725,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122657",
@@ -12820,7 +12764,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12837,8 +12781,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-420921",
@@ -12876,7 +12820,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12893,8 +12837,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-126257",
@@ -12932,7 +12876,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -12949,8 +12893,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-90674",
@@ -12988,7 +12932,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13005,8 +12949,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266336",
@@ -13044,7 +12988,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13061,8 +13005,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_011",
@@ -13100,7 +13044,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13117,8 +13061,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_002",
@@ -13156,7 +13100,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13173,8 +13117,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_014",
@@ -13212,7 +13156,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13229,8 +13173,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_007",
@@ -13268,7 +13212,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13285,8 +13229,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_008",
@@ -13324,7 +13268,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13341,8 +13285,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_012",
@@ -13380,7 +13324,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13397,8 +13341,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-90439",
@@ -13436,7 +13380,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13453,8 +13397,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-93765",
@@ -13492,7 +13436,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13509,8 +13453,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-96278",
@@ -13548,7 +13492,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13565,8 +13509,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110351",
@@ -13604,7 +13548,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13621,8 +13565,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-118380",
@@ -13660,7 +13604,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13677,8 +13621,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-90624",
@@ -13716,7 +13660,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13733,8 +13677,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_009",
@@ -13772,7 +13716,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13789,8 +13733,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_016",
@@ -13828,7 +13772,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13845,8 +13789,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-295285",
@@ -13884,7 +13828,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13901,8 +13845,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-98949",
@@ -13940,7 +13884,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -13957,8 +13901,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-85522",
@@ -13996,7 +13940,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14013,8 +13957,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116415",
@@ -14052,7 +13996,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14069,8 +14013,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116414",
@@ -14108,7 +14052,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14125,8 +14069,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116412",
@@ -14164,7 +14108,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14182,8 +14126,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-116413",
@@ -14221,7 +14165,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14238,8 +14182,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336740",
@@ -14277,7 +14221,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14294,8 +14238,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336741",
@@ -14333,7 +14277,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14350,8 +14294,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417612",
@@ -14370,9 +14314,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "28",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14389,7 +14333,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14406,8 +14350,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-287584",
@@ -14445,7 +14389,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14462,8 +14406,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-98947",
@@ -14501,7 +14445,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14518,8 +14462,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336738",
@@ -14557,7 +14501,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14574,8 +14518,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336735",
@@ -14613,7 +14557,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14630,8 +14574,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336736",
@@ -14669,7 +14613,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14686,8 +14630,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122751",
@@ -14725,7 +14669,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14742,8 +14686,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-336737",
@@ -14781,7 +14725,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14798,8 +14742,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-338072",
@@ -14837,7 +14781,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14854,8 +14798,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-385801",
@@ -14893,7 +14837,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14910,8 +14854,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-102002",
@@ -14949,7 +14893,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -14966,8 +14910,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_017",
@@ -14986,9 +14930,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "21",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15005,7 +14949,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15022,8 +14966,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159601",
@@ -15061,7 +15005,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Capped')
                 }
             },
             "geometry": {
@@ -15078,8 +15022,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364290",
@@ -15117,15 +15061,15 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [ -122.417649651555294, 37.766471489786746 ], 
-                        [ -122.417752860490609, 37.766469149899706 ]
+                        [-122.417649651555294, 37.766471489786746],
+                        [-122.417752860490609, 37.766469149899706]
                     ]
                 ]
             },
@@ -15134,8 +15078,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159600",
@@ -15173,7 +15117,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15190,8 +15134,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159599",
@@ -15229,7 +15173,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15246,8 +15190,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159598",
@@ -15285,7 +15229,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15302,8 +15246,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159597",
@@ -15341,7 +15285,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15358,8 +15302,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159596",
@@ -15397,7 +15341,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15414,13 +15358,13 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-364289",
                 "id_b": "none",
-                "location": "Opposite 460 South Van Ness Ave",
+                "location": "461 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15434,9 +15378,9 @@ var json_1243I_sewer_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "15",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15453,7 +15397,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15470,8 +15414,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158962",
@@ -15509,7 +15453,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15526,8 +15470,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158741",
@@ -15565,7 +15509,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15582,8 +15526,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158740",
@@ -15621,7 +15565,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15638,8 +15582,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158739",
@@ -15677,7 +15621,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15694,8 +15638,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158738",
@@ -15733,7 +15677,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15750,8 +15694,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112943",
@@ -15789,7 +15733,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15806,8 +15750,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-118700",
@@ -15845,7 +15789,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15862,8 +15806,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112941",
@@ -15901,7 +15845,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15918,8 +15862,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112942",
@@ -15957,7 +15901,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -15974,8 +15918,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-122757",
@@ -16013,7 +15957,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16030,8 +15974,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76439",
@@ -16069,7 +16013,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16086,8 +16030,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76437",
@@ -16125,7 +16069,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16142,8 +16086,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76463",
@@ -16181,7 +16125,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16198,8 +16142,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76436",
@@ -16237,7 +16181,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16254,8 +16198,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-133399",
@@ -16293,7 +16237,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16310,8 +16254,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-119652",
@@ -16349,7 +16293,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16366,8 +16310,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76435",
@@ -16405,7 +16349,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16422,8 +16366,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-133402",
@@ -16461,7 +16405,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16478,8 +16422,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-133397",
@@ -16517,7 +16461,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16534,8 +16478,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417623",
@@ -16573,7 +16517,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16590,8 +16534,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-308443",
@@ -16629,7 +16573,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16646,8 +16590,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76438",
@@ -16685,7 +16629,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16702,8 +16646,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76434",
@@ -16741,7 +16685,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16758,8 +16702,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-386425",
@@ -16797,7 +16741,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16814,8 +16758,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_003",
@@ -16853,7 +16797,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16870,8 +16814,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_004",
@@ -16909,7 +16853,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16926,8 +16870,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_019",
@@ -16965,7 +16909,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -16982,8 +16926,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-397229",
@@ -17021,7 +16965,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17038,8 +16982,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-386430",
@@ -17077,7 +17021,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17094,8 +17038,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-82502",
@@ -17133,7 +17077,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17150,8 +17094,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-119666",
@@ -17189,7 +17133,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17206,8 +17150,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_005",
@@ -17245,7 +17189,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17262,8 +17206,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-403030",
@@ -17301,7 +17245,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17318,8 +17262,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-80609",
@@ -17357,7 +17301,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17374,8 +17318,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-82463",
@@ -17413,7 +17357,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17430,8 +17374,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-337573",
@@ -17469,7 +17413,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17486,8 +17430,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-82225",
@@ -17525,7 +17469,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17542,8 +17486,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_005",
@@ -17581,7 +17525,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17598,8 +17542,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-105269",
@@ -17637,7 +17581,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17654,8 +17598,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76608",
@@ -17693,7 +17637,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17710,8 +17654,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-76798",
@@ -17749,7 +17693,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17766,8 +17710,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-124539",
@@ -17805,7 +17749,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17822,8 +17766,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-112878",
@@ -17861,7 +17805,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17878,8 +17822,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-125341",
@@ -17917,7 +17861,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17934,8 +17878,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-77331",
@@ -17973,7 +17917,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -17990,8 +17934,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-124538",
@@ -18029,7 +17973,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18046,8 +17990,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-403730",
@@ -18085,7 +18029,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18102,8 +18046,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-339012",
@@ -18141,7 +18085,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18158,8 +18102,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-105477",
@@ -18197,7 +18141,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18214,8 +18158,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-98196",
@@ -18253,7 +18197,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18270,8 +18214,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-338989",
@@ -18309,7 +18253,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18326,8 +18270,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_015",
@@ -18365,7 +18309,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18382,8 +18326,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-82466",
@@ -18421,7 +18365,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18439,8 +18383,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-129851",
@@ -18478,7 +18422,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18495,8 +18439,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-420852",
@@ -18534,7 +18478,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18551,8 +18495,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-420851",
@@ -18590,7 +18534,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18607,8 +18551,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267616",
@@ -18646,7 +18590,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18663,8 +18607,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267560",
@@ -18702,7 +18646,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18719,8 +18663,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-107674",
@@ -18758,7 +18702,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18775,8 +18719,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-94072",
@@ -18814,7 +18758,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18831,8 +18775,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-94931",
@@ -18870,7 +18814,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18887,8 +18831,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-93252",
@@ -18926,7 +18870,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18943,8 +18887,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-331998",
@@ -18982,7 +18926,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -18999,8 +18943,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_001",
@@ -19038,7 +18982,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19055,8 +18999,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_002",
@@ -19094,7 +19038,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19111,8 +19055,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417363",
@@ -19150,7 +19094,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19167,8 +19111,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417364",
@@ -19206,7 +19150,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19223,8 +19167,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-391010",
@@ -19262,7 +19206,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19279,8 +19223,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_004",
@@ -19318,7 +19262,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19335,8 +19279,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_003",
@@ -19374,7 +19318,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19391,8 +19335,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-93717",
@@ -19430,7 +19374,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19447,8 +19391,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-94073",
@@ -19486,7 +19430,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19503,8 +19447,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-266974",
@@ -19542,7 +19486,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19559,8 +19503,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267267",
@@ -19598,7 +19542,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19615,8 +19559,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-97587",
@@ -19654,7 +19598,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19671,8 +19615,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-416498",
@@ -19710,7 +19654,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19727,8 +19671,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267334",
@@ -19766,7 +19710,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19783,8 +19727,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267335",
@@ -19822,7 +19766,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19839,8 +19783,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267555",
@@ -19878,7 +19822,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19895,8 +19839,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267556",
@@ -19934,7 +19878,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -19951,8 +19895,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-267557",
@@ -19990,7 +19934,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20007,8 +19951,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_018",
@@ -20046,7 +19990,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20063,8 +20007,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_001",
@@ -20102,7 +20046,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals, sewer_status_code_array[12])
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, sewer_status_code_array[12])
                 }
             },
             "geometry": {
@@ -20119,8 +20063,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-94606",
@@ -20158,7 +20102,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20175,8 +20119,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-131168",
@@ -20214,7 +20158,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20232,8 +20176,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110274",
@@ -20271,7 +20215,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20288,8 +20232,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-90991",
@@ -20327,7 +20271,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20344,8 +20288,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110275",
@@ -20383,7 +20327,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20400,8 +20344,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-110521",
@@ -20439,7 +20383,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20456,8 +20400,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-84449",
@@ -20495,7 +20439,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20512,8 +20456,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_006",
@@ -20551,7 +20495,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20568,8 +20512,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-421184",
@@ -20607,7 +20551,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20624,8 +20568,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_006",
@@ -20663,7 +20607,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20680,8 +20624,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-421267",
@@ -20719,7 +20663,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20736,8 +20680,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-417584",
@@ -20775,7 +20719,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20792,8 +20736,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_culvert_007",
@@ -20831,7 +20775,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20848,8 +20792,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-84415",
@@ -20887,7 +20831,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20904,8 +20848,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_020",
@@ -20943,7 +20887,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -20960,8 +20904,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-90434\n",
@@ -20999,7 +20943,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21016,8 +20960,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-98147",
@@ -21055,7 +20999,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21072,8 +21016,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_lateral_013",
@@ -21111,7 +21055,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21128,8 +21072,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-77335",
@@ -21167,7 +21111,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21184,8 +21128,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-159362",
@@ -21223,7 +21167,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21240,8 +21184,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-158519",
@@ -21279,7 +21223,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21296,8 +21240,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-81898",
@@ -21335,7 +21279,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21352,8 +21296,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-83108",
@@ -21391,7 +21335,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21408,8 +21352,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157674",
@@ -21447,7 +21391,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21464,8 +21408,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "L-157673",
@@ -21503,7 +21447,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21520,8 +21464,8 @@ var json_1243I_sewer_lines = {
             }
         },
 
-// #################################################### 
-       {
+        // #################################################### 
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "P-402346",
@@ -21559,7 +21503,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
             },
             "geometry": {
@@ -21570,18 +21514,364 @@ var json_1243I_sewer_lines = {
                         [-122.411820100568008, 37.772163968350107]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ####################################################         
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_021",
+                "id_b": "none",
+                "location": "1366 Brussels St",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "44",
+                        "video_no": "7",
+                        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Capped')
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.400850951464207, 37.715412736411857],
+                        [-122.400768788531792, 37.715430143984996]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ####################################################         	
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unkown_lateral_022",
+                "id_b": "none",
+                "location": "370 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "76",
+                        "video_no": "24",
+                        "response": "MCN - Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417821517109843, 37.767152168582676],
+                        [-122.417715977143104, 37.767157076459391]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+
+        // ####################################################         	
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unkown_lateral_023",
+                "id_b": "none",
+                "location": "1501 15th St",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75",
+                        "video_no": "35",
+                        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417648231406119, 37.766457485415025], 
+                        [-122.417752485317848, 37.766454024360300]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ####################################################         	
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unkown_lateral_024",
+                "id_b": "none",
+                "location": "315 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": 'none',
+			"response": 'none',
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Capped' )
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417809494011067, 37.768154221516347],
+                        [-122.417689831463193, 37.768160521585799]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ####################################################         	
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unkown_lateral_025",
+                "id_b": "none",
+                "location": "301 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417817624402716, 37.76824188359079],
+                        [-122.417698835610011, 37.768248900105419]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ####################################################         	
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unkown_lateral_026",
+                "id_b": "none",
+                "location": "300 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": 'none',
+			"response": 'none',
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found' )
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417814173142574, 37.768204672035303],
+                        [-122.417912684095995, 37.768199669131008]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
             }
         },
         
-// ####################################################         
+// ####################################################         	
         
         {
 	    "type": "Feature",
 	    "properties": {
-		"id_a": "unknown_lateral_021",
-		"id_b": "none",
-		"location": "1366 Brussels St",
-		"scope": "(E) to remain",
+		"id_a": "L-160210",
+		"id_b": "3548001",
+		"location": "300 South Van Ness Ave",
+		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
 		    'SW-0': {
 		        'PP0': {
@@ -21594,8 +21884,8 @@ var json_1243I_sewer_lines = {
 		},
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "44",
-		        "video_no": "7",
+		        "submittal_no": "76",
+		        "video_no": "1",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
@@ -21605,132 +21895,314 @@ var json_1243I_sewer_lines = {
 		        "submittal_no": "none",
 		        "video_no": "none",
 		        "response": "none",
-		        "response_date": "none"
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
 		    }
 		},
 		"rlvnt": "none",
 		"sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals, '(E) Capped')
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
 	    },
 	    "geometry": {
 		"type": "MultiLineString",
 		"coordinates": [
 		    [
-		        [-122.400850951464207, 37.715412736411857],
-		        [-122.400768788531792, 37.715430143984996]
+		        [-122.417808385045504, 37.768142264615307],
+		        [-122.417913434441573, 37.768137388935706]
 		    ]
 		]
-	    }
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+	},
+
+// ####################################################         	
+        
+        {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "unknown_lateral_027",
+		"id_b": "none",
+		"location": "1501 15th St",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    'SW-0': {
+		        'PP0': {
+		            'SFPUC-SW': {
+		                'QTY': 0,
+		                'UNIT': ''
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Not Found')
+                }
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+                         [-122.417666192793845, 37.766634606015707],
+                         [-122.417768617747555, 37.766627819587441]
+		    ]
+		]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+	},
+
+// ####################################################         	
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": 'L-161771',
+		"id_b": "none",
+		"location": "501 South Van Ness Ave",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    "SW-0": {
+		        "PP0": {
+		            "SFPUC-SW": {
+		                "QTY": 0,
+		                "UNIT": ''
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "75",
+		        "video_no": "22",
+		        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                }
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+		        [-122.417512952201989, 37.765012964396043],
+		        [-122.417392075315121, 37.76502079069661]
+		    ]
+		]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+	},
+
+// ####################################################         	
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "L-364285",
+		"id_b": "none",
+		"location": "510 South Van Ness Ave",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    "SW-0": {
+		        "PP0": {
+		            "SFPUC-SW": {
+		                "QTY": 0,
+		                "UNIT": ""
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                }
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+		        [-122.41758645038864, 37.764715399406633],
+		        [-122.417482499137563, 37.76472232247535]
+		    ]
+		]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+	},
+
+// ####################################################         	
+
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "unknown_lateral_028",
+		"id_b": "none",
+		"location": "460 South Van Ness Ave",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    "SW-0": {
+		        "PP0": {
+		            "SFPUC-SW": {
+		                "QTY": 0,
+		                "UNIT": ""
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "75",
+		        "video_no": "14",
+		        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                }
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+		        [-122.417604682769309, 37.765935622491767],
+		        [-122.417701403389174, 37.765932000315061]
+		    ]
+		]
+            },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
 	},
 	
-// ####################################################         	
-	
 	{
-    "type": "Feature",
-    "properties": {
-        "id_a": "unkown_lateral_022",
-        "id_b": "none",
-        "location": "370 South Van Ness Ave",
-        "scope": "Improve (E) side sewer as directed",
-        "pp_history": {
-            'SW-0': {
-                'PP0': {
-                    'SFPUC-SW': {
-                        'QTY': 0,
-                        'UNIT': ''
-                    }
-                }
-            }
-        },
-        "submittals": {
-            "tvi_pre_con": {
-                "submittal_no": "76",
-                "video_no": "24",
-                "response": "MCN - Replace",
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "unknown_lateral_029",
+		"id_b": "none",
+		"location": "490 South Van Ness Ave",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    "SW-0": {
+		        "PP0": {
+		            "SFPUC-SW": {
+		                "QTY": 0,
+		                "UNIT": ""
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "75",
+		        "video_no": "2",
+		        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-            },
-            "tvi_post_con": {
-                "submittal_no": "none",
-                "video_no": "none",
-                "response": "none",
-                "response_date": "none"
-            }
-        },
-        "rlvnt": "none",
-        "sw_type": "lt",
-                get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
-                }
-    },
-    "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-            [
-                [-122.417821517109843, 37.767152168582676],
-                [-122.417715977143104, 37.767157076459391]
-            ]
-        ]
-    }
-},
-
-
-// ####################################################         	
-
-{
-    "type": "Feature",
-    "properties": {
-        "id_a": "unkown_lateral_023",
-        "id_b": "none",
-        "location": "1501 15th St",
-        "scope": "Improve (E) side sewer as directed",
-        "pp_history": {
-            'SW-0': {
-                'PP0': {
-                    'SFPUC-SW': {
-                        'QTY': 0,
-                        'UNIT': ''
-                    }
-                }
-            }
-        },
-        "submittals": {
-            "tvi_pre_con": {
-                "submittal_no": "75",
-                "video_no": "35",
-                "response": "MCN - Do Not Replace",
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-            },
-            "tvi_post_con": {
-                "submittal_no": "none",
-                "video_no": "none",
-                "response": "none",
-                "response_date": "none"
-            }
-        },
-        "rlvnt": "none",
-        "sw_type": "lt",
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals( this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
                 }
-    },
-    "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-            [
-                [-122.417648231406119, 37.766457485415025],
-                [-122.417752485317848, 37.7664540243603]
-            ]
-        ]
-    }
-}
-		
-        
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+		        [-122.41756167141348, 37.765485639451896],
+		        [-122.417658905613223, 37.76548038981916]
+		    ]
+		]
+		    },
+            get asset_coordinate() {
+                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+            }
+	},
 
     ]
 }

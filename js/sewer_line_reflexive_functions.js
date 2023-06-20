@@ -21,7 +21,7 @@ function linked_asset_function(location, asset_coordinates) {
 //   'Scope Deleted',                               // 11
 //   '(E) Capped',                                  // 12 
 //   '(E) Not Found',                               // 13 
-
+//   'Replacement Directed Via Email'               // 14 
 
 
 function sw_line_status_from_scope_and_submittals(line_scope, submittals_obj, ad_hoc_status = '') {
@@ -50,11 +50,11 @@ function sw_line_status_from_scope_and_submittals(line_scope, submittals_obj, ad
 
                 return_string = sewer_status_code_array[3];
 
-            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace') {
+            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace' || submittals_obj.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
 
-            } else if (submittals_obj.tvi_pre_con.response == 'none') {
+            }  else if (submittals_obj.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[1];
 
@@ -117,7 +117,7 @@ function sw_line_status_from_scope_and_submittals(line_scope, submittals_obj, ad
 
                 return_string = sewer_status_code_array[9];
 
-            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace') {
+            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace' || submittals_obj.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
 
