@@ -112,6 +112,15 @@ var project_tcp_array = [
  'numb': '042A', 'desc': 'Bernice and Isis Intersections', 'rlvn': ['R_05']
  }, 
 { 
+ 'numb': '048', 'desc': '', 'rlvn': ['R_09_a', 'R_09_b']
+ }, 
+{ 
+ 'numb': '049', 'desc': '', 'rlvn': ['R_09_a', 'R_09_b']
+ }, 
+ { 
+ 'numb': '050', 'desc': '', 'rlvn': ['R_09_a']
+ }, 
+{ 
  'numb': '051', 'desc': '', 'rlvn': ['R_10_a', 'R_10_b']
  }, 
 { 
@@ -149,6 +158,15 @@ var project_tcp_array = [
  }, 
 { 
  'numb': '063', 'desc': 'PSP - SVN from 14th to Mission', 'rlvn': ['SW_04', 'SW_05', 'SW_06', 'R_06_a', 'R_06_b', 'R_07_a']
+ },
+ { 
+ 'numb': '064', 'desc': '', 'rlvn': ['R_09_a']
+ }, 
+{ 
+ 'numb': '065', 'desc': '', 'rlvn': ['CR_08_a']
  }
+  
+ 
+ 
  
  ]
