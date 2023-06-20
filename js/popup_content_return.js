@@ -385,19 +385,19 @@ function pp_history_row(bid_item, QTY, UNIT, payment_no, FUND)
 
             var NN = 0; // bid item index
 
-            while (base_sov[NN]['bid_item'].replace('-0', '-') != bid_item.replace('-0', '-')) {
+ //           while (base_sov[NN]['bid_item'].replace('-0', '-') != bid_item.replace('-0', '-')) {
 
-                NN++;
-            }
+//                NN++;
+//            }
 
-            row_string = '<tr><td data-toogle="tooltip" title="' +
-                base_sov[NN]['bid_item'] + ": " +
-                base_sov[NN]['description'] + " (" + base_sov[NN]['unit'] + ')">' +
-                bid_item + ':</td><td style=\"text-align: left\">' + neg_space +
-                format_unit(QTY, UNIT) + '</td><td>' +
-                UNIT + ' in</td><td>' +
-                payment_no.substring(0, 4) + ' from</td><td>' +
-                FUND + '</td></tr>';
+//            row_string = '<tr><td data-toogle="tooltip" title="' +
+//                base_sov[NN]['bid_item'] + ": " +
+//                base_sov[NN]['description'] + " (" + base_sov[NN]['unit'] + ')">' +
+//                bid_item + ':</td><td style=\"text-align: left\">' + neg_space +
+//                format_unit(QTY, UNIT) + '</td><td>' +
+//                UNIT + ' in</td><td>' +
+//                payment_no.substring(0, 4) + ' from</td><td>' +
+ //               FUND + '</td></tr>';
 
         //}
 

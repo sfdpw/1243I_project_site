@@ -51,6 +51,7 @@
     <script src="data/1243I_relevant_dwg_arrays.js"></script>
     <script src="data/1243I_plan_boundaries.js"></script>
     <script src="js/sewer_line_reflexive_functions.js"></script>
+    <script src="js/sewer_point_reflexive_functions.js"></script>
     <script src="js/sewer_status_codes.js"></script>
     <script src="js/map_feature_styler.js"></script>    
     
@@ -91,11 +92,10 @@
       add_feature_layer('mh', 565, json_1243I_sewer_points , 'Install (N) manhole riser per std 87,185', '#8d5a99');
       add_feature_layer('mh', 566, json_1243I_sewer_points , 'Mortar (E) manhole', '#2496b6');
 
-      var index_limits_sw_cb = [580, 583];
-      add_feature_layer('cb', 580, json_1243I_sewer_points, '(E) catch basin to remain', '#beb297');
-      add_feature_layer('cb', 581, json_1243I_sewer_points, '(E) storm drain to remain', '#ffebbf');      
-      add_feature_layer('cb', 582, json_1243I_sewer_points, 'Install (N) catch basin', '#ff0109');
-      add_feature_layer('cb', 583, json_1243I_sewer_points, 'Abandon (E) catch basin', '#ff9e17');
+      var index_limits_sw_cb = [580, 582];
+      add_feature_layer('cb', 580, json_1243I_sewer_points, '(E) to remain', '#beb297');
+      add_feature_layer('cb', 581, json_1243I_sewer_points, 'Install (N) catch basin', '#ff0109');
+      add_feature_layer('cb', 582, json_1243I_sewer_points, 'Abandon (E) catch basin', '#ff9e17');
       
       //var index_limits_flatwork = [200, 200];       
       //add_feature_layer('flatwork_', 200, json_1243I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
@@ -184,7 +184,7 @@
         var bounds_group = new L.featureGroup([]);
 
         function setBounds() {
-         //  map.setView(new L.LatLng(37.7493, -122.4154), 13);
+           map.setView(new L.LatLng(37.7493, -122.4154), 13);
         }
         
         //var baseMaps = {};
@@ -213,11 +213,11 @@
         
     <script>
       
-       feature_layer_toggle('sw_mn_checkbox', index_limits_sw_mn[0], index_limits_sw_mn[1]);   
-       feature_layer_toggle('sw_cl_checkbox', index_limits_sw_cl[0], index_limits_sw_cl[1]);       
-       feature_layer_toggle('sw_lt_checkbox', index_limits_sw_lt[0], index_limits_sw_lt[1]);          
-       feature_layer_toggle('sw_mh_checkbox', index_limits_sw_mh[0], index_limits_sw_mh[1]);          
-       feature_layer_toggle('sw_cb_checkbox', index_limits_sw_cb[0], index_limits_sw_cb[1]);          
+       //feature_layer_toggle('sw_mn_checkbox', index_limits_sw_mn[0], index_limits_sw_mn[1]);   
+       //feature_layer_toggle('sw_cl_checkbox', index_limits_sw_cl[0], index_limits_sw_cl[1]);       
+       //feature_layer_toggle('sw_lt_checkbox', index_limits_sw_lt[0], index_limits_sw_lt[1]);          
+       //feature_layer_toggle('sw_mh_checkbox', index_limits_sw_mh[0], index_limits_sw_mh[1]);          
+       //feature_layer_toggle('sw_cb_checkbox', index_limits_sw_cb[0], index_limits_sw_cb[1]);          
       
         function handleChange(checkbox, layer) {
             if (checkbox.checked == true) {

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>1243I Tracking - SW Lines</title>
+    <title>1243I Tracking - SW Points</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -29,10 +29,10 @@
     <link rel="stylesheet" href="../css/site_styles.css">
     <link rel="stylesheet" href="tracking.css">
     <script src="../js/top_nav_bar.js"></script>
-    <script src="../js/sewer_line_reflexive_functions.js"></script>
+    <script src="../js/sewer_point_reflexive_functions.js"></script>
     <script src="../js/misc_tracking_functions.js"></script>   
     <script src="../js/sewer_status_codes.js"></script>
-    <script src="../data/1243I_sewer_lines.js"></script>
+    <script src="../data/1243I_sewer_points.js"></script>
     <link rel="icon" type="image/png" href="../legend/1243I_fav.png" />
 
 </head>
@@ -41,11 +41,11 @@
     <div class="grid-parent-other-page-tracking">
         <div class="grid-div-menu-nav-other" id="menu_nav">
             <script>
-                document.getElementById("menu_nav").innerHTML += top_nav('Asset_Tracking_-_Sewer_Mains,_Culverts_and_Laterals');
+                document.getElementById("menu_nav").innerHTML += top_nav('Asset_Tracking_-_SW_Manholes_and_Catchbasins');
             </script>
         </div>
         <div>
-            <table id="sw_line_table"
+            <table id="sw_point_table"
 	           class ="tracking_table"
 	           data-search="true"
 		   data-show-columns="true"
@@ -69,19 +69,19 @@
 
     <script>
     
-        //var sw_lines = [];
+        //var sw_points = [];
         
-        //for (const entry of json_1243I_sewer_lines.features) {
+        //for (const entry of json_1243I_sewer_points.features) {
          // if ( entry.properties.sw_type == 'lt' || entry.properties.sw_type == 'cl')
          //   {
-        //     sw_lines.push(entry);
+        //     sw_points.push(entry);
          //   }      
         //}
    
-        json_1243I_sewer_lines.features.sort( (a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1 );
+       json_1243I_sewer_points.features.sort( (a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1 );
   
-        $('#sw_line_table').bootstrapTable({
-            data: json_1243I_sewer_lines.features,
+        $('#sw_point_table').bootstrapTable({
+            data: json_1243I_sewer_points.features,
             //stickyHeader: true,
             //showFullscreen: true,
 
@@ -89,8 +89,6 @@
                     field: 'properties.sw_type',
                     title: 'Line<br>Type',
                     sortable: true,
-                   // width: '5',
-                   // widthUnit: "%"
                     filterControl: "select",
                     class: "text-uppercase"
                 },
@@ -99,8 +97,6 @@
                     title: 'ASSET ID',
                     sortable: true,
                     searchable: true,
-                    //width: '5',
-                    //widthUnit: "%"
                 },
                 {
                     field: 'asset_coordinate',
@@ -124,55 +120,6 @@
                     sortable: true,
                     filterControl: "select"
                 },
-               // {
-               //     field: 'properties.bid_items',
-               //     title: 'Bid Items',
-               //     sortable: true
-               // },
-                 {
-                    field: 'properties.submittals.tvi_pre_con.submittal_no',
-                    title: 'PRECON<br>SUBMITTAL',
-                    sortable: true,
-                    filterControl: "select"
-                },
-                 {
-                    field: 'properties.submittals.tvi_pre_con.video_no',
-                    title: '&nbsp;<br>VIDEO',
-                    sortable: true
-                },
-                 {
-                    field: 'properties.submittals.tvi_pre_con.response',
-                    title: '&nbsp;<br>RESPONSE',
-                    sortable: true,
-                    filterControl: "select"
-                },
-                 {
-                    field: 'properties.submittals.tvi_pre_con.response_date',
-                    title: '&nbsp;<br>RESPONSE DATE',
-                    sortable: true
-                },
-                 {
-                    field: 'properties.submittals.tvi_post_con.submittal_no',
-                    title: 'POSTCON<br>SUBMITTAL',
-                    sortable: true,
-                    filterControl: "select"
-                },
-                 {
-                    field: 'properties.submittals.tvi_post_con.video_no',
-                    title: '&nbsp;<br>VIDEO',
-                    sortable: true
-                },
-                 {
-                    field: 'properties.submittals.tvi_post_con.response',
-                    title: '&nbsp;<br>RESPONSE',
-                    sortable: true,
-                    filterControl: "select"
-                },
-                 {
-                    field: 'properties.submittals.tvi_post_con.response_date',
-                    title: '&nbsp;<br>RESPONSE DATE',
-                    sortable: true
-                },
             ]
         })
   
@@ -195,35 +142,31 @@ function row_styler(row, index) {
 //   'Scope Deleted',                               // 11
 //   '(E) Capped',                                  // 12 
 //   '(E) Not Found',                               // 13 
+//   'Replacement Directed Via Email',              // 14 
+//   'Post-Construction'                            // 15     
     
-    var row_color_by_status = '';
+    
+ var row_color_by_status = '';
     
          if ( 
               row.properties.status == sewer_status_code_array[1] ||
               row.properties.status == sewer_status_code_array[2] ||
-              row.properties.status == sewer_status_code_array[9] || 
-              row.properties.status == sewer_status_code_array[11] ||          
-              row.properties.status == sewer_status_code_array[12] ||    
+              row.properties.status == sewer_status_code_array[11] ||            
               row.properties.status == sewer_status_code_array[13]            
               ) { row_color_by_status = '#ededed';} // grey 
          
     else if (
-              row.properties.status == sewer_status_code_array[4]
+              row.properties.status == sewer_status_code_array[15] 
               ) { row_color_by_status = '#c8ebb7';} // green    
     
     else if ( 
-              row.properties.status == sewer_status_code_array[3] || 
-              row.properties.status == sewer_status_code_array[6] ||
-              row.properties.status == sewer_status_code_array[7] ||
-              row.properties.status == sewer_status_code_array[8] ||
-              row.properties.status == sewer_status_code_array[10]              
+              row.properties.status == sewer_status_code_array[6]
               ) { row_color_by_status = '#f7f78f';}  // yellow     
   
     else if (
              row.properties.status == sewer_status_code_array[5]
               ) { row_color_by_status = '#f5cede';}  // red  
             
-  
     return {
       css: {
         background: row_color_by_status

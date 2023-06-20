@@ -62,7 +62,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -118,7 +118,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -174,7 +174,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -230,7 +230,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -286,7 +286,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -342,7 +342,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -398,7 +398,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -454,7 +454,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -510,7 +510,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -566,7 +566,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -622,7 +622,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -678,7 +678,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -734,7 +734,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -790,7 +790,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -846,7 +846,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -902,7 +902,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -958,7 +958,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1014,7 +1014,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1070,7 +1070,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1126,7 +1126,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1182,7 +1182,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1238,7 +1238,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1294,7 +1294,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1350,7 +1350,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1406,7 +1406,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1462,7 +1462,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1518,7 +1518,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1574,7 +1574,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1630,7 +1630,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1686,7 +1686,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1742,7 +1742,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1798,7 +1798,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1854,7 +1854,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1910,7 +1910,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -1966,7 +1966,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2022,7 +2022,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2078,7 +2078,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2134,7 +2134,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2190,7 +2190,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2246,7 +2246,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2302,7 +2302,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2358,7 +2358,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2414,7 +2414,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2470,7 +2470,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2526,7 +2526,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2582,7 +2582,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2638,7 +2638,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2694,7 +2694,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2750,7 +2750,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2806,7 +2806,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2862,7 +2862,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2918,7 +2918,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -2974,7 +2974,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3030,7 +3030,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3086,7 +3086,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3142,7 +3142,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3198,7 +3198,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3254,7 +3254,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3310,7 +3310,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3366,7 +3366,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3422,7 +3422,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3478,7 +3478,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3534,7 +3534,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3590,7 +3590,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3646,7 +3646,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3702,7 +3702,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3758,7 +3758,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3814,7 +3814,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3870,7 +3870,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3926,7 +3926,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -3982,7 +3982,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4038,7 +4038,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4094,7 +4094,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4150,7 +4150,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4206,7 +4206,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4262,7 +4262,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4318,7 +4318,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4374,7 +4374,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4430,7 +4430,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4486,7 +4486,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4542,7 +4542,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4598,7 +4598,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4654,7 +4654,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4710,7 +4710,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4766,7 +4766,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4822,7 +4822,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4878,7 +4878,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4934,7 +4934,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -4990,7 +4990,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5046,7 +5046,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5102,7 +5102,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5158,7 +5158,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5214,7 +5214,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5270,7 +5270,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5326,7 +5326,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5382,7 +5382,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5438,7 +5438,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5494,7 +5494,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5550,7 +5550,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5606,7 +5606,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5662,7 +5662,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5718,7 +5718,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5774,7 +5774,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5830,7 +5830,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5886,7 +5886,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5942,7 +5942,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -5998,7 +5998,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6054,7 +6054,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6110,7 +6110,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6166,7 +6166,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6222,7 +6222,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6278,7 +6278,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6334,7 +6334,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6390,7 +6390,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6446,7 +6446,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6502,7 +6502,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6558,7 +6558,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6614,7 +6614,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6670,7 +6670,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6726,7 +6726,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6782,7 +6782,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6838,7 +6838,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6894,7 +6894,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -6950,7 +6950,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7006,7 +7006,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7062,7 +7062,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7118,7 +7118,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7174,7 +7174,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7230,7 +7230,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7286,7 +7286,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7342,7 +7342,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7398,7 +7398,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7454,7 +7454,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7510,7 +7510,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7566,7 +7566,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7622,7 +7622,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7678,7 +7678,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7734,7 +7734,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7790,7 +7790,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7846,7 +7846,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7902,7 +7902,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -7958,7 +7958,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8014,7 +8014,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8070,7 +8070,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8126,7 +8126,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8182,7 +8182,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8238,7 +8238,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8294,7 +8294,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8350,7 +8350,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8406,7 +8406,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8462,7 +8462,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8518,7 +8518,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8574,7 +8574,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8630,7 +8630,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8686,7 +8686,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8742,7 +8742,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8798,7 +8798,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8854,7 +8854,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8910,7 +8910,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -8966,7 +8966,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9022,7 +9022,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9078,7 +9078,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9134,7 +9134,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9190,7 +9190,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9246,7 +9246,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9302,7 +9302,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9358,7 +9358,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9414,7 +9414,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9470,7 +9470,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9526,7 +9526,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9582,7 +9582,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9638,7 +9638,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9695,7 +9695,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9751,7 +9751,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9807,7 +9807,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9863,7 +9863,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9919,7 +9919,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -9975,7 +9975,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10031,7 +10031,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10087,7 +10087,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10143,7 +10143,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10199,7 +10199,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10255,7 +10255,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10311,7 +10311,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10367,7 +10367,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10423,7 +10423,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10479,7 +10479,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10535,7 +10535,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10591,7 +10591,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10647,7 +10647,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10703,7 +10703,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10759,7 +10759,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10815,7 +10815,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10871,7 +10871,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10927,7 +10927,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -10983,7 +10983,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11039,7 +11039,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11095,7 +11095,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11151,7 +11151,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11207,7 +11207,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11263,7 +11263,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11319,7 +11319,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11375,7 +11375,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11431,7 +11431,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11487,7 +11487,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11543,7 +11543,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11599,7 +11599,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11655,7 +11655,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11711,7 +11711,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11767,7 +11767,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11823,7 +11823,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11879,7 +11879,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11935,7 +11935,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -11991,7 +11991,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12047,7 +12047,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12103,7 +12103,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12159,7 +12159,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12216,7 +12216,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12272,7 +12272,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12328,7 +12328,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12385,7 +12385,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12441,7 +12441,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12497,7 +12497,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12553,7 +12553,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12609,7 +12609,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12665,7 +12665,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12721,7 +12721,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12777,7 +12777,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12833,7 +12833,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12889,7 +12889,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -12945,7 +12945,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13001,7 +13001,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13057,7 +13057,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13113,7 +13113,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13169,7 +13169,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13225,7 +13225,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13281,7 +13281,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13337,7 +13337,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13393,7 +13393,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13449,7 +13449,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13505,7 +13505,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13561,7 +13561,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13617,7 +13617,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13673,7 +13673,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13729,7 +13729,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13785,7 +13785,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13841,7 +13841,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13897,7 +13897,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -13953,7 +13953,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14009,7 +14009,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14065,7 +14065,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14122,7 +14122,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14178,7 +14178,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14234,7 +14234,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14290,7 +14290,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14346,7 +14346,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14402,7 +14402,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14458,7 +14458,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14514,7 +14514,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14570,7 +14570,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14626,7 +14626,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14682,7 +14682,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14738,7 +14738,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14794,7 +14794,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14850,7 +14850,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14906,7 +14906,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -14962,7 +14962,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15018,7 +15018,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15074,7 +15074,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15130,7 +15130,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15186,7 +15186,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15242,7 +15242,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15298,7 +15298,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15354,7 +15354,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15410,7 +15410,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15466,7 +15466,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15522,7 +15522,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15578,7 +15578,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15634,7 +15634,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15690,7 +15690,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15746,7 +15746,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15802,7 +15802,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15858,7 +15858,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15914,7 +15914,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -15970,7 +15970,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16026,7 +16026,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16082,7 +16082,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16138,7 +16138,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16194,7 +16194,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16250,7 +16250,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16306,7 +16306,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16362,7 +16362,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16418,7 +16418,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16474,7 +16474,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16530,7 +16530,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16586,7 +16586,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16642,7 +16642,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16698,7 +16698,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16754,7 +16754,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16810,7 +16810,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16866,7 +16866,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16922,7 +16922,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -16978,7 +16978,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17034,7 +17034,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17090,7 +17090,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17146,7 +17146,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17202,7 +17202,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17258,7 +17258,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17314,7 +17314,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17370,7 +17370,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17426,7 +17426,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17482,7 +17482,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17538,7 +17538,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17594,7 +17594,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17650,7 +17650,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17706,7 +17706,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17762,7 +17762,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17818,7 +17818,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17874,7 +17874,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17930,7 +17930,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -17986,7 +17986,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18042,7 +18042,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18098,7 +18098,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18154,7 +18154,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18210,7 +18210,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18266,7 +18266,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18322,7 +18322,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18379,7 +18379,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18435,7 +18435,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18491,7 +18491,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18547,7 +18547,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18603,7 +18603,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18659,7 +18659,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18715,7 +18715,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18771,7 +18771,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18827,7 +18827,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18883,7 +18883,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18939,7 +18939,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -18995,7 +18995,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19051,7 +19051,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19107,7 +19107,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19163,7 +19163,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19219,7 +19219,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19275,7 +19275,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19331,7 +19331,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19387,7 +19387,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19443,7 +19443,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19499,7 +19499,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19555,7 +19555,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19611,7 +19611,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19667,7 +19667,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19723,7 +19723,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19779,7 +19779,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19835,7 +19835,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19891,7 +19891,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -19947,7 +19947,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20003,7 +20003,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20059,7 +20059,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20115,7 +20115,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20172,7 +20172,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20228,7 +20228,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20284,7 +20284,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20340,7 +20340,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20396,7 +20396,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20452,7 +20452,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20508,7 +20508,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20564,7 +20564,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20620,7 +20620,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20676,7 +20676,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20732,7 +20732,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20788,7 +20788,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20844,7 +20844,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20900,7 +20900,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -20956,7 +20956,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21012,7 +21012,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21068,7 +21068,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21124,7 +21124,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21180,7 +21180,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21236,7 +21236,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21292,7 +21292,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21348,7 +21348,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21404,7 +21404,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21460,7 +21460,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21516,7 +21516,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21573,7 +21573,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21630,7 +21630,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21688,7 +21688,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21745,7 +21745,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21802,7 +21802,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -21859,7 +21859,7 @@ var json_1243I_sewer_lines = {
                 ]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
         
@@ -21916,7 +21916,7 @@ var json_1243I_sewer_lines = {
 		]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 
@@ -21973,7 +21973,7 @@ var json_1243I_sewer_lines = {
 		]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 
@@ -22030,7 +22030,7 @@ var json_1243I_sewer_lines = {
 		]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 
@@ -22087,7 +22087,7 @@ var json_1243I_sewer_lines = {
 		]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 
@@ -22145,7 +22145,7 @@ var json_1243I_sewer_lines = {
 		]
             },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 	
@@ -22200,7 +22200,7 @@ var json_1243I_sewer_lines = {
 		]
 		    },
             get asset_coordinate() {
-                return linked_asset_function(this.properties.location, this.geometry.coordinates)
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
 

@@ -14,6 +14,7 @@ var sewer_status_code_array = [
     'Scope Deleted',                               // 11
     '(E) Capped',                                  // 12 
     '(E) Not Found',                               // 13 
-    'Replacement Directed Via Email'               // 14 
+    'Replacement Directed Via Email',              // 14 
+    'Post-Construction'                            // 15 
         
 ]

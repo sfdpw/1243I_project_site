@@ -282,8 +282,25 @@ function sw_point_layer_styler(feature) {
 
 
     switch (String(feature.properties.status)) {
-        case 'No Construction':
 
+        case sewer_status_code_array[0]: // Status Not Found
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    radius: 50,
+                    opacity: 1,
+                    color: 'rgba(35,35,35,1.0)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 2,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: feature.rgba_code_stored_in_each_feature,
+                    interactive: true,
+            }
+            break;
+
+        case sewer_status_code_array[1]: // No Construction
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
                     radius: 4.0,
@@ -300,7 +317,41 @@ function sw_point_layer_styler(feature) {
             }
             break;
 
-        case 'Scope Deleted':
+        case sewer_status_code_array[2]: // Status Not Tracked
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    radius: 4.0,
+                    opacity: 1,
+                    color: 'rgba(35,35,35,1.0)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 2,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: feature.rgba_code_stored_in_each_feature,
+                    interactive: true,
+            }
+            break;
+
+        case sewer_status_code_array[6]: //  Pre-Construction
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    radius: 4.0,
+                    opacity: 1,
+                    color: 'rgba(35,35,35,1.0)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 2,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: feature.rgba_code_stored_in_each_feature,
+                    interactive: true,
+            }
+            break;
+
+        case sewer_status_code_array[11]: // Scope Deleted
 
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
@@ -318,28 +369,10 @@ function sw_point_layer_styler(feature) {
             }
             break;
 
-
-        case 'Pre-Construction':
+        case sewer_status_code_array[15]: // Post-Construction
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    radius: 4.0,
-                    opacity: 1,
-                    color: 'rgba(35,35,35,1.0)',
-                    dashArray: '',
-                    lineCap: 'butt',
-                    lineJoin: 'miter',
-                    weight: 2,
-                    fill: true,
-                    fillOpacity: 1,
-                    fillColor: feature.rgba_code_stored_in_each_feature,
-                    interactive: true,
-            }
-            break;
-
-        case 'Post-Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    radius: 8.0,
+                    radius: 6.0,
                     opacity: 1,
                     color: 'rgba(35,35,35,1.0)',
                     dashArray: '',

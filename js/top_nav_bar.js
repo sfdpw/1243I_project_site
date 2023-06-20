@@ -135,13 +135,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tracking</a>\
 	     <ul class="dropdown-menu">\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_lines.html">Sewer Lines</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_lines.html">Sewer Mains, Culverts and Laterals</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_manholes.html">Manholes</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_catchbasins.html">Catchbasins</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_points.html">Sewer MHs and CBs</a>\
 	       </li>\
 	     </ul>\
 	   </li>\
