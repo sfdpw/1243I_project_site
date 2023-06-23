@@ -56,6 +56,7 @@
     <script src="js/map_feature_styler.js"></script>    
     
     <script src="tcps/tcp_list.js"></script>
+    <script src="as_builts/as_built_list.js"></script>
     <script src="data/sewer_lines.js"></script>
     <script src="data/sewer_points.js"></script>
     <script src="js/popup_content_return.js"></script>    
@@ -148,9 +149,10 @@
         }
         var map = L.map('map', {
             zoomControl: true,
-            maxZoom: 28,
+            maxZoom: 23,
             minZoom: 1
-        }).fitBounds([[37.73445204624356,-122.51245024530328],[37.741351932891874,-122.49382455659455]]);
+        }).fitBounds([[37.711928, -122.415742], [37.787183, -122.388345]]);
+                      
         var hash = new L.Hash(map);
 
         map.attributionControl.setPrefix('The accuracy of information presented on this map is not guaranteed. Consult City Representative for official documentation.');
@@ -166,6 +168,7 @@
                 maxZoom: 19
             }
         }).addTo(map);
+        
         var measureControl = new L.Control.Measure({
             position: 'topleft',
             primaryLengthUnit: 'feet',
@@ -183,18 +186,18 @@
             
         var bounds_group = new L.featureGroup([]);
 
-        function setBounds() {
-           map.setView(new L.LatLng(37.7493, -122.4154), 13);
-        }
+        //function setBounds() {
+        //   map.setView(new L.LatLng(37.7493, -122.4154), 13);
+        //}
         
         //var baseMaps = {};
         
-        setBounds();
-        L.ImageOverlay.include({
-            getBounds: function() {
-                return this._bounds;
-            }
-        });
+        //setBounds();
+      //  L.ImageOverlay.include({
+      //      getBounds: function() {
+      //          return this._bounds;
+      //      }
+      //  });
     </script>
     
     <script src="js/overlay_pane_creator.js"></script> 
