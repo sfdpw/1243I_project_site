@@ -57,11 +57,11 @@
 		   data-minimum-count-columns="1"
 		   data-pagination="true"
 		   data-sortable="true"
-		   data-page-list="[5, 10, 25, 50, All]"
+		   data-page-list="[5, 10, 15, 20, 50, All]"
 		   data-page-size="5"
 		   data-response-handler="responseHandler"
 		   data-filter-control="true"
-		   data-row-style="row_styler"
+		   data-row-style="row_styler_lines"
 		   data-header-style="header_styler"
 		   style="border-color: black;"
                    ></table>
@@ -90,8 +90,6 @@
                     field: 'properties.sw_type',
                     title: 'Line<br>Type',
                     sortable: true,
-                   // width: '5',
-                   // widthUnit: "%"
                     filterControl: "select",
                     class: "text-uppercase"
                 },
@@ -99,24 +97,18 @@
                     field: 'properties.id_a',
                     title: 'ASSET ID',
                     sortable: true,
-                    searchable: true,
-                    //width: '5',
-                    //widthUnit: "%"
+                    searchable: true
                 },
                 {
                     field: 'asset_coordinate',
                     title: 'LOCATION',
                     sortable: true,
-                    searchable: true,
-                    //width: '20',
-                    //widthUnit: "%"
+                    searchable: true
                 },
                 {
                     field: 'properties.scope',
                     title: 'SCOPE<br>&nbsp;',
-                    sortable: true,                   
-                    //width: '10',
-                    //widthUnit: "%",
+                    sortable: true,
                     filterControl: "select"
                 },
                 {
@@ -180,7 +172,7 @@
   
 // Row shading  
        
-function row_styler(row, index) {
+function row_styler_lines(row, index) {
  
 //   'Status Not Found',                            // 00
 //   'No Construction',                             // 01

@@ -1,0 +1,14 @@
+.period_amt_tot { background: #fac0af !important; }
+.todate_amt_tot { background: #f0a288 !important; }
+
+.period_amt_esh { background: #f0ffab !important; }
+.todate_amt_esh { background: #fff2ab !important; }
+.allctd_amt_esh { background: #ffddab !important; }
+
+.period_amt_rnr { background: #aae685 !important; }
+.todate_amt_rnr { background: #8de8a4 !important; }
+.allctd_amt_rnr { background: #70d666 !important; }
+
+.period_amt_ssp { background: #abd5f7 !important; }
+.todate_amt_ssp { background: #8eb7f5 !important; }
+.allctd_amt_ssp { background: #6bb1f2 !important; }

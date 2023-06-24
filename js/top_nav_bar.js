@@ -56,6 +56,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
 	             <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP01.html">PP01 - NTP through June 2022</a>\
+	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP02.html">PP02 - July 2022</a>\
+	           </li>\
 	         </ul>\
 	       </li>\
 	     </ul>\

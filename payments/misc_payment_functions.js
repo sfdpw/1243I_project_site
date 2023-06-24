@@ -23,14 +23,20 @@ function get_payment_details (item_obj) {
     return_obj.period.qty.tot = {};     
     return_obj.period.amt.tot = {};  
       
-
-
     return_obj.todate = {};
     return_obj.todate.amt = {};
     return_obj.todate.qty = {};
+    
+    return_obj.todate.qty.esh = {};      
+    return_obj.todate.amt.esh = {};  
+    return_obj.todate.qty.rnr = {};      
+    return_obj.todate.amt.rnr = {};  
+    return_obj.todate.qty.ssp = {};      
+    return_obj.todate.amt.ssp = {};  
+    return_obj.todate.qty.tot = {};     
+    return_obj.todate.amt.tot = {};  
 
 // PERIOD
-
 
     for ( var pp = 0; pp < item_obj.pp_history.length; pp++ )
     
@@ -39,14 +45,47 @@ function get_payment_details (item_obj) {
      if ( item_obj.pp_history[pp].length == 0 ) { item_obj.pp_history[pp] = [0, 0, 0]; }
   
   
-  
      return_obj.period.qty.esh[pp] = item_obj.pp_history[pp][0] / item_obj.unit_price;   
      return_obj.period.amt.esh[pp] = item_obj.pp_history[pp][0];
+  
+     return_obj.period.qty.rnr[pp] = item_obj.pp_history[pp][1] / item_obj.unit_price;   
      return_obj.period.amt.rnr[pp] = item_obj.pp_history[pp][1];
+     
+     return_obj.period.qty.ssp[pp] = item_obj.pp_history[pp][2] / item_obj.unit_price;        
      return_obj.period.amt.ssp[pp] = item_obj.pp_history[pp][2];
+
      return_obj.period.amt.tot[pp] = item_obj.pp_history[pp][0] +  item_obj.pp_history[pp][1] +  item_obj.pp_history[pp][2];    
+     return_obj.period.qty.tot[pp] = return_obj.period.amt.tot[pp] / item_obj.unit_price; 
    
      } 
+
+// TO DATE
+
+    for ( var pptd = 0; pptd < item_obj.pp_history.length; pptd++ )
+    
+    {
+    
+      return_obj.todate.amt.esh[pptd] = 0;
+      return_obj.todate.amt.rnr[pptd] = 0;
+      return_obj.todate.amt.ssp[pptd] = 0;
+      return_obj.todate.amt.tot[pptd] = 0;
+    
+      for ( var pp = 0; pp <= pptd; pp++ ) {
+    
+          return_obj.todate.amt.esh[pptd] += return_obj.period.amt.esh[pp];
+          return_obj.todate.amt.rnr[pptd] += return_obj.period.amt.rnr[pp];
+          return_obj.todate.amt.ssp[pptd] += return_obj.period.amt.ssp[pp];
+          return_obj.todate.amt.tot[pptd] += return_obj.period.amt.tot[pp];     
+    
+       }
+    
+      return_obj.todate.qty.esh[pptd] = return_obj.todate.amt.esh[pptd] / item_obj.unit_price;    
+      return_obj.todate.qty.rnr[pptd] = return_obj.todate.amt.rnr[pptd] / item_obj.unit_price;  
+      return_obj.todate.qty.ssp[pptd] = return_obj.todate.amt.ssp[pptd] / item_obj.unit_price;  
+      return_obj.todate.qty.tot[pptd] = return_obj.todate.amt.tot[pptd] / item_obj.unit_price;  
+    
+     }
+
 
 
 // ALLOCATION
@@ -62,7 +101,6 @@ function get_payment_details (item_obj) {
 
     return_obj.allctd.qty.tot = ( item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp ) / item_obj.unit_price;
     return_obj.allctd.amt.tot = item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp;
-
 
 
     if ( return_obj.allctd.amt.tot != item_obj.qty*item_obj.unit_price ){ console.log('unbalanced allocated amount for '.concat(item_obj.bid_item))}
