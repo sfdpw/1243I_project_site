@@ -290,11 +290,4 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
     }                                                                          
                                                                              
 
-
-function num_pad(num, size) {
-    num = num.toString();
-    while (num.length < size) num = "0" + num;
-    return num;
-}
-
    

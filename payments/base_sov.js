@@ -4,7 +4,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-1",
+            "bid_item": "R-01",
             "description": "Traffic Control for Roadway Work",
             "unit": "LS",
             "qty": 1,
@@ -13,6 +13,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -21,6 +22,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -30,7 +33,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-2",
+            "bid_item": "R-02",
             "description": "Temporary Retroflective Pavement Markings",
             "unit": "LF",
             "qty": 12000,
@@ -39,6 +42,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -47,6 +51,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -56,7 +62,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-3",
+            "bid_item": "R-03",
             "description": "Full Depth Planing per 2-Inch Depth of Cut",
             "unit": "SF",
             "qty": 626340,
@@ -65,6 +71,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -73,6 +80,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -82,7 +91,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-4",
+            "bid_item": "R-04",
             "description": "Hot Mix Asphalt (Type A ½-Inch Maximum with Medium Grading)",
             "unit": "TON",
             "qty": 8897,
@@ -91,6 +100,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -99,6 +109,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -108,7 +120,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-5",
+            "bid_item": "R-05",
             "description": "8-Inch Thick Concrete Base",
             "unit": "SF",
             "qty": 73931,
@@ -117,6 +129,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -125,6 +138,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -134,7 +149,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-6",
+            "bid_item": "R-06",
             "description": "10-Inch Thick Concrete Base",
             "unit": "SF",
             "qty": 108444,
@@ -143,6 +158,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -151,6 +167,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -160,7 +178,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-7",
+            "bid_item": "R-07",
             "description": "8-Inch Thick Concrete Pavement, Gutter, or Parking Strip",
             "unit": "SF",
             "qty": 3432,
@@ -169,6 +187,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -177,6 +196,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -186,7 +207,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-8",
+            "bid_item": "R-08",
             "description": "3 ½-Inch Thick Concrete Sidewalk",
             "unit": "SF",
             "qty": 15050,
@@ -195,6 +216,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -203,6 +225,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -212,7 +236,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "R-9",
+            "bid_item": "R-09",
             "description": "Reset Existing Granite Curb",
             "unit": "LF",
             "qty": 121,
@@ -221,6 +245,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -229,6 +254,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -247,6 +274,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -255,6 +283,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -273,6 +303,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -281,6 +312,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -299,6 +332,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -307,6 +341,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -325,6 +361,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -333,6 +370,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -351,6 +390,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -359,6 +399,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -377,6 +419,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -385,6 +428,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -403,6 +448,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -411,6 +457,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -429,6 +477,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -437,6 +486,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -455,6 +506,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -463,6 +515,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -481,6 +535,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -489,6 +544,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -507,6 +564,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -515,6 +573,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -533,6 +593,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -541,6 +602,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -559,6 +622,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -567,6 +631,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -593,6 +659,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -602,7 +670,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-1",
+            "bid_item": "SW-01",
             "description": "Traffic Routing for Sewer Work",
             "unit": "LS",
             "qty": 1,
@@ -619,6 +687,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -628,7 +698,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-2",
+            "bid_item": "SW-02",
             "description": "Trench And Excavation Support For Sewer Work",
             "unit": "LS",
             "qty": 1,
@@ -645,6 +715,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -654,7 +726,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-3",
+            "bid_item": "SW-03",
             "description": "Concrete Manhole For 12-Inch To 24-Inch Diameter Sewers With Frame And Cover\n(Per SFDPW Standard Plan 87,181)",
             "unit": "EA",
             "qty": 21,
@@ -662,16 +734,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 170000,
             "alloc_ssp": 8500,
-            'pp_history': [
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -680,7 +745,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-4",
+            "bid_item": "SW-04",
             "description": "Concrete Manhole For 27-Inch To 48-Inch Diameter Sewers With Frame And Cover\n(Per SFDPW Standard Plan 87,182)",
             "unit": "EA",
             "qty": 2,
@@ -689,6 +754,7 @@ var base_sov =
             "alloc_rnr": 80000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -697,6 +763,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -706,7 +774,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-5",
+            "bid_item": "SW-05",
             "description": "Modified Box Manhole For Connection To 3'X5' Brick Sewer With Frame And Cover\n(Per SFDPW Standard Plan 87,184 And Can Be Used As An Insertion Pit For The Liner)",
             "unit": "EA",
             "qty": 3,
@@ -715,6 +783,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 120000,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -723,6 +792,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -732,7 +803,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-6",
+            "bid_item": "SW-06",
             "description": "Precast Manhole On Existing Brick Sewer With Frame And Cover\n(Per SFDPW Standard Plan 87,185)",
             "unit": "EA",
             "qty": 1,
@@ -741,6 +812,7 @@ var base_sov =
             "alloc_rnr": 10000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -749,6 +821,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -758,7 +832,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-7",
+            "bid_item": "SW-07",
             "description": "Clean and Mortar Existing Manhole Riser",
             "unit": "EA",
             "qty": 14,
@@ -767,6 +841,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 51800,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -775,6 +850,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -784,7 +861,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-8",
+            "bid_item": "SW-08",
             "description": "Removal of Rat Walk Inside 3'x5' Egg-Shaped Brick Sewers And Obstructions Prior to Lining",
             "unit": "LF",
             "qty": 835,
@@ -793,6 +870,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 41750,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -801,6 +879,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -810,7 +890,7 @@ var base_sov =
         // #######################
 
         {
-            "bid_item": "SW-9",
+            "bid_item": "SW-09",
             "description": "Bypassing Main Sewer Flow Related to Lining And Mortar Work",
             "unit": "LS",
             "qty": 1,
@@ -819,6 +899,7 @@ var base_sov =
             "alloc_rnr": 18600,
             "alloc_ssp": 11400,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -827,6 +908,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -845,6 +928,7 @@ var base_sov =
             "alloc_rnr": 5000,
             "alloc_ssp": 14400,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -853,6 +937,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -871,6 +957,7 @@ var base_sov =
             "alloc_rnr": 969750,
             "alloc_ssp": 20250,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -879,6 +966,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -897,6 +986,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 25200,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -905,6 +995,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -923,6 +1015,7 @@ var base_sov =
             "alloc_rnr": 228150,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -931,6 +1024,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -949,6 +1044,7 @@ var base_sov =
             "alloc_rnr": 143016,
             "alloc_ssp": 789184,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -957,6 +1053,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -975,6 +1073,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 19610,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -983,6 +1082,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1001,6 +1102,7 @@ var base_sov =
             "alloc_rnr": 20250,
             "alloc_ssp": 4750,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1009,6 +1111,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1027,6 +1131,7 @@ var base_sov =
             "alloc_rnr": 800,
             "alloc_ssp": 7000,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1035,6 +1140,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1053,6 +1160,7 @@ var base_sov =
             "alloc_rnr": 2400,
             "alloc_ssp": 21000,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1061,6 +1169,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1079,6 +1189,7 @@ var base_sov =
             "alloc_rnr": 13050,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1087,6 +1198,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1105,6 +1218,7 @@ var base_sov =
             "alloc_rnr": 6000,
             "alloc_ssp": 4300,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1113,6 +1227,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1131,6 +1247,7 @@ var base_sov =
             "alloc_rnr": 93750,
             "alloc_ssp": 37500,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1139,6 +1256,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1157,6 +1276,7 @@ var base_sov =
             "alloc_rnr": 42450,
             "alloc_ssp": 15400,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1165,6 +1285,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1183,6 +1305,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1191,6 +1314,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1209,6 +1334,7 @@ var base_sov =
             "alloc_rnr": 4950,
             "alloc_ssp": 3300,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1217,6 +1343,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1235,6 +1363,7 @@ var base_sov =
             "alloc_rnr": 7500,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1243,6 +1372,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1261,6 +1392,7 @@ var base_sov =
             "alloc_rnr": 1100,
             "alloc_ssp": 3900,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1269,6 +1401,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1287,6 +1421,7 @@ var base_sov =
             "alloc_rnr": 1300,
             "alloc_ssp": 450,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1295,6 +1430,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1313,6 +1450,7 @@ var base_sov =
             "alloc_rnr": 70776,
             "alloc_ssp": 1800,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1321,6 +1459,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1339,6 +1479,7 @@ var base_sov =
             "alloc_rnr": 54810,
             "alloc_ssp": 450,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1347,6 +1488,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1365,6 +1508,7 @@ var base_sov =
             "alloc_rnr": 18338,
             "alloc_ssp": 150,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1373,6 +1517,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1391,6 +1537,7 @@ var base_sov =
             "alloc_rnr": 7000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1399,6 +1546,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1417,6 +1566,7 @@ var base_sov =
             "alloc_rnr": 2500,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1425,6 +1575,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1443,6 +1595,7 @@ var base_sov =
             "alloc_rnr": 114000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1451,6 +1604,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1469,6 +1624,7 @@ var base_sov =
             "alloc_rnr": 61000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1477,6 +1633,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1495,6 +1653,7 @@ var base_sov =
             "alloc_rnr": 7500,
             "alloc_ssp": 22500,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1503,6 +1662,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1521,6 +1682,7 @@ var base_sov =
             "alloc_rnr": 110000,
             "alloc_ssp": 15000,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1529,6 +1691,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1547,6 +1711,7 @@ var base_sov =
             "alloc_rnr": 87000,
             "alloc_ssp": 30000,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1555,6 +1720,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1573,6 +1740,7 @@ var base_sov =
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1581,6 +1749,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1599,6 +1769,7 @@ var base_sov =
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1607,6 +1778,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1625,6 +1798,7 @@ var base_sov =
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1633,6 +1807,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1651,6 +1827,7 @@ var base_sov =
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
             'pp_history': [
+                [], // PP00
                 [], // PP01
                 [], // PP02
                 [], // PP03
@@ -1659,6 +1836,8 @@ var base_sov =
                 [], // PP06
                 [], // PP07
                 [], // PP08
+                [], // PP09
+                []  // PP10
             ],
             get payment_details() {
                 return get_payment_details(this)

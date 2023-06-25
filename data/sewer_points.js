@@ -2463,19 +2463,9 @@ var json_1243I_sewer_points = {
                 "id_b": "none",
                 "location": "1375 Brussels St",
                 "scope": "Install (N) manhole per std 87,181",
-                 "pp_history": {
+                "pp_history": {
                     'SW-03': {
-                        'PP01': {
-                            'SFPW-ESH': {
-                                'amt': 0,
-                            },
-                            'SFPUC-RR': {
-                                'amt': 8095.24,
-                            },
-                            'SFPUC-SSIP': {
-                                'amt': 404.76,
-                            },
-                        }
+                        'PP01': [0, 8095.23, 404.77]
                     }
                 },
                 "rlvnt": "none",
@@ -4449,17 +4439,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': {
-                            'SFPW-ESH': {
-                                'amt': 0,
-                            },
-                            'SFPUC-RR': {
-                                'amt': 8095.24,
-                            },
-                            'SFPUC-SSIP': {
-                                'amt': 404.76,
-                            },
-                        }
+                        'PP01': [0, 8095.24, 404.76]
                     }
                 },
                 "rlvnt": "none",
@@ -5418,17 +5398,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': {
-                            'SFPW-ESH': {
-                                'amt': 0,
-                            },
-                            'SFPUC-RR': {
-                                'amt': 8095.24,
-                            },
-                            'SFPUC-SSIP': {
-                                'amt': 404.76,
-                            },
-                        }
+                        'PP01': [0, 8095.24, 404.76]
                     }
                 },
                 "rlvnt": "none",
@@ -5675,17 +5645,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': {
-                            'SFPW-ESH': {
-                                'amt': 0,
-                            },
-                            'SFPUC-RR': {
-                                'amt': 8095.24,
-                            },
-                            'SFPUC-SSIP': {
-                                'amt': 404.76,
-                            },
-                        }
+                        'PP01': [0, 8095.24, 404.76]
                     }
                 },
                 "rlvnt": "none",
