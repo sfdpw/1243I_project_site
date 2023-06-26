@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="../css/drop_down.css">
     <script src="../js/drop_down.js"></script>
     <script src="../js/top_nav_bar.js"></script>
+    <script src="../payments/misc_payment_functions.js"></script>
     <script src="../js/sewer_line_reflexive_functions.js"></script>
     <script src="../js/misc_tracking_functions.js"></script>   
     <script src="../js/sewer_status_codes.js"></script>
@@ -68,15 +69,7 @@
     </div>
 
     <script>
-    
-        //var sw_lines = [];
-        
-        //for (const entry of json_1243I_sewer_lines.features) {
-         // if ( entry.properties.sw_type == 'lt' || entry.properties.sw_type == 'cl')
-         //   {
-        //     sw_lines.push(entry);
-         //   }      
-        //}
+   
    
         json_1243I_sewer_lines.features.sort( (a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1 );
   

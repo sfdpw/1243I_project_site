@@ -14,7 +14,7 @@ function generate_funding_breakdown_table()
         pagination: true,
         sortable: true,
         pageList: '[5, 10, 15, 20, 50, All]',
-	pageSize: '10',
+	pageSize: '5',
         responseHandler: 'responseHandler',
         filterControl: true,
         headerStyle: 'header_styler',	
@@ -86,7 +86,7 @@ function generate_funding_breakdown_table()
                 title: 'Period<br>QTY<br>ESH',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.period.amt.esh'.concat('.', pp_number),
@@ -94,14 +94,14 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_esh',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.todate.qty.esh'.concat('.', pp_number),
                 title: 'To Date<br>QTY<br>ESH',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.todate.amt.esh'.concat('.', pp_number),
@@ -109,14 +109,14 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'todate_amt_esh',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.allctd.qty.esh',
                 title: 'Allocated<br>QTY<br>ESH',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.allctd.amt.esh',
@@ -124,7 +124,7 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_esh',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
 
             // ######## R&R #######
@@ -134,7 +134,7 @@ function generate_funding_breakdown_table()
                 title: 'Period<br>QTY<br>R&R',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.period.amt.rnr'.concat('.', pp_number),
@@ -142,7 +142,7 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_rnr',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.todate.qty.rnr'.concat('.', pp_number),
@@ -164,7 +164,7 @@ function generate_funding_breakdown_table()
                 title: 'Allocated<br>QTY<br>R&R',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.allctd.amt.rnr',
@@ -172,7 +172,7 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_rnr',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
 
             // ######## SSIP #######	
@@ -182,7 +182,7 @@ function generate_funding_breakdown_table()
                 title: 'Period<br>QTY<br>SSIP',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.period.amt.ssp'.concat('.', pp_number),
@@ -190,7 +190,7 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_ssp',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.todate.qty.ssp'.concat('.', pp_number),
@@ -212,7 +212,7 @@ function generate_funding_breakdown_table()
                 title: 'Allocated<br>QTY<br>SSIP',
                 align: 'center',
                 formatter: qty_formatter_with_dec,
-                visible: false
+                //visible: false
             },
             {
                 field: 'payment_details.allctd.amt.ssp',
@@ -220,7 +220,7 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_ssp',
                 formatter: dollar_formatter_accounting,
-                visible: false
+                //visible: false
             }
         ]
     })

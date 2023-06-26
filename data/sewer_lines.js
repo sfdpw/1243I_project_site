@@ -1195,13 +1195,9 @@ var json_1243I_sewer_lines = {
                 "location": "Leland Ave between Schwerin St and Delta St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP02': [0, 81547.16,  1702.84],
+                        'PP09': [0,  1702.84, -1702.84]
                     }
                 },
                 "submittals": {
@@ -1419,13 +1415,12 @@ var json_1243I_sewer_lines = {
                 "location": "Brussels St between Wilde St and Campbell Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP01': [0, 112402.84,  2347.16],
+                        'PP09': [0,   2347.16, -2347.16]                        
+                    },
+                    'SW-25': {
+                        'PP02': [0,  500, 0]  
                     }
                 },
                 "submittals": {
@@ -1475,13 +1470,12 @@ var json_1243I_sewer_lines = {
                 "location": "Brussels St between Wilde St and Campbell Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP01': [0, 53262.78,  1112.22],
+                        'PP09': [0,  1112.22, -1112.22]
+                    },
+                    'SW-25': {
+                        'PP02': [0,  500, 0]  
                     }
                 },
                 "submittals": {
@@ -2147,13 +2141,9 @@ var json_1243I_sewer_lines = {
                 "location": "201 Wilde Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0,  29.12,  20.88],
+                        'PP09': [0, -29.12, -20.88]
                     }
                 },
                 "submittals": {
@@ -2371,13 +2361,8 @@ var json_1243I_sewer_lines = {
                 "location": "308 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -2427,13 +2412,8 @@ var json_1243I_sewer_lines = {
                 "location": "300 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -2483,13 +2463,8 @@ var json_1243I_sewer_lines = {
                 "location": "326 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -2651,13 +2626,12 @@ var json_1243I_sewer_lines = {
                 "location": "1375 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -2707,13 +2681,12 @@ var json_1243I_sewer_lines = {
                 "location": "1320 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -4499,13 +4472,12 @@ var json_1243I_sewer_lines = {
                 "location": "1360 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -4555,13 +4527,12 @@ var json_1243I_sewer_lines = {
                 "location": "1359 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -4611,13 +4582,12 @@ var json_1243I_sewer_lines = {
                 "location": "1340 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -4667,13 +4637,12 @@ var json_1243I_sewer_lines = {
                 "location": "1319 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -4723,13 +4692,12 @@ var json_1243I_sewer_lines = {
                 "location": "1339 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -5283,13 +5251,8 @@ var json_1243I_sewer_lines = {
                 "location": "316 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -5451,13 +5414,12 @@ var json_1243I_sewer_lines = {
                 "location": "1363 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -5507,13 +5469,12 @@ var json_1243I_sewer_lines = {
                 "location": "1342 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -5563,13 +5524,12 @@ var json_1243I_sewer_lines = {
                 "location": "1327 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -6515,13 +6475,8 @@ var json_1243I_sewer_lines = {
                 "location": "312 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -6739,13 +6694,12 @@ var json_1243I_sewer_lines = {
                 "location": "169 Wilde Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -6795,13 +6749,12 @@ var json_1243I_sewer_lines = {
                 "location": "1336 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -6851,13 +6804,12 @@ var json_1243I_sewer_lines = {
                 "location": "1316 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.12,  20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 "submittals": {
@@ -7411,13 +7363,8 @@ var json_1243I_sewer_lines = {
                 "location": "325 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -7635,13 +7582,8 @@ var json_1243I_sewer_lines = {
                 "location": "330 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -7803,13 +7745,12 @@ var json_1243I_sewer_lines = {
                 "location": "1381 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -7859,13 +7800,12 @@ var json_1243I_sewer_lines = {
                 "location": "1308 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -8587,13 +8527,8 @@ var json_1243I_sewer_lines = {
                 "location": "329 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP02': [0, 150, 0]
                     }
                 },
                 "submittals": {
@@ -8699,13 +8634,12 @@ var json_1243I_sewer_lines = {
                 "location": "1351 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -8753,15 +8687,14 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-267332",
                 "id_b": "none",
                 "location": "1312 Brussels St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": 'Improve (E) side sewer as directed',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -9371,13 +9304,12 @@ var json_1243I_sewer_lines = {
                 "location": "100 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -9427,13 +9359,12 @@ var json_1243I_sewer_lines = {
                 "location": "1387 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -9483,13 +9414,12 @@ var json_1243I_sewer_lines = {
                 "location": "1366 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -9539,13 +9469,12 @@ var json_1243I_sewer_lines = {
                 "location": "1330 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -18448,13 +18377,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Brussels St and Campbell Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -18504,13 +18429,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Brussels St and Campbell Ave - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -18560,13 +18481,12 @@ var json_1243I_sewer_lines = {
                 "location": "1345 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -18616,13 +18536,12 @@ var json_1243I_sewer_lines = {
                 "location": "1333 Brussels St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -18672,13 +18591,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Brussels St and Wilde Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19064,14 +18979,14 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Campbell Ave and Goettingen St - NEC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-22': {
+                        'PP01': [ 361.31,  780.53,  283.16],
+                        'PP09': [1063.69, -780.53, -283.16],
+                    },
+                    'SW-27': {
+                        'PP01': [ 13.54, 27.08,  9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
+                              }   
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -19120,15 +19035,15 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Campbell Ave and Goettingen St - NWC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
+                    'SW-22': {
+                        'PP01': [ 342.29,  739.45,   268.26],
+                        'PP09': [1007.71, -739.45,  -268.26]
+                              },
+                    'SW-27': {
+                        'PP01': [ 13.54, 27.08,  9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
+                              }                      
+                             },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19176,13 +19091,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Campbell Ave and Goettingen St - SEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19624,13 +19535,12 @@ var json_1243I_sewer_lines = {
                 "location": "Campbell Ave between Geottingen Ave and Brussels St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP01': [0, 89628.41,  1871.59],
+                        'PP09': [0,  1871.59, -1871.59],                       
+                    },
+                    'SW-25': {
+                        'PP02': [0,  500, 0]  
                     }
                 },
                 "submittals": {
@@ -19680,14 +19590,21 @@ var json_1243I_sewer_lines = {
                 "location": "136 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP01': [0, 1607.14,  642.86],
+                        'PP09': [0,  642.86, -642.86],
+                    },
+                    'SW-27': {
+                        'PP01': [ 13.54, 27.09,  9.37],
+                        'PP09': [-13.54, 22.91, -9.37]
+                              }                       
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -19736,13 +19653,12 @@ var json_1243I_sewer_lines = {
                 "location": "130 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19792,13 +19708,12 @@ var json_1243I_sewer_lines = {
                 "location": "124 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19848,13 +19763,12 @@ var json_1243I_sewer_lines = {
                 "location": "118 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19904,13 +19818,12 @@ var json_1243I_sewer_lines = {
                 "location": "108 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19960,13 +19873,9 @@ var json_1243I_sewer_lines = {
                 "location": "100 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -19990,7 +19899,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals)
+                    return sw_line_status_from_scope_and_submittals(this.scope, this.submittals, '(E) Capped')
                 }
             },
             "geometry": {
@@ -20016,13 +19925,9 @@ var json_1243I_sewer_lines = {
                 "location": "Opposite 108 Campbell Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {
@@ -21530,13 +21435,12 @@ var json_1243I_sewer_lines = {
                 "location": "1366 Brussels St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP01': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP01': [0, 29.13,  20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 "submittals": {

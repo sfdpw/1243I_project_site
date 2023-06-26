@@ -7,7 +7,7 @@ function linked_asset_function_line(location, asset_coordinates) {
 
 function linked_asset_function_point(location, asset_coordinates) {
 
-    return "<a href=\"..\\index.html#20/".concat(asset_coordinates[0][1], '/', asset_coordinates[0][0], "\" target=\"_blank\">", location, "</a>");
+    return "<a href=\"..\\index.html#20/".concat(asset_coordinates[1], '/', asset_coordinates[0], "\" target=\"_blank\">", location, "</a>");
 
 }
 

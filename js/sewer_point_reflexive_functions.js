@@ -35,7 +35,8 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
             payment_obj.hasOwnProperty('SW-03') ||
             payment_obj.hasOwnProperty('SW-04') ||
             payment_obj.hasOwnProperty('SW-05') ||
-            payment_obj.hasOwnProperty('SW-06')
+            payment_obj.hasOwnProperty('SW-06') ||
+            payment_obj.hasOwnProperty('SW-23')
             )
 
         {

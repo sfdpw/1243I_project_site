@@ -206,9 +206,6 @@ function pop_up_creator_for_domain(feature, layer)
 <strong>Address</strong><br>' +
             (feature.properties['location'] !== null ? Autolinker.link(feature.properties['location'].toLocaleString()) : '') +
             '<br><br>\
-<strong>BLKLOT</strong><br>' +
-            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
-            '<br><br>\
 <strong>Scope</strong><br>' +
             (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
@@ -259,156 +256,87 @@ function pop_up_creator_for_domain(feature, layer)
 
     }  
 
-    else if (layer.feature.L_index_stored_in_each_feature == R_fltwrk_index_limits[1]) // For SW-30 Only
-
-    {
-
-        var bid_item_code = feature.properties.inst_id.substring(0, 5);
-
-        var areacalcs = '';
-
-        var popupContent =
-            '<strong>Instance Id</strong><br>' +
-            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
-            '<strong>Description</strong><br>' +
-            unpack_flatwork_feature_description(bid_item_code) +
-            '<br><br>'; 
-            
-        popupContent +=
-            '<strong>Status</strong><br>' +
-            feature.properties.status + '<br><br>' +
-           '<strong>Relevant Documents</strong><br>' +
-            feature.properties.rlvnt +
-            '<br><br>' + areacalcs +
-            '<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    }  
-
     layer.bindPopup(popupContent, {maxHeight: 400});
 
 }
 
+function fund_history_details(pp_specifics, bid_item, fund_number)
 
+{
 
+  var return_string = '';
 
+                 if ( pp_specifics[fund_number] != 0 )   
+
+                   {
+                  
+                    return_string += 
+                    ''.concat( '<tr><td style="text-align: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 
+                                  qty_formatter_with_dec_core_function(pp_specifics[fund_number] / 
+                                  base_sov[bid_item_sov_index_finder(bid_item)].unit_price, 
+                                  base_sov[bid_item_sov_index_finder(bid_item)].unit ), '</td>',
+                                  '<td>', base_sov[bid_item_sov_index_finder(bid_item)].unit , '</td>',
+                                  '<td>', 'totalling', '</td>',        
+                                  '<td style="text-align: right">', dollar_formatter( pp_specifics[fund_number] ), '</td>',
+                                  '<td>', 'charged to', '</td>', 
+                                  '<td>', fund_array[fund_number] , '</td></tr>' );
+                  
+                    }
+                    
+   return return_string                 
+
+}
 
 function pp_history_details(ffeature)
 
 {
 
-    var pp_history_details = "";
+    var pp_history_details = '';
+    var pp_history_mini_table = '<table>';    
 
-    if (Object.keys(ffeature.properties['pp_history']).length > 0)
+    for ( const bid_item of Object.keys( ffeature.properties.pp_history ) )
+    
+      {
+      
+        if ( bid_item != 'SW-0' ) 
+        
+          {
+      
+            pp_history_mini_table += '<tr><td>&nbsp;</td></tr>\
+                                      <tr><td><u>'.concat( bid_item,'</u></td></tr>' );
+            
+            for ( const pp_specifics of Object.keys( ffeature.properties.pp_history[bid_item] ) )
+            
+              {
 
-    {
-
-        pp_history_details += '<table>';
-
-        for (const bid_item in ffeature.properties['pp_history'])
-
-        {
-
-
-            if (Object.keys(ffeature.properties['pp_history'][bid_item]).length != 0)
-
-            {
-
-                for (const payment_no in ffeature.properties['pp_history'][bid_item])
-
-                {
-
-                    for (const fund in ffeature.properties['pp_history'][bid_item][payment_no])
-
-
-                    {
-
-                        pp_history_details +=
-                            pp_history_row(bid_item,
-                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['QTY'],
-                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['UNIT'],
-                                payment_no,
-                                fund);
-
-                    }
-
-                }
-
-            }
-
-        }
-
-        pp_history_details += '</table>';
-
-    } else {
-
-        pp_history_details += 'none';
-
-    }
+                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( pp_specifics,'</td></tr>');
+                    
+                pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 0);
+                pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 1);
+                pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 2);
+                                 
+               }
+            
+      
+           }
+      
+       }  
+     
+    
+    if ( pp_history_mini_table != '<table>' )
+    
+      {
+      
+         pp_history_details = pp_history_mini_table.concat('</table>'); 
+      
+       } else { 
+       
+         pp_history_details = 'none'; 
+       
+       }
 
     return pp_history_details;
 
 }
 
 
-function pp_history_row(bid_item, QTY, UNIT, payment_no, FUND)
-
-{
-
-    var row_string = '';
-    var neg_space = '';
-
-    if (QTY > 0) {
-        neg_space = '&nbsp;';
-    }
-
-
-    if (QTY != 0)
-
-    {
-
-        //if (bid_item.includes('CR-'))
-
-        //{
-
-        //    row_string = '<tr><td style=\"text-align: left\">' +
-        //        format_unit(QTY, UNIT) + '</td><td>' +
-        //        UNIT + ' in</td><td>' +
-        //        payment_no.substring(0, 4) + ' from</td><td>' +
-        //        FUND + '</td></tr>';
-
-
-        //} else
-
-        //{
-
-            var NN = 0; // bid item index
-
- //           while (base_sov[NN]['bid_item'].replace('-0', '-') != bid_item.replace('-0', '-')) {
-
-//                NN++;
-//            }
-
-//            row_string = '<tr><td data-toogle="tooltip" title="' +
-//                base_sov[NN]['bid_item'] + ": " +
-//                base_sov[NN]['description'] + " (" + base_sov[NN]['unit'] + ')">' +
-//                bid_item + ':</td><td style=\"text-align: left\">' + neg_space +
-//                format_unit(QTY, UNIT) + '</td><td>' +
-//                UNIT + ' in</td><td>' +
-//                payment_no.substring(0, 4) + ' from</td><td>' +
- //               FUND + '</td></tr>';
-
-        //}
-
-    } else {
-
-
-      //row_string = 'Completion shown for clarity;<br>no additional QTY paid.';
-      row_string = 'none'
-
-    }
-
-    return row_string
-
-}

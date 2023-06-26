@@ -15,7 +15,7 @@ var base_sov =
             'pp_history': [
                 [], // PP00
                 [], // PP01
-                [], // PP02
+                [3000, 0, 0], // PP02
                 [], // PP03
                 [], // PP04
                 [], // PP05
@@ -507,7 +507,7 @@ var base_sov =
             "alloc_ssp": 0,
             'pp_history': [
                 [], // PP00
-                [], // PP01
+                [400, 0, 0], // PP01
                 [], // PP02
                 [], // PP03
                 [], // PP04
@@ -537,7 +537,7 @@ var base_sov =
             'pp_history': [
                 [], // PP00
                 [], // PP01
-                [], // PP02
+                [36250, 0, 0], // PP02
                 [], // PP03
                 [], // PP04
                 [], // PP05
@@ -651,6 +651,7 @@ var base_sov =
             "alloc_rnr": 0,
             "alloc_ssp": 0,
             'pp_history': [
+                [0, 0, 0], // PP00
                 [5000, 0, 0], // PP01
                 [], // PP02
                 [], // PP03
@@ -679,6 +680,7 @@ var base_sov =
             "alloc_rnr": 171875,
             "alloc_ssp": 92125,
             'pp_history': [
+                [], // PP00
                 [1100, 17187.50, 9212.50], // PP01
                 [550, 8593.75, 4606.25], // PP02
                 [], // PP03
@@ -707,6 +709,7 @@ var base_sov =
             "alloc_rnr": 225500,
             "alloc_ssp": 38500,
             'pp_history': [
+                [], // PP00
                 [1100, 22550, 3850], // PP01
                 [550, 11275, 1925], // PP02
                 [], // PP03
@@ -956,19 +959,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 969750,
             "alloc_ssp": 20250,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1188,19 +1181,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 13050,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1217,19 +1200,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 6000,
             "alloc_ssp": 4300,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1246,19 +1219,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 93750,
             "alloc_ssp": 37500,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1275,19 +1238,9 @@ var base_sov =
             "alloc_esh": 19650,
             "alloc_rnr": 42450,
             "alloc_ssp": 15400,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1304,19 +1257,9 @@ var base_sov =
             "alloc_esh": 65000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1362,19 +1305,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7500,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1420,19 +1353,9 @@ var base_sov =
             "alloc_esh": 650,
             "alloc_rnr": 1300,
             "alloc_ssp": 450,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1596,8 +1519,8 @@ var base_sov =
             "alloc_ssp": 0,
             'pp_history': [
                 [], // PP00
-                [], // PP01
-                [], // PP02
+                [0, 28500, 0], // PP01
+                [0, 28500, 0], // PP02
                 [], // PP03
                 [], // PP04
                 [], // PP05
@@ -1843,4 +1766,69 @@ var base_sov =
                 return get_payment_details(this)
             }
         }
-    ]
+
+     ]
+
+
+// #######################
+
+var sov_summation = {};
+   
+    sov_summation.allctd = [0, 0, 0];
+    sov_summation.todate = [];    
+
+
+for ( const bid_iitem of base_sov ) {
+
+   sov_summation.allctd[0] += bid_iitem.alloc_esh;
+   sov_summation.allctd[1] += bid_iitem.alloc_rnr;
+   sov_summation.allctd[2] += bid_iitem.alloc_ssp;
+
+}
+
+
+for ( var ppp = 0; ppp < max_pp_no; ppp++ )
+
+  {
+  
+   sov_summation.todate[ppp] = [0, 0, 0];
+   
+   for ( const bid_iitem of base_sov ) 
+   
+    {
+   
+     if ( bid_iitem.pp_history[ppp].length == 0 ) { bid_iitem.pp_history[ppp] = [0, 0, 0]; }
+   
+     sov_summation.todate[ppp][0] += bid_iitem.pp_history[ppp][0];
+     sov_summation.todate[ppp][1] += bid_iitem.pp_history[ppp][1];
+     sov_summation.todate[ppp][2] += bid_iitem.pp_history[ppp][2];
+   
+    }
+   
+  }
+  
+
+       
+// #######################
+
+base_sov = base_sov.concat(
+
+    [
+        {
+            "bid_item": '',
+            "description": '<b>Totals:<b>',
+            "unit": '',
+            "qty": '',
+            "unit_price": '',
+            "alloc_esh": sov_summation.allctd[0],
+            "alloc_rnr": sov_summation.allctd[1],
+            "alloc_ssp": sov_summation.allctd[2],
+            'pp_history': sov_summation.todate,
+            get payment_details() {
+                return get_payment_details(this)
+            }
+           }     
+           
+     ]
+     
+     )

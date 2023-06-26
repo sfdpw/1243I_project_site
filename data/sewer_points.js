@@ -448,13 +448,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Brussels St and Wilde Ave - NWC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP02': [5000,0,0]
                     }
                 },
                 "rlvnt": "none",
@@ -1420,13 +1415,9 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Leland Ave and Schwerin St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP02': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76]
                     }
                 },
                 "rlvnt": "none",
@@ -5361,13 +5352,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Brussels St and Wilde Ave - SWC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP02': [5000, 0, 0]
                     }
                 },
                 "rlvnt": "none",
@@ -5428,13 +5414,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Campbell Ave and Goettingen St - NWC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP01': [5000, 0, 0]
                     }
                 },
                 "rlvnt": "none",
@@ -5464,13 +5445,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Campbell Ave and Goettingen St - NEC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP01': [5000, 0, 0]
                     }
                 },
                 "rlvnt": "none",

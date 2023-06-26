@@ -1,7 +1,8 @@
+var max_pp_no = 10; // make this smarter
+
+
 // ######## REFLEXIVE PAYMENT FUNCTIONS #####################
 function get_pp_history_from_spatial_data(item_obj) {
-
-    var max_pp_no = 10; // make this smarter
 
     var return_array = [];
 
@@ -11,11 +12,11 @@ function get_pp_history_from_spatial_data(item_obj) {
 
         return_array[pp] = [0, 0, 0];
 
-        for (const sw_point_item of json_1243I_sewer_points.features)
+        for (const sewer_item of json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features))
 
         {
 
-            for (const bid_item of Object.entries(sw_point_item.properties.pp_history))
+            for (const bid_item of Object.entries(sewer_item.properties.pp_history))
 
             {
 
@@ -23,21 +24,19 @@ function get_pp_history_from_spatial_data(item_obj) {
 
                 {
 
-
                     for (const pp_specifics of Object.entries(bid_item[1])) {
-
 
                         if (pp_specifics[0] == 'PP'.concat(num_pad(pp, 2)))
 
                         {
-                        
-                           for ( var ii = 0; ii < pp_specifics[1].length; ii++)
-                           
-                             {
-                           
-                               return_array[pp][ii] += pp_specifics[1][ii];
 
-                              }
+                            for (var ii = 0; ii < pp_specifics[1].length; ii++)
+
+                            {
+
+                                return_array[pp][ii] += pp_specifics[1][ii];
+
+                            }
 
                         }
 
@@ -51,8 +50,6 @@ function get_pp_history_from_spatial_data(item_obj) {
 
     }
 
-   console.log(return_array)
-
     return return_array
 
 }
@@ -61,6 +58,11 @@ function get_pp_history_from_spatial_data(item_obj) {
 function get_payment_details(item_obj) {
 
     var return_obj = {};
+
+    if (item_obj.description == '<b>Totals:<b>') {
+        item_obj.unit_price = 1;
+        item_obj.unit = 'SF'
+    }
 
     return_obj.allctd = {};
     return_obj.allctd.amt = {};
@@ -102,7 +104,6 @@ function get_payment_details(item_obj) {
             item_obj.pp_history[pp] = [0, 0, 0];
         }
 
-
         return_obj.period.qty.esh[pp] = item_obj.pp_history[pp][0] / item_obj.unit_price;
         return_obj.period.amt.esh[pp] = item_obj.pp_history[pp][0];
 
@@ -114,6 +115,19 @@ function get_payment_details(item_obj) {
 
         return_obj.period.amt.tot[pp] = item_obj.pp_history[pp][0] + item_obj.pp_history[pp][1] + item_obj.pp_history[pp][2];
         return_obj.period.qty.tot[pp] = return_obj.period.amt.tot[pp] / item_obj.unit_price;
+
+
+        if (item_obj.description == '<b>Totals:<b>')
+
+        {
+
+            return_obj.period.qty.tot[pp] = '';
+            return_obj.period.qty.esh[pp] = '';
+            return_obj.period.qty.rnr[pp] = '';
+            return_obj.period.qty.ssp[pp] = '';
+
+        }
+
 
     }
 
@@ -142,9 +156,18 @@ function get_payment_details(item_obj) {
         return_obj.todate.qty.ssp[pptd] = return_obj.todate.amt.ssp[pptd] / item_obj.unit_price;
         return_obj.todate.qty.tot[pptd] = return_obj.todate.amt.tot[pptd] / item_obj.unit_price;
 
+        if (item_obj.description == '<b>Totals:<b>')
+
+        {
+
+            return_obj.todate.qty.tot[pptd] = '';
+            return_obj.todate.qty.esh[pptd] = '';
+            return_obj.todate.qty.rnr[pptd] = '';
+            return_obj.todate.qty.ssp[pptd] = '';
+
+        }
+
     }
-
-
 
     // ALLOCATION
 
@@ -161,12 +184,14 @@ function get_payment_details(item_obj) {
     return_obj.allctd.amt.tot = item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp;
 
 
-    if (return_obj.allctd.amt.tot != item_obj.qty * item_obj.unit_price) {
-        console.log('unbalanced allocated amount for '.concat(item_obj.bid_item))
-    }
-    if (return_obj.allctd.qty.tot != item_obj.qty) {
-        console.log('unbalanced allocated qty for '.concat(item_obj.bid_item))
-    }
+   // if (return_obj.allctd.amt.tot != item_obj.qty * item_obj.unit_price) {
+        //console.log('unbalanced allocated amount for '.concat(item_obj.bid_item))
+   // }
+   // if (return_obj.allctd.qty.tot != item_obj.qty) {
+        //console.log('unbalanced allocated qty for '.concat(item_obj.bid_item))
+   // }
+
+
 
 
     return return_obj
@@ -178,18 +203,118 @@ function get_payment_details(item_obj) {
 
 // ######### FORMATTERS ######################
 
-function dollar_formatter_accounting(amount, row) {
+function dollar_formatter_accounting(amount) {
 
     var return_string = '';
 
-    return_string =
+    if (amount != '')
 
-        '<div style="text-align:left;  display:table-cell; padding:5px; width:5%;  flush:left">$</div>\
-             <div style="text-align:right; display:table-cell; padding:5px; width:90%; flush:right">' +
-        (amount).toLocaleString('en', {
+    {
+
+        return_string =
+
+            '<div style="text-align:left;  display:table-cell; padding:5px; width:5%;  flush:left">$</div>\
+		     <div style="text-align:right; display:table-cell; padding:5px; width:90%; flush:right">' +
+            (amount).toLocaleString('en', {
+                style: 'currency',
+                currency: 'USD'
+            }).replace('$', '') + '</div>';
+
+    }
+
+    return return_string
+
+}
+
+function dollar_formatter(amount) {
+
+    var return_string = '';
+
+    if (amount != '')
+
+    {
+
+        return_string = (amount).toLocaleString('en', {
             style: 'currency',
             currency: 'USD'
-        }).replace('$', '') + '</div>';
+        });
+
+    }
+
+    return return_string
+
+}
+
+
+function qty_formatter_no_dec_core_function(qty_input, unit)
+
+{
+
+    var return_string = '';
+
+    if (qty_input != '') {
+
+        if (unit == 'LS' || unit == 'AL')
+
+        {
+
+            return_string = Number(qty_input).toLocaleString(undefined, {
+                style: 'percent',
+                minimumFractionDigits: 0
+            });
+
+        } else if (unit == 'SF' ||
+            unit == 'LF' ||
+            unit == 'CY' ||
+            unit == 'TON' ||
+            unit == 'US SHORT TON')
+
+        {
+
+            return_string = parseFloat(qty_input).toLocaleString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+        } else if (unit == 'EA')
+
+        {
+
+            return_string = qty_input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+        }
+
+    }
+
+    return return_string
+
+}
+
+
+function qty_formatter_with_dec_core_function(qty_input, unit)
+
+{
+
+    var return_string = '';
+
+    if (qty_input != '') {
+
+
+        if (unit == 'LS' || unit == 'AL')
+
+        {
+
+            return_string = Number(qty_input).toLocaleString(undefined, {
+                style: 'percent',
+                minimumFractionDigits: 2
+            });
+
+        } else if (unit == 'SF' || unit == 'LF' || unit == 'CY' || unit == 'TON' || unit == 'EA')
+
+        {
+
+            return_string = parseFloat(qty_input).toFixed(2).toLocaleString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+        }
+
+    }
 
     return return_string
 
@@ -200,65 +325,16 @@ function qty_formatter_no_dec(qty_input, row)
 
 {
 
-    var return_string = '';
-
-    if (row.unit == 'LS' || row.unit == 'AL')
-
-    {
-
-        return_string = Number(qty_input).toLocaleString(undefined, {
-            style: 'percent',
-            minimumFractionDigits: 0
-        });
-
-    } else if (row.unit == 'SF' ||
-        row.unit == 'LF' ||
-        row.unit == 'CY' ||
-        row.unit == 'TON' ||
-        row.unit == 'US SHORT TON')
-
-    {
-
-        return_string = parseFloat(qty_input).toLocaleString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
-    } else if (row.unit == 'EA')
-
-    {
-
-        return_string = qty_input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
-    }
-
-
-    return return_string
+    return qty_formatter_no_dec_core_function(qty_input, row.unit)
 
 }
+
 
 
 function qty_formatter_with_dec(qty_input, row)
 
 {
 
-    var return_string = '';
-
-    if (row.unit == 'LS' || row.unit == 'AL')
-
-    {
-
-        return_string = Number(qty_input).toLocaleString(undefined, {
-            style: 'percent',
-            minimumFractionDigits: 2
-        });
-
-    } else if (row.unit == 'SF' || row.unit == 'LF' || row.unit == 'CY' || row.unit == 'TON' || row.unit == 'EA')
-
-    {
-
-        return_string = parseFloat(qty_input).toFixed(2).toLocaleString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
-    } 
-
-
-    return return_string
+    return qty_formatter_with_dec_core_function(qty_input, row.unit)
 
 }

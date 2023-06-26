@@ -58,9 +58,16 @@
     
     <script src="tcps/tcp_list.js"></script>
     <script src="as_builts/as_built_list.js"></script>
+
+    <script src="payments/fund_array.js"></script>    
+    <script src="js/bid_item_sov_index_finder.js"></script>        
     <script src="data/sewer_lines.js"></script>
     <script src="data/sewer_points.js"></script>
     <script src="js/popup_content_return.js"></script>    
+    
+    <script src="payments/misc_payment_functions.js"></script>
+    <script src="js/number_pad_functions.js"></script>   
+    <script src="payments/base_sov.js"></script>
     
     <script>
        
@@ -96,8 +103,8 @@
 
       var index_limits_sw_cb = [580, 582];
       add_feature_layer('cb', 580, json_1243I_sewer_points, '(E) to remain', '#beb297');
-      add_feature_layer('cb', 581, json_1243I_sewer_points, 'Install (N) catch basin', '#ff0109');
-      add_feature_layer('cb', 582, json_1243I_sewer_points, 'Abandon (E) catch basin', '#ff9e17');
+      add_feature_layer('cb', 581, json_1243I_sewer_points, 'Install (N) catchbasin', '#ff0109');
+      add_feature_layer('cb', 582, json_1243I_sewer_points, 'Abandon (E) catchbasin', '#ff9e17');
       
       //var index_limits_flatwork = [200, 200];       
       //add_feature_layer('flatwork_', 200, json_1243I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  

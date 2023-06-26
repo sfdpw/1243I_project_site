@@ -45,22 +45,31 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
 	     <ul class="dropdown-menu">\
 	       <li>\
-	         <a class="dropdown-item" href="#">SOV &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	           <li>\
-		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP01.html">PP01 - </a>\
-	         </ul>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP01.html">PP01 - NTP through June 2022</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="#">Funding Breakdown &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP01.html">PP01 - NTP through June 2022</a>\
-	           </li>\
-	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP02.html">PP02 - July 2022</a>\
-	           </li>\
-	         </ul>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP02.html">PP02 - July 2022</a>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP03.html">PP03 - August 2022</a>\
+	       </li>\
+	       <li>\
+                 <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP04.html">PP04 - September 2022</a>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP05.html">PP05 - October 2022</a>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP06.html">PP06 - November 2022</a>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP07.html">PP07 - December 2022 to February 2023</a>\
+	       </li>\
+	       <li>\
+                 <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP08.html">PP08 - March to May 2023</a>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP09.html">PP09 - June 2023</a>\
 	       </li>\
 	     </ul>\
 	   </li>\
@@ -70,67 +79,68 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	       <li>\
 	         <a class="dropdown-item" href="#">Flatwork &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: </a>\
 	               </li>\
 	             </ul>\
-	           </li>\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09:</a>\
 	               </li>\
 	             </ul>\
-	           </li>\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Change Order &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_.html">CO-01 - PCO-01</a>\
 	               </li>\
 	             </ul>\
-	           </li>\
+	       </li>\
 	         </ul>\
 	       </li>\
 	       <li>\
 	         <a class="dropdown-item" href="#">Sewer &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
-	           <li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-15.html">SW-15 - </a>\
 	               </li>\
 	             </ul>\
-	           </li>\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Mains &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-05.html">SW-05 - </a>\
 	               </li>\
 	             </ul>\
-	           </li>\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-26.html">SW-26 - </a>\
 	               </li>\
 	             </ul>\
-	           </li>\
-	           <li>\
+	       </li>\
+	       <li>\
 	             <a class="dropdown-item" href="#">Manholes &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-03.html">SW-03 - </a>\
 	               </li>\
 	             </ul>\
-	           </li>\
+	       </li>\
 	         </ul>\
 	       </li>\
 	     </ul>\
