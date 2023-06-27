@@ -5,6 +5,9 @@ var base_sov =
 
         {
             "bid_item": "R-01",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Traffic Control for Roadway Work",
             "unit": "LS",
             "qty": 1,
@@ -34,6 +37,9 @@ var base_sov =
 
         {
             "bid_item": "R-02",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Temporary Retroflective Pavement Markings",
             "unit": "LF",
             "qty": 12000,
@@ -63,6 +69,9 @@ var base_sov =
 
         {
             "bid_item": "R-03",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Full Depth Planing per 2-Inch Depth of Cut",
             "unit": "SF",
             "qty": 626340,
@@ -92,6 +101,9 @@ var base_sov =
 
         {
             "bid_item": "R-04",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Hot Mix Asphalt (Type A ½-Inch Maximum with Medium Grading)",
             "unit": "TON",
             "qty": 8897,
@@ -121,6 +133,9 @@ var base_sov =
 
         {
             "bid_item": "R-05",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "8-Inch Thick Concrete Base",
             "unit": "SF",
             "qty": 73931,
@@ -150,6 +165,9 @@ var base_sov =
 
         {
             "bid_item": "R-06",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "10-Inch Thick Concrete Base",
             "unit": "SF",
             "qty": 108444,
@@ -179,6 +197,9 @@ var base_sov =
 
         {
             "bid_item": "R-07",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "8-Inch Thick Concrete Pavement, Gutter, or Parking Strip",
             "unit": "SF",
             "qty": 3432,
@@ -208,6 +229,9 @@ var base_sov =
 
         {
             "bid_item": "R-08",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "3 ½-Inch Thick Concrete Sidewalk",
             "unit": "SF",
             "qty": 15050,
@@ -237,6 +261,9 @@ var base_sov =
 
         {
             "bid_item": "R-09",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Reset Existing Granite Curb",
             "unit": "LF",
             "qty": 121,
@@ -266,6 +293,9 @@ var base_sov =
 
         {
             "bid_item": "R-10",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "4-Inch or 6-Inch Wide Concrete Curb",
             "unit": "LF",
             "qty": 143,
@@ -295,6 +325,9 @@ var base_sov =
 
         {
             "bid_item": "R-11",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Combined 6-Inch Wide Concrete Curb And 2-Foot Wide Concrete Gutter",
             "unit": "LF",
             "qty": 1449,
@@ -324,6 +357,9 @@ var base_sov =
 
         {
             "bid_item": "R-12",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Concrete Curb Ramp With Concrete Detectable Surface Tiles",
             "unit": "EA",
             "qty": 55,
@@ -353,6 +389,9 @@ var base_sov =
 
         {
             "bid_item": "R-13",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Pull Box Type I (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 20,
@@ -382,6 +421,9 @@ var base_sov =
 
         {
             "bid_item": "R-14",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Pull Box Type III (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 20,
@@ -411,6 +453,9 @@ var base_sov =
 
         {
             "bid_item": "R-15",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Adjust City-Owned Manhole Frame and Cover and Catch Basin Frame and Grate to Grade (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 50,
@@ -440,6 +485,9 @@ var base_sov =
 
         {
             "bid_item": "R-16",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Adjust City-Owned Hydrant and Water Main Valve Box Casting Cover to Grade (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 50,
@@ -469,6 +517,9 @@ var base_sov =
 
         {
             "bid_item": "R-17",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Reconstruct City-Owned Hydrant and Water Main Valve Box Casting Cover to Grade (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 50,
@@ -498,6 +549,9 @@ var base_sov =
 
         {
             "bid_item": "R-18",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Temporary Tree Protection (Contingency Bid Item)**",
             "unit": "EA",
             "qty": 100,
@@ -527,6 +581,9 @@ var base_sov =
 
         {
             "bid_item": "R-19",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Mobilization For Paving Work (Maximum 3% of the Sum of Bid Items R-1 Through R-18)",
             "unit": "LS",
             "qty": 1,
@@ -556,6 +613,9 @@ var base_sov =
 
         {
             "bid_item": "R-20",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Demobilization for Paving Work (Maximum 2% of the Sum of Bid Items R-1 Through R-18)",
             "unit": "LS",
             "qty": 1,
@@ -585,6 +645,9 @@ var base_sov =
 
         {
             "bid_item": "R-21",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance for As-Needed Transit Support Provided by Contractor",
             "unit": "AL",
             "qty": 1,
@@ -614,6 +677,9 @@ var base_sov =
 
         {
             "bid_item": "R-22",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance for As-Needed Overhead Contact System (OCS) Support Provided by Contractor",
             "unit": "AL",
             "qty": 1,
@@ -643,6 +709,9 @@ var base_sov =
 
         {
             "bid_item": "R-23",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance for Partnering Facilitation and Related Costs",
             "unit": "AL",
             "qty": 1,
@@ -672,6 +741,9 @@ var base_sov =
 
         {
             "bid_item": "SW-01",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Traffic Routing for Sewer Work",
             "unit": "LS",
             "qty": 1,
@@ -701,6 +773,9 @@ var base_sov =
 
         {
             "bid_item": "SW-02",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Trench And Excavation Support For Sewer Work",
             "unit": "LS",
             "qty": 1,
@@ -730,6 +805,9 @@ var base_sov =
 
         {
             "bid_item": "SW-03",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Concrete Manhole For 12-Inch To 24-Inch Diameter Sewers With Frame And Cover\n(Per SFDPW Standard Plan 87,181)",
             "unit": "EA",
             "qty": 21,
@@ -749,6 +827,9 @@ var base_sov =
 
         {
             "bid_item": "SW-04",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Concrete Manhole For 27-Inch To 48-Inch Diameter Sewers With Frame And Cover\n(Per SFDPW Standard Plan 87,182)",
             "unit": "EA",
             "qty": 2,
@@ -778,6 +859,9 @@ var base_sov =
 
         {
             "bid_item": "SW-05",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Modified Box Manhole For Connection To 3'X5' Brick Sewer With Frame And Cover\n(Per SFDPW Standard Plan 87,184 And Can Be Used As An Insertion Pit For The Liner)",
             "unit": "EA",
             "qty": 3,
@@ -807,6 +891,9 @@ var base_sov =
 
         {
             "bid_item": "SW-06",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Precast Manhole On Existing Brick Sewer With Frame And Cover\n(Per SFDPW Standard Plan 87,185)",
             "unit": "EA",
             "qty": 1,
@@ -836,6 +923,9 @@ var base_sov =
 
         {
             "bid_item": "SW-07",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Clean and Mortar Existing Manhole Riser",
             "unit": "EA",
             "qty": 14,
@@ -865,6 +955,9 @@ var base_sov =
 
         {
             "bid_item": "SW-08",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Removal of Rat Walk Inside 3'x5' Egg-Shaped Brick Sewers And Obstructions Prior to Lining",
             "unit": "LF",
             "qty": 835,
@@ -894,6 +987,9 @@ var base_sov =
 
         {
             "bid_item": "SW-09",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Bypassing Main Sewer Flow Related to Lining And Mortar Work",
             "unit": "LS",
             "qty": 1,
@@ -923,6 +1019,9 @@ var base_sov =
 
         {
             "bid_item": "SW-10",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Bypassing Side Sewer And Culvert Flow Related to Lining Work (Contingency Bid Item)*",
             "unit": "EA",
             "qty": 97,
@@ -952,6 +1051,9 @@ var base_sov =
 
         {
             "bid_item": "SW-11",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "12-Inch Diameter VCP Sewer On Crushed Rock Bedding Wrapped In Geotextile Fabric",
             "unit": "LF",
             "qty": 2640,
@@ -971,6 +1073,9 @@ var base_sov =
 
         {
             "bid_item": "SW-12",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Mortar Existing 3'X5' Brick Sewer With Single Component Microsilica Enhanced, Fiber Reinforced Wet Spray Mortar, Minimum 1-Inch Thick",
             "unit": "LF",
             "qty": 18,
@@ -1000,6 +1105,9 @@ var base_sov =
 
         {
             "bid_item": "SW-13",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "27-Inch Diameter VCP Sewer On Crushed Rock Bedding Wrapped In Geotextile Fabric",
             "unit": "LF",
             "qty": 338,
@@ -1029,6 +1137,9 @@ var base_sov =
 
         {
             "bid_item": "SW-14",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Line Existing 3'x5' Egg-Shaped Brick Sewer with  Cured-In-Place Liner (CIPL)",
             "unit": "LF",
             "qty": 1975,
@@ -1058,6 +1169,9 @@ var base_sov =
 
         {
             "bid_item": "SW-15",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Line Existing 18-Inch Diameter Iron Stone Pipe (ISP) Sewer with Cured-In-Place Liner (CIPL) (Contingency Bid Item)*",
             "unit": "LF",
             "qty": 37,
@@ -1087,6 +1201,9 @@ var base_sov =
 
         {
             "bid_item": "SW-16",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Clean and Televise Existing Sewers Prior To Performing Rehabilitation Sewer Work",
             "unit": "LS",
             "qty": 1,
@@ -1116,6 +1233,9 @@ var base_sov =
 
         {
             "bid_item": "SW-17",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Remove Protruding Side Sewers or Obstructions Requiring Internal Reaming From Existing Sewer Prior to Lining Work",
             "unit": "EA",
             "qty": 39,
@@ -1145,6 +1265,9 @@ var base_sov =
 
         {
             "bid_item": "SW-18",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Internally Re-Instate Side Sewers, Culverts, And Other Connections in Lined Main Sewer (Contingency Bid Item)*",
             "unit": "EA",
             "qty": 78,
@@ -1174,6 +1297,9 @@ var base_sov =
 
         {
             "bid_item": "SW-19",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "6-Inch or 8-Inch Diameter Side Sewer Connection to VCP Main Sewer (Contingency Bid Item)*",
             "unit": "EA",
             "qty": 87,
@@ -1193,6 +1319,9 @@ var base_sov =
 
         {
             "bid_item": "SW-20",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Television Inspection Of Existing 6-Inch Or 8-Inch Diameter Side Sewers And 10-Inch Diameter Culverts Located Within Limits of Main Sewer Construction and Rehabilitation (Contingency Bid Item)*",
             "unit": "EA",
             "qty": 206,
@@ -1212,6 +1341,9 @@ var base_sov =
 
         {
             "bid_item": "SW-21",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Construction or Replacement of 6-Inch or 8-Inch Diameter Side Sewer Located within Limits of Main Sewer Construction and Rehabilitation (Contingency Bid Item)*",
             "unit": "LF",
             "qty": 1050,
@@ -1231,6 +1363,9 @@ var base_sov =
 
         {
             "bid_item": "SW-22",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Construction or Replacement of 10-Inch Diameter VCP Culvert Within Sewer Work Limits (Contingency Bid Item)*",
             "unit": "LF",
             "qty": 1550,
@@ -1250,6 +1385,9 @@ var base_sov =
 
         {
             "bid_item": "SW-23",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Standard Concrete Catch Basin Without Curb Inlet, With Cast iron Trap, And New Frame And Grating (Per SFDPW Standard Plan 87,188 & 87,193)",
             "unit": "EA",
             "qty": 13,
@@ -1269,6 +1407,9 @@ var base_sov =
 
         {
             "bid_item": "SW-24",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Cast Iron Water Trap For Existing Catch Basin Including Cleanout Cap (Per SFDPW Standard Plan 87,194) (Contingency Bid Item)*",
             "unit": "EA",
             "qty": 55,
@@ -1298,6 +1439,9 @@ var base_sov =
 
         {
             "bid_item": "SW-25",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Post-Construction Television Inspection Of Newly Constructed Main Sewers",
             "unit": "LS",
             "qty": 1,
@@ -1317,6 +1461,9 @@ var base_sov =
 
         {
             "bid_item": "SW-26",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Post-Construction Television Inspection Of Newly Rehabilitated Main Sewers And Including Spry Mortar Segment",
             "unit": "LS",
             "qty": 1,
@@ -1346,6 +1493,9 @@ var base_sov =
 
         {
             "bid_item": "SW-27",
+            'linked_bi': true,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Post-Construction Television Inspection Of Newly Constructed Side Sewers and Culverts (Contingency  Bid Item)*",
             "unit": "EA",
             "qty": 48,
@@ -1365,6 +1515,9 @@ var base_sov =
 
         {
             "bid_item": "SW-28",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Reconstruct Pavement Outside of Sewer T-Trench Limit and Outside of Base Repair Work Under R-Drawings with 8-Inch Thick Concrete Base Necessary Per Excavation Code As Directed by the City Representative (Contingency Bid Item)*",
             "unit": "SF",
             "qty": 6048,
@@ -1394,6 +1547,9 @@ var base_sov =
 
         {
             "bid_item": "SW-29",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Reconstruct Pavement Outside of Sewer T-Trench Limit With 2-Inch Thick Asphalt Concrete Wearing Surface Per Excavation Regulations Code As Directed by the City Representative (Contingency Bid Item)*",
             "unit": "SF",
             "qty": 18420,
@@ -1423,6 +1579,9 @@ var base_sov =
 
         {
             "bid_item": "SW-30",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Full Depth Grinding Of 2-Inch Thick Asphalt Concrete Wearing Surface as Necessary Per Excavation Regulations Code As Directed by the City Representative(Contingency Bid Item)*",
             "unit": "SF",
             "qty": 18488,
@@ -1452,6 +1611,9 @@ var base_sov =
 
         {
             "bid_item": "SW-31",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Exploratory Holes or Potholes (Contingency Bid Item)*",
             "unit": "CY",
             "qty": 7,
@@ -1481,6 +1643,9 @@ var base_sov =
 
         {
             "bid_item": "SW-32",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Design of Structural Support for SFWD Facilities Located within Sewer Trench",
             "unit": "LS",
             "qty": 1,
@@ -1510,6 +1675,9 @@ var base_sov =
 
         {
             "bid_item": "SW-33",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Mobilization for Sewer and Drainage Work (Maximum 3% of the Sum of Bid Items SW-1 through SW-32)",
             "unit": "LS",
             "qty": 1,
@@ -1539,6 +1707,9 @@ var base_sov =
 
         {
             "bid_item": "SW-34",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Demobilization for Sewer and Drainage Work (Maximum 2% of the Sum of Bid Items SW-1 through SW-32)",
             "unit": "LS",
             "qty": 1,
@@ -1568,6 +1739,9 @@ var base_sov =
 
         {
             "bid_item": "SW-35",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance For De-energizing And Re-energizing MUNI Overhead Wires, Relocation of MUNI Overhead Wires, And Providing Services Of MUNI Inspectors For Sewer And Drainage Work",
             "unit": "AL",
             "qty": 1,
@@ -1597,6 +1771,9 @@ var base_sov =
 
         {
             "bid_item": "SW-36",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance to Perform Necessary Work due to Unforeseen Conditions Related to Sewer Work",
             "unit": "AL",
             "qty": 1,
@@ -1626,6 +1803,9 @@ var base_sov =
 
         {
             "bid_item": "SW-37",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Allowance For Unforseen Environmental Work",
             "unit": "AL",
             "qty": 1,
@@ -1655,6 +1835,9 @@ var base_sov =
 
         {
             "bid_item": "CS-1",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Transportation of surplus California Class I (non-RCRA) Hazardous Waste (soils) to a Class I Disposal Facility",
             "unit": "US SHORT TON",
             "qty": 600,
@@ -1684,6 +1867,9 @@ var base_sov =
 
         {
             "bid_item": "CS-2",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Disposal of surplus California Class I (non-RCRA) Hazardous Waste (soils) at a Class I Disposal Facility",
             "unit": "US SHORT TON",
             "qty": 600,
@@ -1713,6 +1899,9 @@ var base_sov =
 
         {
             "bid_item": "CS-3",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Transportation of surplus non-hazardous soils (Class II & III) California Designated Waste (soils) to a Class II & III Disposal Facility",
             "unit": "US SHORT TON",
             "qty": 600,
@@ -1742,6 +1931,9 @@ var base_sov =
 
         {
             "bid_item": "CS-4",
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": "Disposal of surplus non-hazardous soils (Class II & III) California Designated Waste (soils) at a Class II & III Disposal Facility",
             "unit": "US SHORT TON",
             "qty": 600,
@@ -1816,6 +2008,9 @@ base_sov = base_sov.concat(
     [
         {
             "bid_item": '',
+            'linked_bi': false,
+            get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
+                else { return this.bid_item } },
             "description": '<b>Totals:<b>',
             "unit": '',
             "qty": '',

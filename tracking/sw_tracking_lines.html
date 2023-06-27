@@ -30,13 +30,18 @@
     <link rel="stylesheet" href="../css/site_tables.css">
     <link rel="stylesheet" href="../css/drop_down.css">
     <script src="../js/drop_down.js"></script>
+    <script src="../payments/misc_payment_arrays.js"></script>    
     <script src="../js/top_nav_bar.js"></script>
+    <script src="../js/bid_item_sov_index_finder.js"></script>    
     <script src="../payments/misc_payment_functions.js"></script>
     <script src="../js/sewer_line_reflexive_functions.js"></script>
     <script src="../js/misc_tracking_functions.js"></script>   
     <script src="../js/sewer_status_codes.js"></script>
     <script src="../data/sewer_lines.js"></script>
+    <script src="../data/sewer_points.js"></script>
     <link rel="icon" type="image/png" href="../legend/1243I_fav.png" />
+    <script src="../js/number_pad_functions.js"></script>   
+    <script src="../payments/base_sov.js"></script>
 
 </head>
 
@@ -109,11 +114,12 @@
                     sortable: true,
                     filterControl: "select"
                 },
-               // {
-               //     field: 'properties.bid_items',
-               //     title: 'Bid Items',
-               //     sortable: true
-               // },
+                {
+                    field: 'properties.bid_items',
+                    title: 'BID ITEMS',
+                    sortable: true,
+                    searchable: true
+                },
                  {
                     field: 'properties.submittals.tvi_pre_con.submittal_no',
                     title: 'PRECON<br>SUBMITTAL',

@@ -45,31 +45,31 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
 	     <ul class="dropdown-menu">\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP01.html">PP01 - NTP through June 2022</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP01.html">PP01 - ' + payment_array.PP01 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP02.html">PP02 - July 2022</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP02.html">PP02 - ' + payment_array.PP02 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP03.html">PP03 - August 2022</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP03.html">PP03 - ' + payment_array.PP03 + '</a>\
 	       </li>\
 	       <li>\
-                 <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP04.html">PP04 - September 2022</a>\
+                 <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP04.html">PP04 - ' + payment_array.PP04 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP05.html">PP05 - October 2022</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP05.html">PP05 - ' + payment_array.PP05 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP06.html">PP06 - November 2022</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP06.html">PP06 - ' + payment_array.PP06 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP07.html">PP07 - December 2022 to February 2023</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP07.html">PP07 - ' + payment_array.PP07 + '</a>\
 	       </li>\
 	       <li>\
-                 <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP08.html">PP08 - March to May 2023</a>\
+                 <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP08.html">PP08 - ' + payment_array.PP08 + '</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/funding_breakdown_PP09.html">PP09 - June 2023</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP09.html">PP09 - ' + payment_array.PP09 + '</a>\
 	       </li>\
 	     </ul>\
 	   </li>\

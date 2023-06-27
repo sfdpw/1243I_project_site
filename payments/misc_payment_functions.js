@@ -338,3 +338,41 @@ function qty_formatter_with_dec(qty_input, row)
     return qty_formatter_with_dec_core_function(qty_input, row.unit)
 
 }
+
+
+// #### string generators
+
+function linked_bid_item_string_geneator ( bid_item ) {
+
+   return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item_sov_index_finder(bid_item)].description,
+                       '\"', " href=\"..\\qty\\qty_tracking_",
+                        bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+
+}
+
+function linked_bid_item_string_geneator_from_sov ( bid_item ) {
+
+   return '<a data-toogle="tooltip" title="'.concat(bid_item,' QTY Worksheet',
+                       '\"', " href=\"..\\qty\\qty_tracking_",
+                        bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+
+}
+
+
+
+function linked_bid_item_string_geneator_from_index ( bid_item ) {
+
+   return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item_sov_index_finder(bid_item)].description,
+                       '\"', " href=\"qty\\qty_tracking_",
+                        bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+
+}
+
+function linked_pp_string_geneator_from_index ( pp_no ) {
+
+   return '<a data-toogle="tooltip" title="'.concat(payment_array[pp_no],
+                       '\"', " href=\"payments\\payment_details_",
+                        pp_no, '.html\" target=\"_blank\">', pp_no, '</a>');
+
+} 
+

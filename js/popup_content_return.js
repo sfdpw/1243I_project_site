@@ -303,13 +303,13 @@ function pp_history_details(ffeature)
           {
       
             pp_history_mini_table += '<tr><td>&nbsp;</td></tr>\
-                                      <tr><td><u>'.concat( bid_item,'</u></td></tr>' );
+                                      <tr><td>'.concat( linked_bid_item_string_geneator_from_index(bid_item),'</td></tr>' );
             
             for ( const pp_specifics of Object.keys( ffeature.properties.pp_history[bid_item] ) )
             
               {
 
-                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( pp_specifics,'</td></tr>');
+                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( linked_pp_string_geneator_from_index(pp_specifics),'</td></tr>');
                     
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 0);
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 1);

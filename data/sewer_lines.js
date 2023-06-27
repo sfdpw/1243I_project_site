@@ -27,6 +27,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -84,6 +85,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -140,6 +142,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -196,6 +199,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -252,6 +256,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -308,6 +313,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -364,6 +370,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -420,6 +427,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -476,6 +484,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -532,6 +541,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "78",
@@ -588,6 +598,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -644,6 +655,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -700,6 +712,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -756,6 +769,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "78",
@@ -812,6 +826,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -868,6 +883,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -924,6 +940,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -980,6 +997,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1036,6 +1054,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1092,6 +1111,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1148,6 +1168,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1200,6 +1221,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0,  1702.84, -1702.84]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1256,6 +1278,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1312,6 +1335,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1368,6 +1392,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1423,6 +1448,7 @@ var json_1243I_sewer_lines = {
                         'PP02': [0,  500, 0]  
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1478,6 +1504,7 @@ var json_1243I_sewer_lines = {
                         'PP02': [0,  500, 0]  
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1534,6 +1561,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1590,6 +1618,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1646,6 +1675,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1702,6 +1732,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1758,6 +1789,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -1814,6 +1846,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1870,6 +1903,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -1926,6 +1960,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -1982,6 +2017,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -2038,6 +2074,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -2094,6 +2131,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -2146,6 +2184,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, -29.12, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2202,6 +2241,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2258,6 +2298,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2314,6 +2355,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2363,8 +2405,21 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.12,  20.88],
+                        'PP09': [0,  20.88, -20.88],
+                    },
+                    'SW-21': {
+                        'PP02': [0,  758.93,  303.57],
+                        'PP09': [0,  303.57, -303.57]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52",
@@ -2414,8 +2469,21 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.12,  20.88],
+                        'PP09': [0,  20.88, -20.88],
+                    },
+                    'SW-21': {
+                        'PP02': [0,  758.94,  303.56],
+                        'PP09': [0,  303.56, -303.56]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52",
@@ -2465,8 +2533,13 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.12,  20.88],
+                        'PP09': [0,  20.88, -20.88],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -2523,6 +2596,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -2579,6 +2653,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2634,6 +2709,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -2689,6 +2765,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -2745,6 +2822,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2801,6 +2879,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2857,6 +2936,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2913,6 +2993,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2969,6 +3050,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -3025,6 +3107,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -3081,6 +3164,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -3137,6 +3221,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3193,6 +3278,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3249,6 +3335,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3305,6 +3392,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3361,6 +3449,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3417,6 +3506,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -3473,6 +3563,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3529,6 +3620,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3585,6 +3677,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3641,6 +3734,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3697,6 +3791,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3753,6 +3848,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -3809,6 +3905,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3865,6 +3962,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3921,6 +4019,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -3977,6 +4076,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -4033,6 +4133,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -4089,6 +4190,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -4145,6 +4247,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -4201,6 +4304,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4257,6 +4361,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -4313,6 +4418,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59",
@@ -4369,6 +4475,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -4425,6 +4532,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "56",
@@ -4480,6 +4588,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -4533,8 +4642,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.12,  20.88],
                         'PP09': [0, 20.88, -20.88]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -4590,6 +4708,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -4645,6 +4764,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -4698,8 +4818,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.12,  20.88],
                         'PP09': [0, 20.88, -20.88]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -4756,6 +4885,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -4812,6 +4942,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4868,6 +4999,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -4924,6 +5056,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -4980,6 +5113,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59",
@@ -5036,6 +5170,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5092,6 +5227,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -5148,6 +5284,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -5204,6 +5341,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -5253,8 +5391,13 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -5311,6 +5454,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5367,6 +5511,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5422,6 +5567,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -5477,6 +5623,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -5532,6 +5679,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -5588,6 +5736,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5644,6 +5793,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5700,6 +5850,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5756,6 +5907,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5812,6 +5964,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5868,6 +6021,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -5924,6 +6078,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -5980,6 +6135,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -6036,6 +6192,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -6092,6 +6249,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6148,6 +6306,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -6204,6 +6363,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -6260,6 +6420,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59",
@@ -6316,6 +6477,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -6372,6 +6534,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6428,6 +6591,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59",
@@ -6477,8 +6641,21 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP02': [0,  758.93,  303.57],
+                        'PP09': [0,  303.57, -303.57]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -6535,6 +6712,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "56",
@@ -6591,6 +6769,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6647,6 +6826,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6702,6 +6882,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43",
@@ -6757,6 +6938,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -6810,8 +6992,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.12,  20.88],
                         'PP09': [0, 20.88, -20.88]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -6868,6 +7059,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6924,6 +7116,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6980,6 +7173,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7036,6 +7230,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -7092,6 +7287,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -7148,6 +7344,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -7204,6 +7401,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -7260,6 +7458,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -7316,6 +7515,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7365,8 +7565,13 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -7423,6 +7628,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7479,6 +7685,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -7535,6 +7742,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7584,8 +7792,13 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -7642,6 +7855,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7698,6 +7912,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7753,6 +7968,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -7808,6 +8024,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43",
@@ -7864,6 +8081,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7920,6 +8138,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -7976,6 +8195,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -8032,6 +8252,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -8088,6 +8309,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -8144,6 +8366,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59",
@@ -8200,6 +8423,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8256,6 +8480,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8312,6 +8537,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8368,6 +8594,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -8424,6 +8651,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -8480,6 +8708,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -8529,8 +8758,21 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP02': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
+                    },
+                    'SW-21': {
+                        'PP02': [ 0,   1651.79, 660.71 ],
+                        'PP09': [ 0,   -660.71, 660.71 ],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53",
@@ -8587,6 +8829,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8642,6 +8885,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -8697,6 +8941,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43",
@@ -8753,6 +8998,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8809,6 +9055,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8865,6 +9112,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8921,6 +9169,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8977,6 +9226,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -9033,6 +9283,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -9089,6 +9340,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -9145,6 +9397,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9201,6 +9454,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -9257,6 +9511,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -9310,8 +9565,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -9365,8 +9629,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -9420,8 +9693,13 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -9475,8 +9753,13 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -9533,6 +9816,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -9589,6 +9873,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9637,15 +9922,20 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leleand Ave and Schwern St - SWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
+                    },
+                    'SW-22': {
+                        'PP02': [  247.20,  534.04,  193.74 ],
+                        'PP09': [ -247.20,  440.94, -193.74 ]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.57,  27.13,  9.30 ],
+                        'PP09': [ -13.57,  22.87, -9.30 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52",
@@ -9693,15 +9983,16 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Brussels St and Wilde Ave - SWC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP02': [  367.65,  794.23,  288.13 ],
+                        'PP09': [ 1082.36, -794.23, -288.13 ]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [  36.46, -27.08, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9749,15 +10040,16 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Brussels St and Wilde Ave - NWC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP02': [   380.32,  821.61,  298.06 ],
+                        'PP09': [  1119.67, -821.61, -298.06 ]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [  36.46, -27.08, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9814,6 +10106,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9870,6 +10163,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9926,6 +10220,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9982,6 +10277,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10038,6 +10334,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10094,6 +10391,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10150,6 +10448,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10206,6 +10505,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10262,6 +10562,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10318,6 +10619,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10374,6 +10676,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10430,6 +10733,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10486,6 +10790,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10542,6 +10847,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10598,6 +10904,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10654,6 +10961,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10710,6 +11018,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10766,6 +11075,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58",
@@ -10822,6 +11132,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10878,6 +11189,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10934,6 +11246,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10990,6 +11303,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11046,6 +11360,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11102,6 +11417,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11158,6 +11474,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11214,6 +11531,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11270,6 +11588,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11326,6 +11645,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -11382,6 +11702,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11438,6 +11759,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11494,6 +11816,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11550,6 +11873,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11606,6 +11930,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11662,6 +11987,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11718,6 +12044,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11774,6 +12101,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11830,6 +12158,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11886,6 +12215,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11942,6 +12272,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11998,6 +12329,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12054,6 +12386,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12110,6 +12443,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12167,6 +12501,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12223,6 +12558,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12279,6 +12615,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12336,6 +12673,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12392,6 +12730,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12448,6 +12787,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12504,6 +12844,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12560,6 +12901,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -12616,6 +12958,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12672,6 +13015,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12728,6 +13072,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55",
@@ -12784,6 +13129,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12840,6 +13186,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12896,6 +13243,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12952,6 +13300,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13008,6 +13357,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13064,6 +13414,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13120,6 +13471,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13176,6 +13528,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13232,6 +13585,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13288,6 +13642,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13344,6 +13699,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13400,6 +13756,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13447,15 +13804,12 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Delta St - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP02': [0,  29.13,  20.87],
+                        'PP09': [0,  20.87, -20.87],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52",
@@ -13495,6 +13849,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
+        
         {
             "type": "Feature",
             "properties": {
@@ -13503,15 +13858,12 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Delta St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP02': [0,  29.12,  20.88],
+                        'PP09': [0,  20.88, -20.88],
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52",
@@ -13568,6 +13920,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13624,6 +13977,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13680,6 +14034,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13736,6 +14091,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13792,6 +14148,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13848,6 +14205,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13904,6 +14262,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13960,6 +14319,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14016,6 +14376,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -14073,6 +14434,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14129,6 +14491,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -14185,6 +14548,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -14241,6 +14605,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -14297,6 +14662,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14353,6 +14719,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14409,6 +14776,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14465,6 +14833,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14521,6 +14890,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14577,6 +14947,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74",
@@ -14633,6 +15004,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14689,6 +15061,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14745,6 +15118,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14801,6 +15175,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14857,6 +15232,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -14913,6 +15289,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14969,6 +15346,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15025,6 +15403,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15081,6 +15460,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15137,6 +15517,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15193,6 +15574,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15249,6 +15631,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15305,6 +15688,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15361,6 +15745,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15417,6 +15802,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15473,6 +15859,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15529,6 +15916,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -15585,6 +15973,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15641,6 +16030,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15697,6 +16087,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15753,6 +16144,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15809,6 +16201,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -15865,6 +16258,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15921,6 +16315,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15977,6 +16372,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16033,6 +16429,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16089,6 +16486,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16145,6 +16543,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16201,6 +16600,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16257,6 +16657,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16313,6 +16714,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16369,6 +16771,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16425,6 +16828,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16481,6 +16885,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16537,6 +16942,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16593,6 +16999,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16649,6 +17056,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16705,6 +17113,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16761,6 +17170,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16817,6 +17227,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16873,6 +17284,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16929,6 +17341,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "65",
@@ -16985,6 +17398,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17041,6 +17455,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17097,6 +17512,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17153,6 +17569,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17209,6 +17626,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17265,6 +17683,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17321,6 +17740,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17377,6 +17797,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17433,6 +17854,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17489,6 +17911,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17545,6 +17968,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17601,6 +18025,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17657,6 +18082,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17713,6 +18139,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17769,6 +18196,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17825,6 +18253,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17881,6 +18310,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17937,6 +18367,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17993,6 +18424,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18049,6 +18481,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18105,6 +18538,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18161,6 +18595,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18217,6 +18652,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18273,6 +18709,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18330,6 +18767,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18380,8 +18818,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-22': {
+                        'PP02': [  367.65,  794.23,  288.13 ],
+                        'PP09': [ -367.65,  655.78, -288.13 ]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -18432,8 +18879,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-22': {
+                        'PP02': [  367.65,  794.23,  288.13 ],
+                        'PP09': [ -367.65,  655.78, -288.13 ]
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -18489,6 +18945,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -18542,8 +18999,17 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP02': [0,   1607.14, 642.86],
+                        'PP09': [0,   -642.86, 642.86],
+                    },
+                    'SW-27': {
+                        'PP02': [  13.54,  27.08,  9.38 ],
+                        'PP09': [ -13.54,  22.92, -9.38 ]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45",
@@ -18596,6 +19062,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43",
@@ -18652,6 +19119,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18708,6 +19176,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18764,6 +19233,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18820,6 +19290,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18876,6 +19347,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18932,6 +19404,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18988,6 +19461,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [-13.54, 22.92, -9.38]
                               }   
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19044,6 +19518,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [-13.54, 22.92, -9.38]
                               }                      
                              },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19096,6 +19571,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19152,6 +19628,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19208,6 +19685,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19264,6 +19742,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19320,6 +19799,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19376,6 +19856,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19432,6 +19913,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19488,6 +19970,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19543,6 +20026,7 @@ var json_1243I_sewer_lines = {
                         'PP02': [0,  500, 0]  
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19606,6 +20090,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [-13.54, 22.91, -9.37]
                               }                       
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19661,6 +20146,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19716,6 +20202,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19771,6 +20258,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19826,6 +20314,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19878,6 +20367,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19930,6 +20420,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39",
@@ -19986,6 +20477,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20042,6 +20534,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20099,6 +20592,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20155,6 +20649,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20211,6 +20706,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20267,6 +20763,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20323,6 +20820,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20379,6 +20877,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20435,6 +20934,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63",
@@ -20491,6 +20991,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20547,6 +21048,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20603,6 +21105,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20659,6 +21162,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20715,6 +21219,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20771,6 +21276,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20827,6 +21333,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20883,6 +21390,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20939,6 +21447,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20995,6 +21504,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21051,6 +21561,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21107,6 +21618,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21163,6 +21675,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21219,6 +21732,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21275,6 +21789,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21331,6 +21846,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21387,6 +21903,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21443,6 +21960,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44",
@@ -21500,6 +22018,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
@@ -21558,6 +22077,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
@@ -21615,6 +22135,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21672,6 +22193,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21729,6 +22251,7 @@ var json_1243I_sewer_lines = {
                         }
                     }
                 },
+                get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",

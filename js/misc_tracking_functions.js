@@ -11,6 +11,46 @@ function linked_asset_function_point(location, asset_coordinates) {
 
 }
 
+function bid_item_flattener ( pp_history_obj ) {
+
+    var return_string = '';
+    var bid_item_array = [];
+
+
+    for (const bid_item of Object.keys(pp_history_obj))
+    
+    {
+    
+      if ( bid_item != 'SW-0' ) 
+      
+        {
+          
+          bid_item_array.push(bid_item);
+    
+         }
+    
+    }
+
+    bid_item_array.sort();
+    
+    for (var bi = 0; bi < bid_item_array.length; bi++)
+    
+     {
+
+      return_string += linked_bid_item_string_geneator (bid_item_array[bi]);
+      
+      if ( bi != bid_item_array.length - 1 ) { return_string += ', ';}
+
+     }
+
+    if ( return_string == '') { return_string = 'none'; }
+  
+    return return_string
+
+}
+
+
+
 // response_date_from_submittal_no
 
 var response_date_obj = {
