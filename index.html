@@ -63,6 +63,7 @@
     <script src="js/bid_item_sov_index_finder.js"></script>        
     <script src="data/sewer_lines.js"></script>
     <script src="data/sewer_points.js"></script>
+    <script src="data/flatwork_polygons.js"></script>
     <script src="js/popup_content_return.js"></script>    
     
     <script src="payments/misc_payment_functions.js"></script>
@@ -106,22 +107,24 @@
       add_feature_layer('cb', 581, json_1243I_sewer_points, 'Install (N) catchbasin', '#ff0109');
       add_feature_layer('cb', 582, json_1243I_sewer_points, 'Abandon (E) catchbasin', '#ff9e17');
       
-      //var index_limits_flatwork = [200, 200];       
-      //add_feature_layer('flatwork_', 200, json_1243I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
-  //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
-  //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
-  //     add_feature_layer('R_polygon', 603, json_2977J_200_flatwork_19, 'R-06: 10in Base','#b714ef');         
-  //     add_feature_layer('R_polygon', 604, json_2977J_200_flatwork_19, 'R-07: Parking Strip, Gutter','#24ddaf');                
-   //    add_feature_layer('R_polygon', 605, json_2977J_200_flatwork_19, 'R-08: 3.5in Sidewalk','#e1ad12');                
-  //     add_feature_layer('R_polygon', 606, json_2977J_200_flatwork_19, 'R-09: 4in Curb','#b33600');                
-   //    add_feature_layer('R_polygon', 607, json_2977J_200_flatwork_19, 'R-10: 6in Curb','#2291e3');                  
-   //    add_feature_layer('R_polygon', 608, json_2977J_200_flatwork_19, 'R-11: Comb. Curb and Gutter','#d3200e'); 
-   //    add_feature_layer('R_polygon', 609, json_2977J_200_flatwork_19, 'R-12: Curb Ramps','#5ae166');       
-  //     add_feature_layer('R_point', 610, json_2977J_210_flatwork_points_0, 'R-14: Type I PBs', '#fe9800');       
-   //    add_feature_layer('R_point', 611, json_2977J_210_flatwork_points_0, 'R-15: Type III PBs', '#84177b');       
-                     
-       //var E_pullbox_index_limits = [700, 701];
-                   
+      var index_limits_flatwork = [600, 615];       
+      add_feature_layer('R_polygon', 600, json_1243I_flatwork_polygons, 'R-03: Grinding','#4e1e61');
+      add_feature_layer('R_polygon', 601, json_1243I_flatwork_polygons, 'R-04: HMA','#4040a2');
+      add_feature_layer('R_polygon', 602, json_1243I_flatwork_polygons, 'R-05: 8in Concrete Base','#466be3');
+      add_feature_layer('R_polygon', 603, json_1243I_flatwork_polygons, 'R-06: 10in Concrete Base','4294ff');
+      add_feature_layer('R_polygon', 604, json_1243I_flatwork_polygons, 'R-07: Conc. Pavement, Gutter and PS','#28bceb');
+      add_feature_layer('R_polygon', 605, json_1243I_flatwork_polygons, 'R-08: Sidewalk','#18ddc2');      
+      add_feature_layer('R_polygon', 606, json_1243I_flatwork_polygons, 'R-09: Granite Curb (Reset)','#32f298');      
+      add_feature_layer('R_polygon', 607, json_1243I_flatwork_polygons, 'R-10: Concrete Curb','#6dfe62');      
+      add_feature_layer('R_polygon', 608, json_1243I_flatwork_polygons, 'R-11: Combined Curb and Gutter','#a4fc3c');      
+      add_feature_layer('R_polygon', 609, json_1243I_flatwork_polygons, 'R-12: Curb Ramps','#cdec34');      
+      add_feature_layer('R_polygon', 610, json_1243I_flatwork_polygons, 'R-13: PB - Type I','#eecf3a');  
+      add_feature_layer('R_polygon', 611, json_1243I_flatwork_polygons, 'R-14: PB - Type III','#fdac34');  
+      add_feature_layer('R_polygon', 612, json_1243I_flatwork_polygons, 'R-18: Tree Protection','#fb7e21');  
+      add_feature_layer('R_polygon', 613, json_1243I_flatwork_polygons, 'SW-28: Beyond Trench - Conc. Base','#eb500e');  
+      add_feature_layer('R_polygon', 614, json_1243I_flatwork_polygons, 'SW-29: Beyond Trench - HMA','#d02f05');        
+      add_feature_layer('R_polygon', 615, json_1243I_flatwork_polygons, 'SW-30: Beyond Trench - Grinding','#a91601');        
+        
     </script>
 
 </head>
@@ -141,6 +144,7 @@
           <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
           <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
           <script src="js/menu_cards/menu_card_features_sw.js"></script>
+          <script src="js/menu_cards/menu_card_features_flatwork.js"></script>
     </div>
   </div>
       
@@ -220,7 +224,7 @@
     <script src="js/layer_toggle/add_line_layer_sw_lt.js"></script>
     <script src="js/layer_toggle/add_point_layer_sw_mh.js"></script>    
     <script src="js/layer_toggle/add_point_layer_sw_cb.js"></script>        
-   
+    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>           
         
     <script>
       

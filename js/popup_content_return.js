@@ -228,18 +228,18 @@ function pop_up_creator_for_domain(feature, layer)
 
     } 
     
-    else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature < R_fltwrk_index_limits[1])
+    else if (layer.feature.L_index_stored_in_each_feature >= index_limits_flatwork[0] &&
+        layer.feature.L_index_stored_in_each_feature < index_limits_flatwork[1])
 
     {
 
-        var bid_item_code = feature.properties.inst_id.substring(0, 4).replace('R-0', 'R-');
+        var bid_item_code = feature.properties.id_a.substring(0, 4).replace('R-0', 'R-');
 
         var areacalcs = '';
 
         var popupContent =
             '<strong>Instance Id</strong><br>' +
-            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
+            feature.properties.id_a + '<br><br>' +
             '<strong>Description</strong><br>' +
             unpack_flatwork_feature_description(bid_item_code) +
             '<br><br>'; 
@@ -309,7 +309,8 @@ function pp_history_details(ffeature)
             
               {
 
-                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( linked_pp_string_geneator_from_index(pp_specifics),'</td></tr>');
+                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( linked_pp_string_geneator_from_index(pp_specifics),
+                                         '</td></tr><tr><td>&nbsp;</td></tr>');
                     
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 0);
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 1);

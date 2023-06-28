@@ -229,7 +229,7 @@ var base_sov =
 
         {
             "bid_item": "R-08",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "3 ½-Inch Thick Concrete Sidewalk",
@@ -239,19 +239,9 @@ var base_sov =
             "alloc_esh": 150500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -293,7 +283,7 @@ var base_sov =
 
         {
             "bid_item": "R-10",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "4-Inch or 6-Inch Wide Concrete Curb",
@@ -303,19 +293,9 @@ var base_sov =
             "alloc_esh": 5005,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -325,7 +305,7 @@ var base_sov =
 
         {
             "bid_item": "R-11",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Combined 6-Inch Wide Concrete Curb And 2-Foot Wide Concrete Gutter",
@@ -335,19 +315,9 @@ var base_sov =
             "alloc_esh": 79695,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -357,7 +327,7 @@ var base_sov =
 
         {
             "bid_item": "R-12",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Concrete Curb Ramp With Concrete Detectable Surface Tiles",
@@ -367,19 +337,9 @@ var base_sov =
             "alloc_esh": 170500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
