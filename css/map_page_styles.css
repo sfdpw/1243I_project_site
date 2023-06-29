@@ -17,7 +17,12 @@ html {
 
 }
 
-/* .card-body{max-height:300pt}*/
+.card-body{
+
+   max-height:280pt;
+   overflow-y: auto;
+       
+   }
 
 
 .scroll_card {

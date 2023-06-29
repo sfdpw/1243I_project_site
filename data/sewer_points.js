@@ -2524,7 +2524,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.23, 404.77]
+                        'PP01': [0, 8095.23,  404.77],
+                        'PP09': [0,  404.77, -404.77],                        
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -4553,7 +4554,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76]
+                        'PP01': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],                        
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5534,7 +5536,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76]
+                        'PP01': [0, 8095.24, 404.76],
+                        'PP09': [0,  404.76, -404.76]                     
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5778,7 +5781,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76]
+                        'PP01': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],                        
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 

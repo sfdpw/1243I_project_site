@@ -1,15 +1,24 @@
 // linked_assets
-function linked_asset_function_line(location, asset_coordinates) {
-
-    return "<a href=\"..\\index.html#20/".concat(asset_coordinates[0][0][1], '/', asset_coordinates[0][0][0], "\" target=\"_blank\">", location, "</a>");
-
-}
 
 function linked_asset_function_point(location, asset_coordinates) {
 
     return "<a href=\"..\\index.html#20/".concat(asset_coordinates[1], '/', asset_coordinates[0], "\" target=\"_blank\">", location, "</a>");
 
 }
+
+function linked_asset_function_line(location, asset_coordinates) {
+
+    return "<a href=\"..\\index.html#20/".concat(asset_coordinates[0][0][1], '/', asset_coordinates[0][0][0], "\" target=\"_blank\">", location, "</a>");
+
+}
+
+function linked_asset_function_polygon(location, asset_coordinates) {
+
+    return "<a href=\"..\\index.html#20/".concat(asset_coordinates[0][0][0][1], '/', asset_coordinates[0][0][0][0], "\" target=\"_blank\">", location, "</a>");
+
+}
+
+
 
 function bid_item_flattener ( pp_history_obj ) {
 

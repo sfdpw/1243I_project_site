@@ -12,11 +12,12 @@ function get_pp_history_from_spatial_data(item_obj) {
 
         return_array[pp] = [0, 0, 0];
 
-        for (const sewer_item of json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features))
+        for (const construction_instance of 
+                   json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features))
 
         {
 
-            for (const bid_item of Object.entries(sewer_item.properties.pp_history))
+            for (const bid_item of Object.entries(construction_instance.properties.pp_history))
 
             {
 
@@ -369,7 +370,6 @@ function qty_formatter_with_dec(qty_input, row)
 
 }
 
-
 // #### string generators
 
 function linked_bid_item_string_geneator ( bid_item ) {
@@ -405,4 +405,6 @@ function linked_pp_string_geneator_from_index ( pp_no ) {
                         pp_no, '.html\" target=\"_blank\">', pp_no, '</a>');
 
 } 
+
+
 

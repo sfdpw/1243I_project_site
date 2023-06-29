@@ -14,7 +14,7 @@ var layer_1243I_sw_dwgs = new L.geoJson(layer_filter('SW', json_1243I_plan_bound
 });
 
 bounds_group.addLayer(layer_1243I_sw_dwgs);
-map.addLayer(layer_1243I_sw_dwgs);
+//map.addLayer(layer_1243I_sw_dwgs);
 
 function toggle_sw() {
 

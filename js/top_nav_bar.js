@@ -5,18 +5,6 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
     var return_block = '';
     var nav_path = '../';
 
-    if (bid_item_id != null)
-
-    {
-
-        var NN = 0; // bid item index
-
-        while (base_sov[NN].bid_item != bid_item_id) {
-            NN++;
-        }
-
-    }
-
     if (nav_element == 'map')
 
     {
@@ -84,7 +72,19 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-03.html"><b>R-03:</b> Grinding</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04:</b> HMA Paving</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-05.html"><b>R-05:</b> 8in Concrete Street Base</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-06.html"><b>R-06:</b> 10in Concrete Street Base</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-07.html"><b>R-07:</b> Conc. Pavement, Gutter, Parking Stip</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -92,28 +92,44 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09:</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-08.html"><b>R-08:</b> Sidewalk</a>\
 	               </li>\
-	             </ul>\
-	       </li>\
-	       <li>\
-	             <a class="dropdown-item" href="#">Change Order &raquo;</a>\
-	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_.html">CO-01 - PCO-01</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-10.html"><b>R-10:</b> Concrete Curb</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-11.html"><b>R-11:</b> Combined Curb and Gutter</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-12.html"><b>R-12:</b> Curb Ramps</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-18.html"><b>R-18:</b> Tree Protection</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
-	         </ul>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="#">Sewer &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	       <li>\
+	     </ul>\
+	     </li>\
+	     <li>\
+	       <a class="dropdown-item" href="#">Sewer &raquo;</a>\
+	       <ul class="submenu dropdown-menu">\
+	         <li>\
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-15.html">SW-15 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-19.html"><b>SW-19:</b> Side Sewer Connection</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-20.html"><b>SW-20:</b> Pre-Con TVI of (E) Side Sewers and Culverts</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21:</b> Side Sewer Construction</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-22.html"><b>SW-22:</b> Culvert Construction</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-27.html"><b>SW-27:</b> Post-Con TVI of (N) Side Sewers and Culverts</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -121,7 +137,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Mains &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-05.html">SW-05 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-11.html"><b>SW-11:</b> 12in VCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25:</b> Post-Con TVI of (N) Mains </a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -129,7 +148,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-26.html">SW-26 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23</b> - (N) CB - STD 87,188</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -137,7 +156,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Manholes &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-03.html">SW-03 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -188,8 +207,8 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
                     color:white;\
                     font-weight:bold"\
                     data-toogle="tooltip"\
-	            title="' + base_sov[NN]['description'] +
-            ' (' + base_sov[NN]['Unit'] + ')"\> Quantity Details for ' + bid_item_id + '</div>';
+	            title="' + base_sov[bid_item_sov_index_finder(bid_item_id)].description + ' (' + 
+	                       base_sov[bid_item_sov_index_finder(bid_item_id)].unit  + ')"\> Quantity Details for ' + bid_item_id + '</div>';
 
     } else if (nav_element.includes('Asset_Tracking'))
 
