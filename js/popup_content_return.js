@@ -85,6 +85,7 @@ function pop_up_creator_for_domain(feature, layer)
         <div id="INST_collapse_01" class="collapse show" aria-labelledby="GEN_details" data-parent="#INST_popup">\
           <div class="card-body">' + 
             '<strong>Asset ID</strong><br>' + feature.properties.id_a + '<br><br>' +
+            '<strong>Location</strong><br>' + feature.properties.location + '<br><br>' +
             '<strong>Scope</strong><br>' + feature.properties.scope + '<br><br>' +
             '<strong>Status</strong><br>' + feature.properties.status +          
           '</div>\

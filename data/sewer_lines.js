@@ -3611,21 +3611,16 @@ var json_1243I_sewer_lines = {
                 "location": "1582 Folsom St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "7",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5781,24 +5776,19 @@ var json_1243I_sewer_lines = {
             "properties": {
                 "id_a": "L-158311",
                 "id_b": "none",
-                "location": "260 12th St",
+                "location": "288 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "5",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5841,21 +5831,16 @@ var json_1243I_sewer_lines = {
                 "location": "286 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "4",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -8989,21 +8974,16 @@ var json_1243I_sewer_lines = {
                 "location": "255 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18130,21 +18110,16 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of 12th St and Folsom St - North Corner",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "1",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18301,21 +18276,16 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of 12th St and Folsom St - West Corner",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "2",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18358,21 +18328,16 @@ var json_1243I_sewer_lines = {
                 "location": "255 12TH St",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 50, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.2",
+                        "video_no": "6",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -22520,7 +22485,6 @@ var json_1243I_sewer_lines = {
 
 // ####################################################         	
 
-
 	{
 	    "type": "Feature",
 	    "properties": {
@@ -22576,6 +22540,8 @@ var json_1243I_sewer_lines = {
             }
 	},
 	
+// ####################################################         		
+	
 	{
 	    "type": "Feature",
 	    "properties": {
@@ -22630,6 +22596,61 @@ var json_1243I_sewer_lines = {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
 	},
+	
+// ####################################################         		
+	
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "L-158310",
+		"id_b": "none",
+		"location": "252 12th St",
+		"scope": "Improve (E) side sewer as directed",
+		"pp_history": {
+		    "SW-0": {
+		        "PP0": {
+		            "SFPUC-SW": {
+		                "QTY": 0,
+		                "UNIT": ""
+		            }
+		        }
+		    }
+		},
+		"submittals": {
+		    "tvi_pre_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    },
+		    "tvi_post_con": {
+		        "submittal_no": "none",
+		        "video_no": "none",
+		        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "lt",
+		"status": "Pending Direction"
+	    },
+	    "geometry": {
+		"type": "MultiLineString",
+		"coordinates": [
+		    [
+		        [-122.415951875681529, 37.771308977391911],
+		        [-122.415998011174452, 37.771242223094383]
+		    ]
+		]
+	    },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+	}
 
     ]
 }
