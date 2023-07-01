@@ -159,7 +159,26 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
 	               </li>\
 	             </ul>\
+	           </li>\
+	         </ul>\
 	       </li>\
+	     </ul>\
+	   </li>\
+	   <li class="nav-item dropdown">\
+	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FA</a>\
+	     <ul class="dropdown-menu">\
+	       <li>\
+	         <a class="dropdown-item" href="#">CO 2 &raquo;</a>\
+	         <ul class="submenu dropdown-menu">\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="#">PCO 2 &raquo;</a>\
+	           <ul class="submenu dropdown-menu">\
+	             <li>\
+	               <a class="dropdown-item" href="' + nav_path + 'co/co_02/pco_02/pco_02_daily_cost_tracking.html"><b>PCO 2</b> Cost Tracking</a>\
+	               </li>\
+	             </ul>\
+	           </li>\
 	         </ul>\
 	       </li>\
 	     </ul>\
