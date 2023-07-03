@@ -6,8 +6,6 @@ for (const entry of base_sov) {
 
 }
 
-//console.log()
-
 
 for (const construction_instance of json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features))
 
@@ -105,9 +103,14 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
 
 // To-Date Summer
 
+var qty_array_to_date = {}
+
+
 for (const bid_item of Object.keys(qty_array))
 
 {
+
+    qty_array_to_date[bid_item] = {};
 
     var uunit = base_sov[bid_item_sov_index_finder(bid_item)].unit;
 
@@ -142,23 +145,24 @@ for (const bid_item of Object.keys(qty_array))
 
     }
 
-    qty_array[bid_item].push({
+   qty_array_to_date[bid_item] = 
+   
+   {
 
-        'pp_no': '',
-        'id_a': '',
+           'pp_no': '',
+            'id_a': '',
         'location': '<b>To-Date Totals:</b>',
-        'amt_esh': bid_item_total.amt.esh,
-        'qty_esh': bid_item_total.qty.esh,
-        'amt_rnr': bid_item_total.amt.rnr,
-        'qty_rnr': bid_item_total.qty.rnr,
-        'amt_ssp': bid_item_total.amt.ssp,
-        'qty_ssp': bid_item_total.qty.ssp,
-        'amt_tot': bid_item_total.amt.tot,
-        'qty_tot': bid_item_total.qty.tot,
-           'unit': uunit
+         'amt_esh': bid_item_total.amt.esh,
+         'qty_esh': bid_item_total.qty.esh,
+         'amt_rnr': bid_item_total.amt.rnr,
+         'qty_rnr': bid_item_total.qty.rnr,
+         'amt_ssp': bid_item_total.amt.ssp,
+         'qty_ssp': bid_item_total.qty.ssp,
+         'amt_tot': bid_item_total.amt.tot,
+         'qty_tot': bid_item_total.qty.tot,
+            'unit': uunit
 
-
-    })
+    }
 
 }
 

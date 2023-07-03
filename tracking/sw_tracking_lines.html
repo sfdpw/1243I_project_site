@@ -47,13 +47,13 @@
 </head>
 
 <body>
-    <div class="grid-parent-other-page-tracking">
-        <div class="grid-div-menu-nav-other" id="menu_nav">
+    <div class="grid-parent-page">
+        <div class="grid-div-nav" id="menu_nav">
             <script>
                 document.getElementById("menu_nav").innerHTML += top_nav('Asset_Tracking_-_Sewer_Mains,_Culverts_and_Laterals');
             </script>
         </div>
-        <div>
+        <div class='grid-div-misc-body'>
             <table id="sw_line_table"
 	           class ="tracking_table"
 	           data-search="true"
@@ -62,10 +62,7 @@
 		   data-show-export="true"
 		   data-click-to-select="true"
 		   data-minimum-count-columns="1"
-		   data-pagination="true"
 		   data-sortable="true"
-		   data-page-list="[5, 10, 15, 20, 50, All]"
-		   data-page-size="5"
 		   data-response-handler="responseHandler"
 		   data-filter-control="true"
 		   data-row-style="row_styler_lines"

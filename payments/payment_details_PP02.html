@@ -56,25 +56,21 @@
 </script>
 
 <body>
-    <div class="grid-parent-other-page-tracking">
-        <div class="grid-div-menu-nav-other" id="menu_nav">
+    <div class="grid-parent-page">
+        <div class="grid-div-nav" id="menu_nav">
             <script>
                 document.getElementById("menu_nav").innerHTML += top_nav('funding', pp_number);
             </script>
         </div>
-        <div id="funding_table_div">
+        <div class="grid-div-misc-body" id="funding_table_div">
             <script>
                 document.getElementById("funding_table_div").innerHTML += '<table id = '.concat(table_id,'></table>');
             </script>
         </div>
     </div>
-
     <script>
-  
         generate_funding_breakdown_table(table_id);
-
     </script>
-
 </body>
 
 

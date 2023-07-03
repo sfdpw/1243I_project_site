@@ -13,3 +13,16 @@
 .todate_amt_ssp { background: #8eb7f5 !important; }
 .allctd_amt_ssp { background: #6bb1f2 !important; }
 
+.table_location, 
+.period_qty_tot, 
+.todate_qty_tot,
+.period_qty_esh, 
+.todate_qty_esh,
+.period_qty_rnr, 
+.todate_qty_rnr,
+.period_qty_ssp, 
+.todate_qty_ssp
+ { vertical-align: middle !important;  }
+ 
+ 
+ 

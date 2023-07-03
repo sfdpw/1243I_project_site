@@ -58,25 +58,21 @@
 </script>
 
 <body>
-    <div class="grid-parent-other-page-tracking">
-        <div class="grid-div-menu-nav-other" id="menu_nav">
+    <div class="grid-parent-page">
+        <div class="grid-div-nav" id="menu_nav">
             <script>
                 document.getElementById("menu_nav").innerHTML += top_nav('qty', null, bid_item);
             </script>
         </div>
-        <div id="qty_table_div">
+        <div class="grid-div-misc-body" id="qty_table_div" >
             <script>
               document.getElementById("qty_table_div").innerHTML += '<table id = '.concat(table_id,'></table>');
             </script>
         </div>
     </div>
-
     <script>
-  
         generate_qty_tracking_table(table_id, bid_item);
-
     </script>
-
 </body>
 
 

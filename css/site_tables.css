@@ -21,5 +21,12 @@ th {
 .tracking_table {
 
  border-color: black !important;
-
+ height: 100%;
+ position: absolute;
+ overflow-y: scroll;
+ 
+ 
 }
+
+
+
