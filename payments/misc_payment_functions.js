@@ -203,7 +203,7 @@ function pp_history_from_pp_qty_history(item_obj) {
 
    var return_obj = {};
 
-   var unit_price = base_sov[bid_item_sov_index_finder (item_obj.id_a.substring(0,5).replace('_',''))].unit_price
+   var unit_price = 1;//base_sov[bid_item_sov_index_finder (item_obj.id_a.substring(0,5).replace('_',''))].unit_price
 
    for ( const bid_item of Object.keys(item_obj.pp_a_qty))
    
@@ -211,6 +211,7 @@ function pp_history_from_pp_qty_history(item_obj) {
      
      return_obj[bid_item] = {}; 
    
+     unit_price = base_sov[bid_item_sov_index_finder (bid_item)].unit_price;
    
      for ( const pp_number of Object.keys(item_obj.pp_a_qty[bid_item]) ) 
      

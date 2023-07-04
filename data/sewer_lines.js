@@ -1159,13 +1159,12 @@ var json_1243I_sewer_lines = {
                 "location": "Leland Ave between Sawer St and Hoehr St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP03': [0,  79343.18,  1656.82],
+                        'PP09': [0,   1656.82, -1656.82]                        
+                    },
+                    'SW-25': {
+                        'PP03': [0, 500, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -1219,6 +1218,9 @@ var json_1243I_sewer_lines = {
                     'SW-11': {
                         'PP02': [0, 81547.16,  1702.84],
                         'PP09': [0,  1702.84, -1702.84]
+                    },
+                    'SW-25': {
+                        'PP03': [0, 500, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -1269,13 +1271,12 @@ var json_1243I_sewer_lines = {
                 "location": "Leland Ave between Elliot St and Rey St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP03': [0, 47752.84,  997.16],
+                        'PP09': [0,   997.16, -997.16],
+                    },
+                    'SW-25': {
+                        'PP03': [0, 500, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -2587,13 +2588,20 @@ var json_1243I_sewer_lines = {
                 "location": "473 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-21': {
+                        'PP03': [0, 1607.14,  642.86],
+                        'PP09': [0,  642.86, -642.86]                        
+                    },
+                    'SW-27': {
+                        'PP03': [  13.55, 27.09,  9.36],
+                        'PP09': [ -13.55, 22.91, -9.36],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -3437,17 +3445,16 @@ var json_1243I_sewer_lines = {
             "properties": {
                 "id_a": "L-364267",
                 "id_b": "none",
-                "location": "475 Leland Ave",
+                "location": "474 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,  20.88],
+                        'PP09': [0, -29.12, -20.88],                        
+                    },
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
                 "submittals": {
@@ -3497,13 +3504,12 @@ var json_1243I_sewer_lines = {
                 "location": "382 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -4404,13 +4410,12 @@ var json_1243I_sewer_lines = {
                 "location": "481 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -4518,13 +4523,20 @@ var json_1243I_sewer_lines = {
                 "location": "397 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-21': {
+                        'PP03': [0,  1517.86,   607.14],
+                        'PP09': [0,   607.14,  -607.14],
+                    },
+                    'SW-27': {
+                        'PP03': [  13.54, 27.08,  9.38],
+                        'PP09': [ -13.54, 22.92, -9.38],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5099,13 +5111,12 @@ var json_1243I_sewer_lines = {
                 "location": "301 Sawyer St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5213,13 +5224,12 @@ var json_1243I_sewer_lines = {
                 "location": "464 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5270,13 +5280,12 @@ var json_1243I_sewer_lines = {
                 "location": "477 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -5327,13 +5336,12 @@ var json_1243I_sewer_lines = {
                 "location": "466 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -6396,13 +6404,12 @@ var json_1243I_sewer_lines = {
                 "location": "484 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -6567,13 +6574,12 @@ var json_1243I_sewer_lines = {
                 "location": "478 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -6688,13 +6694,16 @@ var json_1243I_sewer_lines = {
                 "location": "399 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-27': {
+                        'PP03': [  13.54, 27.08,  9.38],
+                        'PP09': [ -13.54, 22.92, -9.38],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -7434,13 +7443,12 @@ var json_1243I_sewer_lines = {
                 "location": "462 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -7661,13 +7669,12 @@ var json_1243I_sewer_lines = {
                 "location": "385 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -7718,13 +7725,8 @@ var json_1243I_sewer_lines = {
                 "location": "2 Rey St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -8342,13 +8344,12 @@ var json_1243I_sewer_lines = {
                 "location": "485 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -8684,13 +8685,12 @@ var json_1243I_sewer_lines = {
                 "location": "474 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -9425,13 +9425,12 @@ var json_1243I_sewer_lines = {
                 "location": "475 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -9482,13 +9481,16 @@ var json_1243I_sewer_lines = {
                 "location": "379 Leland Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP03': [0, 150, 0]
+                    },
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-21': {
+                        'PP03': [0, 1607.14,  642.86],
+                        'PP09': [0,  642.86, -642.86]                        
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -9787,13 +9789,17 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Elliot St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                   'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-22': {
+                        'PP03': [ 266.23, 575.13,  208.65],
+                        'PP09': [-266.23, 474.88, -208.65],                        
+                    },
+                    'SW-27': {
+                        'PP03': [  13.54, 27.08,  9.38],
+                        'PP09': [ -13.54, 22.92, -9.38],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -11046,13 +11052,9 @@ var json_1243I_sewer_lines = {
                 "location": "Leland Ave and Loehr St Intersection - SWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP03': [0,  29.12,   20.88],
+                        'PP09': [0,  20.88,  -20.88]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -12872,13 +12874,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Elliot St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                   'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -13043,13 +13041,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Rey St - SWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP03': [0,  29.13,   20.87],
+                        'PP09': [0,  20.87,  -20.87]
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 

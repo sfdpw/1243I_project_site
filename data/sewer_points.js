@@ -529,13 +529,9 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Leland Ave and Elliot St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP03': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -3259,13 +3255,9 @@ var json_1243I_sewer_points = {
                 "location": "Leland Ave - West of Rey St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP03': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -3814,13 +3806,9 @@ var json_1243I_sewer_points = {
                 "location": "462 Leland Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP03': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
@@ -4220,13 +4208,9 @@ var json_1243I_sewer_points = {
                 "location": "301 Sawyer St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP03': [0, 8095.23,  404.77],
+                        'PP09': [0,  404.77, -404.77],
                     }
                 },
                 get bid_items() {return bid_item_flattener(this.pp_history) }, 
