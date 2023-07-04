@@ -162,15 +162,15 @@ function fund_history_details(pp_specifics, bid_item, fund_number)
                    {
                   
                     return_string += 
-                    ''.concat( '<tr><td style="text-align: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 
+                    ''.concat( '<tr><td style="text-align: right"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 
                                   qty_formatter_with_dec_core_function(pp_specifics[fund_number] / 
                                   base_sov[bid_item_sov_index_finder(bid_item)].unit_price, 
-                                  base_sov[bid_item_sov_index_finder(bid_item)].unit ), '</td>',
-                                  '<td>', base_sov[bid_item_sov_index_finder(bid_item)].unit , '</td>',
+                                  base_sov[bid_item_sov_index_finder(bid_item)].unit ), '</b></td>',
+                                  '<td><b>', base_sov[bid_item_sov_index_finder(bid_item)].unit , '</b></td>',
                                   '<td>', 'totalling', '</td>',        
-                                  '<td style="text-align: right">', dollar_formatter( pp_specifics[fund_number] ), '</td>',
+                                  '<td style="text-align: right"><b>', dollar_formatter( pp_specifics[fund_number] ), '</b></td>',
                                   '<td>', 'charged to', '</td>', 
-                                  '<td>', fund_array[fund_number] , '</td></tr>' );
+                                  '<td><b>', fund_array[fund_number] , '</b></td></tr>' );
                   
                     }
                     

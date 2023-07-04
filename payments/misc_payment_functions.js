@@ -1,4 +1,4 @@
-var max_pp_no = 10; // make this smarter
+var max_pp_no = 11; // make this smarter
 
 
 // ######## REFLEXIVE PAYMENT FUNCTIONS #####################
@@ -235,7 +235,7 @@ function pp_history_from_pp_qty_history(item_obj) {
 
 // ######### FORMATTERS ######################
 
-function dollar_formatter_accounting(amount) {
+function dollar_formatter_accounting(amount, row = '') {
 
     var return_string = '';
 
@@ -253,6 +253,12 @@ function dollar_formatter_accounting(amount) {
             }).replace('$', '') + '</div>';
 
     }
+
+    if (row.hasOwnProperty('location') && row.location == '<div style="text-align:right"><b>Period Totals:</b></div>' ) {
+    
+        return_string = '<b>'.concat(return_string, '</b>');
+    
+    } 
 
     return return_string
 
@@ -357,7 +363,7 @@ function qty_formatter_no_dec(qty_input, row)
 
 {
 
-    return qty_formatter_no_dec_core_function(qty_input, row.unit)
+  return qty_formatter_no_dec_core_function(qty_input, row.unit)
 
 }
 
@@ -367,7 +373,15 @@ function qty_formatter_with_dec(qty_input, row)
 
 {
 
-    return qty_formatter_with_dec_core_function(qty_input, row.unit)
+    if (row.hasOwnProperty('location') && row.location == '<div style="text-align:right"><b>Period Totals:</b></div>' ) {
+    
+        return '<b>'.concat(qty_formatter_with_dec_core_function(qty_input, row.unit), '</b>')
+    
+    } else {
+
+        return qty_formatter_with_dec_core_function(qty_input, row.unit)
+
+    }
 
 }
 

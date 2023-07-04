@@ -59,6 +59,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	       <li>\
 	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP09.html">PP09 - ' + payment_array.PP09 + '</a>\
 	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP10.html">PP10 - ' + payment_array.PP10 + '</a>\
+	       </li>\
 	     </ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\

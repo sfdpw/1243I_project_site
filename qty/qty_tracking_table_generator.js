@@ -38,7 +38,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
                    title: 'Location',
                    class: 'table_location',
                    searchable: true, 
-                   footerFormatter: function () { return '<b>To-Date Totals:<b>' }
+                   footerFormatter: function () { return '<div style="text-align: right"><b>To-Date Totals:<b></div>' }
                   },
                   {
                    field: 'qty_tot',
