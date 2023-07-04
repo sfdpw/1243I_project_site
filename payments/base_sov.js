@@ -103,7 +103,7 @@ var base_sov =
 
         {
             "bid_item": "R-05",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "8-Inch Thick Concrete Base",
@@ -113,19 +113,9 @@ var base_sov =
             "alloc_esh": 887172,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -167,7 +157,7 @@ var base_sov =
 
         {
             "bid_item": "R-07",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "8-Inch Thick Concrete Pavement, Gutter, or Parking Strip",
@@ -177,19 +167,9 @@ var base_sov =
             "alloc_esh": 48048,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -383,7 +363,7 @@ var base_sov =
 
         {
             "bid_item": "R-15",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Adjust City-Owned Manhole Frame and Cover and Catch Basin Frame and Grate to Grade (Contingency Bid Item)**",
@@ -393,19 +373,9 @@ var base_sov =
             "alloc_esh": 1250,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }

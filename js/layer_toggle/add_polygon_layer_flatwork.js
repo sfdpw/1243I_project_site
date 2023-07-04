@@ -69,22 +69,22 @@ function flatwork_layer_styler(feature) {
 
 
 
-      add_feature_layer('R_polygon', 600, json_1243I_flatwork_polygons, 'R-03: Grinding','#4e1e61');
-      add_feature_layer('R_polygon', 601, json_1243I_flatwork_polygons, 'R-04: HMA','#4040a2');
-      add_feature_layer('R_polygon', 602, json_1243I_flatwork_polygons, 'R-05: 8in Concrete Base','#466be3');
-      add_feature_layer('R_polygon', 603, json_1243I_flatwork_polygons, 'R-06: 10in Concrete Base','4294ff');
-      add_feature_layer('R_polygon', 604, json_1243I_flatwork_polygons, 'R-07: Conc. Pavement, Gutter and PS','#28bceb');
-      add_feature_layer('R_polygon', 605, json_1243I_flatwork_polygons, 'R-08: Sidewalk','#18ddc2');      
-      add_feature_layer('R_polygon', 606, json_1243I_flatwork_polygons, 'R-09: Granite Curb (Reset)','#32f298');      
-      add_feature_layer('R_polygon', 607, json_1243I_flatwork_polygons, 'R-10: Concrete Curb','#6dfe62');      
-      add_feature_layer('R_polygon', 608, json_1243I_flatwork_polygons, 'R-11: Combined Curb and Gutter','#a4fc3c');      
-      add_feature_layer('R_polygon', 609, json_1243I_flatwork_polygons, 'R-12: Curb Ramps','#cdec34');      
-      add_feature_layer('R_polygon', 610, json_1243I_flatwork_polygons, 'R-13: PB - Type I','#eecf3a');  
-      add_feature_layer('R_polygon', 611, json_1243I_flatwork_polygons, 'R-14: PB - Type III','#fdac34');  
-      add_feature_layer('R_polygon', 612, json_1243I_flatwork_polygons, 'R-18: Tree Protection','#fb7e21');  
-      add_feature_layer('R_polygon', 613, json_1243I_flatwork_polygons, 'SW-28: Beyond Trench - Conc. Base','#eb500e');  
-      add_feature_layer('R_polygon', 614, json_1243I_flatwork_polygons, 'SW-29: Beyond Trench - HMA','#d02f05');        
-      add_feature_layer('R_polygon', 615, json_1243I_flatwork_polygons, 'SW-30: Beyond Trench - Grinding','#a91601');      
+//      add_feature_layer('R_polygon', 600, json_1243I_flatwork_polygons, 'R-03: Grinding','#4e1e61');
+//      add_feature_layer('R_polygon', 601, json_1243I_flatwork_polygons, 'R-04: HMA','#4040a2');
+//      add_feature_layer('R_polygon', 602, json_1243I_flatwork_polygons, 'R-05: 8in Concrete Base','#466be3');
+//      add_feature_layer('R_polygon', 603, json_1243I_flatwork_polygons, 'R-06: 10in Concrete Base','4294ff');
+//      add_feature_layer('R_polygon', 604, json_1243I_flatwork_polygons, 'R-07: Conc. Pavement, Gutter and PS','#28bceb');
+//      add_feature_layer('R_polygon', 605, json_1243I_flatwork_polygons, 'R-08: Sidewalk','#18ddc2');      
+//      add_feature_layer('R_polygon', 606, json_1243I_flatwork_polygons, 'R-09: Granite Curb (Reset)','#32f298');      
+//      add_feature_layer('R_polygon', 607, json_1243I_flatwork_polygons, 'R-10: Concrete Curb','#6dfe62');      
+//      add_feature_layer('R_polygon', 608, json_1243I_flatwork_polygons, 'R-11: Combined Curb and Gutter','#a4fc3c');      
+//      add_feature_layer('R_polygon', 609, json_1243I_flatwork_polygons, 'R-12: Curb Ramps','#cdec34');      
+//      add_feature_layer('R_polygon', 610, json_1243I_flatwork_polygons, 'R-13: PB - Type I','#eecf3a');  
+//      add_feature_layer('R_polygon', 611, json_1243I_flatwork_polygons, 'R-14: PB - Type III','#fdac34');  
+//      add_feature_layer('R_polygon', 612, json_1243I_flatwork_polygons, 'R-18: Tree Protection','#fb7e21');  
+//      add_feature_layer('R_polygon', 613, json_1243I_flatwork_polygons, 'SW-28: Beyond Trench - Conc. Base','#eb500e');  
+//      add_feature_layer('R_polygon', 614, json_1243I_flatwork_polygons, 'SW-29: Beyond Trench - HMA','#d02f05');        
+//      add_feature_layer('R_polygon', 615, json_1243I_flatwork_polygons, 'SW-30: Beyond Trench - Grinding','#a91601');      
 
 
 function unpack_flatwork_feature_description(property_filters)
@@ -164,6 +164,12 @@ function unpack_flatwork_feature_description(property_filters)
         {
 
             output_L_desc = 'Type II Pullbox';
+
+        } else if (property_filters == 'R-15')
+
+        {
+
+            output_L_desc = 'Adjust (E) Frame and Grate / Lid';
 
         } else if (property_filters == 'R-18')
 
