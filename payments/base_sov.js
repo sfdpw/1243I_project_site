@@ -20,7 +20,7 @@ var base_sov =
                 [], // PP01
                 [3000, 0, 0], // PP02
                 [24000, 0, 0], // PP03
-                [], // PP04
+                [27000, 0, 0], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
@@ -496,7 +496,7 @@ var base_sov =
                 [], // PP01
                 [36250, 0, 0], // PP02
                 [72500, 0, 0], // PP03
-                [], // PP04
+                [36250, 0, 0], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
@@ -656,7 +656,7 @@ var base_sov =
                 [1100, 17187.50, 9212.50], // PP01
                 [550, 8593.75, 4606.25], // PP02
                 [660, 10312.50, 5527.50], // PP03
-                [], // PP04
+                [770, 12031.25, 6448.75], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
@@ -688,7 +688,7 @@ var base_sov =
                 [1100, 22550, 3850], // PP01
                 [550, 11275, 1925], // PP02
                 [660, 13530, 2310], // PP03
-                [], // PP04
+                [770, 15785, 2695], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
@@ -1511,7 +1511,7 @@ var base_sov =
 
         {
             "bid_item": "SW-31",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Exploratory Holes or Potholes (Contingency Bid Item)*",
@@ -1521,19 +1521,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7000,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }

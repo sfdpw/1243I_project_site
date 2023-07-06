@@ -128,7 +128,7 @@ function sw_line_layer_styler(feature) {
                     dashArray: '',
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 20.0,
+                    weight: 15.0,
                     fillOpacity: 0,
                     interactive: true,
             }
@@ -156,7 +156,7 @@ function sw_line_layer_styler(feature) {
                     dashArray: '',
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 20.0,
+                    weight: 15.0,
                     fillOpacity: 0,
                     interactive: true,
             }

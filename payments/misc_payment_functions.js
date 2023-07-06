@@ -199,6 +199,41 @@ function get_payment_details(item_obj) {
 
 }
 
+
+
+
+function payment_summary_from_pp_history(pp_history_obj) {
+
+    var return_obj = {};
+
+    for (const bid_item of Object.keys(pp_history_obj))
+
+    {
+
+        if (bid_item != 'SW-0') {
+        
+            return_obj[bid_item] = [0, 0, 0];
+
+            for (const period_detail of Object.keys(pp_history_obj[bid_item]))
+
+            {
+
+                return_obj[bid_item][0] += pp_history_obj[bid_item][period_detail][0];
+                return_obj[bid_item][1] += pp_history_obj[bid_item][period_detail][1];
+                return_obj[bid_item][2] += pp_history_obj[bid_item][period_detail][2];
+
+            }
+
+        }
+
+    }
+    
+    return return_obj
+
+}
+
+
+
 function pp_history_from_pp_qty_history(item_obj) {
 
    var return_obj = {};
@@ -231,6 +266,7 @@ function pp_history_from_pp_qty_history(item_obj) {
    return return_obj
 
 }
+
 
 
 // ######### FORMATTERS ######################

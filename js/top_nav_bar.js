@@ -159,16 +159,24 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             </ul>\
 	       </li>\
 	       <li>\
-	             <a class="dropdown-item" href="#">Manholes &raquo;</a>\
-	             <ul class="submenu dropdown-menu">\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
-	               </li>\
-	             </ul>\
+	         <a class="dropdown-item" href="#">Manholes &raquo;</a>\
+	         <ul class="submenu dropdown-menu">\
+	           <li>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
+	           </li>\
+	         </ul>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="#">Misc &raquo;</a>\
+	         <ul class="submenu dropdown-menu">\
+	           <li>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-31.html"><b>SW-31</b> - Potholing</a>\
 	           </li>\
 	         </ul>\
 	       </li>\
 	     </ul>\
+	   </li>\
+	 </ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FA</a>\

@@ -29,6 +29,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
             },
             "geometry": {
@@ -180,6 +183,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
             },
             "geometry": {
@@ -328,6 +334,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -373,6 +382,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -406,6 +418,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() { 
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -441,6 +456,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -474,6 +492,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -513,6 +534,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -551,6 +575,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -586,6 +613,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -626,6 +656,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -662,6 +695,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
@@ -708,6 +744,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
             },
@@ -746,6 +785,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -790,6 +832,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -830,6 +875,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -873,6 +921,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -912,6 +963,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -955,6 +1009,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -993,6 +1050,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1036,6 +1096,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
             },
@@ -1073,6 +1136,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
@@ -1129,6 +1195,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
             },
@@ -1165,6 +1234,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1220,6 +1292,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1269,6 +1344,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1323,6 +1401,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1375,6 +1456,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1430,6 +1514,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1479,6 +1566,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1533,6 +1623,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
             },
@@ -1575,6 +1668,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 'status': 'Post-Construction',
                 'rlvnt': 'none'
             },
@@ -1609,6 +1705,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1649,6 +1748,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1691,6 +1793,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1729,6 +1834,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1773,6 +1881,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1812,6 +1923,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1849,6 +1963,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1893,6 +2010,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -1929,6 +2049,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -1970,6 +2093,9 @@ var json_1243I_flatwork_polygons = {
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
                 },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
                 "status": "Post-Construction"
             },
             "geometry": {
@@ -2006,6 +2132,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },
@@ -2047,6 +2176,9 @@ var json_1243I_flatwork_polygons = {
                 },
                 get pp_history() {
                     return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
                 },
                 "status": "Post-Construction"
             },

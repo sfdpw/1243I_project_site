@@ -1,34 +1,43 @@
-function sw_line_status_from_scope_and_submittals(line_scope, submittals_obj, ad_hoc_status = '') {
+function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
     var return_string = sewer_status_code_array[0];
 
     var bid_item_stuff = '' // update this when loading pp info
 
-    if (line_scope == '(E) to remain') {
+    if (line_obj.scope == '(E) to remain') {
 
-        if (submittals_obj.tvi_post_con.response == 'NET' || submittals_obj.tvi_post_con.response == 'MCN') {
+        if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
-        } else if (submittals_obj.tvi_post_con.response == 'R&R') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'R&R') {
 
             return_string = sewer_status_code_array[5];
 
-        } else if (submittals_obj.tvi_post_con.response == 'none') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (bid_item_stuff == '' && submittals_obj.tvi_pre_con.response == 'MCN - Do Not Replace') {
+            if (line_obj.submittals.tvi_pre_con.response == 'MCN - Do Not Replace') {
 
-                return_string = sewer_status_code_array[1];
+                if (
+                    line_obj.pp_history.hasOwnProperty('SW-11') ||
+                    line_obj.pp_history.hasOwnProperty('SW-13') ||
+                    line_obj.pp_history.hasOwnProperty('SW-21') ||
+                    line_obj.pp_history.hasOwnProperty('SW-22')
+                ) {
 
-            } else if (bid_item_stuff != '' && submittals_obj.tvi_pre_con.response == 'MCN - Do Not Replace') {
+                    return_string = sewer_status_code_array[3];
 
-                return_string = sewer_status_code_array[3];
+                } else {
 
-            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace' || submittals_obj.tvi_pre_con.response == 'Replace (per Email)') {
+                    return_string = sewer_status_code_array[1];
+
+                }
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
 
-            }  else if (submittals_obj.tvi_pre_con.response == 'none') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[1];
 
@@ -36,76 +45,89 @@ function sw_line_status_from_scope_and_submittals(line_scope, submittals_obj, ad
 
         }
 
-    } else if (line_scope.includes('Install (N)')) {
+    } else if (line_obj.scope.includes('Install (N)')) {
 
-        if (submittals_obj.tvi_post_con.response == 'none') {
+        if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            return_string = sewer_status_code_array[6];
+            if (line_obj.pp_history.hasOwnProperty('SW-11') ||
+                line_obj.pp_history.hasOwnProperty('SW-13') ||
+                line_obj.pp_history.hasOwnProperty('SW-21') ||
+                line_obj.pp_history.hasOwnProperty('SW-22')
+            ) {
 
-        } else if (submittals_obj.tvi_post_con.response == 'NET' || submittals_obj.tvi_post_con.response == 'MCN') {
+                return_string = sewer_status_code_array[3];
+
+            } else {
+
+                return_string = sewer_status_code_array[6];
+
+            }
+
+
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
-        } else if (submittals_obj.tvi_post_con.response == 'R&R') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'R&R') {
 
             return_string = sewer_status_code_array[5];
 
         }
 
-    } else if (line_scope.includes('Line (E)')) {
+    } else if (line_obj.scope.includes('Line (E)')) {
 
-        if (submittals_obj.tvi_post_con.response == 'none') {
+        if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (submittals_obj.tvi_pre_con.response == 'none') {
+            if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[7];
 
-            } else if (submittals_obj.tvi_pre_con.response = 'MCN - Proceed with Lining') {
+            } else if (line_obj.submittals.tvi_pre_con.response = 'MCN - Proceed with Lining') {
 
                 return_string = sewer_status_code_array[8];
 
             }
 
-        } else if (submittals_obj.tvi_post_con.response == 'NET' || submittals_obj.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
-        } else if (submittals_obj.tvi_post_con.response == 'R&R') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'R&R') {
 
             return_string = sewer_status_code_array[5];
 
         }
 
-    } else if (line_scope.includes('Improve (E)')) {
+    } else if (line_obj.scope.includes('Improve (E)')) {
 
 
-        if (submittals_obj.tvi_post_con.response == 'none') {
+        if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (submittals_obj.tvi_pre_con.response == 'none') {
+            if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[7];
 
-            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Do Not Replace') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Do Not Replace') {
 
                 return_string = sewer_status_code_array[9];
 
-            } else if (submittals_obj.tvi_pre_con.response == 'MCN - Replace' || submittals_obj.tvi_pre_con.response == 'Replace (per Email)') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
 
             }
 
-        } else if (submittals_obj.tvi_post_con.response == 'NET' || submittals_obj.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
-        } else if (submittals_obj.tvi_post_con.response == 'R&R') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'R&R') {
 
             return_string = sewer_status_code_array[5];
 
         }
 
-    } else if (line_scope == 'Remove (E)' || line_scope == 'Abandon (E) culvert') {
+    } else if (line_obj.scope == 'Remove (E)' || line_obj.scope == 'Abandon (E) culvert') {
 
         return_string = sewer_status_code_array[2];
 

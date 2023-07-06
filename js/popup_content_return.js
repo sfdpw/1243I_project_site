@@ -144,8 +144,29 @@ if (
               pp_history_details(feature) +
          '</div>\
         </div>\
+      </div>'
+      
+     popupContent += 
+    
+      '<div class="card">\
+        <div class="card-header p-0" id="PP_summary">\
+          <h2 class="mb-0">\
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_04"\
+                    aria-expanded="false" aria-controls="INST_collapse_04">\
+              <strong>Payment Summary</strong>\
+            </button>\
+          </h2>\
+        </div>\
+        <div id="INST_collapse_04" class="collapse" aria-labelledby="PP_summary" data-parent="#INST_popup">\
+          <div class="card-body">' +
+              pp_summary(feature) +
+         '</div>\
+        </div>\
       </div>\
-    </div>'                          
+    </div>'     
+    
+    
+                         
                                
     layer.bindPopup(popupContent, {maxHeight: 400});
 
@@ -208,7 +229,6 @@ function pp_history_details(ffeature)
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 2);
                                  
                }
-            
       
            }
       
@@ -228,6 +248,62 @@ function pp_history_details(ffeature)
        }
 
     return pp_history_details;
+
+}
+
+function pp_summary(ffeature)
+
+{
+
+    var return_string = 'No Net Payment History';
+    var pp_summary_mini_table = '<table>';
+
+    if (Object.keys(ffeature.properties.pp_summary).length > 0) {
+    
+        for (const bid_item of Object.keys(ffeature.properties.pp_summary))
+
+        {
+
+         for ( fff = 0; fff < fund_array.length; fff++ )
+         
+          {
+
+            if  ( ffeature.properties.pp_summary[bid_item][fff] != 0 )
+                
+                { 
+                  
+                 pp_summary_mini_table += 
+                     
+                   '<tr>'.concat(
+                     '<td><b>', linked_bid_item_string_geneator_from_index(bid_item), ':&nbsp&nbsp;</b></td>',
+                     '<td style="text-align: right"><b>', qty_formatter_with_dec_core_function(ffeature.properties.pp_summary[bid_item][fff] / 
+                                base_sov[bid_item_sov_index_finder(bid_item)].unit_price, 
+                                base_sov[bid_item_sov_index_finder(bid_item)].unit ), '</b></td>',                    
+                     '<td><b>', base_sov[bid_item_sov_index_finder(bid_item)].unit, '</b></td>',
+                     '<td> totalling </td>',        
+                     '<td style="text-align: right"><b>', dollar_formatter(ffeature.properties.pp_summary[bid_item][fff]), '</b></td>',           
+                     '<td> charged to <b>', fund_array[fff] ,'</b></td>',                                    
+                   '</tr>') 
+                  }
+
+            }
+
+        }
+
+    } 
+
+    pp_summary_mini_table += '</table>';
+    
+
+    if ( pp_summary_mini_table != '<table></table>' ) 
+    
+      {
+      
+       return_string = pp_summary_mini_table;
+      
+       }
+
+    return return_string
 
 }
 
