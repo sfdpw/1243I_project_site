@@ -78,7 +78,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-02.html"><b>R-02:</b> Temp Tape</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-03.html"><b>R-03:</b> Grinding</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-03.html"><b>R-03:</b> Planing</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04:</b> HMA Paving</a>\
