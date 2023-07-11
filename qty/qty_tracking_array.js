@@ -60,9 +60,7 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
 
                     {
 
-
-
-                        qty_array[bid_item].push({
+                     var push_object = {
 
                             'pp_no': '<a href=\"..\\payments/payment_details_'.concat(period_charge, '.html\" target=\"_blank\">', period_charge, '</a>'),
                             'id_a': construction_instance.properties.id_a,
@@ -81,8 +79,17 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
                                 construction_instance.properties.pp_history[bid_item][period_charge][2]) / unit_price,
                             'unit': uunit
 
-                        })
+                        };
 
+                       if  ( construction_instance.properties.hasOwnProperty('submittals') )
+                       
+                       {
+                         
+                         push_object.submittals = construction_instance.properties.submittals;
+                       
+                       }
+                        
+                        qty_array[bid_item].push(push_object);
 
                     }
 
@@ -206,6 +213,9 @@ for (const bid_item of Object.keys(qty_array))
 
             qty_period_detail_inj_array[pp_ticker] = [0, {}];
 
+
+
+
             if (ppi == qty_array[bid_item].length - 1) {
             
                 qty_period_detail_inj_array[pp_ticker][0] = ppi + 1;
@@ -217,6 +227,16 @@ for (const bid_item of Object.keys(qty_array))
                 qty_period_details[ppi].qty_ssp += qty_array[bid_item][ppi].qty_ssp;
                 qty_period_details[ppi].amt_tot += qty_array[bid_item][ppi].amt_tot;
                 qty_period_details[ppi].qty_tot += qty_array[bid_item][ppi].qty_tot;
+           
+		qty_period_details[ppi].submittals = {};
+		qty_period_details[ppi].submittals.tvi_pre_con = {};
+		qty_period_details[ppi].submittals.tvi_post_con = {};            
+		qty_period_details[ppi].submittals.tvi_pre_con.submittal_no = '';
+		qty_period_details[ppi].submittals.tvi_pre_con.video_no = '';
+		qty_period_details[ppi].submittals.tvi_pre_con.response = '' ;          
+		qty_period_details[ppi].submittals.tvi_post_con.submittal_no = '';
+		qty_period_details[ppi].submittals.tvi_post_con.video_no = '';
+		qty_period_details[ppi].submittals.tvi_post_con.response = '' ; 
                 
             } else {
                 qty_period_detail_inj_array[pp_ticker][0] = ppi;
@@ -235,6 +255,16 @@ for (const bid_item of Object.keys(qty_array))
             qty_period_detail_inj_array[pp_ticker][1].qty_tot = qty_period_details[ppi].qty_tot;
             qty_period_detail_inj_array[pp_ticker][1].unit = qty_array[bid_item][ppi].unit;
 
+            qty_period_detail_inj_array[pp_ticker][1].submittals = {};
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con = {};
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con = {};            
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.submittal_no = '';
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.video_no = '';
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.response = '' ;          
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.submittal_no = '';
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.video_no = '';
+	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.response = '' ; 
+
             qty_period_details[ppi].amt_esh = 0;
             qty_period_details[ppi].qty_esh = 0;
             qty_period_details[ppi].amt_rnr = 0;
@@ -243,6 +273,8 @@ for (const bid_item of Object.keys(qty_array))
             qty_period_details[ppi].qty_ssp = 0;
             qty_period_details[ppi].amt_tot = 0;
             qty_period_details[ppi].qty_tot = 0;
+
+
 
             pp_ticker += 1;
 
@@ -268,7 +300,13 @@ for (const bid_item of Object.keys(qty_array))
            'amt_ssp': 0,
            'qty_ssp': 0,
            'amt_tot': 0,
-           'qty_tot': 0
+           'qty_tot': 0,
+           'submittals.tvi_pre_con.submittal_no': '',
+           'submittals.tvi_pre_con.video_no': '',
+           'submittals.tvi_pre_con.response': '' ,          
+           'submittals.tvi_post_con.submittal_no': '',
+           'submittals.tvi_post_con.video_no': '',
+           'submittals.tvi_post_con.response': ''          
            
         });
 
