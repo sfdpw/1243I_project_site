@@ -577,13 +577,8 @@ var json_1243I_sewer_lines = {
                 "location": "12th St between Kissling St and Folsom St",
                 "scope": "Line (E) 3ft x 5ft brick main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -825,13 +820,8 @@ var json_1243I_sewer_lines = {
                 "location": "12th St between Kissling St and Folsom St",
                 "scope": "Line (E) 3ft x 5ft brick main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -1929,13 +1919,8 @@ var json_1243I_sewer_lines = {
                 "location": "359 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2053,13 +2038,8 @@ var json_1243I_sewer_lines = {
                 "location": "324 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2115,13 +2095,8 @@ var json_1243I_sewer_lines = {
                 "location": "330 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2177,13 +2152,8 @@ var json_1243I_sewer_lines = {
                 "location": "315 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2239,13 +2209,8 @@ var json_1243I_sewer_lines = {
                 "location": "387 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2300,14 +2265,9 @@ var json_1243I_sewer_lines = {
                 "id_b": "none",
                 "location": "395 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                 "pp_history": {
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3306,14 +3266,9 @@ var json_1243I_sewer_lines = {
                 "id_b": "none",
                 "location": "366 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                 "pp_history": {
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3369,13 +3324,8 @@ var json_1243I_sewer_lines = {
                 "location": "373 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3431,13 +3381,8 @@ var json_1243I_sewer_lines = {
                 "location": "475 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3617,13 +3562,11 @@ var json_1243I_sewer_lines = {
                 "location": "588 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                      'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                      'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3634,17 +3577,17 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "32",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "6",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3653,7 +3596,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object( this )
                 }
             },
             "geometry": {
@@ -4168,13 +4111,8 @@ var json_1243I_sewer_lines = {
                 "location": "310 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4354,13 +4292,8 @@ var json_1243I_sewer_lines = {
                 "location": "341 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4416,13 +4349,8 @@ var json_1243I_sewer_lines = {
                 "location": "353 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4478,13 +4406,8 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4540,13 +4463,8 @@ var json_1243I_sewer_lines = {
                 "location": "383 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4602,13 +4520,8 @@ var json_1243I_sewer_lines = {
                 "location": "465 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4726,13 +4639,11 @@ var json_1243I_sewer_lines = {
                 "location": "573 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4751,9 +4662,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5300,13 +5211,8 @@ var json_1243I_sewer_lines = {
                 "location": "321 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -5424,13 +5330,8 @@ var json_1243I_sewer_lines = {
                 "location": "490 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6521,13 +6422,8 @@ var json_1243I_sewer_lines = {
                 "location": "333 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6583,13 +6479,8 @@ var json_1243I_sewer_lines = {
                 "location": "356 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6645,13 +6536,8 @@ var json_1243I_sewer_lines = {
                 "location": "469 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6707,13 +6593,8 @@ var json_1243I_sewer_lines = {
                 "location": "1486 15th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6769,13 +6650,11 @@ var json_1243I_sewer_lines = {
                 "location": "510 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6786,17 +6665,17 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "24",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "1",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -6831,13 +6710,8 @@ var json_1243I_sewer_lines = {
                 "location": "483 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6893,13 +6767,11 @@ var json_1243I_sewer_lines = {
                 "location": "566 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6918,9 +6790,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7838,13 +7710,8 @@ var json_1243I_sewer_lines = {
                 "location": "335 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -7900,13 +7767,8 @@ var json_1243I_sewer_lines = {
                 "location": "349 South Van Ness AVe",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -7962,13 +7824,8 @@ var json_1243I_sewer_lines = {
                 "location": "365 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -8024,13 +7881,11 @@ var json_1243I_sewer_lines = {
                 "location": "590 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -8049,9 +7904,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "7",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -8819,13 +8674,8 @@ var json_1243I_sewer_lines = {
                 "location": "344 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -8881,13 +8731,8 @@ var json_1243I_sewer_lines = {
                 "location": "350 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -8943,13 +8788,8 @@ var json_1243I_sewer_lines = {
                 "location": "377 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -9005,13 +8845,8 @@ var json_1243I_sewer_lines = {
                 "location": "550 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -9988,13 +9823,8 @@ var json_1243I_sewer_lines = {
                 "location": "360 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -10050,13 +9880,11 @@ var json_1243I_sewer_lines = {
                 "location": "560 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -10075,9 +9903,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10129,9 +9957,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
-                        "video_no": "32",
-                        "response": "MCN - Replace",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10148,7 +9976,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object( this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -11135,13 +10963,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and Plum St - NWC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP09': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
@@ -12247,13 +12070,8 @@ var json_1243I_sewer_lines = {
                 "location": "349 South Van Ness Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -12309,13 +12127,8 @@ var json_1243I_sewer_lines = {
                 "location": "344 South Van Ness Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -12433,13 +12246,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 15th St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -12495,13 +12303,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 15th St - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -12557,13 +12360,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 15th St - SWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -12619,13 +12417,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 15th St - SEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -15582,13 +15375,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 17th St - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -15707,13 +15495,8 @@ var json_1243I_sewer_lines = {
                 "location": "565 South Van Ness Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -15769,13 +15552,11 @@ var json_1243I_sewer_lines = {
                 "location": "550 South Van Ness Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -15794,9 +15575,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "81",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15831,13 +15612,8 @@ var json_1243I_sewer_lines = {
                 "location": "565 South Van Ness Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16513,13 +16289,8 @@ var json_1243I_sewer_lines = {
                 "location": "490 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16637,13 +16408,8 @@ var json_1243I_sewer_lines = {
                 "location": "1501 15th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16699,13 +16465,8 @@ var json_1243I_sewer_lines = {
                 "location": "415 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16761,13 +16522,8 @@ var json_1243I_sewer_lines = {
                 "location": "423 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16823,13 +16579,8 @@ var json_1243I_sewer_lines = {
                 "location": "435 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16947,13 +16698,8 @@ var json_1243I_sewer_lines = {
                 "location": "453 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17009,13 +16755,8 @@ var json_1243I_sewer_lines = {
                 "location": "461 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17071,13 +16812,8 @@ var json_1243I_sewer_lines = {
                 "location": "454 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17133,13 +16869,8 @@ var json_1243I_sewer_lines = {
                 "location": "450 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17195,13 +16926,8 @@ var json_1243I_sewer_lines = {
                 "location": "442 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17257,13 +16983,8 @@ var json_1243I_sewer_lines = {
                 "location": "436 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17381,13 +17102,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 14th St - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17443,13 +17159,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 14th St - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17505,13 +17216,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 14th St - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -17567,13 +17273,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 14th St - SWC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -23879,13 +23580,8 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -23943,13 +23639,8 @@ var json_1243I_sewer_lines = {
                 "location": "1501 15th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -24194,16 +23885,11 @@ var json_1243I_sewer_lines = {
 		"id_b": "3548001",
 		"location": "300 South Van Ness Ave",
 		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
-		    'SW-0': {
-		        'PP0': {
-		            'SFPUC-SW': {
-		                'QTY': 0,
-		                'UNIT': ''
-		            }
-		        }
-		    }
-		},
+                "pp_history": {
+                    'SW-20': {
+                        'PP09': [0, 0, 50]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
@@ -24321,13 +24007,8 @@ var json_1243I_sewer_lines = {
 		"location": "501 South Van Ness Ave",
 		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
-		    "SW-0": {
-		        "PP0": {
-		            "SFPUC-SW": {
-		                "QTY": 0,
-		                "UNIT": ''
-		            }
-		        }
+		    "SW-20": {
+		        "PP09": [0, 0, 50]
 		    }
 		},
                 get pp_summary() {
@@ -24447,13 +24128,8 @@ var json_1243I_sewer_lines = {
 		"location": "460 South Van Ness Ave",
 		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
-		    "SW-0": {
-		        "PP0": {
-		            "SFPUC-SW": {
-		                "QTY": 0,
-		                "UNIT": ""
-		            }
-		        }
+		    "SW-20": {
+		        "PP09": [0, 0, 50]
 		    }
 		},
                 get pp_summary() {
@@ -24510,13 +24186,8 @@ var json_1243I_sewer_lines = {
 		"location": "490 South Van Ness Ave",
 		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
-		    "SW-0": {
-		        "PP0": {
-		            "SFPUC-SW": {
-		                "QTY": 0,
-		                "UNIT": ""
-		            }
-		        }
+		    "SW-20": {
+		        "PP09": [0, 0, 50]
 		    }
 		},
                 get pp_summary() {
