@@ -21,7 +21,7 @@ var base_sov =
                 [3000, 0, 0], // PP02
                 [24000, 0, 0], // PP03
                 [27000, 0, 0], // PP04
-                [], // PP05
+                [33000, 0 , 0], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
@@ -125,7 +125,7 @@ var base_sov =
 
         {
             "bid_item": "R-06",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "10-Inch Thick Concrete Base",
@@ -135,19 +135,9 @@ var base_sov =
             "alloc_esh": 1409772,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -625,7 +615,7 @@ var base_sov =
                 [], // PP02
                 [], // PP03
                 [], // PP04
-                [], // PP05
+                [600, 0, 0 ], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
@@ -657,7 +647,7 @@ var base_sov =
                 [550, 8593.75, 4606.25], // PP02
                 [660, 10312.50, 5527.50], // PP03
                 [770, 12031.25, 6448.75], // PP04
-                [], // PP05
+                [550, 8593.75, 4606.25], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
@@ -689,7 +679,7 @@ var base_sov =
                 [550, 11275, 1925], // PP02
                 [660, 13530, 2310], // PP03
                 [770, 15785, 2695], // PP04
-                [], // PP05
+                [550, 11275, 1925], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08

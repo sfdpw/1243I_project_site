@@ -1000,6 +1000,10 @@ var json_1243I_sewer_lines = {
                 "location": "South Van Ness Ave between 12th St and Howard St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
+                    'SW-11': {
+                        'PP05': [0, 85587.78,  1787.22],
+                        'PP09': [0,  1787.22, -1787.22]
+                    },                
                     'SW-31': {
                         'PP04': [0, 2000, 0]
                     }
@@ -1857,13 +1861,8 @@ var json_1243I_sewer_lines = {
                 "location": "131 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP05': [0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -3925,13 +3924,8 @@ var json_1243I_sewer_lines = {
                 "location": "110 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP05': [0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -9642,13 +9636,8 @@ var json_1243I_sewer_lines = {
                 "location": "123 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP05': [0, 150, 0]
                     }
                 },
                 get pp_summary() {
