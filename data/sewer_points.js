@@ -312,13 +312,9 @@ var json_1243I_sewer_points = {
                 "location": "170 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP07': [0, 8095.24,  404.76],
+                        'PP09': [0,  404.76, -404.76],
                     }
                 },
                 get pp_summary() {

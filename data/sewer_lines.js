@@ -1429,13 +1429,12 @@ var json_1243I_sewer_lines = {
                 "location": "South Van Ness Ave between 12th St and Howard St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP07': [0,   54732.10,   1142.90],
+                        'PP09': [0,    1142.90,  -1142.90]
+                    },
+                    'SW-31': {
+                        'PP07': [0, 3780, 0]
                     }
                 },
                 get pp_summary() {
@@ -4043,13 +4042,8 @@ var json_1243I_sewer_lines = {
                 "location": "170 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP07': [0, 150, 0 ]
                     }
                 },
                 get pp_summary() {
