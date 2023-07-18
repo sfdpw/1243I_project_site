@@ -143,7 +143,13 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Mains &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08:</b> Removal of (E) Rat Walk</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-11.html"><b>SW-11:</b> 12in VCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-16.html"><b>SW-16:</b> Pre-Con (Pre CIPL) TVI of (E) Mains</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25:</b> Post-Con TVI of (N) Mains </a>\
@@ -163,6 +169,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
 	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
+	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) MH - STD 87,184</a>\
 	           </li>\
 	         </ul>\
 	       </li>\

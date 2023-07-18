@@ -186,13 +186,8 @@ var json_1243I_sewer_points = {
                 "location": "Erie St - East of South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP08': [0, 0, 8500]
                     }
                 },
                 get pp_summary() {
@@ -314,7 +309,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP07': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],
+                        'PP08': [0,  404.76, -404.76],
                     }
                 },
                 get pp_summary() {
@@ -350,13 +345,8 @@ var json_1243I_sewer_points = {
                 "location": "1601 Mission St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP08': [0, 8500, 0]
                     }
                 },
                 get pp_summary() {
@@ -393,7 +383,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP04': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],                        
+                        'PP08': [0,  404.76, -404.76],                        
                     }
                 },
                 get pp_summary() {
@@ -431,7 +421,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP05': [0, 8095.24,  404.76 ],
-                        'PP09': [0,  404.76, -404.76 ]
+                        'PP08': [0,  404.76, -404.76 ]
                     }
                 },
                 get pp_summary() {
@@ -589,7 +579,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP03': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],
+                        'PP08': [0,  404.76, -404.76],
                     }
                 },
                 get pp_summary() {
@@ -667,13 +657,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and Plum St - NWC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP08': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -709,13 +694,8 @@ var json_1243I_sewer_points = {
                 "location": "450 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,184",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP08': [0, 0, 40000]
                     }
                 },
                 get pp_summary() {
@@ -739,49 +719,6 @@ var json_1243I_sewer_points = {
             }
 
         },
-
-
-        // ######################################
-
-        {
-            "type": "Feature",
-            "properties": {
-                "id_a": "326043",
-                "id_b": "none",
-                "location": "Visitacion Ave - West of Sawyer St",
-                "scope": "Install (N) manhole per std 87,181",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-                "rlvnt": "none",
-                "sw_type": "mh",
-                get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
-                }
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.414525252205266, 37.713294084759056]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
-            }
-
-        },
-
 
         // ######################################
 
@@ -1255,13 +1192,8 @@ var json_1243I_sewer_points = {
                 "location": "550 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,184",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP08': [0, 0, 40000]
                     }
                 },
                 get pp_summary() {
@@ -1635,7 +1567,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP02': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76]
+                        'PP08': [0,  404.76, -404.76]
                     }
                 },
                 get pp_summary() {
@@ -1881,13 +1813,8 @@ var json_1243I_sewer_points = {
                 "location": "160 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP08': [0, 8500, 0]
                     }
                 },
                 get pp_summary() {
@@ -2387,7 +2314,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP04': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],                        
+                        'PP08': [0,  404.76, -404.76],                        
                     }
                 },
                 get pp_summary() {
@@ -2423,13 +2350,8 @@ var json_1243I_sewer_points = {
                 "location": "154 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-03': {
+                        'PP08': [0, 8500, 0]
                     }
                 },
                 get pp_summary() {
@@ -2509,7 +2431,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP04': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],                        
+                        'PP08': [0,  404.76, -404.76],                        
                     }
                 },
                 get pp_summary() {
@@ -2841,7 +2763,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP01': [0, 8095.23,  404.77],
-                        'PP09': [0,  404.77, -404.77],                        
+                        'PP08': [0,  404.77, -404.77],                        
                     }
                 },
                 get pp_summary() {
@@ -3677,7 +3599,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP03': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],
+                        'PP08': [0,  404.76, -404.76],
                     }
                 },
                 get pp_summary() {
@@ -4303,7 +4225,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP03': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],
+                        'PP08': [0,  404.76, -404.76],
                     }
                 },
                 get pp_summary() {
@@ -4760,7 +4682,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP03': [0, 8095.23,  404.77],
-                        'PP09': [0,  404.77, -404.77],
+                        'PP08': [0,  404.77, -404.77],
                     }
                 },
                 get pp_summary() {
@@ -5134,7 +5056,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP01': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],                        
+                        'PP08': [0,  404.76, -404.76],                        
                     }
                 },
                 get pp_summary() {
@@ -5458,7 +5380,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP04': [0, 8095.23,  404.77],
-                        'PP09': [0,  404.77, -404.77],                        
+                        'PP08': [0,  404.77, -404.77],                        
                     }
                 },
                 get pp_summary() {
@@ -5746,13 +5668,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and Erie St - NEC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP08': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -6247,7 +6164,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP01': [0, 8095.24, 404.76],
-                        'PP09': [0,  404.76, -404.76]                     
+                        'PP08': [0,  404.76, -404.76]                     
                     }
                 },
                 get pp_summary() {
@@ -6527,7 +6444,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP01': [0, 8095.24,  404.76],
-                        'PP09': [0,  404.76, -404.76],                        
+                        'PP08': [0,  404.76, -404.76],                        
                     }
                 },
                 get pp_summary() {

@@ -650,7 +650,7 @@ var base_sov =
                 [550, 8593.75, 4606.25], // PP05
                 [], // PP06
                 [220, 3437.50, 1842.50], // PP07
-                [], // PP08
+                [770, 12031.25, 6448.75], // PP08
                 [], // PP09
                 []  // PP10
             ],
@@ -682,7 +682,7 @@ var base_sov =
                 [550, 11275, 1925], // PP05
                 [], // PP06
                 [220, 4510, 770], // PP07
-                [], // PP08
+                [770, 15785, 2695], // PP08
                 [], // PP09
                 []  // PP10
             ],
@@ -749,7 +749,7 @@ var base_sov =
 
         {
             "bid_item": "SW-05",
-            'linked_bi': false,
+            'linked_bi': 2,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Modified Box Manhole For Connection To 3'X5' Brick Sewer With Frame And Cover\n(Per SFDPW Standard Plan 87,184 And Can Be Used As An Insertion Pit For The Liner)",
@@ -759,19 +759,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 120000,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -845,7 +835,7 @@ var base_sov =
 
         {
             "bid_item": "SW-08",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Removal of Rat Walk Inside 3'x5' Egg-Shaped Brick Sewers And Obstructions Prior to Lining",
@@ -855,19 +845,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 41750,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1091,7 +1071,7 @@ var base_sov =
 
         {
             "bid_item": "SW-16",
-            'linked_bi': false,
+            'linked_bi': true, 
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Clean and Televise Existing Sewers Prior To Performing Rehabilitation Sewer Work",
@@ -1101,19 +1081,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 20250,
             "alloc_ssp": 4750,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                []  // PP10
-            ],
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
