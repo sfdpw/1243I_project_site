@@ -207,13 +207,12 @@ for (const bid_item of Object.keys(qty_array))
         qty_period_details[ppi].amt_tot = qty_array[bid_item][ppi - 1].amt_tot + qty_period_details[ppi - 1].amt_tot;
         qty_period_details[ppi].qty_tot = qty_array[bid_item][ppi - 1].qty_tot + qty_period_details[ppi - 1].qty_tot;
 
-        if (ppi == qty_array[bid_item].length - 1 || qty_array[bid_item][ppi].pp_no != qty_array[bid_item][ppi - 1].pp_no)
+        if ( ppi == qty_array[bid_item].length - 1 || 
+             qty_array[bid_item][ppi].pp_no != qty_array[bid_item][ppi - 1].pp_no )
 
         {
 
             qty_period_detail_inj_array[pp_ticker] = [0, {}];
-
-
 
 
             if (ppi == qty_array[bid_item].length - 1) {
@@ -239,7 +238,9 @@ for (const bid_item of Object.keys(qty_array))
 		qty_period_details[ppi].submittals.tvi_post_con.response = '' ; 
                 
             } else {
+            
                 qty_period_detail_inj_array[pp_ticker][0] = ppi;
+                
             }
 
             qty_period_detail_inj_array[pp_ticker][1].pp_no = '';
@@ -273,10 +274,9 @@ for (const bid_item of Object.keys(qty_array))
             qty_period_details[ppi].qty_ssp = 0;
             qty_period_details[ppi].amt_tot = 0;
             qty_period_details[ppi].qty_tot = 0;
-
-
-
+            
             pp_ticker += 1;
+           
 
         }
 
