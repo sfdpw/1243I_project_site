@@ -62,6 +62,7 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
 
                      var push_object = {
 
+                            'row_type': 'construction_instance',   
                             'pp_no': '<a href=\"..\\payments/payment_details_'.concat(period_charge, '.html\" target=\"_blank\">', period_charge, '</a>'),
                             'id_a': construction_instance.properties.id_a,
                             'location': location_string,
@@ -173,126 +174,13 @@ for (const bid_item of Object.keys(qty_array))
 
 // Period Totals
 
-for (const bid_item of Object.keys(qty_array))
+var period_summary_row_obj =  
 
-{
-
-    var qty_period_details = [];
-
-    qty_period_details[0] = {};
-    qty_period_details[0].amt_esh = 0;
-    qty_period_details[0].qty_esh = 0;
-    qty_period_details[0].amt_rnr = 0;
-    qty_period_details[0].qty_rnr = 0;
-    qty_period_details[0].amt_ssp = 0;
-    qty_period_details[0].qty_ssp = 0;
-    qty_period_details[0].amt_tot = 0;
-    qty_period_details[0].qty_tot = 0;
-
-    var qty_period_detail_inj_array = [];
-    var pp_ticker = 0;
-
-    qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
-
-    for (var ppi = 1; ppi < qty_array[bid_item].length; ppi++) {
-
-        qty_period_details[ppi] = qty_period_details[0];
-
-        qty_period_details[ppi].amt_esh = qty_array[bid_item][ppi - 1].amt_esh + qty_period_details[ppi - 1].amt_esh;
-        qty_period_details[ppi].qty_esh = qty_array[bid_item][ppi - 1].qty_esh + qty_period_details[ppi - 1].qty_esh;
-        qty_period_details[ppi].amt_rnr = qty_array[bid_item][ppi - 1].amt_rnr + qty_period_details[ppi - 1].amt_rnr;
-        qty_period_details[ppi].qty_rnr = qty_array[bid_item][ppi - 1].qty_rnr + qty_period_details[ppi - 1].qty_rnr;
-        qty_period_details[ppi].amt_ssp = qty_array[bid_item][ppi - 1].amt_ssp + qty_period_details[ppi - 1].amt_ssp;
-        qty_period_details[ppi].qty_ssp = qty_array[bid_item][ppi - 1].qty_ssp + qty_period_details[ppi - 1].qty_ssp;
-        qty_period_details[ppi].amt_tot = qty_array[bid_item][ppi - 1].amt_tot + qty_period_details[ppi - 1].amt_tot;
-        qty_period_details[ppi].qty_tot = qty_array[bid_item][ppi - 1].qty_tot + qty_period_details[ppi - 1].qty_tot;
-
-        if ( ppi == qty_array[bid_item].length - 1 || 
-             qty_array[bid_item][ppi].pp_no != qty_array[bid_item][ppi - 1].pp_no )
-
-        {
-
-            qty_period_detail_inj_array[pp_ticker] = [0, {}];
-
-
-            if (ppi == qty_array[bid_item].length - 1) {
-            
-                qty_period_detail_inj_array[pp_ticker][0] = ppi + 1;
-                qty_period_details[ppi].amt_esh += qty_array[bid_item][ppi].amt_esh;
-                qty_period_details[ppi].qty_esh += qty_array[bid_item][ppi].qty_esh;
-                qty_period_details[ppi].amt_rnr += qty_array[bid_item][ppi].amt_rnr;
-                qty_period_details[ppi].qty_rnr += qty_array[bid_item][ppi].qty_rnr;
-                qty_period_details[ppi].amt_ssp += qty_array[bid_item][ppi].amt_ssp;
-                qty_period_details[ppi].qty_ssp += qty_array[bid_item][ppi].qty_ssp;
-                qty_period_details[ppi].amt_tot += qty_array[bid_item][ppi].amt_tot;
-                qty_period_details[ppi].qty_tot += qty_array[bid_item][ppi].qty_tot;
-           
-		qty_period_details[ppi].submittals = {};
-		qty_period_details[ppi].submittals.tvi_pre_con = {};
-		qty_period_details[ppi].submittals.tvi_post_con = {};            
-		qty_period_details[ppi].submittals.tvi_pre_con.submittal_no = '';
-		qty_period_details[ppi].submittals.tvi_pre_con.video_no = '';
-		qty_period_details[ppi].submittals.tvi_pre_con.response = '' ;          
-		qty_period_details[ppi].submittals.tvi_post_con.submittal_no = '';
-		qty_period_details[ppi].submittals.tvi_post_con.video_no = '';
-		qty_period_details[ppi].submittals.tvi_post_con.response = '' ; 
-                
-            } else {
-            
-                qty_period_detail_inj_array[pp_ticker][0] = ppi;
-                
-            }
-
-            qty_period_detail_inj_array[pp_ticker][1].pp_no = '';
-            qty_period_detail_inj_array[pp_ticker][1].id_a = '';
-            qty_period_detail_inj_array[pp_ticker][1].location = '<div style="text-align:right"><b>Period Totals:</b></div>';
-            qty_period_detail_inj_array[pp_ticker][1].amt_esh = qty_period_details[ppi].amt_esh;
-            qty_period_detail_inj_array[pp_ticker][1].qty_esh = qty_period_details[ppi].qty_esh;
-            qty_period_detail_inj_array[pp_ticker][1].amt_rnr = qty_period_details[ppi].amt_rnr;
-            qty_period_detail_inj_array[pp_ticker][1].qty_rnr = qty_period_details[ppi].qty_rnr;
-            qty_period_detail_inj_array[pp_ticker][1].amt_ssp = qty_period_details[ppi].amt_ssp;
-            qty_period_detail_inj_array[pp_ticker][1].qty_ssp = qty_period_details[ppi].qty_ssp;
-            qty_period_detail_inj_array[pp_ticker][1].amt_tot = qty_period_details[ppi].amt_tot;
-            qty_period_detail_inj_array[pp_ticker][1].qty_tot = qty_period_details[ppi].qty_tot;
-            qty_period_detail_inj_array[pp_ticker][1].unit = qty_array[bid_item][ppi].unit;
-
-            qty_period_detail_inj_array[pp_ticker][1].submittals = {};
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con = {};
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con = {};            
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.submittal_no = '';
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.video_no = '';
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_pre_con.response = '' ;          
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.submittal_no = '';
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.video_no = '';
-	    qty_period_detail_inj_array[pp_ticker][1].submittals.tvi_post_con.response = '' ; 
-
-            qty_period_details[ppi].amt_esh = 0;
-            qty_period_details[ppi].qty_esh = 0;
-            qty_period_details[ppi].amt_rnr = 0;
-            qty_period_details[ppi].qty_rnr = 0;
-            qty_period_details[ppi].amt_ssp = 0;
-            qty_period_details[ppi].qty_ssp = 0;
-            qty_period_details[ppi].amt_tot = 0;
-            qty_period_details[ppi].qty_tot = 0;
-            
-            pp_ticker += 1;
-           
-
-        }
-
-    }
-
-    var inj_entry_adjustment = 0;
-
-    for ( const inj_entry of qty_period_detail_inj_array ) {
-
-        qty_array[bid_item].splice(inj_entry[0] + inj_entry_adjustment, 0, inj_entry[1]);
-
-        qty_array[bid_item].splice(inj_entry[0] + inj_entry_adjustment + 1, 0, {
-        
+       {
+          'row_type': 'period_summary',   
              'pp_no': '',
               'id_a': '',
-          'location': '<div style="padding:5px;">&nbsp;</div>',
+          'location': '<div style="text-align:right"><b>Period Totals:</b></div>',
            'amt_esh': 0,
            'qty_esh': 0,
            'amt_rnr': 0,
@@ -306,12 +194,117 @@ for (const bid_item of Object.keys(qty_array))
            'submittals.tvi_pre_con.response': '' ,          
            'submittals.tvi_post_con.submittal_no': '',
            'submittals.tvi_post_con.video_no': '',
-           'submittals.tvi_post_con.response': ''          
-           
-        });
+           'submittals.tvi_post_con.response': ''       
+        }
 
-        inj_entry_adjustment += 2;
+var empty_instance_row_obj = structuredClone(period_summary_row_obj);
+
+empty_instance_row_obj.row_type = 'spacer_row';
+empty_instance_row_obj.location = '<div style="padding:5px;">&nbsp;</div>';
+
+for (const bid_item of Object.keys(qty_array))
+
+{
+
+    var injection_index_array = [];
+
+    qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
+
+    var period_double_row_tracker = 0;
+
+
+    for (var instance_index = 1; instance_index < qty_array[bid_item].length; instance_index++)
+
+    {
+
+        if (qty_array[bid_item][instance_index].pp_no != qty_array[bid_item][instance_index - 1].pp_no)
+
+        {
+
+            injection_index_array.push(instance_index)
+
+        }
+
+    }
+
+    injection_index_array.reverse();
+
+    for (const injection_index of injection_index_array)
+
+    {
+    
+        qty_array[bid_item].splice(injection_index, 0, structuredClone(empty_instance_row_obj))
+        qty_array[bid_item].splice(injection_index, 0, structuredClone(period_summary_row_obj))
+
+    }
+
+    qty_array[bid_item].push(structuredClone(period_summary_row_obj));
+    qty_array[bid_item].push(structuredClone(empty_instance_row_obj));
+
+    var qty_period_details_unit = '';
+    var qty_period_details_amt_esh = 0;
+    var qty_period_details_qty_esh = 0;
+    var qty_period_details_amt_rnr = 0;
+    var qty_period_details_qty_rnr = 0;
+    var qty_period_details_amt_ssp = 0;
+    var qty_period_details_qty_ssp = 0;
+    var qty_period_details_amt_tot = 0;
+    var qty_period_details_qty_tot = 0;
+    
+    for (var instance_index = 0; instance_index < qty_array[bid_item].length; instance_index++)
+    
+    {
+     
+     if ( qty_array[bid_item][instance_index].row_type == 'construction_instance' )
+       
+       {
+       
+         qty_period_details_unit = qty_array[bid_item][instance_index].unit;      
+         qty_period_details_amt_esh += qty_array[bid_item][instance_index].amt_esh;
+         qty_period_details_qty_esh += qty_array[bid_item][instance_index].qty_esh;
+         qty_period_details_amt_rnr += qty_array[bid_item][instance_index].amt_rnr;
+         qty_period_details_qty_rnr += qty_array[bid_item][instance_index].qty_rnr;
+         qty_period_details_amt_ssp += qty_array[bid_item][instance_index].amt_ssp;
+         qty_period_details_qty_ssp += qty_array[bid_item][instance_index].qty_ssp;
+         qty_period_details_amt_tot += qty_array[bid_item][instance_index].amt_tot;
+         qty_period_details_qty_tot += qty_array[bid_item][instance_index].qty_tot;
+        
+       }
+       
+     else if ( qty_array[bid_item][instance_index].row_type == 'period_summary' ) 
+     
+       {
+       
+         qty_array[bid_item][instance_index].unit = qty_period_details_unit;
+         qty_array[bid_item][instance_index].amt_esh = qty_period_details_amt_esh;
+         qty_array[bid_item][instance_index].qty_esh = qty_period_details_qty_esh;
+         qty_array[bid_item][instance_index].amt_rnr = qty_period_details_amt_rnr;
+         qty_array[bid_item][instance_index].qty_rnr = qty_period_details_qty_rnr;
+         qty_array[bid_item][instance_index].amt_ssp = qty_period_details_amt_ssp;
+         qty_array[bid_item][instance_index].qty_ssp = qty_period_details_qty_ssp;
+         qty_array[bid_item][instance_index].amt_tot = qty_period_details_amt_tot;
+         qty_array[bid_item][instance_index].qty_tot = qty_period_details_qty_tot;
+       
+         qty_period_details_unit = '';
+         qty_period_details_amt_esh = 0;
+         qty_period_details_qty_esh = 0;
+         qty_period_details_amt_rnr = 0;
+         qty_period_details_qty_rnr = 0;
+         qty_period_details_amt_ssp = 0;
+         qty_period_details_qty_ssp = 0;
+         qty_period_details_amt_tot = 0;
+         qty_period_details_qty_tot = 0;
+       
+       }
 
     }
 
 }
+    
+
+
+
+
+
+
+
