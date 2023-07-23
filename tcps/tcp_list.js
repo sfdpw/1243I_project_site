@@ -100,12 +100,39 @@ var project_tcp_array = [
  'numb': '032', 'desc': '', 'rlvn': ['CR_20', 'CR_21']
  }, 
 { 
+ 'numb': '033', 'desc': '', 'rlvn': ['CR_07', 'CR_08_b']
+ }, 
+{ 
+ 'numb': '034', 'desc': '', 'rlvn': ['CR_07']
+ }, 
+{ 
  'numb': '035', 'desc': '', 'rlvn': ['CR_16']
  }, 
 { 
  'numb': '036', 'desc': '', 'rlvn': ['CR_22']
  }, 
 { 
+ 'numb': '037A', 'desc': '', 'rlvn': ['R_01_a', 'R_01_b']
+ }, 
+{ 
+ 'numb': '037B', 'desc': '', 'rlvn': ['R_01_a', 'R_01_b']
+ }, 
+{ 
+ 'numb': '038A', 'desc': '', 'rlvn': ['R_01_b', 'R_02_a', 'R_02_b']
+ }, 
+{ 
+ 'numb': '038B', 'desc': '', 'rlvn': ['R_02_a', 'R_02_b']
+ }, 
+{ 
+ 'numb': '039A', 'desc': '', 'rlvn': ['R_02_b', 'R_03_a', 'R_03_b']
+ }, 
+{ 
+ 'numb': '039B', 'desc': '', 'rlvn': ['R_03_a']
+ }, 
+{ 
+ 'numb': '040', 'desc': '', 'rlvn': ['R_03_b', 'R_04_a']
+ }, 
+ { 
  'numb': '041', 'desc': '', 'rlvn': ['R_04_b', 'R_05']
  }, 
 { 
@@ -114,6 +141,21 @@ var project_tcp_array = [
 { 
  'numb': '042A', 'desc': 'Bernice and Isis Intersections', 'rlvn': ['R_05']
  }, 
+{ 
+ 'numb': '043', 'desc': '', 'rlvn': ['R_06_a', 'R_06_b']
+ },
+{ 
+ 'numb': '044', 'desc': '', 'rlvn': ['R_06_a', 'R_06_b']
+ },
+{ 
+ 'numb': '045', 'desc': '', 'rlvn': ['R_07_b', 'R_08_a', 'R_08_b']
+ },
+{ 
+ 'numb': '046', 'desc': '', 'rlvn': ['R_07_a', 'R_07_b']
+ },
+{ 
+ 'numb': '047', 'desc': '', 'rlvn': ['R_07_a', 'R_07_b']
+ },
 { 
  'numb': '048', 'desc': '', 'rlvn': ['R_09_a', 'R_09_b']
  }, 

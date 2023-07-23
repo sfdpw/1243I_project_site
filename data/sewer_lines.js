@@ -15549,10 +15549,13 @@ var json_1243I_sewer_lines = {
                 "id_a": "P-417612",
                 "id_b": "none",
                 "location": "565 South Van Ness Ave",
-                "scope": "Improve (E) culvert as directed",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-20': {
                         'PP09': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -15564,23 +15567,23 @@ var json_1243I_sewer_lines = {
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75",
-                        "video_no": "28",
-                        "response": "MCN - Do Not Replace",
+                        "video_no": "36",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "88",
+                        "video_no": "1",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
                     }
                 },
                 "rlvnt": "none",
-                "sw_type": "cl",
+                "sw_type": "lt",
                 get status() {
                     return sw_line_status_from_line_object( this)
                 }
