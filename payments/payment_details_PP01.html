@@ -48,7 +48,6 @@
     <script src="process_sov_pp_history.js"></script>    
     <script src="sov_summer.js"></script>    
 
-    
     <link rel="icon" type="image/png" href="../legend/1243I_fav.png" />
 
 </head>
@@ -72,12 +71,12 @@
         </div>
         <div class="grid-div-misc-body" id="payment_detail_table_div">
             <script>
-                document.getElementById("payment_detail_table_div").innerHTML += '<table id = '.concat(table_id,'></table>');
+                document.getElementById("payment_detail_table_div").innerHTML += '<table id='.concat(table_id,'></table>');
             </script>
         </div>
     </div>
     <script>
-        generate_payment_detail_table();
+        generate_payment_detail_table(table_id);
     </script>
 </body>
 
