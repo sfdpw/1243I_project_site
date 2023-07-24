@@ -1,31 +1,3 @@
-
-
-//function get_pp_history_from_spatial_data(item_obj) {
-
-    //return bid_item_pp_hist_obj[item_obj.bid_item]
-
-//    return [
-//                [0, 0, 0], // PP00
-//                [0, 0, 0], // PP01
-//                [0, 0, 0], // PP02
-//                [0, 0, 0], // PP03
-//                [0, 0, 0], // PP04
-//                [0, 0, 0], // PP05
-//                [0, 0, 0], // PP06
-//                [0, 0, 0], // PP07
-//                [0, 0, 0], // PP08
-//                [0, 0, 0], // PP09
-//                [0, 0, 0], // PP10
-//                [0, 0, 0], // PP11
-//                [0, 0, 0], // PP12
-//                [0, 0, 0], // PP13
-//                [0, 0, 0], // PP14
-//                [0, 0, 0]  // PP15
-//            ]
-
-
-//}
-
 // ######## REFLEXIVE PAYMENT FUNCTIONS #####################
 
 function get_payment_details(item_obj) {

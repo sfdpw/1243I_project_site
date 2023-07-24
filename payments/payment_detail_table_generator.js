@@ -2,11 +2,11 @@ var turn_on_esh = [[false, true], [false, true], [false, false]];
 var turn_on_rnr = [[false, true], [false, true], [false, false]];
 var turn_on_ssp = [[false, true], [false, true], [false, false]];
     
-//turn_on_esh = [[true, true], [true, true], [true, true]];
-//turn_on_rnr = turn_on_esh;
-//turn_on_ssp = turn_on_esh;
+turn_on_esh = [[true, true], [true, true], [true, true]];
+turn_on_rnr = turn_on_esh;
+turn_on_ssp = turn_on_esh;
     
-function generate_funding_breakdown_table()
+function generate_payment_detail_table()
 
 {
 
@@ -27,7 +27,7 @@ function generate_funding_breakdown_table()
         filterControl: true,
         headerStyle: 'header_styler',	
 	search: true,
-        //footer: true,
+        showFooter: true,
         //sidePagination: "server",
 
         columns: [{
@@ -53,13 +53,17 @@ function generate_funding_breakdown_table()
                 field: 'unit_price',
                 title: 'Unit Price',
                 align: 'center',
-                formatter: dollar_formatter_accounting
+                formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<div style="display:table-cell; padding:5px; text-align: right;"><b>Totals:<b></div>' }
             },
             {
                 field: 'payment_details.allctd.amt.tot',
                 title: 'Contract Total',
                 align: 'center',
-                formatter: dollar_formatter_accounting
+                formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.allctd.amt.tot),
+                                     '<b>') },
             },
             {
                 field: 'payment_details.period.qty.tot'.concat('.', pp_number),
@@ -72,7 +76,10 @@ function generate_funding_breakdown_table()
                 title: 'Period<br>Amount',
                 align: 'center',
                 class: 'period_amt_tot',
-                formatter: dollar_formatter_accounting
+                formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.period.amt.tot[pp_number]),
+                                     '<b>') },
             },
             {
                 field: 'payment_details.todate.qty.tot'.concat('.', pp_number),
@@ -85,7 +92,10 @@ function generate_funding_breakdown_table()
                 title: 'To Date<br>Amount',
                 align: 'center',
                 class: 'todate_amt_tot',
-                formatter: dollar_formatter_accounting
+                formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.todate.amt.tot[pp_number]),
+                                     '<b>') },
             },
 
             // ######## ESH #######
@@ -104,6 +114,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_esh',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.period.amt.esh[pp_number]),
+                                     '<b>') },
                 visible: turn_on_esh[0][1]
             },
             {
@@ -119,6 +132,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'todate_amt_esh',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.todate.amt.esh[pp_number]), 
+                                     '<b>') },
                 visible: turn_on_esh[1][1]
             },
             {
@@ -134,6 +150,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_esh',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat( 
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.allctd.amt.esh), 
+                                     '<b>') },
                 visible: turn_on_esh[2][1]
             },
 
@@ -152,6 +171,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_rnr',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.period.amt.rnr[pp_number]),
+                                     '<b>') },
                 visible: turn_on_rnr[0][1]
             },
             {
@@ -167,6 +189,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'todate_amt_rnr',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.todate.amt.rnr[pp_number]),
+                                     '<b>') },
                 visible: turn_on_rnr[1][1]
             },
             {
@@ -182,6 +207,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_rnr',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat( 
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.allctd.amt.rnr), 
+                                     '<b>') },
                 visible: turn_on_rnr[2][1]
             },
 
@@ -200,6 +228,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'period_amt_ssp',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.period.amt.ssp[pp_number]),
+                                     '<b>') },
                 visible: turn_on_ssp[0][1]
             },
             {
@@ -215,6 +246,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'todate_amt_ssp',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat(
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.todate.amt.ssp[pp_number]),
+                                     '<b>') },
                 visible: turn_on_ssp[1][1]
             },
             {
@@ -230,6 +264,9 @@ function generate_funding_breakdown_table()
                 align: 'center',
                 class: 'allctd_amt_ssp',
                 formatter: dollar_formatter_accounting,
+                footerFormatter: function() { return '<b>'.concat( 
+                                     dollar_formatter_accounting(base_sov_totals_obj.payment_details.allctd.amt.ssp), 
+                                     '<b>') },
                 visible: turn_on_ssp[2][1]
             }
         ]

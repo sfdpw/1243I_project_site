@@ -1,6 +1,4 @@
-var max_pp_no = 13; // make this smarter
-
-
+var max_pp_no = 11; // make this smarter
 
 function top_nav(nav_element, pp_no = null, bid_item_id = null)
 
@@ -35,38 +33,21 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
            </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
-	     <ul class="dropdown-menu">\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP01.html">PP01 - ' + payment_array.PP01 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP02.html">PP02 - ' + payment_array.PP02 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP03.html">PP03 - ' + payment_array.PP03 + '</a>\
-	       </li>\
-	       <li>\
-                 <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP04.html">PP04 - ' + payment_array.PP04 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP05.html">PP05 - ' + payment_array.PP05 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP06.html">PP06 - ' + payment_array.PP06 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP07.html">PP07 - ' + payment_array.PP07 + '</a>\
-	       </li>\
-	       <li>\
-                 <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP08.html">PP08 - ' + payment_array.PP08 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP09.html">PP09 - ' + payment_array.PP09 + '</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'payments/payment_details_PP10.html">PP10 - ' + payment_array.PP10 + '</a>\
-	       </li>\
-	     </ul>\
+	     <ul class="dropdown-menu">';
+	     
+for ( var ii = 1; ii < max_pp_no; ii++)
+
+{ 
+	
+  return_block += '<li><a class="dropdown-item" href="' + nav_path +
+                  'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
+                  ' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
+  
+}	      
+	      
+return_block +=   
+	       
+	    '</ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">QTYs</a>\
@@ -230,17 +211,11 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
          </ul>\
        </div>';
 
-    if (nav_element == 'sov')
+    if (nav_element == 'payment_details')
 
     {
 
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Schedule of Values (SOV) for PP ' + pp_no + '</div>';
-
-    } else if (nav_element == 'funding')
-
-    {
-
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Funding Breakdown for PP ' + pp_no + '</div>';
+        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
 
     } else if (nav_element == 'qty')
 

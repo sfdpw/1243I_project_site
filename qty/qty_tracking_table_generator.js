@@ -19,9 +19,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             title: 'Location',
             class: 'table_location',
             searchable: true,
-            footerFormatter: function() {
-                return '<div style="text-align: right"><b>To-Date Totals:<b></div>'
-            }
+            footerFormatter: function() { return '<div style="text-align: right"><b>To-Date Totals:<b></div>' }
         },
         {
             field: 'qty_tot',
@@ -30,8 +28,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_qty_tot',
             formatter: qty_formatter_with_dec,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_tot, qty_array_to_date[bid_item].unit), '<b>')
+                return '<b>'.concat( qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_tot, qty_array_to_date[bid_item].unit), '<b>')
             }
         },
         {
@@ -41,8 +38,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_amt_tot',
             formatter: dollar_formatter_accounting,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    dollar_formatter_accounting(qty_array_to_date[bid_item].amt_tot), '<b>')
+                return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_tot), '<b>')
             }
         },
         {
@@ -52,8 +48,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_qty_esh',
             formatter: qty_formatter_with_dec,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_esh, qty_array_to_date[bid_item].unit), '<b>')
+                return '<b>'.concat(qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_esh, qty_array_to_date[bid_item].unit), '<b>')
             }
         },
         {
@@ -63,8 +58,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_amt_esh',
             formatter: dollar_formatter_accounting,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    dollar_formatter_accounting(qty_array_to_date[bid_item].amt_esh), '<b>')
+                return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_esh), '<b>')
             }
         },
         {
@@ -74,8 +68,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_qty_rnr',
             formatter: qty_formatter_with_dec,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_rnr, qty_array_to_date[bid_item].unit), '<b>')
+                return '<b>'.concat(qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_rnr, qty_array_to_date[bid_item].unit), '<b>')
             }
         },
         {
@@ -84,10 +77,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             align: 'center',
             class: 'period_amt_rnr',
             formatter: dollar_formatter_accounting,
-            footerFormatter: function() {
-                return '<b>'.concat(
-                    dollar_formatter_accounting(qty_array_to_date[bid_item].amt_rnr), '<b>')
-            }
+            footerFormatter: function() {return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_rnr), '<b>')}
         },
         {
             field: 'qty_ssp',
@@ -96,8 +86,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_qty_ssp',
             formatter: qty_formatter_with_dec,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_ssp, qty_array_to_date[bid_item].unit), '<b>')
+                return '<b>'.concat(qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_ssp, qty_array_to_date[bid_item].unit), '<b>')
             }
         },
         {
@@ -107,8 +96,7 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             class: 'period_amt_ssp',
             formatter: dollar_formatter_accounting,
             footerFormatter: function() {
-                return '<b>'.concat(
-                    dollar_formatter_accounting(qty_array_to_date[bid_item].amt_ssp), '<b>')
+                return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_ssp), '<b>')
             }
         }
     ];
@@ -121,43 +109,37 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
             title: 'Sub. No.',
             sortable: true,
             searchable: true
-        },
-        {
+        }, {
             field: 'submittals.tvi_pre_con.video_no',
             title: 'Vid. No.',
             sortable: true,
             searchable: true
-        },
-         {
+        }, {
             field: 'submittals.tvi_pre_con.response',
             title: 'Response',
             sortable: true,
             searchable: true
-        },
-        )
+        }, )
 
     } else if (bid_item == 'SW-25' || bid_item == 'SW-26' || bid_item == 'SW-27') {
-    
+
         columns_object_array.splice(3, 0, {
             field: 'submittals.tvi_post_con.submittal_no',
             title: 'Sub. No.',
             sortable: true,
             searchable: true
-        },
-        {
+        }, {
             field: 'submittals.tvi_post_con.video_no',
             title: 'Vid. No.',
             sortable: true,
             searchable: true
-        },
-         {
+        }, {
             field: 'submittals.tvi_post_con.response',
             title: 'Response',
             sortable: true,
             searchable: true
-        },
-        )   
-    
+        }, )
+
     }
 
 
