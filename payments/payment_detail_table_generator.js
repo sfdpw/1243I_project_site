@@ -2,9 +2,9 @@ var turn_on_esh = [[false, true], [false, true], [false, false]];
 var turn_on_rnr = [[false, true], [false, true], [false, false]];
 var turn_on_ssp = [[false, true], [false, true], [false, false]];
     
-turn_on_esh = [[true, true], [true, true], [true, true]];
-turn_on_rnr = turn_on_esh;
-turn_on_ssp = turn_on_esh;
+//turn_on_esh = [[true, true], [true, true], [true, true]];
+//turn_on_rnr = turn_on_esh;
+//turn_on_ssp = turn_on_esh;
     
 function generate_payment_detail_table()
 
