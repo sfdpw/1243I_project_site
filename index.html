@@ -31,7 +31,6 @@
     <script src="js/top_nav_bar.js"></script>
     <script src="js/popup_populator.js"></script>
 
-    
     <script src="js/qgis2web_expressions.js"></script>
     <script src="js/L.Control.Locate.min.js"></script>
     <script src="js/leaflet.rotatedMarker.js"></script>
@@ -47,7 +46,6 @@
     <script src="js/proj4.js"></script>
     <script src="js/proj4leaflet.js"></script>
     <script src="js/layer_filter.js"></script>    
-
 
     <script src="data/relevant_dwg_arrays.js"></script>
     <script src="data/plan_boundaries.js"></script>
@@ -66,8 +64,8 @@
     <script src="data/flatwork_polygons.js"></script>
     <script src="js/popup_content_return.js"></script>    
     
-    <script src="payments/misc_payment_functions.js"></script>
     <script src="js/number_pad_functions.js"></script>   
+    <script src="payments/misc_payment_functions.js"></script>
     <script src="payments/base_sov.js"></script>
     
     <script>
@@ -201,18 +199,6 @@
             
         var bounds_group = new L.featureGroup([]);
 
-        //function setBounds() {
-        //   map.setView(new L.LatLng(37.7493, -122.4154), 13);
-        //}
-        
-        //var baseMaps = {};
-        
-        //setBounds();
-      //  L.ImageOverlay.include({
-      //      getBounds: function() {
-      //          return this._bounds;
-      //      }
-      //  });
     </script>
     
     <script src="js/overlay_pane_creator.js"></script> 
@@ -229,13 +215,7 @@
     <script src="js/layer_toggle/add_point_layer_sw_cb.js"></script>        
     <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>           
         
-    <script>
-      
-       //feature_layer_toggle('sw_mn_checkbox', index_limits_sw_mn[0], index_limits_sw_mn[1]);   
-       //feature_layer_toggle('sw_cl_checkbox', index_limits_sw_cl[0], index_limits_sw_cl[1]);       
-       //feature_layer_toggle('sw_lt_checkbox', index_limits_sw_lt[0], index_limits_sw_lt[1]);          
-       //feature_layer_toggle('sw_mh_checkbox', index_limits_sw_mh[0], index_limits_sw_mh[1]);          
-       //feature_layer_toggle('sw_cb_checkbox', index_limits_sw_cb[0], index_limits_sw_cb[1]);          
+    <script>       
       
         function handleChange(checkbox, layer) {
             if (checkbox.checked == true) {

@@ -8,6 +8,7 @@ for ( var jj = 0; jj < max_pp_no; jj++ )
 
 }
 
+
 var base_sov =
 
     [
@@ -62,7 +63,9 @@ var base_sov =
             "alloc_esh": 12000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -82,7 +85,9 @@ var base_sov =
             "alloc_esh": 313170,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -102,7 +107,9 @@ var base_sov =
             "alloc_esh": 1468005,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -122,7 +129,9 @@ var base_sov =
             "alloc_esh": 887172,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -142,7 +151,9 @@ var base_sov =
             "alloc_esh": 1409772,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -162,7 +173,9 @@ var base_sov =
             "alloc_esh": 48048,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -182,7 +195,9 @@ var base_sov =
             "alloc_esh": 150500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -239,7 +254,9 @@ var base_sov =
             "alloc_esh": 5005,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -259,7 +276,9 @@ var base_sov =
             "alloc_esh": 79695,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -279,7 +298,9 @@ var base_sov =
             "alloc_esh": 170500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -373,7 +394,9 @@ var base_sov =
             "alloc_esh": 1250,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -763,7 +786,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 170000,
             "alloc_ssp": 8500,
-            'pp_history': structuredClone(empty_pp_history_array),
+            'pp_history': empty_pp_history_array,
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -783,7 +806,24 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 80000,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            'pp_history': [
+                [], // PP00
+                [], // PP01
+                [], // PP02
+                [], // PP03
+                [], // PP04
+                [], // PP05
+                [], // PP06
+                [], // PP07
+                [], // PP08
+                [], // PP09
+                [], // PP10
+                [], // PP11
+                [], // PP12
+                [], // PP13
+                [], // PP14
+                [], // PP15
+            ],
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -803,7 +843,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 120000,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -897,7 +939,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 41750,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -991,7 +1035,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 969750,
             "alloc_ssp": 20250,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1159,7 +1205,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 20250,
             "alloc_ssp": 4750,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1253,7 +1301,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 13050,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1273,7 +1323,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 6000,
             "alloc_ssp": 4300,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1293,7 +1345,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 93750,
             "alloc_ssp": 37500,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1313,7 +1367,9 @@ var base_sov =
             "alloc_esh": 19650,
             "alloc_rnr": 42450,
             "alloc_ssp": 15400,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1333,7 +1389,9 @@ var base_sov =
             "alloc_esh": 65000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1390,7 +1448,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7500,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1447,7 +1507,9 @@ var base_sov =
             "alloc_esh": 650,
             "alloc_rnr": 1300,
             "alloc_ssp": 450,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1578,7 +1640,9 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7000,
             "alloc_ssp": 0,
-            'pp_history': structuredClone(empty_pp_history_array),
+            get pp_history() {
+                return get_pp_history_from_spatial_data(this)
+            },
             get payment_details() {
                 return get_payment_details(this)
             }

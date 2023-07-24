@@ -1,60 +1,32 @@
-var max_pp_no = 11; // make this smarter
 
+
+//function get_pp_history_from_spatial_data(item_obj) {
+
+    //return bid_item_pp_hist_obj[item_obj.bid_item]
+
+//    return [
+//                [0, 0, 0], // PP00
+//                [0, 0, 0], // PP01
+//                [0, 0, 0], // PP02
+//                [0, 0, 0], // PP03
+//                [0, 0, 0], // PP04
+//                [0, 0, 0], // PP05
+//                [0, 0, 0], // PP06
+//                [0, 0, 0], // PP07
+//                [0, 0, 0], // PP08
+//                [0, 0, 0], // PP09
+//                [0, 0, 0], // PP10
+//                [0, 0, 0], // PP11
+//                [0, 0, 0], // PP12
+//                [0, 0, 0], // PP13
+//                [0, 0, 0], // PP14
+//                [0, 0, 0]  // PP15
+//            ]
+
+
+//}
 
 // ######## REFLEXIVE PAYMENT FUNCTIONS #####################
-function get_pp_history_from_spatial_data(item_obj) {
-
-    var return_array = [];
-
-    for (var pp = 0; pp < max_pp_no; pp++)
-
-    {
-
-        return_array[pp] = [0, 0, 0];
-
-        for (const construction_instance of 
-                   json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features))
-
-        {
-
-            for (const bid_item of Object.entries(construction_instance.properties.pp_history))
-
-            {
-
-                if (bid_item[0] == item_obj.bid_item)
-
-                {
-
-                    for (const pp_specifics of Object.entries(bid_item[1])) {
-
-                        if (pp_specifics[0] == 'PP'.concat(num_pad(pp, 2)))
-
-                        {
-
-                            for (var ii = 0; ii < pp_specifics[1].length; ii++)
-
-                            {
-
-                                return_array[pp][ii] += pp_specifics[1][ii];
-
-                            }
-
-                        }
-
-                    }
-
-                }
-
-            }
-
-        }
-
-    }
-
-    return return_array
-
-}
-
 
 function get_payment_details(item_obj) {
 
@@ -184,17 +156,6 @@ function get_payment_details(item_obj) {
     return_obj.allctd.qty.tot = (item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp) / item_obj.unit_price;
     return_obj.allctd.amt.tot = item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp;
 
-
-   // if (return_obj.allctd.amt.tot != item_obj.qty * item_obj.unit_price) {
-        //console.log('unbalanced allocated amount for '.concat(item_obj.bid_item))
-   // }
-   // if (return_obj.allctd.qty.tot != item_obj.qty) {
-        //console.log('unbalanced allocated qty for '.concat(item_obj.bid_item))
-   // }
-
-
-
-
     return return_obj
 
 }
@@ -275,7 +236,7 @@ function dollar_formatter_accounting(amount, row = '') {
 
     var return_string = '';
 
-    if (amount != '')
+    if ( amount != '' && amount != null )
 
     {
 
@@ -304,7 +265,7 @@ function dollar_formatter(amount) {
 
     var return_string = '';
 
-    if (amount != '')
+    if (amount != '' && amount != null)
 
     {
 
@@ -326,7 +287,7 @@ function qty_formatter_no_dec_core_function(qty_input, unit)
 
     var return_string = '';
 
-    if (qty_input != '') {
+    if (qty_input != '' && qty_input != null) {
 
         if (unit == 'LS' || unit == 'AL')
 
@@ -368,7 +329,7 @@ function qty_formatter_with_dec_core_function(qty_input, unit)
 
     var return_string = '';
 
-    if (qty_input != '') {
+    if (qty_input != '' && qty_input != null) {
 
 
         if (unit == 'LS' || unit == 'AL')
