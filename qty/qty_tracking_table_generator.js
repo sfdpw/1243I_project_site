@@ -153,7 +153,6 @@ function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
         showExport: true,
         clickToSelect: true,
         minimumCountColumns: 1,
-        stickyHeader: true,
         sortable: true,
         //pageList: '[5, 10, 15, 20, 50, All]',
         //pageSize: '10',
