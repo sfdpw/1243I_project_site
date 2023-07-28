@@ -615,13 +615,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of 10th St and Sheridan St - North Corner",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP09': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -4139,13 +4134,8 @@ var json_1243I_sewer_points = {
                 "location": "South Van Ness Ave - South of 14th St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP09': [0, 0, 40000]
                     }
                 },
                 get pp_summary() {
@@ -5542,13 +5532,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Bryant St and Beale St - South Corner",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP09': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5584,13 +5569,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Bryant St and Beale St - South Corner",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP09': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5626,13 +5606,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of 10th St and Sheridan St - East Corner",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP09': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {

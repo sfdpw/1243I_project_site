@@ -77,8 +77,14 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
     } else if (line_obj.scope.includes('Line (E)')) {
 
         if (line_obj.submittals.tvi_post_con.response == 'none') {
+        
+           if ( line_obj.pp_history.hasOwnProperty('SW-14') || line_obj.pp_history.hasOwnProperty('SW-15') ) 
+           
+            {
 
-            if (line_obj.submittals.tvi_pre_con.response == 'none') {
+                return_string = sewer_status_code_array[3];
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[7];
 

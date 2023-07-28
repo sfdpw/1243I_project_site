@@ -86,6 +86,9 @@ return_block +=
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-08.html"><b>R-08:</b> Sidewalk</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html"><b>R-09:</b> Granite Curb</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-10.html"><b>R-10:</b> Concrete Curb</a>\
 	               </li>\
 	               <li>\
@@ -107,6 +110,12 @@ return_block +=
 	         <li>\
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-10.html"><b>SW-10:</b> Side Sewer and Culvert Bypass</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-18.html"><b>SW-18:</b> Side Sewer and Culvert Re-Instatement</a>\
+	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-19.html"><b>SW-19:</b> Side Sewer Connection</a>\
 	               </li>\
@@ -131,7 +140,16 @@ return_block +=
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08:</b> Removal of (E) Rat Walk</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-09.html"><b>SW-09:</b> Bypass (E) Main during CIPL and Mortaring</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-11.html"><b>SW-11:</b> 12in VCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-14.html"><b>SW-14:</b> Line (E) 3\'x5\' Brick Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15:</b> Line (E) 18\" ISP Main</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-16.html"><b>SW-16:</b> Pre-Con (Pre CIPL) TVI of (E) Mains</a>\

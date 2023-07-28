@@ -202,13 +202,25 @@ var empty_instance_row_obj = structuredClone(period_summary_row_obj);
 empty_instance_row_obj.row_type = 'spacer_row';
 empty_instance_row_obj.location = '<div style="padding:5px;">&nbsp;</div>';
 
+
+function cmp(a, b) {
+    if (a > b) return +1;
+    if (a < b) return -1;
+    return 0;
+}
+
 for (const bid_item of Object.keys(qty_array))
 
 {
 
     var injection_index_array = [];
 
-    qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
+//    qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
+
+    qty_array[bid_item].sort(function(a, b) { 
+	    return cmp(a.pp_no, b.pp_no) || cmp(a.id_a,b.id_a)
+	}) 
+
 
     var period_double_row_tracker = 0;
 

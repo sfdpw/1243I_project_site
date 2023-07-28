@@ -35,7 +35,7 @@ var base_sov =
                 [12000, 0, 0], // PP06
                 [6000, 0, 0], // PP07
                 [], // PP08
-                [], // PP09
+                [3600, 0, 0], // PP09
                 [], // PP10
                 [], // PP11
                 [], // PP12
@@ -192,7 +192,7 @@ var base_sov =
 
         {
             "bid_item": "R-09",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Reset Existing Granite Curb",
@@ -202,24 +202,7 @@ var base_sov =
             "alloc_esh": 3630,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -699,7 +682,7 @@ var base_sov =
                 [], // PP06
                 [220, 3437.50, 1842.50], // PP07
                 [770, 12031.25, 6448.75], // PP08
-                [], // PP09
+                [2310, 36093.75, 19346.25], // PP09
                 [], // PP10
                 [], // PP11
                 [], // PP12
@@ -736,7 +719,7 @@ var base_sov =
                 [], // PP06
                 [220, 4510, 770], // PP07
                 [770, 15785, 2695], // PP08
-                [], // PP09
+                [2310,	47355,	8085], // PP09
                 [], // PP10
                 [], // PP11
                 [], // PP12
@@ -907,7 +890,7 @@ var base_sov =
 
         {
             "bid_item": "SW-09",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Bypassing Main Sewer Flow Related to Lining And Mortar Work",
@@ -917,24 +900,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 18600,
             "alloc_ssp": 11400,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -944,7 +910,7 @@ var base_sov =
 
         {
             "bid_item": "SW-10",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Bypassing Side Sewer And Culvert Flow Related to Lining Work (Contingency Bid Item)*",
@@ -954,24 +920,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 5000,
             "alloc_ssp": 14400,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1085,26 +1034,10 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 143016,
             "alloc_ssp": 789184,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
+
             }
         },
 
@@ -1112,7 +1045,7 @@ var base_sov =
 
         {
             "bid_item": "SW-15",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Line Existing 18-Inch Diameter Iron Stone Pipe (ISP) Sewer with Cured-In-Place Liner (CIPL) (Contingency Bid Item)*",
@@ -1122,24 +1055,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 19610,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1206,7 +1122,7 @@ var base_sov =
 
         {
             "bid_item": "SW-18",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Internally Re-Instate Side Sewers, Culverts, And Other Connections in Lined Main Sewer (Contingency Bid Item)*",
@@ -1216,24 +1132,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 2400,
             "alloc_ssp": 21000,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }

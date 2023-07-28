@@ -8,7 +8,6 @@
                                               img_bounds_1243I_dwg_U_01_a_00,
                                               {pane: 'pane_1243I_dwg_U_01_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_01_a_00);
-       //map.addLayer(layer_1243I_dwg_U_01_a);
 
 
         map.createPane('pane_1243I_dwg_U_01_b_00');
@@ -19,7 +18,7 @@
                                               img_bounds_1243I_dwg_U_01_b_00,
                                               {pane: 'pane_1243I_dwg_U_01_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_01_b_00);
-       //map.addLayer(layer_1243I_dwg_U_01_b_11);
+       
        
         map.createPane('pane_1243I_dwg_U_02_a_01');
         map.getPane('pane_1243I_dwg_U_02_a_01').style.zIndex = 012;
@@ -29,7 +28,7 @@
                                               img_bounds_1243I_dwg_U_02_a_01,
                                               {pane: 'pane_1243I_dwg_U_02_a_01'});
         bounds_group.addLayer(layer_1243I_dwg_U_02_a_01);
-       //map.addLayer(layer_1243I_dwg_U_02_rev01_a_10);
+       
        
         map.createPane('pane_1243I_dwg_U_02_b_01');
         map.getPane('pane_1243I_dwg_U_02_b_01').style.zIndex = 013;
@@ -39,7 +38,7 @@
                                               img_bounds_1243I_dwg_U_02_b_01,
                                               {pane: 'pane_1243I_dwg_U_02_b_01'});
         bounds_group.addLayer(layer_1243I_dwg_U_02_b_01);
-       //map.addLayer(layer_1243I_dwg_U_02_rev01_b_9);
+
        
         map.createPane('pane_1243I_dwg_U_03_a_01');
         map.getPane('pane_1243I_dwg_U_03_a_01').style.zIndex = 014;
@@ -49,7 +48,7 @@
                                               img_bounds_1243I_dwg_U_03_a_01,
                                               {pane: 'pane_1243I_dwg_U_03_a_01'});
         bounds_group.addLayer(layer_1243I_dwg_U_03_a_01);
-       //map.addLayer(layer_1243I_dwg_U_03_rev01_a_8);
+
 
         map.createPane('pane_1243I_dwg_U_03_b_01');
         map.getPane('pane_1243I_dwg_U_03_b_01').style.zIndex = 015;
@@ -59,7 +58,7 @@
                                               img_bounds_1243I_dwg_U_03_b_01,
                                               {pane: 'pane_1243I_dwg_U_03_b_01'});
         bounds_group.addLayer(layer_1243I_dwg_U_03_b_01);
-       //map.addLayer(layer_1243I_dwg_U_03_rev01_b_7);
+
        
         map.createPane('pane_1243I_dwg_U_04_a_00');
         map.getPane('pane_1243I_dwg_U_04_a_00').style.zIndex = 016;
@@ -69,7 +68,7 @@
                                               img_bounds_1243I_dwg_U_04_a_00,
                                               {pane: 'pane_1243I_dwg_U_04_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_04_a_00);
-       //map.addLayer(layer_1243I_dwg_U_04_a_6);
+
 
         map.createPane('pane_1243I_dwg_U_04_b_00');
         map.getPane('pane_1243I_dwg_U_04_b_00').style.zIndex = 017;
@@ -79,7 +78,6 @@
                                               img_bounds_1243I_dwg_U_04_b_00,
                                               {pane: 'pane_1243I_dwg_U_04_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_04_b_00);
-       //map.addLayer(layer_1243I_dwg_U_04_b_3);
 
         map.createPane('pane_1243I_dwg_U_04_b_01');
         map.getPane('pane_1243I_dwg_U_04_b_01').style.zIndex = 018;
@@ -89,7 +87,6 @@
                                               img_bounds_1243I_dwg_U_04_b_01,
                                               {pane: 'pane_1243I_dwg_U_04_b_01'});
         bounds_group.addLayer(layer_1243I_dwg_U_04_b_01);
-       //map.addLayer(layer_1243I_dwg_U_04_rev01_b_4);
 
         map.createPane('pane_1243I_dwg_U_04_b_02');
         map.getPane('pane_1243I_dwg_U_04_b_02').style.zIndex = 019;
@@ -99,7 +96,6 @@
                                               img_bounds_1243I_dwg_U_04_b_02,
                                               {pane: 'pane_1243I_dwg_U_04_b_02'});
         bounds_group.addLayer(layer_1243I_dwg_U_04_b_02);
-       //map.addLayer(layer_1243I_dwg_U_04_rev02_b_5);
 
         map.createPane('pane_1243I_dwg_U_05_a_00');
         map.getPane('pane_1243I_dwg_U_05_a_00').style.zIndex = 020;
@@ -109,7 +105,7 @@
                                               img_bounds_1243I_dwg_U_05_a_00,
                                               {pane: 'pane_1243I_dwg_U_05_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_05_a_00);
-       //map.addLayer(layer_1243I_dwg_U_05_a_2);
+
 
 
         map.createPane('pane_1243I_dwg_U_05_b_00');
@@ -120,9 +116,9 @@
                                               img_bounds_1243I_dwg_U_05_b_00,
                                               {pane: 'pane_1243I_dwg_U_05_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_U_05_b_00);
-       //map.addLayer(layer_1243I_dwg_U_05_b);
 
-       map.createPane('pane_1243I_dwg_U_06_02');
+
+        map.createPane('pane_1243I_dwg_U_06_02');
         map.getPane('pane_1243I_dwg_U_06_02').style.zIndex = 022;
         var img_1243I_dwg_U_06_02 = 'raster_overlay/1243I_dwg_U_06_02.png';
         var img_bounds_1243I_dwg_U_06_02 = [[37.71184882754469,-122.41702769505656],[37.714499071541134,-122.4129070142805]];
@@ -130,7 +126,7 @@
                                               img_bounds_1243I_dwg_U_06_02,
                                               {pane: 'pane_1243I_dwg_U_06_02'});
         bounds_group.addLayer(layer_1243I_dwg_U_06_02);
-       //map.addLayer(layer_1243I_dwg_U_06);
+
        
 // SW
 
@@ -142,7 +138,7 @@
                                               img_bounds_1243I_dwg_SW_01_00,
                                               {pane: 'pane_1243I_dwg_SW_01_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_01_00);
-        //map.addLayer(layer_1243I_dwg_SW_01_27);
+
 
         map.createPane('pane_1243I_dwg_SW_02_00');
         map.getPane('pane_1243I_dwg_SW_02_00').style.zIndex = 051;
@@ -152,7 +148,7 @@
                                               img_bounds_1243I_dwg_SW_02_00,
                                               {pane: 'pane_1243I_dwg_SW_02_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_02_00);
-        //map.addLayer(layer_1243I_dwg_SW_02_26);
+
 
         map.createPane('pane_1243I_dwg_SW_03_00');
         map.getPane('pane_1243I_dwg_SW_03_00').style.zIndex = 052;
@@ -162,7 +158,7 @@
                                               img_bounds_1243I_dwg_SW_03_00,
                                               {pane: 'pane_1243I_dwg_SW_03_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_03_00);
-        //map.addLayer(layer_1243I_dwg_SW_03_25);
+
 
         map.createPane('pane_1243I_dwg_SW_04_01');
         map.getPane('pane_1243I_dwg_SW_04_01').style.zIndex = 053;
@@ -172,7 +168,7 @@
                                               img_bounds_1243I_dwg_SW_04_01,
                                               {pane: 'pane_1243I_dwg_SW_04_01'});
         bounds_group.addLayer(layer_1243I_dwg_SW_04_01);
-        //map.addLayer(layer_1243I_dwg_SW_04_rev01_24);
+
 
         map.createPane('pane_1243I_dwg_SW_05_00');
         map.getPane('pane_1243I_dwg_SW_05_00').style.zIndex = 054;
@@ -182,7 +178,7 @@
                                               img_bounds_1243I_dwg_SW_05_00,
                                               {pane: 'pane_1243I_dwg_SW_05_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_05_00);
-        //map.addLayer(layer_1243I_dwg_SW_05_22);
+
 
         map.createPane('pane_1243I_dwg_SW_05_01');
         map.getPane('pane_1243I_dwg_SW_05_01').style.zIndex = 055;
@@ -192,7 +188,7 @@
                                               img_bounds_1243I_dwg_SW_05_01,
                                               {pane: 'pane_1243I_dwg_SW_05_01'});
         bounds_group.addLayer(layer_1243I_dwg_SW_05_01);
-        //map.addLayer(layer_1243I_dwg_SW_05_rev01_23);
+
 
         map.createPane('pane_1243I_dwg_SW_06_00');
         map.getPane('pane_1243I_dwg_SW_06_00').style.zIndex = 056;
@@ -202,7 +198,7 @@
                                               img_bounds_1243I_dwg_SW_06_00,
                                               {pane: 'pane_1243I_dwg_SW_06_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_06_00);
-        //map.addLayer(layer_1243I_dwg_SW_06_21);
+
 
         map.createPane('pane_1243I_dwg_SW_07_00');
         map.getPane('pane_1243I_dwg_SW_07_00').style.zIndex = 057;
@@ -212,7 +208,7 @@
                                               img_bounds_1243I_dwg_SW_07_00,
                                               {pane: 'pane_1243I_dwg_SW_07_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_07_00);
-        //map.addLayer(layer_1243I_dwg_SW_07_20);
+
 
         map.createPane('pane_1243I_dwg_SW_08_00');
         map.getPane('pane_1243I_dwg_SW_08_00').style.zIndex = 058;
@@ -222,7 +218,7 @@
                                               img_bounds_1243I_dwg_SW_08_00,
                                               {pane: 'pane_1243I_dwg_SW_08_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_08_00);
-        //map.addLayer(layer_1243I_dwg_SW_08_19);
+
 
 
         map.createPane('pane_1243I_dwg_SW_09_00');
@@ -233,7 +229,7 @@
                                               img_bounds_1243I_dwg_SW_09_00,
                                               {pane: 'pane_1243I_dwg_SW_09_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_09_00);
-        //map.addLayer(layer_1243I_dwg_SW_09_18);
+
 
         map.createPane('pane_1243I_dwg_SW_10_00');
         map.getPane('pane_1243I_dwg_SW_10_00').style.zIndex = 060;
@@ -243,7 +239,7 @@
                                               img_bounds_1243I_dwg_SW_10_00,
                                               {pane: 'pane_1243I_dwg_SW_10_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_10_00);
-        //map.addLayer(layer_1243I_dwg_SW_10_15);
+
 
         map.createPane('pane_1243I_dwg_SW_10_01');
         map.getPane('pane_1243I_dwg_SW_10_01').style.zIndex = 061;
@@ -253,7 +249,7 @@
                                               img_bounds_1243I_dwg_SW_10_01,
                                               {pane: 'pane_1243I_dwg_SW_10_01'});
         bounds_group.addLayer(layer_1243I_dwg_SW_10_01);
-        //map.addLayer(layer_1243I_dwg_SW_10_rev01_16);
+
 
         map.createPane('pane_1243I_dwg_SW_10_02');
         map.getPane('pane_1243I_dwg_SW_10_02').style.zIndex = 062;
@@ -263,7 +259,7 @@
                                               img_bounds_1243I_dwg_SW_10_02,
                                               {pane: 'pane_1243I_dwg_SW_10_02'});
         bounds_group.addLayer(layer_1243I_dwg_SW_10_02);
-        //map.addLayer(layer_1243I_dwg_SW_10_rev02_17);
+
 
         map.createPane('pane_1243I_dwg_SW_11_a_00');
         map.getPane('pane_1243I_dwg_SW_11_a_00').style.zIndex = 063;
@@ -273,7 +269,7 @@
                                               img_bounds_1243I_dwg_SW_11_a_00,
                                               {pane: 'pane_1243I_dwg_SW_11_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_11_a_00);
-        //map.addLayer(layer_1243I_dwg_SW_11_a_14);
+
 
         map.createPane('pane_1243I_dwg_SW_11_b_00');
         map.getPane('pane_1243I_dwg_SW_11_b_00').style.zIndex = 064;
@@ -283,7 +279,7 @@
                                               img_bounds_1243I_dwg_SW_11_b_00,
                                               {pane: 'pane_1243I_dwg_SW_11_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_SW_11_b_00);
-        //map.addLayer(layer_1243I_dwg_SW_11_b_13);
+
 
 // R
 
@@ -295,7 +291,7 @@
                                               img_bounds_1243I_dwg_R_01_a_00,
                                               {pane: 'pane_1243I_dwg_R_01_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_01_a_00);
-        //map.addLayer(layer_1243I_dwg_R_01_a_54);
+
 
         map.createPane('pane_1243I_dwg_R_01_b_00');
         map.getPane('pane_1243I_dwg_R_01_b_00').style.zIndex = 101;
@@ -305,7 +301,7 @@
                                               img_bounds_1243I_dwg_R_01_b_00,
                                               {pane: 'pane_1243I_dwg_R_01_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_01_b_00);
-        //map.addLayer(layer_1243I_dwg_R_01_b_53);
+
 
         map.createPane('pane_1243I_dwg_R_02_b_00');
         map.getPane('pane_1243I_dwg_R_02_b_00').style.zIndex = 102;
@@ -315,7 +311,7 @@
                                               img_bounds_1243I_dwg_R_02_b_00,
                                               {pane: 'pane_1243I_dwg_R_02_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_02_b_00);
-        //map.addLayer(layer_1243I_dwg_R_02_b_51);
+
 
         map.createPane('pane_1243I_dwg_R_02_a_00');
         map.getPane('pane_1243I_dwg_R_02_a_00').style.zIndex = 103;
@@ -325,7 +321,7 @@
                                               img_bounds_1243I_dwg_R_02_a_00,
                                               {pane: 'pane_1243I_dwg_R_02_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_02_a_00);
-        //map.addLayer(layer_1243I_dwg_R_02_a_52);
+
 
         map.createPane('pane_1243I_dwg_R_03_a_00');
         map.getPane('pane_1243I_dwg_R_03_a_00').style.zIndex = 104;
@@ -335,17 +331,17 @@
                                               img_bounds_1243I_dwg_R_03_a_00,
                                               {pane: 'pane_1243I_dwg_R_03_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_03_a_00);
-        //map.addLayer(layer_1243I_dwg_R_03_a_50);
+
 
         map.createPane('pane_1243I_dwg_R_03_b_00');
         map.getPane('pane_1243I_dwg_R_03_b_00').style.zIndex = 105;
-        var img_1243I_dwg_R_03_b_00 = 'raster_overlay/1243I_dwg_R_03_b_49_00.png';
+        var img_1243I_dwg_R_03_b_00 = 'raster_overlay/1243I_dwg_R_03_b_00.png';
         var img_bounds_1243I_dwg_R_03_b_00 = [[37.76929164356103,-122.41079503675192],[37.77144339455269,-122.40809665736357]];
         var layer_1243I_dwg_R_03_b_00 = new L.imageOverlay(img_1243I_dwg_R_03_b_00,
                                               img_bounds_1243I_dwg_R_03_b_00,
                                               {pane: 'pane_1243I_dwg_R_03_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_03_b_00);
-        //map.addLayer(layer_1243I_dwg_R_03_b_49);
+
 
         map.createPane('pane_1243I_dwg_R_04_a_00');
         map.getPane('pane_1243I_dwg_R_04_a_00').style.zIndex = 106;
@@ -355,7 +351,7 @@
                                               img_bounds_1243I_dwg_R_04_a_00,
                                               {pane: 'pane_1243I_dwg_R_04_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_04_a_00);
-        //map.addLayer(layer_1243I_dwg_R_04_a_48);
+
 
         map.createPane('pane_1243I_dwg_R_04_b_00');
         map.getPane('pane_1243I_dwg_R_04_b_00').style.zIndex = 107;
@@ -365,7 +361,7 @@
                                               img_bounds_1243I_dwg_R_04_b_00,
                                               {pane: 'pane_1243I_dwg_R_04_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_04_b_00);
-        //map.addLayer(layer_1243I_dwg_R_04_b_47);
+
 
         map.createPane('pane_1243I_dwg_R_05_00');
         map.getPane('pane_1243I_dwg_R_05_00').style.zIndex = 108;
@@ -375,7 +371,7 @@
                                               img_bounds_1243I_dwg_R_05_00,
                                               {pane: 'pane_1243I_dwg_R_05_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_05_00);
-        //map.addLayer(layer_1243I_dwg_R_05_46);
+
 
         map.createPane('pane_1243I_dwg_R_06_a_00');
         map.getPane('pane_1243I_dwg_R_06_a_00').style.zIndex = 109;
@@ -385,7 +381,7 @@
                                               img_bounds_1243I_dwg_R_06_a_00,
                                               {pane: 'pane_1243I_dwg_R_06_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_06_a_00);
-        //map.addLayer(layer_1243I_dwg_R_06_a_45);
+
 
         map.createPane('pane_1243I_dwg_R_06_b_00');
         map.getPane('pane_1243I_dwg_R_06_b_00').style.zIndex = 110;
@@ -395,7 +391,7 @@
                                               img_bounds_1243I_dwg_R_06_b_00,
                                               {pane: 'pane_1243I_dwg_R_06_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_06_b_00);
-        //map.addLayer(layer_1243I_dwg_R_06_b_44);
+
 
         map.createPane('pane_1243I_dwg_R_07_a_00');
         map.getPane('pane_1243I_dwg_R_07_a_00').style.zIndex = 111;
@@ -405,7 +401,7 @@
                                               img_bounds_1243I_dwg_R_07_a_00,
                                               {pane: 'pane_1243I_dwg_R_07_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_07_a_00);
-        //map.addLayer(layer_1243I_dwg_R_07_a_43);
+
 
         map.createPane('pane_1243I_dwg_R_07_b_00');
         map.getPane('pane_1243I_dwg_R_07_b_00').style.zIndex = 112;
@@ -415,7 +411,7 @@
                                               img_bounds_1243I_dwg_R_07_b_00,
                                               {pane: 'pane_1243I_dwg_R_07_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_07_b_00);
-        //map.addLayer(layer_1243I_dwg_R_07_b_42);
+
 
         map.createPane('pane_1243I_dwg_R_08_a_00');
         map.getPane('pane_1243I_dwg_R_08_a_00').style.zIndex = 113;
@@ -425,7 +421,6 @@
                                               img_bounds_1243I_dwg_R_08_a_00,
                                               {pane: 'pane_1243I_dwg_R_08_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_08_a_00);
-        //map.addLayer(layer_1243I_dwg_R_08_a_41);
 
         map.createPane('pane_1243I_dwg_R_08_b_00');
         map.getPane('pane_1243I_dwg_R_08_b_00').style.zIndex = 114;
@@ -435,7 +430,7 @@
                                               img_bounds_1243I_dwg_R_08_b_00,
                                               {pane: 'pane_1243I_dwg_R_08_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_08_b_00);
-        //map.addLayer(layer_1243I_dwg_R_08_b_40);
+
 
         map.createPane('pane_1243I_dwg_R_09_a_00');
         map.getPane('pane_1243I_dwg_R_09_a_00').style.zIndex = 115;
@@ -445,7 +440,7 @@
                                               img_bounds_1243I_dwg_R_09_a_00,
                                               {pane: 'pane_1243I_dwg_R_09_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_09_a_00);
-        //map.addLayer(layer_1243I_dwg_R_09_a_39);
+        
 
         map.createPane('pane_1243I_dwg_R_09_b_00');
         map.getPane('pane_1243I_dwg_R_09_b_00').style.zIndex = 116;
@@ -455,7 +450,7 @@
                                               img_bounds_1243I_dwg_R_09_b_00,
                                               {pane: 'pane_1243I_dwg_R_09_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_09_b_00);
-        //map.addLayer(layer_1243I_dwg_R_09_b_38);
+
 
         map.createPane('pane_1243I_dwg_R_10_a_00');
         map.getPane('pane_1243I_dwg_R_10_a_00').style.zIndex = 117;
@@ -465,7 +460,7 @@
                                               img_bounds_1243I_dwg_R_10_a_00,
                                               {pane: 'pane_1243I_dwg_R_10_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_10_a_00);
-        //map.addLayer(layer_1243I_dwg_R_10_a_37);
+
 
         map.createPane('pane_1243I_dwg_R_10_b_00');
         map.getPane('pane_1243I_dwg_R_10_b_00').style.zIndex = 118;
@@ -475,7 +470,7 @@
                                               img_bounds_1243I_dwg_R_10_b_00,
                                               {pane: 'pane_1243I_dwg_R_10_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_10_b_00);
-        //map.addLayer(layer_1243I_dwg_R_10_b_36);
+
 
         map.createPane('pane_1243I_dwg_R_11_a_00');
         map.getPane('pane_1243I_dwg_R_11_a_00').style.zIndex = 119;
@@ -485,7 +480,7 @@
                                               img_bounds_1243I_dwg_R_11_a_00,
                                               {pane: 'pane_1243I_dwg_R_11_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_11_a_00);
-        //map.addLayer(layer_1243I_dwg_R_11_a_35);
+
 
         map.createPane('pane_1243I_dwg_R_11_b_00');
         map.getPane('pane_1243I_dwg_R_11_b_00').style.zIndex = 120;
@@ -495,7 +490,7 @@
                                               img_bounds_1243I_dwg_R_11_b_00,
                                               {pane: 'pane_1243I_dwg_R_11_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_11_b_00);
-        //map.addLayer(layer_1243I_dwg_R_11_b_34);
+
 
         map.createPane('pane_1243I_dwg_R_12_a_00');
         map.getPane('pane_1243I_dwg_R_12_a_00').style.zIndex = 121;
@@ -505,7 +500,7 @@
                                               img_bounds_1243I_dwg_R_12_a_00,
                                               {pane: 'pane_1243I_dwg_R_12_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_12_a_00);
-        //map.addLayer(layer_1243I_dwg_R_12_a_33);
+
 
         map.createPane('pane_1243I_dwg_R_12_b_00');
         map.getPane('pane_1243I_dwg_R_12_b_00').style.zIndex = 122;
@@ -515,7 +510,7 @@
                                               img_bounds_1243I_dwg_R_12_b_00,
                                               {pane: 'pane_1243I_dwg_R_12_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_12_b_00);
-        //map.addLayer(layer_1243I_dwg_R_12_b_32);
+
 
         map.createPane('pane_1243I_dwg_R_13_a_00');
         map.getPane('pane_1243I_dwg_R_13_a_00').style.zIndex = 123;
@@ -525,7 +520,7 @@
                                               img_bounds_1243I_dwg_R_13_a_00,
                                               {pane: 'pane_1243I_dwg_R_13_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_13_a_00);
-        //map.addLayer(layer_1243I_dwg_R_13_a_31);
+
 
         map.createPane('pane_1243I_dwg_R_13_b_00');
         map.getPane('pane_1243I_dwg_R_13_b_00').style.zIndex = 124;
@@ -535,7 +530,7 @@
                                               img_bounds_1243I_dwg_R_13_b_00,
                                               {pane: 'pane_1243I_dwg_R_13_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_13_b_00);
-        //map.addLayer(layer_1243I_dwg_R_13_b_30);
+
 
         map.createPane('pane_1243I_dwg_R_14_00');
         map.getPane('pane_1243I_dwg_R_14_00').style.zIndex = 125;
@@ -545,7 +540,7 @@
                                               img_bounds_1243I_dwg_R_14_00,
                                               {pane: 'pane_1243I_dwg_R_14_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_14_00);
-        //map.addLayer(layer_1243I_dwg_R_14_29);
+
 
         map.createPane('pane_1243I_dwg_R_15_00');
         map.getPane('pane_1243I_dwg_R_15_00').style.zIndex = 126;
@@ -555,7 +550,7 @@
                                               img_bounds_1243I_dwg_R_15_00,
                                               {pane: 'pane_1243I_dwg_R_15_00'});
         bounds_group.addLayer(layer_1243I_dwg_R_15_00);
-        //map.addLayer(layer_1243I_dwg_R_15_28);
+
 
 // CR
 
@@ -567,7 +562,7 @@
                                               img_bounds_1243I_dwg_CR_01_00,
                                               {pane: 'pane_1243I_dwg_CR_01_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_01_00);
-        //map.addLayer(layer_1243I_dwg_CR_01_81);
+
 
         map.createPane('pane_1243I_dwg_CR_02_02');
         map.getPane('pane_1243I_dwg_CR_02_02').style.zIndex = 151;
@@ -577,7 +572,7 @@
                                               img_bounds_1243I_dwg_CR_02_02,
                                               {pane: 'pane_1243I_dwg_CR_02_02'});
         bounds_group.addLayer(layer_1243I_dwg_CR_02_02);
-        //map.addLayer(layer_1243I_dwg_CR_02_rev02_80);
+
 
         map.createPane('pane_1243I_dwg_CR_03_00');
         map.getPane('pane_1243I_dwg_CR_03_00').style.zIndex = 152;
@@ -587,7 +582,7 @@
                                               img_bounds_1243I_dwg_CR_03_00,
                                               {pane: 'pane_1243I_dwg_CR_03_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_03_00);
-        //map.addLayer(layer_1243I_dwg_CR_03_79);
+
 
         map.createPane('pane_1243I_dwg_CR_04_00');
         map.getPane('pane_1243I_dwg_CR_04_00').style.zIndex = 153;
@@ -597,7 +592,7 @@
                                               img_bounds_1243I_dwg_CR_04_00,
                                               {pane: 'pane_1243I_dwg_CR_04_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_04_00);
-        //map.addLayer(layer_1243I_dwg_CR_04_78);
+
 
         map.createPane('pane_1243I_dwg_CR_05_a_00');
         map.getPane('pane_1243I_dwg_CR_05_a_00').style.zIndex = 154;
@@ -607,7 +602,7 @@
                                               img_bounds_1243I_dwg_CR_05_a_00,
                                               {pane: 'pane_1243I_dwg_CR_05_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_05_a_00);
-        //map.addLayer(layer_1243I_dwg_CR_05_a_77);
+
 
         map.createPane('pane_1243I_dwg_CR_05_b_00');
         map.getPane('pane_1243I_dwg_CR_05_b_00').style.zIndex = 155;
@@ -617,7 +612,7 @@
                                               img_bounds_1243I_dwg_CR_05_b_00,
                                               {pane: 'pane_1243I_dwg_CR_05_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_05_b_00);
-        //map.addLayer(layer_1243I_dwg_CR_05_b_76);
+
 
         map.createPane('pane_1243I_dwg_CR_06_00');
         map.getPane('pane_1243I_dwg_CR_06_00').style.zIndex = 156;
@@ -627,7 +622,7 @@
                                               img_bounds_1243I_dwg_CR_06_00,
                                               {pane: 'pane_1243I_dwg_CR_06_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_06_00);
-        //map.addLayer(layer_1243I_dwg_CR_06_75);
+
 
         map.createPane('pane_1243I_dwg_CR_07_00');
         map.getPane('pane_1243I_dwg_CR_07_00').style.zIndex = 157;
@@ -637,27 +632,27 @@
                                               img_bounds_1243I_dwg_CR_07_00,
                                               {pane: 'pane_1243I_dwg_CR_07_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_07_00);
-        //map.addLayer(layer_1243I_dwg_CR_07_74);
+
 
         map.createPane('pane_1243I_dwg_CR_08_a_00');
         map.getPane('pane_1243I_dwg_CR_08_a_00').style.zIndex = 158;
-        var img_1243I_dwg_CR_08_a_00 = 'raster_overlay/1243I_dwg_CR_08_a_73_00.png';
+        var img_1243I_dwg_CR_08_a_00 = 'raster_overlay/1243I_dwg_CR_08_a_00.png';
         var img_bounds_1243I_dwg_CR_08_a_00 = [[37.78601994101676,-122.39010430786426],[37.786565292701574,-122.38941204214147]];
         var layer_1243I_dwg_CR_08_a_00 = new L.imageOverlay(img_1243I_dwg_CR_08_a_00,
                                               img_bounds_1243I_dwg_CR_08_a_00,
                                               {pane: 'pane_1243I_dwg_CR_08_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_08_a_00);
-        //map.addLayer(layer_1243I_dwg_CR_08_a_73);
+
 
         map.createPane('pane_1243I_dwg_CR_08_b_00');
         map.getPane('pane_1243I_dwg_CR_08_b_00').style.zIndex = 159;
-        var img_1243I_dwg_CR_08_b_00 = 'raster_overlay/1243I_dwg_CR_08_b_72_00.png';
+        var img_1243I_dwg_CR_08_b_00 = 'raster_overlay/1243I_dwg_CR_08_b_00.png';
         var img_bounds_1243I_dwg_CR_08_b_00 = [[37.786027337183185,-122.39009036813671],[37.78657325698554,-122.38939854674459]];
         var layer_1243I_dwg_CR_08_b_00 = new L.imageOverlay(img_1243I_dwg_CR_08_b_00,
                                               img_bounds_1243I_dwg_CR_08_b_00,
                                               {pane: 'pane_1243I_dwg_CR_08_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_08_b_00);
-        //map.addLayer(layer_1243I_dwg_CR_08_b_72);
+
 
         map.createPane('pane_1243I_dwg_CR_09_00');
         map.getPane('pane_1243I_dwg_CR_09_00').style.zIndex = 160;
@@ -667,27 +662,27 @@
                                               img_bounds_1243I_dwg_CR_09_00,
                                               {pane: 'pane_1243I_dwg_CR_09_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_09_00);
-        //map.addLayer(layer_1243I_dwg_CR_09_71);
-        
-        map.createPane('pane_1243I_dwg_CR_10_a_00');
-        map.getPane('pane_1243I_dwg_CR_10_a_00').style.zIndex = 161;
-        var img_1243I_dwg_CR_10_a_00 = 'raster_overlay/1243I_dwg_CR_10_a_70_00.png';
-        var img_bounds_1243I_dwg_CR_10_a_00 = [[37.78657162373156,-122.38904744558896],[37.787111160890554,-122.38836439788588]];
-        var layer_1243I_dwg_CR_10_a_00 = new L.imageOverlay(img_1243I_dwg_CR_10_a_00,
-                                              img_bounds_1243I_dwg_CR_10_a_00,
-                                              {pane: 'pane_1243I_dwg_CR_10_a_00'});
-        bounds_group.addLayer(layer_1243I_dwg_CR_10_a_00);
-        //map.addLayer(layer_1243I_dwg_CR_10_a_70);
 
-        map.createPane('pane_1243I_dwg_CR_10_b_00');
-        map.getPane('pane_1243I_dwg_CR_10_b_00').style.zIndex = 162;
-        var img_1243I_dwg_CR_10_b_00 = 'raster_overlay/1243I_dwg_CR_10_b_00.png';
-        var img_bounds_1243I_dwg_CR_10_b_00 = [[37.78657113789865,-122.3890478467536],[37.78711324461722,-122.38836073673288]];
-        var layer_1243I_dwg_CR_10_b_00 = new L.imageOverlay(img_1243I_dwg_CR_10_b_00,
-                                              img_bounds_1243I_dwg_CR_10_b_00,
-                                              {pane: 'pane_1243I_dwg_CR_10_b_00'});
-        bounds_group.addLayer(layer_1243I_dwg_CR_10_b_00);
-        //map.addLayer(layer_1243I_dwg_CR_10_b);
+        
+        map.createPane('pane_1243I_dwg_CR_10_00');
+        map.getPane('pane_1243I_dwg_CR_10_00').style.zIndex = 161;
+        var img_1243I_dwg_CR_10_00 = 'raster_overlay/1243I_dwg_CR_10_00.png';
+        var img_bounds_1243I_dwg_CR_10_00 = [[37.78657162373156,-122.38904744558896],[37.787111160890554,-122.38836439788588]];
+        var layer_1243I_dwg_CR_10_00 = new L.imageOverlay(img_1243I_dwg_CR_10_00,
+                                              img_bounds_1243I_dwg_CR_10_00,
+                                              {pane: 'pane_1243I_dwg_CR_10_00'});
+        bounds_group.addLayer(layer_1243I_dwg_CR_10_00);
+
+
+        //map.createPane('pane_1243I_dwg_CR_10_b_00');
+        //map.getPane('pane_1243I_dwg_CR_10_b_00').style.zIndex = 162;
+        //var img_1243I_dwg_CR_10_b_00 = 'raster_overlay/1243I_dwg_CR_10_b_00.png';
+        //var img_bounds_1243I_dwg_CR_10_b_00 = [[37.78657113789865,-122.3890478467536],[37.78711324461722,-122.38836073673288]];
+        //var layer_1243I_dwg_CR_10_b_00 = new L.imageOverlay(img_1243I_dwg_CR_10_b_00,
+        //                                      img_bounds_1243I_dwg_CR_10_b_00,
+        //                                      {pane: 'pane_1243I_dwg_CR_10_b_00'});
+        //bounds_group.addLayer(layer_1243I_dwg_CR_10_b_00);
+
 
         map.createPane('pane_1243I_dwg_CR_11_00');
         map.getPane('pane_1243I_dwg_CR_11_00').style.zIndex = 163;
@@ -697,7 +692,7 @@
                                               img_bounds_1243I_dwg_CR_11_00,
                                               {pane: 'pane_1243I_dwg_CR_11_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_11_00);
-        //map.addLayer(layer_1243I_dwg_CR_11);
+
 
         map.createPane('pane_1243I_dwg_CR_12_00');
         map.getPane('pane_1243I_dwg_CR_12_00').style.zIndex = 164;
@@ -707,7 +702,7 @@
                                               img_bounds_1243I_dwg_CR_12_00,
                                               {pane: 'pane_1243I_dwg_CR_12_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_12_00);
-        //map.addLayer(layer_1243I_dwg_CR_12_67);
+
 
 
         map.createPane('pane_1243I_dwg_CR_13_a_00');
@@ -718,7 +713,7 @@
                                               img_bounds_1243I_dwg_CR_13_a_00,
                                               {pane: 'pane_1243I_dwg_CR_13_a_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_13_a_00);
-        //map.addLayer(layer_1243I_dwg_CR_13_a_66);
+
 
         map.createPane('pane_1243I_dwg_CR_13_b_00');
         map.getPane('pane_1243I_dwg_CR_13_b_00').style.zIndex = 166;
@@ -728,7 +723,7 @@
                                               img_bounds_1243I_dwg_CR_13_b_00,
                                               {pane: 'pane_1243I_dwg_CR_13_b_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_13_b_00);
-        //map.addLayer(layer_1243I_dwg_CR_13_b_65);
+
 
         map.createPane('pane_1243I_dwg_CR_14_00');
         map.getPane('pane_1243I_dwg_CR_14_00').style.zIndex = 167;
@@ -738,7 +733,7 @@
                                               img_bounds_1243I_dwg_CR_14_00,
                                               {pane: 'pane_1243I_dwg_CR_14_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_14_00);
-        //map.addLayer(layer_1243I_dwg_CR_14_64);
+
 
         map.createPane('pane_1243I_dwg_CR_15_00');
         map.getPane('pane_1243I_dwg_CR_15_00').style.zIndex = 168;
@@ -748,7 +743,7 @@
                                               img_bounds_1243I_dwg_CR_15_00,
                                               {pane: 'pane_1243I_dwg_CR_15_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_15_00);
-        //map.addLayer(layer_1243I_dwg_CR_15_63);
+
 
 
         map.createPane('pane_1243I_dwg_CR_16_00');
@@ -759,7 +754,7 @@
                                               img_bounds_1243I_dwg_CR_16_00,
                                               {pane: 'pane_1243I_dwg_CR_16_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_16_00);
-        //map.addLayer(layer_1243I_dwg_CR_16_62);
+
 
         map.createPane('pane_1243I_dwg_CR_17_00');
         map.getPane('pane_1243I_dwg_CR_17_00').style.zIndex = 170;
@@ -769,7 +764,7 @@
                                               img_bounds_1243I_dwg_CR_17_00,
                                               {pane: 'pane_1243I_dwg_CR_17_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_17_00);
-        //map.addLayer(layer_1243I_dwg_CR_17_61);
+
 
         map.createPane('pane_1243I_dwg_CR_18_00');
         map.getPane('pane_1243I_dwg_CR_18_00').style.zIndex = 171;
@@ -779,7 +774,7 @@
                                               img_bounds_1243I_dwg_CR_18_00,
                                               {pane: 'pane_1243I_dwg_CR_18_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_18_00);
-        //map.addLayer(layer_1243I_dwg_CR_18_60);
+
 
         map.createPane('pane_1243I_dwg_CR_19_00');
         map.getPane('pane_1243I_dwg_CR_19_00').style.zIndex = 172;
@@ -789,7 +784,7 @@
                                               img_bounds_1243I_dwg_CR_19_00,
                                               {pane: 'pane_1243I_dwg_CR_19_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_19_00);
-        //map.addLayer(layer_1243I_dwg_CR_19_59);
+
 
         map.createPane('pane_1243I_dwg_CR_20_00');
         map.getPane('pane_1243I_dwg_CR_20_00').style.zIndex = 173;
@@ -799,7 +794,7 @@
                                               img_bounds_1243I_dwg_CR_20_00,
                                               {pane: 'pane_1243I_dwg_CR_20_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_20_00);
-        //map.addLayer(layer_1243I_dwg_CR_20_58);
+
 
         map.createPane('pane_1243I_dwg_CR_21_00');
         map.getPane('pane_1243I_dwg_CR_21_00').style.zIndex = 174;
@@ -809,7 +804,7 @@
                                               img_bounds_1243I_dwg_CR_21_00,
                                               {pane: 'pane_1243I_dwg_CR_21_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_21_00);
-        //map.addLayer(layer_1243I_dwg_CR_21_57);
+
 
 
         map.createPane('pane_1243I_dwg_CR_22_00');
@@ -820,7 +815,7 @@
                                               img_bounds_1243I_dwg_CR_22_00,
                                               {pane: 'pane_1243I_dwg_CR_22_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_22_00);
-        //map.addLayer(layer_1243I_dwg_CR_22_56);
+
 
 
         map.createPane('pane_1243I_dwg_CR_23_00');
@@ -831,5 +826,5 @@
                                               img_bounds_1243I_dwg_CR_23_00,
                                               {pane: 'pane_1243I_dwg_CR_23_00'});
         bounds_group.addLayer(layer_1243I_dwg_CR_23_00);
-        //map.addLayer(layer_1243I_dwg_CR_23_55);
+
 
