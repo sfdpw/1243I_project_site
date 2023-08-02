@@ -4870,6 +4870,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP04': [0,  29.13,  20.87],
                         'PP09': [0,  20.87, -20.87]    
+                    },
+                    'SW-27': {
+                        'PP11': [0, 50,  0]                
                     }
                 },
                 get pp_summary() {
@@ -4888,9 +4891,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -8346,6 +8349,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP03': [0,  29.13,   20.87],
                         'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 50,  0]                
                     }
                 },
                 get pp_summary() {
@@ -8364,9 +8370,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10359,6 +10365,9 @@ var json_1243I_sewer_lines = {
                     'SW-21': {
                         'PP03': [0, 1607.14,  642.86],
                         'PP08': [0,  642.86, -642.86]                        
+                    },
+                    'SW-27': {
+                        'PP11': [0, 50,  0]                
                     }
                 },
                 get pp_summary() {
@@ -10377,9 +10386,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10627,6 +10636,9 @@ var json_1243I_sewer_lines = {
                     'SW-21': {
                         'PP02': [0,   1607.14,  642.86],
                         'PP08': [0,    642.86, -642.86],
+                    },
+                    'SW-27': {
+                        'PP11': [0, 50,  0]                
                     }
                 },
                 get pp_summary() {
@@ -10645,9 +10657,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10964,9 +10976,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
-                        "video_no": "10",
-                        "response": "R&R",
+                        "submittal_no": "97",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11065,7 +11077,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP09': [337.50, 0, 0]
-                    }
+                    },
+                    'SW-27': {
+                        'PP11': [50, 0, 0]
+                    },                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -11083,9 +11098,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11122,6 +11137,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP09': [337.50, 0, 0]
+                    },
+                    'SW-27': {
+                        'PP11': [50, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -11140,9 +11158,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11361,7 +11379,10 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP09': [ 900, 0, 0]
+                        'PP09': [ 900, 0, 0 ]
+                    },
+                    'SW-27': {
+                        'PP11': [ 50, 0, 0 ]
                     }
                 },
                 get pp_summary() {
@@ -11380,9 +11401,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11419,6 +11440,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP09': [2275, 0, 0]
+                    },
+                    'SW-27': {
+                        'PP11': [50, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -11437,9 +11461,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
