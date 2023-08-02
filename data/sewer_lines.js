@@ -3523,7 +3523,7 @@ var json_1243I_sewer_lines = {
             "properties": {
                 "id_a": "L-364287",
                 "id_b": "none",
-                "location": "490 South Van Ness Ave",
+                "location": "483 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-10': {
@@ -16215,13 +16215,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 16th St - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16232,9 +16227,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16851,13 +16846,8 @@ var json_1243I_sewer_lines = {
                 "location": "449 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-20': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -16868,9 +16858,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "12",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
