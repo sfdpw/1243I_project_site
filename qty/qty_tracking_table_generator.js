@@ -1,4 +1,4 @@
-function generate_qty_tracking_table(table_id, bid_item, tvi_arg = '')
+function generate_qty_tracking_table(table_id, bid_item)
 
 {
 

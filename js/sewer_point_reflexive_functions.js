@@ -27,8 +27,6 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
     } else if (point_scope.includes('Install (N)')) {
 
-
-
         return_string = sewer_status_code_array[6];
 
         if (
