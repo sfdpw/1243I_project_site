@@ -8990,6 +8990,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
+        
         {
             "type": "Feature",
             "properties": {
@@ -9052,7 +9053,67 @@ var json_1243I_sewer_lines = {
             }
         },
 
+
         // #################################################### 
+        
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_031",
+                "id_b": "none",
+                "location": "565 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-20': {
+                        'PP10': [0, 0, 50]
+                    },                       
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history) 
+                }, 
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75",
+                        "video_no": "28",
+                        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
+                get status() {
+                    return sw_line_status_from_line_object( this)
+                }
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                       [ -122.417455457117896, 37.764452074665748 ],
+                       [ -122.417291318828674, 37.764463292098988 ]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // #################################################### 
+        
         {
             "type": "Feature",
             "properties": {
@@ -23780,7 +23841,7 @@ var json_1243I_sewer_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unkown_lateral_022",
+                "id_a": "unknown_lateral_022",
                 "id_b": "none",
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
@@ -23839,7 +23900,7 @@ var json_1243I_sewer_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unkown_lateral_023",
+                "id_a": "unknown_lateral_023",
                 "id_b": "none",
                 "location": "1501 15th St",
                 "scope": "Improve (E) side sewer as directed",
