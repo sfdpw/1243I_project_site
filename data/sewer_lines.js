@@ -12086,7 +12086,7 @@ var json_1243I_sewer_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-104310",
+                "id_a": "P-423715",
                 "id_b": "none",
                 "location": "South Van Ness Ave between 14th St and 15th St",
                 "scope": "Install (N) 18in VCP main",
@@ -12143,7 +12143,7 @@ var json_1243I_sewer_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-104127",
+                "id_a": "P-423714",
                 "id_b": "none",
                 "location": "South Van Ness Ave between 14th St and 15th St",
                 "scope": "Install (N) 18in VCP main",

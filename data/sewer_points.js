@@ -1429,8 +1429,8 @@ var json_1243I_sewer_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_manhole_001",
-                "id_b": "none",
+                "id_a": "331044",
+                "id_b": "N-423712",
                 "location": "South Van Ness Ave - North of 15th St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
@@ -3167,8 +3167,8 @@ var json_1243I_sewer_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "106518",
-                "id_b": "N-40750",
+                "id_a": "331043",
+                "id_b": "N-423713",
                 "location": "344 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
@@ -4088,7 +4088,7 @@ var json_1243I_sewer_points = {
             "type": "Feature",
             "properties": {
                 "id_a": "17120",
-                "id_b": "none",
+                "id_b": "N-30041",
                 "location": "Intersection of South Van Ness Ave and 14th St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
