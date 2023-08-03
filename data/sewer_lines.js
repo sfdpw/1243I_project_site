@@ -16602,66 +16602,67 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        {
-            "type": "Feature",
-            "properties": {
-                "id_a": "L-364290",
-                "id_b": "none",
-                "location": "1501 15th St",
-                "scope": "Improve (E) side sewer as directed",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-                "submittals": {
-                    "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    },
-                    "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "lt",
-                get status() {
-                    return sw_line_status_from_line_object( this)
-                }
-            },
-            "geometry": {
-                "type": "MultiLineString",
-                "coordinates": [
-                    [
-                        [-122.417649651555294, 37.766471489786746],
-                        [-122.417752860490609, 37.766469149899706]
-                    ]
-                ]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
-            }
-        },
+   
+   //     {
+   //         "type": "Feature",
+   //         "properties": {
+   //             "id_a": "L-364290",
+   //             "id_b": "none",
+   //             "location": "1501 15th St",
+   //             "scope": "Improve (E) side sewer as directed",
+   //             "pp_history": {
+   //                 'SW-0': {
+   //                     'PP0': {
+   //                         'SFPUC-SW': {
+   //                             'QTY': 0,
+   //                             'UNIT': ''
+   //                         }
+   //                     }
+   //                 }
+   //             },
+   //             get pp_summary() {
+   //                 return payment_summary_from_pp_history(this.pp_history)
+   //             },
+   //             get bid_items() {
+   //                 return bid_item_flattener(this.pp_history) 
+   //             }, 
+   //             "submittals": {
+   //                 "tvi_pre_con": {
+   //                     "submittal_no": "none",
+   //                     "video_no": "none",
+   //                     "response": "none",
+   //                     get response_date() {
+   //                         return response_date_from_submittal_no(this.submittal_no)
+   //                     }
+   //                 },
+   //                 "tvi_post_con": {
+   //                     "submittal_no": "none",
+   //                     "video_no": "none",
+   //                     "response": "none",
+   //                     get response_date() {
+   //                         return response_date_from_submittal_no(this.submittal_no)
+   //                   }
+   //                 }
+   //             },
+   //             "rlvnt": "none",
+   //             "sw_type": "lt",
+   //             get status() {
+   //                 return sw_line_status_from_line_object( this)
+   //             }
+   //         },
+   //         "geometry": {
+   //             "type": "MultiLineString",
+   //             "coordinates": [
+   //                 [
+   //                     [-122.417649651555294, 37.766471489786746],
+   //                     [-122.417752860490609, 37.766469149899706]
+   //                 ]
+   //             ]
+   //         },
+   //         get asset_coordinate() {
+   //             return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+   //         }
+   //     },
 
         // #################################################### 
         {
@@ -23914,7 +23915,7 @@ var json_1243I_sewer_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_lateral_023",
+                "id_a": "L-364290",
                 "id_b": "none",
                 "location": "1501 15th St",
                 "scope": "Improve (E) side sewer as directed",
