@@ -16695,7 +16695,7 @@ var json_1243I_sewer_lines = {
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76",
-                        "video_no": "30",
+                        "video_no": "30, 31",
                         "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
