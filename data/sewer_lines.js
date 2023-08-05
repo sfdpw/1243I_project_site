@@ -360,7 +360,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "95.1",
+                        "submittal_no": "98.1",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -1879,7 +1879,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-157826",
                 "id_b": "none",
                 "location": "131 South Van Ness Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-19': {
                         'PP05': [0, 150, 0]
@@ -2124,9 +2124,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
-                        "video_no": "7",
-                        "response": "MCN - Replace",
+                        "submittal_no": "101.0",
+                        "video_no": "2",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3097,7 +3097,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-326774",
                 "id_b": "none",
                 "location": "1618 Howard St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -3526,15 +3526,9 @@ var json_1243I_sewer_lines = {
                 "location": "483 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-10': {
-                        'PP09': [0, 0, 200]
-                    },                       
-                    'SW-18': {
-                        'PP09': [0, 0, 300]
-                    },       
-                    'SW-20': {
-                        'PP10': [0, 0, 50]
-                    }
+                    'SW-0': {
+                        'PP0': [0, 0, 0]
+                    }                       
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -3544,9 +3538,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
-                        "video_no": "37",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3563,7 +3557,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object( this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3962,7 +3956,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-157824",
                 "id_b": "none",
                 "location": "110 12th St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-19': {
                         'PP05': [0, 150, 0]
@@ -4138,7 +4132,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-157838",
                 "id_b": "none",
                 "location": "170 South Van Ness Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-19': {
                         'PP07': [0, 150, 0 ]
@@ -4209,9 +4203,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
-                        "video_no": "5",
-                        "response": "MCN - Replace",
+                        "submittal_no": "101.0",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4672,13 +4666,14 @@ var json_1243I_sewer_lines = {
                 "location": "2901 16th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': [0, 0, 200]
+                    },                       
+                    'SW-18': {
+                        'PP09': [0, 0, 300]
+                    },       
+                    'SW-20': {
+                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4689,9 +4684,9 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75",
+                        "video_no": "37",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -9923,7 +9918,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "L-157829",
                 "id_b": "none",
                 "location": "165 South Van Ness Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-19': {
                         'PP04': [0, 150, 0]
@@ -16202,9 +16197,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "98.1",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18716,7 +18711,7 @@ var json_1243I_sewer_lines = {
                 "id_a": "P-397229",
                 "id_b": "none",
                 "location": "139 South Van Ness Ave",
-                "scope": "Improve (E) culvert as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
