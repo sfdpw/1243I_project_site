@@ -36,7 +36,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "12",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -44,7 +44,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "100",
+                        "submittal_no": "100.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -100,7 +100,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "2",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -163,7 +163,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "1",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -226,7 +226,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "3",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -289,7 +289,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "6",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -352,7 +352,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "8",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -418,7 +418,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "10",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -481,7 +481,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "11",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -547,7 +547,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "9",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -610,7 +610,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "78",
+                        "submittal_no": "78.0",
                         "video_no": "1",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -673,7 +673,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "4",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -736,7 +736,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "5",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -856,7 +856,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "78",
+                        "submittal_no": "78.0",
                         "video_no": "2",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -924,7 +924,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "84",
+                        "submittal_no": "84.0",
                         "video_no": "3",
                         "response": "MCN",
                         get response_date() {
@@ -985,7 +985,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "84",
+                        "submittal_no": "84.0",
                         "video_no": "2",
                         "response": "MCN",
                         get response_date() {
@@ -1049,7 +1049,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "84",
+                        "submittal_no": "84.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -1234,7 +1234,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "66",
+                        "submittal_no": "66.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -1295,7 +1295,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "61",
+                        "submittal_no": "61.0",
                         "video_no": "3",
                         "response": "MCN",
                         get response_date() {
@@ -1356,7 +1356,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "61",
+                        "submittal_no": "61.0",
                         "video_no": "1",
                         "response": "MCN",
                         get response_date() {
@@ -1417,7 +1417,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "61",
+                        "submittal_no": "61.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -1481,7 +1481,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "84",
+                        "submittal_no": "84.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -1541,7 +1541,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "84",
+                        "submittal_no": "84.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -1602,7 +1602,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "3",
                         "response": "MCN",
                         get response_date() {
@@ -1663,7 +1663,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "2",
                         "response": "MCN",
                         get response_date() {
@@ -1940,7 +1940,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                     'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                   
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -1950,7 +1953,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "19",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -1958,9 +1961,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -2057,7 +2060,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                     'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                   
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -2067,7 +2073,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "6",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2075,9 +2081,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -2181,7 +2187,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -2228,6 +2234,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -2238,7 +2247,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "28",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2246,9 +2255,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -2285,7 +2294,11 @@ var json_1243I_sewer_lines = {
                  "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                     'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                   
+                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -2295,7 +2308,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "29",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2303,9 +2316,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "12",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -2416,7 +2429,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "11",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -2609,7 +2622,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "52",
+                        "submittal_no": "52.0",
                         "video_no": "2",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2617,7 +2630,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "54",
+                        "submittal_no": "54.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -2678,7 +2691,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "52",
+                        "submittal_no": "52.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2686,7 +2699,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "54",
+                        "submittal_no": "54.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -2739,7 +2752,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -2808,7 +2821,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -2816,7 +2829,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "60",
+                        "submittal_no": "60.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -2931,7 +2944,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "8",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -2992,7 +3005,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -3295,7 +3308,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "22",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -3342,6 +3355,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3352,7 +3368,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "25",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -3360,9 +3376,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3418,7 +3434,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "17",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -3426,7 +3442,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "10",
                         "response": "NET",
                         get response_date() {
@@ -3481,7 +3497,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -3607,7 +3623,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "32",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -3615,7 +3631,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "6",
                         "response": "MCN",
                         get response_date() {
@@ -3791,7 +3807,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -3921,7 +3937,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "82",
+                        "submittal_no": "82.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -4061,7 +4077,10 @@ var json_1243I_sewer_lines = {
 		        [-122.418362634280214, 37.771551001864367]
 		    ]
 		]
-	    }
+	    },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
 	},
 
         // #################################################### 
@@ -4384,7 +4403,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "11",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -4441,7 +4460,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "17",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -4488,6 +4507,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4498,7 +4520,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "23",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -4506,9 +4528,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4545,7 +4567,11 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                    
+                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -4555,7 +4581,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "27",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -4563,9 +4589,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4621,7 +4647,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "16",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -4629,7 +4655,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "9",
                         "response": "NET",
                         get response_date() {
@@ -4684,7 +4710,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "37",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -4753,7 +4779,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "31",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -4761,7 +4787,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -4814,7 +4840,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "59",
+                        "submittal_no": "59.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -4878,7 +4904,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "5",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -4886,7 +4912,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "97",
+                        "submittal_no": "97.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -4947,7 +4973,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "56",
+                        "submittal_no": "56.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -4955,7 +4981,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "57",
+                        "submittal_no": "57.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -5008,7 +5034,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "10",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5077,7 +5103,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "9",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -5085,7 +5111,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -5138,7 +5164,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5199,7 +5225,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5268,7 +5294,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -5276,7 +5302,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -5325,7 +5351,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "8",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -5453,7 +5479,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "21",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5514,7 +5540,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5575,7 +5601,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "59",
+                        "submittal_no": "59.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5698,7 +5724,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5759,7 +5785,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "7",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5820,7 +5846,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -5881,7 +5907,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6066,7 +6092,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "11",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6127,7 +6153,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "6",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6188,7 +6214,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6375,7 +6401,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "82",
+                        "submittal_no": "82.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -6548,7 +6574,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "9",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -6595,6 +6621,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6605,7 +6634,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "18",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -6613,9 +6642,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -6668,7 +6697,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "18",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6725,7 +6754,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "33",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6794,7 +6823,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "24",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -6802,7 +6831,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "1",
                         "response": "MCN",
                         get response_date() {
@@ -6857,7 +6886,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "19",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -6926,7 +6955,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "30",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -6934,7 +6963,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -6987,7 +7016,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "59",
+                        "submittal_no": "59.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7056,7 +7085,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -7064,7 +7093,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "67",
+                        "submittal_no": "67.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -7179,7 +7208,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "59",
+                        "submittal_no": "59.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7248,7 +7277,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -7256,7 +7285,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "54",
+                        "submittal_no": "54.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -7313,7 +7342,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "56",
+                        "submittal_no": "56.0",
                         "video_no": "2",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -7321,7 +7350,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "57",
+                        "submittal_no": "57.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -7498,7 +7527,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "43",
+                        "submittal_no": "43.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7559,7 +7588,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7628,7 +7657,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "2",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -7636,7 +7665,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -7864,7 +7893,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "10",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7921,7 +7950,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "14",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -7968,7 +7997,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                     
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -7978,7 +8010,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "21",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -7986,9 +8018,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -8047,7 +8079,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "33",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -8055,7 +8087,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "7",
                         "response": "MCN",
                         get response_date() {
@@ -8108,7 +8140,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8231,7 +8263,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "6",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8357,7 +8389,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "3",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -8365,7 +8397,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "97",
+                        "submittal_no": "97.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -8475,7 +8507,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8660,7 +8692,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "9",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8721,7 +8753,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "43",
+                        "submittal_no": "43.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8840,7 +8872,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "12",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -8897,7 +8929,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "16",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -8954,7 +8986,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "26",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9018,7 +9050,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "26",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9077,7 +9109,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "28",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9139,7 +9171,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "59",
+                        "submittal_no": "59.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9386,7 +9418,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9447,7 +9479,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9508,7 +9540,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9577,7 +9609,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "53",
+                        "submittal_no": "53.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -9585,7 +9617,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "54",
+                        "submittal_no": "54.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -9700,7 +9732,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "8",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9761,7 +9793,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "43",
+                        "submittal_no": "43.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -9977,13 +10009,8 @@ var json_1243I_sewer_lines = {
                 "location": "334 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -10002,9 +10029,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10051,7 +10078,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "20",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -10120,7 +10147,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "27",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10128,7 +10155,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -10305,7 +10332,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "6",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -10373,7 +10400,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10381,7 +10408,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "97",
+                        "submittal_no": "97.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -10442,7 +10469,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10450,7 +10477,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "7",
                         "response": "NET",
                         get response_date() {
@@ -10511,7 +10538,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "10",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10519,7 +10546,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "6",
                         "response": "NET",
                         get response_date() {
@@ -10576,7 +10603,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "6",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10584,7 +10611,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -10644,7 +10671,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10652,7 +10679,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "97",
+                        "submittal_no": "97.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -10710,7 +10737,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10718,7 +10745,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "57",
+                        "submittal_no": "57.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -10839,7 +10866,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "52",
+                        "submittal_no": "52.0",
                         "video_no": "5",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10909,7 +10936,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "11",
                         "response": "NET",
                         get response_date() {
@@ -10971,7 +10998,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "97",
+                        "submittal_no": "97.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -11033,7 +11060,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "67",
+                        "submittal_no": "67.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -11093,7 +11120,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99",
+                        "submittal_no": "99.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -11153,7 +11180,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99",
+                        "submittal_no": "99.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -11214,7 +11241,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "77",
+                        "submittal_no": "77.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -11274,7 +11301,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "85",
+                        "submittal_no": "85.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -11396,7 +11423,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99",
+                        "submittal_no": "99.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -11456,7 +11483,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99",
+                        "submittal_no": "99.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -12064,7 +12091,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58",
+                        "submittal_no": "58.0",
                         "video_no": "8",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12297,7 +12324,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "15",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12354,7 +12381,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "13",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12473,7 +12500,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "35",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12530,7 +12557,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "37",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12587,7 +12614,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "39",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -12644,7 +12671,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "38",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -13135,7 +13162,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "6",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13192,7 +13219,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -13249,7 +13276,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "7",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13555,7 +13582,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13612,7 +13639,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "2",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13669,7 +13696,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "3",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13727,7 +13754,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "89",
+                        "submittal_no": "89.0",
                         "video_no": "4",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -13971,7 +13998,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -14153,7 +14180,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55",
+                        "submittal_no": "55.0",
                         "video_no": "6",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -14955,7 +14982,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "52",
+                        "submittal_no": "52.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -15014,7 +15041,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "52",
+                        "submittal_no": "52.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -15567,7 +15594,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -15687,7 +15714,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "29",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -15750,7 +15777,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "25",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -15758,7 +15785,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "81",
+                        "submittal_no": "81.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -15816,7 +15843,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "36",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -15824,7 +15851,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "88",
+                        "submittal_no": "88.0",
                         "video_no": "1",
                         "response": "MCN",
                         get response_date() {
@@ -16189,7 +16216,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "74",
+                        "submittal_no": "74.0",
                         "video_no": "7",
                         "response": "MCN - Proceed with Lining",
                         get response_date() {
@@ -16246,7 +16273,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -16498,7 +16525,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "20",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -16506,7 +16533,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "11",
                         "response": "NET",
                         get response_date() {
@@ -16689,7 +16716,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "30, 31",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -16697,7 +16724,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -16755,7 +16782,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "5",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -16763,7 +16790,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -16821,7 +16848,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "6",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -16829,7 +16856,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -16878,7 +16905,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "12",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -16941,7 +16968,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "10",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -17007,7 +17034,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "15",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -17015,7 +17042,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "8",
                         "response": "NET",
                         get response_date() {
@@ -17073,7 +17100,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "13",
                         "response": "MCN - Do Replace",
                         get response_date() {
@@ -17081,7 +17108,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "7",
                         "response": "NET",
                         get response_date() {
@@ -17139,7 +17166,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "9",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -17147,7 +17174,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "6",
                         "response": "NET",
                         get response_date() {
@@ -17202,7 +17229,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "8",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -17268,7 +17295,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "7",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -17276,7 +17303,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -17334,7 +17361,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "32",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -17342,7 +17369,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91",
+                        "submittal_no": "91.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -17391,7 +17418,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "36",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -17448,7 +17475,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "34",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -17505,7 +17532,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -17562,7 +17589,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -18791,7 +18818,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "65",
+                        "submittal_no": "65.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -18799,7 +18826,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "90",
+                        "submittal_no": "90.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -19665,7 +19692,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "82",
+                        "submittal_no": "82.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -19906,7 +19933,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "82",
+                        "submittal_no": "82.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -20399,7 +20426,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "11",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -20407,7 +20434,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "8",
                         "response": "NET",
                         get response_date() {
@@ -20465,7 +20492,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "12",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -20473,7 +20500,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "9",
                         "response": "NET",
                         get response_date() {
@@ -20526,7 +20553,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "7",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -20595,7 +20622,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "45",
+                        "submittal_no": "45.0",
                         "video_no": "2",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -20603,7 +20630,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "50",
+                        "submittal_no": "50.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -20653,7 +20680,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "43",
+                        "submittal_no": "43.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -21207,7 +21234,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "8",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -21710,7 +21737,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -21771,7 +21798,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "7",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -21779,7 +21806,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "42",
+                        "submittal_no": "42.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -21832,7 +21859,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "6",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -21893,7 +21920,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "5",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -21954,7 +21981,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "4",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -22015,7 +22042,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "2",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -22073,7 +22100,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "1",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -22131,7 +22158,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "3",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -22694,7 +22721,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63",
+                        "submittal_no": "63.0",
                         "video_no": "6",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -22702,7 +22729,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "67",
+                        "submittal_no": "67.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -22888,7 +22915,7 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "67",
+                        "submittal_no": "67.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -23810,7 +23837,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "44",
+                        "submittal_no": "44.0",
                         "video_no": "7",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -23858,7 +23885,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -23868,7 +23898,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "76",
+                        "submittal_no": "76.0",
                         "video_no": "24",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -23876,9 +23906,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23933,7 +23963,7 @@ var json_1243I_sewer_lines = {
                 }, 
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "75",
+                        "submittal_no": "75.0",
                         "video_no": "35",
                         "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24180,7 +24210,7 @@ var json_1243I_sewer_lines = {
                 },
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "76",
+		        "submittal_no": "76.0",
 		        "video_no": "1",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24307,7 +24337,7 @@ var json_1243I_sewer_lines = {
                 },
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "75",
+		        "submittal_no": "75.0",
 		        "video_no": "22",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24371,7 +24401,7 @@ var json_1243I_sewer_lines = {
                 }, 
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "75",
+		        "submittal_no": "75.0",
 		        "video_no": "23",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24435,7 +24465,7 @@ var json_1243I_sewer_lines = {
                 }, 
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "75",
+		        "submittal_no": "75.0",
 		        "video_no": "14",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24499,7 +24529,7 @@ var json_1243I_sewer_lines = {
                 }, 
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "75",
+		        "submittal_no": "75.0",
 		        "video_no": "2",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
@@ -24557,7 +24587,7 @@ var json_1243I_sewer_lines = {
                 }, 
 		"submittals": {
 		    "tvi_pre_con": {
-		        "submittal_no": "80",
+		        "submittal_no": "80.0",
 		        "video_no": "1",
 		        "response": "MCN - Do Not Replace",
                         get response_date() {
