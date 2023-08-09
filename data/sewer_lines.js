@@ -4267,13 +4267,8 @@ var json_1243I_sewer_lines = {
                 "location": "340 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -4292,9 +4287,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "103.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -6564,6 +6559,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                     'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -6582,9 +6580,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "102.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -8862,6 +8860,9 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -8880,9 +8881,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "103.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24200,7 +24201,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                    'SW-27': {
+                        'PP11': [0, 0, 50]
+                    }                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -24212,15 +24216,15 @@ var json_1243I_sewer_lines = {
 		    "tvi_pre_con": {
 		        "submittal_no": "76.0",
 		        "video_no": "1",
-		        "response": "MCN - Do Not Replace",
+                        "response": "Replace (per Email)",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
 		    },
 		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+		        "submittal_no": "102.0",
+		        "video_no": "1",
+		        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
