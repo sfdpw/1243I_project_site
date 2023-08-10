@@ -1374,7 +1374,7 @@ var json_1243I_plan_boundaries = {
                 "specifier": "a",
                 'as_built': 'none',
                 "tcp": "none",
-                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05'])
+                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05', '05_rev01'])
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1420,7 +1420,7 @@ var json_1243I_plan_boundaries = {
                 "specifier": "b",
                 'as_built': 'none',
                 "tcp": "none",
-                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05'])
+                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05', '05_rev01'])
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1458,7 +1458,7 @@ var json_1243I_plan_boundaries = {
                 "specifier": "a",
                 'as_built': 'none',
                 "tcp": "none",
-                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05'])
+                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05', '05_rev01'])
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1496,7 +1496,7 @@ var json_1243I_plan_boundaries = {
                 "specifier": "b",
                 'as_built': 'none',
                 "tcp": "none",
-                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05'])
+                'rlvnt': rlvnt_entry_creator(rlvnt_array_r, ['05', '05_rev01'])
             },
             "geometry": {
                 "type": "MultiPolygon",
