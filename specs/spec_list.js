@@ -126,6 +126,7 @@ var list_of_specs = [
 	'1243I_spec_32_17_34_concrete_detectable_warning_tiles.pdf',
 	'1243I_spec_33_01_30.63_sewerage_system_mortar_rehabilitation.pdf',
 	'1243I_spec_33_01_30.73_cured-in-place_liner_pipe.pdf',
+	'1243I_spec_32_17_53_adjustments_of_frames_and_castings.pdf',
 	'1243I_spec_33_24_00_ground_water_wells.pdf',
 	'1243I_spec_33_33_00_sanitary_sewerage_utilities.pdf',
 	'1243I_spec_34_23_16.18_overhead_cable_isolation.pdf'
