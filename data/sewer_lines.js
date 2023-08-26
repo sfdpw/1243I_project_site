@@ -595,11 +595,11 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
+                    'SW-14': {
+                        'PP10': [0, 71272, 0]
+                    },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
-                    },
-                    'SW-20': {
-                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -783,7 +783,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-09': {
                         'PP09': [0, 930, 570]
-                    }
+                    },
+                    'SW-14': {
+                        'PP10': [0, 15576, 0]
+                    },                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -841,11 +844,11 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
+                    'SW-14': {
+                        'PP10': [0, 56168, 0]
+                    },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
-                    },
-                    'SW-20': {
-                        'PP10': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
@@ -3112,13 +3115,8 @@ var json_1243I_sewer_lines = {
                 "location": "1618 Howard St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-19': {
+                        'PP10': [0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -3914,6 +3912,9 @@ var json_1243I_sewer_lines = {
                 "location": "1582 Folsom St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 300, 0]
+                    },
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
@@ -4886,6 +4887,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP04': [0,  29.13,  20.87],
                         'PP09': [0,  20.87, -20.87]    
+                    },
+                    'SW-21': {
+                        'PP10': [0, 2875,  0]                
                     },
                     'SW-27': {
                         'PP11': [0, 50,  0]                
@@ -6316,6 +6320,9 @@ var json_1243I_sewer_lines = {
                 "location": "288 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 300, 0]
+                    },
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     }
@@ -6373,6 +6380,9 @@ var json_1243I_sewer_lines = {
                 "location": "286 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 300, 0]
+                    },
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
@@ -7326,6 +7336,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP03': [0,  29.13,   20.87],
                         'PP09': [0,  20.87,  -20.87]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 2625,  0]                
                     },
                     'SW-27': {
                         'PP03': [  13.54, 27.08,  9.38],
@@ -8375,6 +8388,9 @@ var json_1243I_sewer_lines = {
                         'PP03': [0,  29.13,   20.87],
                         'PP09': [0,  20.87,  -20.87]
                     },
+                    'SW-21': {
+                        'PP10': [0, 2625,  0]                
+                    },
                     'SW-27': {
                         'PP11': [0, 50,  0]                
                     }
@@ -9098,6 +9114,9 @@ var json_1243I_sewer_lines = {
                 "location": "565 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 0, 300]
+                    },    
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },                       
@@ -9839,6 +9858,9 @@ var json_1243I_sewer_lines = {
                 "location": "255 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 300, 0]
+                    },
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     }
@@ -10590,6 +10612,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP01': [0, 29.13,  20.87],
                         'PP09': [0, 20.87, -20.87]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 2250,  0]                
                     },
                     'SW-27': {
                         'PP02': [  13.54,  27.08,  9.38 ],
@@ -16262,6 +16287,9 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 16th St - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -16894,6 +16922,9 @@ var json_1243I_sewer_lines = {
                 "location": "449 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -19908,9 +19939,12 @@ var json_1243I_sewer_lines = {
             "properties": {
                 "id_a": "P-403730",
                 "id_b": "none",
-                "location": "255 12TH St",
+                "location": "255 12th St",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
+                    'SW-18': {
+                        'PP10': [0, 300, 0]
+                    },                    
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
@@ -24579,6 +24613,9 @@ var json_1243I_sewer_lines = {
 		"location": "252 12th St",
 		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
+		    "SW-18": {
+		        "PP10": [0, 300, 0]
+		    },
 		    "SW-20": {
 		        "PP10": [0, 50, 0]
 		    }
