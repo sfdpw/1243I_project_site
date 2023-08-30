@@ -1007,7 +1007,7 @@ var base_sov =
 
         {
             "bid_item": "SW-14",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Line Existing 3'x5' Egg-Shaped Brick Sewer with  Cured-In-Place Liner (CIPL)",
