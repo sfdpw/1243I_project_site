@@ -19962,7 +19962,7 @@ var json_1243I_sewer_lines = {
                 "coordinates": [
                     [
                         [-122.415069335756101, 37.77101429430234],
-                        [-122.415112937101895, 37.77094894247648]
+                        [-122.415130485741329, 37.770956307925942]
                     ]
                 ]
             },
@@ -20106,10 +20106,7 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     "SW-10": {
 		        "PP10": [0, 200, 0]
-		    },
-                    'SW-18': {
-                        'PP10': [0, 300, 0]
-                    }
+		    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -24855,9 +24852,6 @@ var json_1243I_sewer_lines = {
 		"pp_history": {
 		    "SW-10": {
 		        "PP10": [0, 200, 0]
-		    },
-		    "SW-18": {
-		        "PP10": [0, 300, 0]
 		    },
 		    "SW-20": {
 		        "PP10": [0, 50, 0]
