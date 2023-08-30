@@ -1941,8 +1941,14 @@ var json_1243I_sewer_lines = {
                 "location": "359 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                      'SW-27': {
                         'PP11': [0, 0, 50]
@@ -2061,8 +2067,14 @@ var json_1243I_sewer_lines = {
                 "location": "324 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                      'SW-27': {
                         'PP11': [0, 0, 50]
@@ -2121,6 +2133,9 @@ var json_1243I_sewer_lines = {
                 "location": "330 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -2178,6 +2193,9 @@ var json_1243I_sewer_lines = {
                 "location": "315 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -2235,8 +2253,14 @@ var json_1243I_sewer_lines = {
                 "location": "387 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                     'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -2295,8 +2319,14 @@ var json_1243I_sewer_lines = {
                 "location": "395 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                  "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                     'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                      'SW-27': {
                         'PP11': [0, 0, 50]
@@ -3294,6 +3324,9 @@ var json_1243I_sewer_lines = {
                 "location": "366 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                  "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -3351,8 +3384,14 @@ var json_1243I_sewer_lines = {
                 "location": "373 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -3419,6 +3458,9 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
@@ -3918,6 +3960,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
+                    'SW-21': {
+                        'PP10': [0, 3000, 0]
+                    },
                     'SW-27': {
                         'PP10': [0, 50, 0]
                     }
@@ -4211,6 +4256,9 @@ var json_1243I_sewer_lines = {
                 "location": "310 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -4268,6 +4316,12 @@ var json_1243I_sewer_lines = {
                 "location": "340 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                     'SW-27': {
                         'PP11': [0, 0, 50]
                     }
@@ -4387,6 +4441,9 @@ var json_1243I_sewer_lines = {
                 "location": "341 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -4444,6 +4501,9 @@ var json_1243I_sewer_lines = {
                 "location": "353 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -4501,8 +4561,14 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -4561,8 +4627,14 @@ var json_1243I_sewer_lines = {
                 "location": "383 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -4630,6 +4702,9 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
@@ -5338,6 +5413,9 @@ var json_1243I_sewer_lines = {
                 "location": "321 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -6386,6 +6464,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
+                    'SW-21': {
+                        'PP10': [0, 2875, 0]
+                    },
                     'SW-27': {
                         'PP10': [0, 50, 0]
                     }
@@ -6567,8 +6648,14 @@ var json_1243I_sewer_lines = {
                 "location": "333 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+ //                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                      'SW-27': {
                         'PP11': [0, 0, 50]
@@ -6627,8 +6714,14 @@ var json_1243I_sewer_lines = {
                 "location": "356 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -6750,6 +6843,9 @@ var json_1243I_sewer_lines = {
                 "location": "1486 15th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -7892,6 +7988,9 @@ var json_1243I_sewer_lines = {
                 "location": "335 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -7949,6 +8048,9 @@ var json_1243I_sewer_lines = {
                 "location": "349 South Van Ness AVe",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -8006,8 +8108,14 @@ var json_1243I_sewer_lines = {
                 "location": "365 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3125]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -8874,8 +8982,14 @@ var json_1243I_sewer_lines = {
                 "location": "344 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -8934,6 +9048,9 @@ var json_1243I_sewer_lines = {
                 "location": "350 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -8991,6 +9108,9 @@ var json_1243I_sewer_lines = {
                 "location": "377 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -10032,6 +10152,12 @@ var json_1243I_sewer_lines = {
                 "location": "334 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                     'SW-27': {
                         'PP11': [0, 0, 50]
                     }
@@ -10089,6 +10215,9 @@ var json_1243I_sewer_lines = {
                 "location": "360 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -15857,6 +15986,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3500]
+                    },
                     'SW-27': {
                         'PP10': [0, 0, 50]
                     }
@@ -16227,8 +16359,12 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 930, 570]
                     },
+                    'SW-12': {
+                        'PP10': [0, 0,  25200]
+                    },
                     'SW-14': {
-                        'PP09': [0, 0, 7552]
+                        'PP09': [0, 0,  7552],
+                        'PP10': [0, 0, -7552]
                     },
                     'SW-16': {
                         'PP08': [0, 350, 66.66]
@@ -16542,6 +16678,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                      'SW-27': {
                         'PP10': [0, 0, 50]
                     },                   
@@ -16733,6 +16872,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                      'SW-27': {
                         'PP10': [0, 0, 50]
                     }
@@ -16799,6 +16941,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250 ]
+                    },
                     'SW-27': {
                         'PP10': [0, 0, 50]
                     }                    
@@ -16864,6 +17009,9 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
@@ -17054,6 +17202,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                     'SW-27': {
                         'PP10': [0, 0, 50]
                     }
@@ -17120,6 +17271,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                     'SW-27': {
                         'PP10': [0, 0, 50]
                     }                    
@@ -17185,6 +17339,9 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
@@ -17315,6 +17472,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
+                    },
                     'SW-27': {
                         'PP10': [0, 0, 50]
                     }                   
@@ -17380,6 +17540,9 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
@@ -19704,6 +19867,9 @@ var json_1243I_sewer_lines = {
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
+                     'SW-22': {
+                        'PP10': [0, 1150, 0]
+                    },  
                      'SW-27': {
                         'PP10': [0, 50, 0]
                     },                   
@@ -19947,6 +20113,9 @@ var json_1243I_sewer_lines = {
                     },                    
                     'SW-20': {
                         'PP10': [0, 50, 0]
+                    },
+                    'SW-22': {
+                        'PP10': [0, 1050, 0]
                     },
                     'SW-27': {
                         'PP10': [0, 50, 0]
@@ -23918,8 +24087,14 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
@@ -24233,8 +24408,14 @@ var json_1243I_sewer_lines = {
 		"location": "300 South Van Ness Ave",
 		"scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+//                    'SW-19': {
+//                        'PP10': [0, 0, 150]
+//                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'SW-21': {
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]

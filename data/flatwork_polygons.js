@@ -9746,6 +9746,43 @@ var json_1243I_flatwork_polygons = {
 
         // #####  	 
 
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-06_R-08_001",
+		"location": "South Van Ness Ave between 17th St and 16th St",
+		"scope": "10in Concrete Base",
+		"pp_a_qty": {
+		    "R-06": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.41740215013381, 37.76367020742105],
+		            [-122.417528016426289, 37.765067758429204],
+		            [-122.417459738273095, 37.765072229154313],
+		            [-122.417333113334436, 37.763674187532033],
+		            [-122.41740215013381, 37.76367020742105]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+        // #####  	 
+
         {
             "type": "Feature",
             "properties": {
@@ -10076,7 +10113,635 @@ var json_1243I_flatwork_polygons = {
                     ]
                 ]
             }
-        }
+        },
+        
+        // #####  	  
+        
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-07_R-01_001",
+		"location": "Fronting 145 10th St",
+		"scope": "Parking Strip",
+		"pp_a_qty": {
+		    "R-07": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415119866653569, 37.774734579201237],
+		            [-122.41513669480446, 37.77474766253907],
+		            [-122.415119590782268, 37.774761618096861],
+		            [-122.415102210888733, 37.774747880594674],
+		            [-122.415119866653569, 37.774734579201237]
+		        ]
+		    ]
+		]
+	    }
+	},
+
+        // #####  	 
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-07_R-01_002",
+		"location": "Fronting 151 10th St",
+		"scope": "Parking Strip",
+		"pp_a_qty": {
+		    "R-07": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415020690911916, 37.774685625691674],
+		            [-122.414981379247934, 37.774655206902139],
+		            [-122.41499820739881, 37.774641469380178],
+		            [-122.415038208741095, 37.774672106231208],
+		            [-122.415020690911916, 37.774685625691674]
+		        ]
+		    ]
+		]
+	    }
+	},
+	
+	// #####  	 
+	
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-06_R-01_001",
+		"location": "Intersection of 10th St and Natoma St",
+		"scope": "10in Concrete Base",
+		"pp_a_qty": {
+		    "R-06": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415027182509036, 37.774463739959764],
+		            [-122.415014380355302, 37.774474738181048],
+		            [-122.41492667913657, 37.774406990747252],
+		            [-122.414939093346234, 37.774396932885161],
+		            [-122.415027182509036, 37.774463739959764]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+	// #####  	 
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-07_R-01_004",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Parking Strip",
+		"pp_a_qty": {
+		    "R-07": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415014380355302, 37.774474738181048],
+		            [-122.415027182509036, 37.774463739959764],
+		            [-122.415032251644661, 37.774459610515635],
+		            [-122.415048286665481, 37.774471957961687],
+		            [-122.415030492964974, 37.774486349684288],
+		            [-122.415014380355302, 37.774474738181048]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+	// #####  	 
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-07_R-01_005",
+		"location": "Intersection of 10th St and Natoma St - South Corner",
+		"scope": "Parking Strip",
+		"pp_a_qty": {
+		    "R-07": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.41492667913657, 37.774406990747252],
+		            [-122.414888815797113, 37.774378084611463],
+		            [-122.414906506045895, 37.774363897295963],
+		            [-122.414944265933585, 37.774392844322954],
+		            [-122.414939093346234, 37.774396932885161],
+		            [-122.41492667913657, 37.774406990747252]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-11_R-01_001",
+		"location": "Intersection of 10th St and Natoma St",
+		"scope": "Combined Curb and Gutter",
+		"pp_a_qty": {
+		    "R-11": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415027182509036, 37.774463739959764],
+		            [-122.414939093346234, 37.774396932885161],
+		            [-122.414944265933585, 37.774392844322954],
+		            [-122.414945378040002, 37.774391965282035],
+		            [-122.415033234436322, 37.774458772361115],
+		            [-122.415032251644661, 37.774459610515635],
+		            [-122.415027182509036, 37.774463739959764]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-10_R-01_001",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Concrete Curb",
+		"pp_a_qty": {
+		    "R-10": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415048286665481, 37.774471957961687],
+		            [-122.415032251644661, 37.774459610515635],
+		            [-122.415033234436322, 37.774458772361115],
+		            [-122.415049476360664, 37.774471038036154],
+		            [-122.415048286665481, 37.774471957961687]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-09_R-01_002",
+		"location": "Intersection of 10th St and Natoma St - South Corner",
+		"scope": "Reset (E) Granite Curb",
+		"pp_a_qty": {
+		    "R-09": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.414944265933585, 37.774392844322954],
+		            [-122.414906506045895, 37.774363897295963],
+		            [-122.414907721604052, 37.774362956926275],
+		            [-122.414945378040002, 37.774391965282035],
+		            [-122.414944265933585, 37.774392844322954]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-12_R-01_002",
+		"location": "Intersection of 10th St and Natoma St - South Corner",
+		"scope": "Curb Ramp",
+		"pp_a_qty": {
+		    "R-12": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.414967620165683, 37.774399958421036],
+		            [-122.414959809558781, 37.774394030006],
+		            [-122.414972534123692, 37.774383440628974],
+		            [-122.414980551634102, 37.774389532587364],
+		            [-122.414967620165683, 37.774399958421036]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-12_R-01_001",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Curb Ramp",
+		"pp_a_qty": {
+		    "R-12": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415030415376307, 37.774448203436158],
+		            [-122.415022242688266, 37.774442152368195],
+		            [-122.415035432786041, 37.77443160388367],
+		            [-122.415043295118849, 37.774437818494889],
+		            [-122.415030415376307, 37.774448203436158]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-09_R-01_001",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Reset (E) Granite Curb",
+		"pp_a_qty": {
+		    "R-09": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415071123638867, 37.774402820414359],
+		            [-122.4150547782628, 37.774416108238945],
+		            [-122.415053278212454, 37.774415045213061],
+		            [-122.415069727040262, 37.774401798273907],
+		            [-122.415071123638867, 37.774402820414359]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-10_R-01_002",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Concrete Curb",
+		"pp_a_qty": {
+		    "R-10": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.4150547782628, 37.774416108238945],
+		            [-122.415035432786041, 37.77443160388367],
+		            [-122.415022242688266, 37.774442152368195],
+		            [-122.415020795009411, 37.774449313272314],
+		            [-122.415019234534014, 37.774448126668098],
+		            [-122.415020897815552, 37.77444145731306],
+		            [-122.415053278212454, 37.774415045213061],
+		            [-122.4150547782628, 37.774416108238945]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-10_R-01_003",
+		"location": "Intersection of 10th St and Natoma St - South Corner",
+		"scope": "Concrete Curb",
+		"pp_a_qty": {
+		    "R-10": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415017173552599, 37.774361607700122],
+		            [-122.414994724523481, 37.774379985793281],
+		            [-122.414969094353111, 37.774401072554156],
+		            [-122.414960319957345, 37.774403327303126],
+		            [-122.414958738229032, 37.774402124537183],
+		            [-122.414967620165683, 37.774399958421036],
+		            [-122.414980551634102, 37.774389532587364],
+		            [-122.41499291411786, 37.774379147637852],
+		            [-122.414991672696885, 37.774378084611435],
+		            [-122.415014276903662, 37.774359604303712],
+		            [-122.415017173552599, 37.774361607700122]
+		        ]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-08_R-01_002",
+		"location": "Intersection of 10th St and Natoma St - South Corner",
+		"scope": "Sidewalk",
+		"pp_a_qty": {
+		    "R-08": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+			[
+			    [-122.414907721604052, 37.774362956926275],
+			    [-122.414932056180788, 37.774343402993303],
+			    [-122.41496994428384, 37.774372506462839],
+			    [-122.41499888355176, 37.774348613046406],
+			    [-122.415014276903662, 37.774359604303712],
+			    [-122.414991672696885, 37.774378084611435],
+			    [-122.41499291411786, 37.774379147637852],
+			    [-122.414980551634102, 37.774389532587364],
+			    [-122.414972534123692, 37.774383440628974],
+			    [-122.414959809558781, 37.774394030006],
+			    [-122.414967620165683, 37.774399958421036],
+			    [-122.414958738229032, 37.774402124537183],
+			    [-122.414945378040002, 37.774391965282035],
+			    [-122.414907721604052, 37.774362956926275]
+			]
+		    ]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-08_R-01_001",
+		"location": "Intersection of 10th St and Natoma St - West Corner",
+		"scope": "Sidewalk",
+		"pp_a_qty": {
+		    "R-08": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+			[
+			    [
+				[-122.415049476360664, 37.774471038036154],
+				[-122.415033234436322, 37.774458772361115],
+				[-122.415020795009411, 37.774449313272314],
+				[-122.415022242688266, 37.774442152368195],
+				[-122.415030415376307, 37.774448203436158],
+				[-122.415043295118849, 37.774437818494889],
+				[-122.415035432786041, 37.77443160388367],
+				[-122.415071123638867, 37.774402820414359],
+				[-122.415081430019171, 37.77439446952642],
+				[-122.415088878544992, 37.774400357055811],
+				[-122.415078533370234, 37.774408615950421],
+				[-122.415088155471523, 37.774416073881909],
+				[-122.415059214144534, 37.774439803515058],
+				[-122.415073817176335, 37.774451093712983],
+				[-122.415049476360664, 37.774471038036154]
+			    ]
+			]
+		]
+	    }
+	}, 
+
+		 // #####  	 
+
+	 {
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "R-07_R-01_003",
+		"location": "Intersection of 10th St and Natoma St",
+		"scope": "Parking Strip",
+		"pp_a_qty": {
+		    "R-07": {
+		        "PP10": [999, 0, 0]
+		    }
+		},
+		get pp_history() {
+		    return pp_history_from_pp_qty_history(this)
+		},
+		get pp_summary() {
+		    return payment_summary_from_pp_history(this.pp_history)
+		},
+		"status": "Post-Construction"
+	    },
+	    "geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+		    [
+		        [
+		            [-122.415020897815552, 37.77444145731306],
+		            [-122.415019234534014, 37.774448126668098],
+		            [-122.414960319957345, 37.774403327303126],
+		            [-122.414969094353111, 37.774401072554156],
+		            [-122.414994724523481, 37.774379985793281],
+		            [-122.415017173552599, 37.774361607700122],
+		            [-122.415069727040262, 37.774401798273907],
+		            [-122.415053278212454, 37.774415045213061],
+		            [-122.415020897815552, 37.77444145731306]
+		        ]
+		    ]
+		]
+	    }
+	}
 
     ]
 

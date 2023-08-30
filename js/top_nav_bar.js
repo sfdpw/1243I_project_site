@@ -146,6 +146,9 @@ return_block +=
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-11.html"><b>SW-11:</b> 12in VCP Main</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-12.html"><b>SW-12:</b> Mortar (E) 3\'x5\' Brick Main</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-14.html"><b>SW-14:</b> Line (E) 3\'x5\' Brick Main</a>\
 	               </li>\
 	               <li>\
