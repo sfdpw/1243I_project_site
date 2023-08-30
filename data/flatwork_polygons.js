@@ -9754,7 +9754,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "10in Concrete Base",
 		"pp_a_qty": {
 		    "R-06": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 9636, 0, 0]
 		    }
 		},
                 get pp_history() {
@@ -10125,7 +10125,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Parking Strip",
 		"pp_a_qty": {
 		    "R-07": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [46, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10162,7 +10162,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Parking Strip",
 		"pp_a_qty": {
 		    "R-07": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [107, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10199,7 +10199,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "10in Concrete Base",
 		"pp_a_qty": {
 		    "R-06": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 159, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10236,7 +10236,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Parking Strip",
 		"pp_a_qty": {
 		    "R-07": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [43, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10274,7 +10274,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Parking Strip",
 		"pp_a_qty": {
 		    "R-07": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [154, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10312,7 +10312,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Combined Curb and Gutter",
 		"pp_a_qty": {
 		    "R-11": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 36, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10351,7 +10351,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Concrete Curb",
 		"pp_a_qty": {
 		    "R-10": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 6.5, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10388,7 +10388,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Reset (E) Granite Curb",
 		"pp_a_qty": {
 		    "R-09": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 22, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10425,7 +10425,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Curb Ramp",
 		"pp_a_qty": {
 		    "R-12": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 1, 0, 0 ]
 		    }
 		},
 		get pp_history() {
@@ -10462,7 +10462,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Curb Ramp",
 		"pp_a_qty": {
 		    "R-12": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 1, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10499,7 +10499,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Reset (E) Granite Curb",
 		"pp_a_qty": {
 		    "R-09": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 9, 0, 0 ]
 		    }
 		},
 		get pp_history() {
@@ -10536,7 +10536,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Concrete Curb",
 		"pp_a_qty": {
 		    "R-10": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 16, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10576,7 +10576,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Concrete Curb",
 		"pp_a_qty": {
 		    "R-10": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 28.5, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10619,7 +10619,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Sidewalk",
 		"pp_a_qty": {
 		    "R-08": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [239, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10665,7 +10665,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Sidewalk",
 		"pp_a_qty": {
 		    "R-08": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [213, 0, 0]
 		    }
 		},
 		get pp_history() {
@@ -10712,7 +10712,7 @@ var json_1243I_flatwork_polygons = {
 		"scope": "Parking Strip",
 		"pp_a_qty": {
 		    "R-07": {
-		        "PP10": [999, 0, 0]
+		        "PP10": [ 451, 0, 0]
 		    }
 		},
 		get pp_history() {

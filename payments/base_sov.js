@@ -36,7 +36,7 @@ var base_sov =
                 [6000, 0, 0], // PP07
                 [], // PP08
                 [3600, 0, 0], // PP09
-                [], // PP10
+                [8400, 0, 0], // PP10
                 [], // PP11
                 [], // PP12
                 [], // PP13
@@ -461,7 +461,7 @@ var base_sov =
                 [], // PP07
                 [], // PP08
                 [], // PP09
-                [], // PP10
+                [350, 0, 0], // PP10
                 [], // PP11
                 [], // PP12
                 [], // PP13
@@ -1292,24 +1292,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 1100,
             "alloc_ssp": 3900,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }

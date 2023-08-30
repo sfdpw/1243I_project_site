@@ -26,6 +26,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.66]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 250]
                     }
                 },
                 get pp_summary() {
@@ -90,6 +93,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.66]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
                     }
                 },
                 get pp_summary() {
@@ -153,7 +159,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
-                    }
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
+                    }  
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -216,7 +225,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 850, 200]
-                    }
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
+                    } 
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -279,6 +291,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
                     }
                 },
                 get pp_summary() {
@@ -342,6 +357,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1000, 250]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
                     }
                 },
                 get pp_summary() {
@@ -408,7 +426,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
-                    }
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
+                    } 
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -471,7 +492,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
-                    }
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
+                    } 
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -537,6 +561,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
                     }
                 },
                 get pp_summary() {
@@ -600,6 +627,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 500, 0]
                     }
                 },
                 get pp_summary() {
@@ -663,6 +693,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 500, 116.66]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
                     }
                 },
                 get pp_summary() {
@@ -726,7 +759,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
-                    }
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 240]
+                    } 
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -786,7 +822,10 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-14': {
                         'PP10': [0, 15576, 0]
-                    },                    
+                    },
+                    'SW-26': {
+                        'PP10': [0, 100, 0]
+                    }                    
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -849,6 +888,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 500, 0]
                     }
                 },
                 get pp_summary() {
@@ -3954,6 +3996,9 @@ var json_1243I_sewer_lines = {
                 "location": "1582 Folsom St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -5543,10 +5588,7 @@ var json_1243I_sewer_lines = {
                     },       
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    },
-                    'SW-27': {
-                        'PP10': [0, 0, 50]
-                    }                   
+                    }         
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -6398,6 +6440,9 @@ var json_1243I_sewer_lines = {
                 "location": "288 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -6458,6 +6503,9 @@ var json_1243I_sewer_lines = {
                 "location": "286 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -9978,6 +10026,9 @@ var json_1243I_sewer_lines = {
                 "location": "255 12th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -16368,6 +16419,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-16': {
                         'PP08': [0, 350, 66.66]
+                    },
+                    'SW-26': {
+                        'PP10': [0, 0, 250]
                     }
                 },
                 get pp_summary() {
@@ -19864,7 +19918,10 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of 12th St and Folsom St - North Corner",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-20': {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
+                    'SW-18': {
                         'PP10': [0, 50, 0]
                     },
                      'SW-22': {
@@ -20051,7 +20108,10 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of 12th St and Folsom St - West Corner",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-20': {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
+                    'SW-18': {
                         'PP10': [0, 50, 0]
                     }
                 },
@@ -20108,6 +20168,9 @@ var json_1243I_sewer_lines = {
                 "location": "255 12th St",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
+                    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },                    
@@ -24794,6 +24857,9 @@ var json_1243I_sewer_lines = {
 		"location": "252 12th St",
 		"scope": "Improve (E) side sewer as directed",
 		"pp_history": {
+		    "SW-10": {
+		        "PP10": [0, 200, 0]
+		    },
 		    "SW-18": {
 		        "PP10": [0, 300, 0]
 		    },

@@ -160,6 +160,9 @@ return_block +=
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25:</b> Post-Con TVI of (N) Mains </a>\
 	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26:</b> Post-Con TVI of Lined (E) Mains </a>\
+	               </li>\
 	             </ul>\
 	       </li>\
 	       <li>\
