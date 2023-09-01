@@ -106,6 +106,7 @@ var list_of_specs = [
 	'1243I_spec_01_57_26_temporary_protection_of_catch_basins_and_storm_drain_inlets.pdf',
 	'1243I_spec_01_60_00_product_requirements.pdf',
 	'1243I_spec_01_71_23_field_engineering.pdf',
+        '1243I_spec_01_71_33_protection_of_adjacent_construction.pdf',
 	'1243I_spec_01_71_43_00_site_specific_work_plan_(SSWP).pdf',
 	'1243I_spec_01_71_43_01_attachment_1_SSWP_form.pdf',
 	'1243I_spec_01_74_50_material_reduction_and_recovery_plan.pdf',

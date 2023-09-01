@@ -275,6 +275,21 @@ function sw_line_layer_styler(feature) {
             }
             break;
 
+        case sewer_status_code_array[16]: // (E) Abandoned
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    opacity: 1,
+                    color: '#000000',
+                    dashArray: '',
+                    lineCap: 'round',
+                    lineJoin: 'round',
+                    weight: 4.0,
+                    fillOpacity: 0,
+                    interactive: true,
+            }
+            break;
+
+
     }
 }
 
