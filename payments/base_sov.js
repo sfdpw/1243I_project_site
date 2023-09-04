@@ -499,7 +499,7 @@ var base_sov =
                 [], // PP08
                 [], // PP09
                 [], // PP10
-                [], // PP11
+                [8584.40, 0, 0], // PP11
                 [], // PP12
                 [], // PP13
                 [], // PP14
@@ -684,7 +684,7 @@ var base_sov =
                 [770, 12031.25, 6448.75], // PP08
                 [2310, 36093.73, 19346.27], // PP09
                 [4070, 36093.75, 34086.25], // PP10
-                [], // PP11
+                [0, 13750, 0], // PP11
                 [], // PP12
                 [], // PP13
                 [], // PP14
@@ -721,7 +721,7 @@ var base_sov =
                 [770, 15785, 2695], // PP08
                 [2310,	47355,	8085], // PP09
                 [4070, 55935, 14245], // PP10
-                [], // PP11
+                [0, 13750, 0], // PP11
                 [], // PP12
                 [], // PP13
                 [], // PP14
@@ -970,7 +970,7 @@ var base_sov =
 
         {
             "bid_item": "SW-13",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "27-Inch Diameter VCP Sewer On Crushed Rock Bedding Wrapped In Geotextile Fabric",
@@ -980,24 +980,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 228150,
             "alloc_ssp": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1512,7 +1495,7 @@ var base_sov =
                 [], // PP08
                 [], // PP09
                 [], // PP10
-                [], // PP11
+                [0, 12876.60, 0], // PP11
                 [], // PP12
                 [], // PP13
                 [], // PP14
