@@ -11469,6 +11469,9 @@ var json_1243I_flatwork_polygons = {
 		"location": "South Van Ness Ave between Erie St and 16th St",
 		"scope": "Hot Mix Asphalt",
 		"pp_a_qty": {
+		    "R-02": {
+		        "PP11": [ 3800, 0, 0]
+		    },
 		    "R-04": {
 		        "PP11": [ 1341, 0, 0]
 		    }
@@ -11655,6 +11658,9 @@ var json_1243I_flatwork_polygons = {
 		"location": "South Van Ness Ave between 16th St and 17th St",
 		"scope": "Hot Mix Asphalt",
 		"pp_a_qty": {
+		    "R-02": {
+		        "PP11": [1500, 0, 0]
+		    },		    
 		    "R-04": {
 		        "PP11": [497, 0, 0]
 		    }
