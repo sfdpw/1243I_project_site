@@ -210,13 +210,14 @@ function popup_as_built_entry_creator(feature)
 
     {
 
-      compare_string = as_built_list_entry.substring(as_built_list_entry.length - 5, as_built_list_entry.length)
+      compare_string = as_built_list_entry.substring(15, 20)
       
-      if ( compare_string.substring(0, 1) == '_' ) {
+      if ( compare_string.slice(-1) == '_' ) {
       
-        compare_string = compare_string.substring(1, compare_string.length)
+        compare_string = compare_string.substring(0, compare_string.length-1)
       
       } 
+    
      
         if ( compare_string == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0]) )
         
