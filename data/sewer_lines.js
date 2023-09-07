@@ -11721,7 +11721,8 @@ var json_1243I_sewer_lines = {
                         'PP09': [2275, 0, 0]
                     },
                     'SW-27': {
-                        'PP11': [50, 0, 0]
+                        'PP11': [50, 0, 0],
+                        'PP12': [50, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -11740,9 +11741,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99.0",
-                        "video_no": "3",
-                        "response": "NET",
+                        "submittal_no": "106.0",
+                        "video_no": "1",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
