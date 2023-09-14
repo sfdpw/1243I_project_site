@@ -11741,9 +11741,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "106.0",
+                        "submittal_no": "106.1",
                         "video_no": "1",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13561,7 +13561,7 @@ var json_1243I_sewer_lines = {
                 "coordinates": [
                     [
                         [-122.389544130622227, 37.786219161740391],
-                        [-122.389657981167801, 37.78623554714251]
+                        [-122.389591016946426, 37.786181918072799]
                     ]
                 ]
             },
