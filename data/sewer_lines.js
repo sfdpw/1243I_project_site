@@ -11039,13 +11039,8 @@ var json_1243I_sewer_lines = {
                 "location": "Bryant St between Beale St and Main St",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP12': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
@@ -11064,9 +11059,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11595,13 +11590,8 @@ var json_1243I_sewer_lines = {
                 "location": "Bryant St between Beale St and Main St",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP12': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
@@ -11620,9 +11610,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11778,13 +11768,8 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Bryant St and Main St - West Corner",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-27': {
+                        'PP12': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
@@ -11803,9 +11788,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13410,7 +13395,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 50, 0]
-                    }
+                    },
+                    'SW-27': {
+                        'PP12': [0, 50, 0]
+                    }  
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -13428,9 +13416,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13524,7 +13512,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-20': {
                         'PP10': [0, 50, 0]
-                    }
+                    },
+                    'SW-27': {
+                        'PP12': [0, 50, 0]
+                    } 
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -13542,9 +13533,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
