@@ -6617,7 +6617,7 @@ var json_1243I_sewer_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_manhole_00",
+                "id_a": "331683",
                 "id_b": "none",
                 "location": "Bryant St - Southwest of Main St",
                 "scope": "Install (N) manhole per std 87,182",
