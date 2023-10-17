@@ -19,6 +19,7 @@ var payment_array =
     'PP09': 'June 2023',
     'PP10': 'July 2023',
     'PP11': 'August 2023',
-    'PP12': 'September 2023'
+    'PP12': 'September 2023',
+    'PP13': 'October 2023',
 
 }

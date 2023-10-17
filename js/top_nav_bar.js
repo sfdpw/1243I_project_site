@@ -149,6 +149,9 @@ return_block +=
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-12.html"><b>SW-12:</b> Mortar (E) 3\'x5\' Brick Main</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-13.html"><b>SW-13:</b> 27in VCP Main</a>\
+	               </li>\
+				   <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-14.html"><b>SW-14:</b> Line (E) 3\'x5\' Brick Main</a>\
 	               </li>\
 	               <li>\
@@ -178,6 +181,9 @@ return_block +=
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
 	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
+	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-04.html"><b>SW-04</b> - (N) MH - STD 87,182</a>\
 	           </li>\
 	           <li>\
 	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) MH - STD 87,184</a>\

@@ -38,7 +38,7 @@ var base_sov =
                 [3600, 0, 0], // PP09
                 [8400, 0, 0], // PP10
                 [63000, 0, 0], // PP11
-                [], // PP12
+                [60000, 0, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -500,7 +500,7 @@ var base_sov =
                 [], // PP09
                 [], // PP10
                 [8584.40, 0, 0], // PP11
-                [], // PP12
+                [6181, 0, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -685,7 +685,7 @@ var base_sov =
                 [2310, 36093.73, 19346.27], // PP09
                 [4070, 36093.75, 34086.25], // PP10
                 [0, 13750, 0], // PP11
-                [], // PP12
+                [0, 13750, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -722,7 +722,7 @@ var base_sov =
                 [2310,	47355,	8085], // PP09
                 [4070, 55935, 14245], // PP10
                 [0, 13750, 0], // PP11
-                [], // PP12
+                [0, 13750, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -756,7 +756,7 @@ var base_sov =
 
         {
             "bid_item": "SW-04",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Concrete Manhole For 27-Inch To 48-Inch Diameter Sewers With Frame And Cover\n(Per SFDPW Standard Plan 87,182)",
@@ -1644,7 +1644,7 @@ var base_sov =
                 [], // PP09
                 [], // PP10
                 [], // PP11
-                [], // PP12
+                [0, 6181, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15

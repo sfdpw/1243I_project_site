@@ -32,8 +32,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -73,8 +73,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -115,8 +115,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -157,8 +157,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -194,8 +194,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -223,21 +223,16 @@ var json_1243I_sewer_points = {
                 "location": "Bryant St between Beale St and Main St",
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-04': {
+                        'PP12': [0, 40000, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -265,21 +260,16 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Bryant St and Main St",
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-04': {
+                        'PP12': [0, 40000, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -308,16 +298,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP07': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],
+                        'PP07': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -353,8 +343,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -382,16 +372,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],                        
+                        'PP04': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -420,16 +410,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP05': [0, 8095.24,  404.76 ],
-                        'PP08': [0,  404.76, -404.76 ]
+                        'PP05': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -470,8 +460,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -499,15 +489,15 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP02': [5000,0,0]
+                        'PP02': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -548,8 +538,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -578,16 +568,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -623,8 +613,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -660,8 +650,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -697,8 +687,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -738,8 +728,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -780,8 +770,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -822,8 +812,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -864,8 +854,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -906,8 +896,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -948,8 +938,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -990,8 +980,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1032,8 +1022,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1074,8 +1064,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1116,8 +1106,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1158,8 +1148,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1195,8 +1185,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1237,8 +1227,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1279,8 +1269,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1321,8 +1311,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1363,8 +1353,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1405,8 +1395,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1447,8 +1437,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1489,8 +1479,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1531,8 +1521,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1561,16 +1551,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP02': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76]
+                        'PP02': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1611,8 +1601,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1653,8 +1643,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1695,8 +1685,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1737,8 +1727,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1779,8 +1769,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1816,8 +1806,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -1858,8 +1848,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1900,8 +1890,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1942,8 +1932,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -1984,8 +1974,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2026,8 +2016,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2068,8 +2058,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2110,8 +2100,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2152,8 +2142,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2194,8 +2184,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2236,8 +2226,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2278,8 +2268,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2308,16 +2298,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],                        
+                        'PP04': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2353,8 +2343,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2395,8 +2385,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2425,16 +2415,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],                        
+                        'PP04': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2475,8 +2465,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2517,8 +2507,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2559,8 +2549,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2601,8 +2591,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2643,8 +2633,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2685,8 +2675,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2727,8 +2717,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2757,16 +2747,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.23,  404.77],
-                        'PP08': [0,  404.77, -404.77],                        
+                        'PP01': [0, 8095.23, 404.77],
+                        'PP08': [0, 404.77, -404.77],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2807,8 +2797,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2849,8 +2839,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2891,8 +2881,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -2933,8 +2923,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -2975,8 +2965,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3017,8 +3007,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3059,8 +3049,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3101,8 +3091,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3143,8 +3133,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3185,8 +3175,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3227,8 +3217,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3269,8 +3259,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3311,8 +3301,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3353,8 +3343,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3395,8 +3385,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3437,8 +3427,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3479,8 +3469,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3521,8 +3511,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3563,8 +3553,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3593,16 +3583,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3643,8 +3633,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3685,8 +3675,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3727,8 +3717,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3769,8 +3759,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3811,8 +3801,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3853,8 +3843,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -3895,8 +3885,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3937,8 +3927,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -3979,8 +3969,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4021,8 +4011,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4063,8 +4053,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4105,8 +4095,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4141,8 +4131,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4183,8 +4173,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4213,16 +4203,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4263,8 +4253,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4305,8 +4295,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4347,8 +4337,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4388,8 +4378,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4430,8 +4420,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4472,8 +4462,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4514,8 +4504,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4556,8 +4546,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4598,8 +4588,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4640,8 +4630,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4670,16 +4660,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.23,  404.77],
-                        'PP08': [0,  404.77, -404.77],
+                        'PP03': [0, 8095.23, 404.77],
+                        'PP08': [0, 404.77, -404.77],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4720,8 +4710,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4762,8 +4752,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4804,8 +4794,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4846,8 +4836,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4888,8 +4878,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -4930,8 +4920,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -4972,8 +4962,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5014,8 +5004,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5044,16 +5034,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],                        
+                        'PP01': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5094,8 +5084,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5136,8 +5126,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5170,8 +5160,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5212,8 +5202,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5254,8 +5244,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5296,8 +5286,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5338,8 +5328,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5368,16 +5358,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.23,  404.77],
-                        'PP08': [0,  404.77, -404.77],                        
+                        'PP04': [0, 8095.23, 404.77],
+                        'PP08': [0, 404.77, -404.77],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5418,8 +5408,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5460,8 +5450,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5502,8 +5492,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -5539,8 +5529,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5576,8 +5566,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5613,8 +5603,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5650,8 +5640,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5692,8 +5682,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5734,8 +5724,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5763,21 +5753,16 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Bryant St and Main St - West Corner",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP12': [5000, 0, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5818,8 +5803,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5860,8 +5845,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5902,8 +5887,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5944,8 +5929,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -5986,8 +5971,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6028,8 +6013,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6070,8 +6055,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6107,8 +6092,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6138,15 +6123,15 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-03': {
                         'PP01': [0, 8095.24, 404.76],
-                        'PP08': [0,  404.76, -404.76]                     
+                        'PP08': [0, 404.76, -404.76]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6182,8 +6167,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6219,8 +6204,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6261,8 +6246,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6303,8 +6288,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6345,8 +6330,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6387,8 +6372,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6417,16 +6402,16 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24,  404.76],
-                        'PP08': [0,  404.76, -404.76],                        
+                        'PP01': [0, 8095.24, 404.76],
+                        'PP08': [0, 404.76, -404.76],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6467,8 +6452,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6509,8 +6494,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "cb",
                 get status() {
@@ -6551,8 +6536,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6593,8 +6578,8 @@ var json_1243I_sewer_points = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
@@ -6622,21 +6607,16 @@ var json_1243I_sewer_points = {
                 "location": "Bryant St - Southwest of Main St",
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-04': {
+                        'PP12': [40000, 0, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
