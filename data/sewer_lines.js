@@ -1060,68 +1060,68 @@ var json_1243I_sewer_lines = {
 
         // #################################################### 
 
-        {
-            "type": "Feature",
-            "properties": {
-                "id_a": "P-416326",
-                "id_b": "none",
-                "location": "South Van Ness Ave between 12th St and Howard St",
-                "scope": "Install (N) 12in VCP main",
-                "pp_history": {
-                    'SW-11': {
-                        'PP05': [0, 85587.78,  1787.22],
-                        'PP08': [0,  1787.22, -1787.22]
-                    },                
-                    'SW-25': {
-                        'PP10': [0, 656.25, 0]
-                    },
-                    'SW-31': {
-                        'PP04': [0, 2000, 0]
-                    }
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-                "submittals": {
-                    "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    },
-                    "tvi_post_con": {
-                        "submittal_no": "84.0",
-                        "video_no": "1",
-                        "response": "NET",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "mn",
-                get status() {
-                    return sw_line_status_from_line_object( this)
-                }
-            },
-            "geometry": {
-                "type": "MultiLineString",
-                "coordinates": [
-                    [
-                        [-122.418139660574738, 37.77194446043702],
-                        [-122.417945169313654, 37.771312348007577]
-                    ]
-                ]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
-            }
-        },
+        // {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "id_a": "P-416326",
+        //         "id_b": "none",
+        //         "location": "South Van Ness Ave between 12th St and Howard St",
+        //         "scope": "Install (N) 12in VCP main",
+        //         "pp_history": {
+        //             'SW-11': {
+        //                 'PP05': [0, 85587.78,  1787.22],
+        //                 'PP08': [0,  1787.22, -1787.22]
+        //             },                
+        //             'SW-25': {
+        //                 'PP10': [0, 656.25, 0]
+        //             },
+        //             'SW-31': {
+        //                 'PP04': [0, 2000, 0]
+        //             }
+        //         },
+        //         get pp_summary() {
+        //             return payment_summary_from_pp_history(this.pp_history)
+        //         },
+        //         get bid_items() {
+        //             return bid_item_flattener(this.pp_history) 
+        //         }, 
+        //         "submittals": {
+        //             "tvi_pre_con": {
+        //                 "submittal_no": "none",
+        //                 "video_no": "none",
+        //                 "response": "none",
+        //                 get response_date() {
+        //                     return response_date_from_submittal_no(this.submittal_no)
+        //                 }
+        //             },
+        //             "tvi_post_con": {
+        //                 "submittal_no": "84.0",
+        //                 "video_no": "1",
+        //                 "response": "NET",
+        //                 get response_date() {
+        //                     return response_date_from_submittal_no(this.submittal_no)
+        //                 }
+        //             }
+        //         },
+        //         "rlvnt": "none",
+        //         "sw_type": "mn",
+        //         get status() {
+        //             return sw_line_status_from_line_object( this)
+        //         }
+        //     },
+        //     "geometry": {
+        //         "type": "MultiLineString",
+        //         "coordinates": [
+        //             [
+        //                 [-122.418139660574738, 37.77194446043702],
+        //                 [-122.417945169313654, 37.771312348007577]
+        //             ]
+        //         ]
+        //     },
+        //     get asset_coordinate() {
+        //         return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+        //     }
+        // },
 
         // #################################################### 
         {
