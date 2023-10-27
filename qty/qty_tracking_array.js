@@ -1,3 +1,9 @@
+function cmp(a, b) {
+    if (a > b) return +1;
+    if (a < b) return -1;
+    return 0;
+};
+
 var qty_array = {};
 
 for (const entry of base_sov) {
@@ -6,27 +12,15 @@ for (const entry of base_sov) {
 
 }
 
+for (const construction_instance of json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features)) {
 
-for (const construction_instance of json_1243I_sewer_points.features.concat(json_1243I_sewer_lines.features).concat(json_1243I_flatwork_polygons.features))
+    for (const bid_item_charged of Object.keys(construction_instance.properties.pp_history)) {
 
-{
+        if (bid_item_charged != 'SW-0') {
 
-    for (const bid_item_charged of Object.keys(construction_instance.properties.pp_history))
+            for (const bid_item of Object.keys(qty_array)) {
 
-    {
-
-        if (bid_item_charged != 'SW-0')
-
-        {
-
-            for (const bid_item of Object.keys(qty_array))
-
-            {
-
-                if (bid_item == bid_item_charged)
-
-
-                {
+                if (bid_item == bid_item_charged) {
 
                     var unit_price = base_sov[bid_item_sov_index_finder(bid_item)].unit_price;
                     var uunit = base_sov[bid_item_sov_index_finder(bid_item)].unit;
@@ -49,20 +43,16 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
 
                     }
 
-
                     var location_string = "<a href=\"..\\index.html#20/".concat(location_coordinates[1], '/',
                         location_coordinates[0], "\" target=\"_blank\">",
                         construction_instance.properties.location, "</a>");
 
 
-                    for (const period_charge of Object.keys(construction_instance.properties.pp_history[bid_item]))
+                    for (const period_charge of Object.keys(construction_instance.properties.pp_history[bid_item])) {
 
+                        var push_object = {
 
-                    {
-
-                     var push_object = {
-
-                            'row_type': 'construction_instance',   
+                            'row_type': 'construction_instance',
                             'pp_no': '<a href=\"..\\payments/payment_details_'.concat(period_charge, '.html\" target=\"_blank\">', period_charge, '</a>'),
                             'id_a': construction_instance.properties.id_a,
                             'location': location_string,
@@ -82,41 +72,61 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
 
                         };
 
-                       if  ( construction_instance.properties.hasOwnProperty('submittals') )
-                       
-                       {
-                         
-                         push_object.submittals = construction_instance.properties.submittals;
-                       
-                       }
-                        
+                        if (construction_instance.properties.hasOwnProperty('submittals')) {
+
+                            push_object.submittals = construction_instance.properties.submittals;
+
+                        }
+
                         qty_array[bid_item].push(push_object);
 
                     }
 
-
                 }
-
 
             }
 
-
         }
-
 
     }
 
+};
 
-}
+for (const bid_item of Object.keys(qty_array)) {
+
+    if (bid_item == 'SW-16' || bid_item == 'SW-20') {
+        qty_array[bid_item].sort(function (a, b) {
+            return cmp(a.pp_no, b.pp_no) ||
+                cmp(Number(a.submittals.tvi_pre_con.submittal_no), Number(b.submittals.tvi_pre_con.submittal_no)) ||
+                cmp(Number(a.submittals.tvi_pre_con.video_no), Number(b.submittals.tvi_pre_con.video_no))
+        });
+
+    } else if (bid_item == 'SW-25' || bid_item == 'SW-26' || bid_item == 'SW-27') {
+
+        qty_array[bid_item].sort(function (a, b) {
+            return cmp(a.pp_no, b.pp_no) ||
+                cmp(Number(a.submittals.tvi_post_con.submittal_no), Number(b.submittals.tvi_post_con.submittal_no)) ||
+                cmp(Number(a.submittals.tvi_post_con.video_no), Number(b.submittals.tvi_post_con.video_no))
+        });
+
+    } else {
+
+        qty_array[bid_item].sort(function (a, b) {
+            return cmp(a.pp_no, b.pp_no) ||
+                cmp(a.id_a, b.id_a)
+
+        });
+
+    };
+
+};
+
 
 // To-Date Summer
 
 var qty_array_to_date = {}
 
-
-for (const bid_item of Object.keys(qty_array))
-
-{
+for (const bid_item of Object.keys(qty_array)) {
 
     qty_array_to_date[bid_item] = {};
 
@@ -135,9 +145,7 @@ for (const bid_item of Object.keys(qty_array))
     bid_item_total.qty.tot = 0;
     bid_item_total.amt.tot = 0;
 
-    for (const charge_instance of qty_array[bid_item])
-
-    {
+    for (const charge_instance of qty_array[bid_item]) {
 
         bid_item_total.qty.esh += charge_instance.qty_esh;
         bid_item_total.amt.esh += charge_instance.amt_esh;
@@ -152,86 +160,72 @@ for (const bid_item of Object.keys(qty_array))
 
     qty_array_to_date[bid_item] =
 
-        {
+    {
 
-            'pp_no': '',
-            'id_a': '',
-            'location': '',
-            'amt_esh': bid_item_total.amt.esh,
-            'qty_esh': bid_item_total.qty.esh,
-            'amt_rnr': bid_item_total.amt.rnr,
-            'qty_rnr': bid_item_total.qty.rnr,
-            'amt_ssp': bid_item_total.amt.ssp,
-            'qty_ssp': bid_item_total.qty.ssp,
-            'amt_tot': bid_item_total.amt.tot,
-            'qty_tot': bid_item_total.qty.tot,
-            'unit': uunit
+        'pp_no': '',
+        'id_a': '',
+        'location': '',
+        'amt_esh': bid_item_total.amt.esh,
+        'qty_esh': bid_item_total.qty.esh,
+        'amt_rnr': bid_item_total.amt.rnr,
+        'qty_rnr': bid_item_total.qty.rnr,
+        'amt_ssp': bid_item_total.amt.ssp,
+        'qty_ssp': bid_item_total.qty.ssp,
+        'amt_tot': bid_item_total.amt.tot,
+        'qty_tot': bid_item_total.qty.tot,
+        'unit': uunit
 
-        }
+    }
 
 }
 
-
 // Period Totals
 
-var period_summary_row_obj =  
+var period_summary_row_obj =
 
-       {
-          'row_type': 'period_summary',   
-             'pp_no': '',
-              'id_a': '',
-          'location': '<div style="text-align:right"><b>Period Totals:</b></div>',
-           'amt_esh': 0,
-           'qty_esh': 0,
-           'amt_rnr': 0,
-           'qty_rnr': 0,          
-           'amt_ssp': 0,
-           'qty_ssp': 0,
-           'amt_tot': 0,
-           'qty_tot': 0,
-           'submittals.tvi_pre_con.submittal_no': '',
-           'submittals.tvi_pre_con.video_no': '',
-           'submittals.tvi_pre_con.response': '' ,          
-           'submittals.tvi_post_con.submittal_no': '',
-           'submittals.tvi_post_con.video_no': '',
-           'submittals.tvi_post_con.response': ''       
-        }
+{
+    'row_type': 'period_summary',
+    'pp_no': '',
+    'id_a': '',
+    'location': '<div style="text-align:right"><b>Period Totals:</b></div>',
+    'amt_esh': 0,
+    'qty_esh': 0,
+    'amt_rnr': 0,
+    'qty_rnr': 0,
+    'amt_ssp': 0,
+    'qty_ssp': 0,
+    'amt_tot': 0,
+    'qty_tot': 0,
+    'submittals.tvi_pre_con.submittal_no': '',
+    'submittals.tvi_pre_con.video_no': '',
+    'submittals.tvi_pre_con.response': '',
+    'submittals.tvi_post_con.submittal_no': '',
+    'submittals.tvi_post_con.video_no': '',
+    'submittals.tvi_post_con.response': ''
+}
 
 var empty_instance_row_obj = structuredClone(period_summary_row_obj);
 
 empty_instance_row_obj.row_type = 'spacer_row';
 empty_instance_row_obj.location = '<div style="padding:5px;">&nbsp;</div>';
 
-
-function cmp(a, b) {
-    if (a > b) return +1;
-    if (a < b) return -1;
-    return 0;
-}
-
-for (const bid_item of Object.keys(qty_array))
-
-{
+for (const bid_item of Object.keys(qty_array)) {
 
     var injection_index_array = [];
 
-//    qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
+    // qty_array[bid_item].sort((a, b) => (a.pp_no > b.pp_no) ? 1 : -1);
 
-    qty_array[bid_item].sort(function(a, b) { 
-	    return cmp(a.pp_no, b.pp_no) || cmp(a.id_a,b.id_a)
-	}) 
+    // qty_array[bid_item].sort(function (a, b) {
+    //    return cmp(a.pp_no, b.pp_no) || cmp(a.id_a, b.id_a)
+    // })
 
 
     var period_double_row_tracker = 0;
 
 
-    for (var instance_index = 1; instance_index < qty_array[bid_item].length; instance_index++)
+    for (var instance_index = 1; instance_index < qty_array[bid_item].length; instance_index++) {
 
-    {
-
-        if (qty_array[bid_item][instance_index].pp_no != qty_array[bid_item][instance_index - 1].pp_no)
-
-        {
+        if (qty_array[bid_item][instance_index].pp_no != qty_array[bid_item][instance_index - 1].pp_no) {
 
             injection_index_array.push(instance_index)
 
@@ -241,10 +235,8 @@ for (const bid_item of Object.keys(qty_array))
 
     injection_index_array.reverse();
 
-    for (const injection_index of injection_index_array)
+    for (const injection_index of injection_index_array) {
 
-    {
-    
         qty_array[bid_item].splice(injection_index, 0, structuredClone(empty_instance_row_obj))
         qty_array[bid_item].splice(injection_index, 0, structuredClone(period_summary_row_obj))
 
@@ -262,57 +254,51 @@ for (const bid_item of Object.keys(qty_array))
     var qty_period_details_qty_ssp = 0;
     var qty_period_details_amt_tot = 0;
     var qty_period_details_qty_tot = 0;
-    
-    for (var instance_index = 0; instance_index < qty_array[bid_item].length; instance_index++)
-    
-    {
-     
-     if ( qty_array[bid_item][instance_index].row_type == 'construction_instance' )
-       
-       {
-       
-         qty_period_details_unit = qty_array[bid_item][instance_index].unit;      
-         qty_period_details_amt_esh += qty_array[bid_item][instance_index].amt_esh;
-         qty_period_details_qty_esh += qty_array[bid_item][instance_index].qty_esh;
-         qty_period_details_amt_rnr += qty_array[bid_item][instance_index].amt_rnr;
-         qty_period_details_qty_rnr += qty_array[bid_item][instance_index].qty_rnr;
-         qty_period_details_amt_ssp += qty_array[bid_item][instance_index].amt_ssp;
-         qty_period_details_qty_ssp += qty_array[bid_item][instance_index].qty_ssp;
-         qty_period_details_amt_tot += qty_array[bid_item][instance_index].amt_tot;
-         qty_period_details_qty_tot += qty_array[bid_item][instance_index].qty_tot;
-        
-       }
-       
-     else if ( qty_array[bid_item][instance_index].row_type == 'period_summary' ) 
-     
-       {
-       
-         qty_array[bid_item][instance_index].unit = qty_period_details_unit;
-         qty_array[bid_item][instance_index].amt_esh = qty_period_details_amt_esh;
-         qty_array[bid_item][instance_index].qty_esh = qty_period_details_qty_esh;
-         qty_array[bid_item][instance_index].amt_rnr = qty_period_details_amt_rnr;
-         qty_array[bid_item][instance_index].qty_rnr = qty_period_details_qty_rnr;
-         qty_array[bid_item][instance_index].amt_ssp = qty_period_details_amt_ssp;
-         qty_array[bid_item][instance_index].qty_ssp = qty_period_details_qty_ssp;
-         qty_array[bid_item][instance_index].amt_tot = qty_period_details_amt_tot;
-         qty_array[bid_item][instance_index].qty_tot = qty_period_details_qty_tot;
-       
-         qty_period_details_unit = '';
-         qty_period_details_amt_esh = 0;
-         qty_period_details_qty_esh = 0;
-         qty_period_details_amt_rnr = 0;
-         qty_period_details_qty_rnr = 0;
-         qty_period_details_amt_ssp = 0;
-         qty_period_details_qty_ssp = 0;
-         qty_period_details_amt_tot = 0;
-         qty_period_details_qty_tot = 0;
-       
-       }
+
+    for (var instance_index = 0; instance_index < qty_array[bid_item].length; instance_index++) {
+
+        if (qty_array[bid_item][instance_index].row_type == 'construction_instance') {
+
+            qty_period_details_unit = qty_array[bid_item][instance_index].unit;
+            qty_period_details_amt_esh += qty_array[bid_item][instance_index].amt_esh;
+            qty_period_details_qty_esh += qty_array[bid_item][instance_index].qty_esh;
+            qty_period_details_amt_rnr += qty_array[bid_item][instance_index].amt_rnr;
+            qty_period_details_qty_rnr += qty_array[bid_item][instance_index].qty_rnr;
+            qty_period_details_amt_ssp += qty_array[bid_item][instance_index].amt_ssp;
+            qty_period_details_qty_ssp += qty_array[bid_item][instance_index].qty_ssp;
+            qty_period_details_amt_tot += qty_array[bid_item][instance_index].amt_tot;
+            qty_period_details_qty_tot += qty_array[bid_item][instance_index].qty_tot;
+
+        }
+
+        else if (qty_array[bid_item][instance_index].row_type == 'period_summary') {
+
+            qty_array[bid_item][instance_index].unit = qty_period_details_unit;
+            qty_array[bid_item][instance_index].amt_esh = qty_period_details_amt_esh;
+            qty_array[bid_item][instance_index].qty_esh = qty_period_details_qty_esh;
+            qty_array[bid_item][instance_index].amt_rnr = qty_period_details_amt_rnr;
+            qty_array[bid_item][instance_index].qty_rnr = qty_period_details_qty_rnr;
+            qty_array[bid_item][instance_index].amt_ssp = qty_period_details_amt_ssp;
+            qty_array[bid_item][instance_index].qty_ssp = qty_period_details_qty_ssp;
+            qty_array[bid_item][instance_index].amt_tot = qty_period_details_amt_tot;
+            qty_array[bid_item][instance_index].qty_tot = qty_period_details_qty_tot;
+
+            qty_period_details_unit = '';
+            qty_period_details_amt_esh = 0;
+            qty_period_details_qty_esh = 0;
+            qty_period_details_amt_rnr = 0;
+            qty_period_details_qty_rnr = 0;
+            qty_period_details_amt_ssp = 0;
+            qty_period_details_qty_ssp = 0;
+            qty_period_details_amt_tot = 0;
+            qty_period_details_qty_tot = 0;
+
+        }
 
     }
 
 }
-    
+
 
 
 
