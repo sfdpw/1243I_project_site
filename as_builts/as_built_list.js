@@ -91,7 +91,10 @@ var json_ab_list = [
 	'1243I_pp_13_ab_R_05',
 	'1243I_pp_13_ab_R_09_a',
 	'1243I_pp_13_ab_R_09_b',
-	'1243I_pp_13_ab_SW_10'
+	'1243I_pp_13_ab_SW_10',
+        '1243I_pp_13_ab_CR_08',
+        '1243I_pp_13_ab_CR_09',
+        '1243I_pp_13_ab_CR_10'
 	
  ];
 
