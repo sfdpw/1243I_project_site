@@ -18995,7 +18995,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP08': [0, 500, 0]
-                    }
+                    },
+                    'SW-27': {
+                        'PP14': [0, 50, 0]
+                    }  
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -19013,9 +19016,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "113.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
