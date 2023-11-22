@@ -1305,7 +1305,7 @@ var base_sov =
 
         {
             "bid_item": "SW-28",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() { if ( this.linked_bi ) { return linked_bid_item_string_geneator_from_sov( this.bid_item ) } 
                 else { return this.bid_item } },
             "description": "Reconstruct Pavement Outside of Sewer T-Trench Limit and Outside of Base Repair Work Under R-Drawings with 8-Inch Thick Concrete Base Necessary Per Excavation Code As Directed by the City Representative (Contingency Bid Item)*",
@@ -1315,24 +1315,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 70776,
             "alloc_ssp": 1800,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
