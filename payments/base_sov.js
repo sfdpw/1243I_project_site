@@ -1342,7 +1342,7 @@ var base_sov =
 
         {
             "bid_item": "SW-26",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() {
                 if (this.linked_bi) { return linked_bid_item_string_geneator_from_sov(this.bid_item) }
                 else { return this.bid_item }
