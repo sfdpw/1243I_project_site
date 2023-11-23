@@ -15554,7 +15554,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP13": [13456, 0, 0]
+                        "PP13": [163486.44 / 12, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15712,7 +15712,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [1323, 0, 0]
+                        "PP13": [1848 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15752,7 +15752,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [600, 0, 0]
+                        "PP13": [840 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15792,7 +15792,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [134, 0, 0]
+                        "PP13": [200 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15831,7 +15831,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [2077, 0, 0]
+                        "PP13": [2895 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15876,7 +15876,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [1064, 0, 0]
+                        "PP13": [1485 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15914,7 +15914,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [898, 0, 0]
+                        "PP13": [1250 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15954,7 +15954,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [182, 0, 0]
+                        "PP13": [222 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15997,7 +15997,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [32, 0, 0]
+                        "PP13": [46 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16034,7 +16034,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [7587, 0, 0]
+                        "PP13": [10608 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16093,6 +16093,9 @@ var json_1243I_flatwork_polygons = {
                 "location": "Bryant St between Beale St and The Embarcadero",
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [4650, 0, 0]
+                    },        
                     "R-04": {
                         "PP13": [689, 0, 0]
                     }
@@ -16268,7 +16271,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [460, 0, 0]
+                        "PP13": [720 + 27, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16305,7 +16308,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 200, 0]
+                        "PP13": [0, 204, 0]
                     }
                 },
                 get pp_history() {
@@ -16341,7 +16344,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 160, 0]
+                        "PP13": [0, 157, 0]
                     }
                 },
                 get pp_history() {
@@ -16378,7 +16381,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 804, 0]
+                        "PP13": [0, 814, 0]
                     }
                 },
                 get pp_history() {
@@ -16407,8 +16410,1493 @@ var json_1243I_flatwork_polygons = {
                     ]
                 ]
             }
-        }
+        },
 
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_001",
+                "location": "Intersection of 10th St and Harrison St - East Corner",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [32 * 17, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411188773851222, 37.771676607832084],
+                            [-122.411126126611364, 37.771627995559349],
+                            [-122.411181998145366, 37.771582868729226],
+                            [-122.411243529131582, 37.771631373203569],
+                            [-122.411188773851222, 37.771676607832084]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_002",
+                "location": "Intersection of 10th St and Harrison St - West Corner",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [60, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411126126611364, 37.771627995559349],
+                            [-122.411140556624829, 37.771615312627063],
+                            [-122.411146163143897, 37.771608498855699],
+                            [-122.41115092868516, 37.771598195102733],
+                            [-122.411153031129842, 37.771590771967972],
+                            [-122.411154012270686, 37.771579692660993],
+                            [-122.411152049988971, 37.771570940007308],
+                            [-122.411148265588579, 37.771562408938784],
+                            [-122.411140696787768, 37.771551329627549],
+                            [-122.411181998145366, 37.771582868729226],
+                            [-122.411126126611364, 37.771627995559349]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_003",
+                "location": "Intersection of 10th St and Harrison St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [39 * 55, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411243529131582, 37.771631373203569],
+                            [-122.411181998145366, 37.771582868729226],
+                            [-122.411140696787768, 37.771551329627549],
+                            [-122.411253831671729, 37.771461143972473],
+                            [-122.411264016848136, 37.771465649564746],
+                            [-122.411273477849164, 37.771468511723626],
+                            [-122.411282681884742, 37.77147021055336],
+                            [-122.411364280098269, 37.771533528864126],
+                            [-122.411350673244328, 37.771544513015861],
+                            [-122.411243529131582, 37.771631373203569]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_004",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [13 * 333, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411140696787768, 37.771551329627549],
+                            [-122.411046997112607, 37.771476952278903],
+                            [-122.411009655169877, 37.771447504740692],
+                            [-122.410619940943363, 37.771143427984455],
+                            [-122.410350065220911, 37.770932426788669],
+                            [-122.410379541736617, 37.770909151446347],
+                            [-122.411170682188683, 37.771527426727594],
+                            [-122.411140696787768, 37.771551329627549]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_007",
+                "location": "R-06_R-03_007",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [11 * 14, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.410601747919657, 37.771082805824669],
+                            [-122.410557296589246, 37.771048067093318],
+                            [-122.410581610029809, 37.771028624302538],
+                            [-122.41062594825182, 37.771063302786317],
+                            [-122.410601747919657, 37.771082805824669]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_005",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [12 * 331, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.410428318453, 37.770870114987552],
+                            [-122.411219750645685, 37.771488311728888],
+                            [-122.411195270992479, 37.771507825726061],
+                            [-122.41062594825182, 37.771063302786317],
+                            [-122.410581610029809, 37.771028624302538],
+                            [-122.410404023536827, 37.770889577822487],
+                            [-122.410428318453, 37.770870114987552]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_006",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [10.5 * 12, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.410803287324555, 37.77116300810782],
+                            [-122.410774513762789, 37.771140532741157],
+                            [-122.41080881421712, 37.771113418521679],
+                            [-122.41083703369668, 37.771135281823739],
+                            [-122.410803287324555, 37.77116300810782]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_008",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [23 * 221, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.410350065220911, 37.770932426788669],
+                            [-122.409816647217539, 37.77049585143088],
+                            [-122.409870960371421, 37.77045487584553],
+                            [-122.410404023536827, 37.770889577822487],
+                            [-122.410379541736617, 37.770909151446347],
+                            [-122.410350065220911, 37.770932426788669]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_009",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [23 * 65, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.410186011705122, 37.770620735420501],
+                            [-122.410339863933899, 37.770747424223465],
+                            [-122.410282839358956, 37.770790754858396],
+                            [-122.410128084920501, 37.77066455591185],
+                            [-122.410186011705122, 37.770620735420501]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_012",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [13 * 220, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.409485897630532, 37.77015637106777],
+                            [-122.408956899191935, 37.769720847660935],
+                            [-122.408979955123556, 37.769702681734486],
+                            [-122.409510659756648, 37.770137609743031],
+                            [-122.409485897630532, 37.77015637106777]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_013",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [14 * 33, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.40938286616155, 37.770141524508027],
+                            [-122.409315325126641, 37.770086182268408],
+                            [-122.409359832658865, 37.770052413496614],
+                            [-122.40942704870713, 37.770107842211836],
+                            [-122.40938286616155, 37.770141524508027]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_011",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [2998, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.409504317382101, 37.770085734470662],
+                            [-122.409474954289678, 37.770108167563507],
+                            [-122.40891577303799, 37.769650104468319],
+                            [-122.40878120959367, 37.769539547230039],
+                            [-122.408809973350586, 37.769516664452404],
+                            [-122.409457292703053, 37.770046789906623],
+                            [-122.409504317382101, 37.770085734470662]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_014",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [102, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.40886624878577, 37.769735047996051],
+                            [-122.408835132604693, 37.769710008131504],
+                            [-122.40891577303799, 37.769650104468319],
+                            [-122.408945973710757, 37.769674250728563],
+                            [-122.40886624878577, 37.769735047996051]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-06_R-03_010",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "10in Concrete Base",
+                "pp_a_qty": {
+                    'R-06': {
+                        'PP13': [9 * 11, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.409504317382101, 37.770085734470662],
+                            [-122.409484321624262, 37.770069174528764],
+                            [-122.409508931080296, 37.77005002143833],
+                            [-122.409529394875065, 37.770066973128017],
+                            [-122.409504317382101, 37.770085734470662]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-01_002",
+                "location": "10th St between Market St and Mission St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [1260, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [264.5, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.417295584073969, 37.776481244025256],
+                            [-122.417145062045265, 37.776359252330948],
+                            [-122.417159751018758, 37.776348032468086],
+                            [-122.417142495910568, 37.77633399021164],
+                            [-122.416958070594873, 37.776184448934927],
+                            [-122.416897714132418, 37.776135075948467],
+                            [-122.416864636327688, 37.776108496605431],
+                            [-122.41680740440006, 37.776062140489607],
+                            [-122.416704886190715, 37.775978791880171],
+                            [-122.416621472133556, 37.775911412554258],
+                            [-122.416529957077543, 37.775836796106276],
+                            [-122.416008623858588, 37.77542137353251],
+                            [-122.416092984989049, 37.775353205949415],
+                            [-122.41678780702037, 37.775914908171984],
+                            [-122.41689138782975, 37.775997060076669],
+                            [-122.41739417950987, 37.776404591967832],
+                            [-122.417344209602987, 37.776443225331079],
+                            [-122.417295584073969, 37.776481244025256]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-01_003",
+                "location": "Jessie St - West Extension off 10th St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [80, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [6, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.416592022660112, 37.775701869562113],
+                            [-122.416504096975146, 37.775630389090132],
+                            [-122.416522909903236, 37.775634458783088],
+                            [-122.416535847916904, 37.775633519623206],
+                            [-122.416547861786768, 37.775630493441241],
+                            [-122.416558951512798, 37.775625275885844],
+                            [-122.41656891906419, 37.775617449552037],
+                            [-122.416578754594994, 37.775609518866283],
+                            [-122.416624169663507, 37.775646511333996],
+                            [-122.416611957762825, 37.775655902930744],
+                            [-122.416607271033371, 37.775652146292195],
+                            [-122.416599877882661, 37.775658042127624],
+                            [-122.416596445348432, 37.775661172659532],
+                            [-122.416593408875826, 37.775667225020818],
+                            [-122.416592352711461, 37.775671607764892],
+                            [-122.41659195664981, 37.77567724272118],
+                            [-122.416593276855281, 37.775683816836285],
+                            [-122.416595917266235, 37.775688199579378],
+                            [-122.416601726170384, 37.775693834534394],
+                            [-122.416592022660112, 37.775701869562113]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-01_004",
+                "location": "Minna St - West Extension off 10th St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [80, 0, 0]
+                    },                   
+                    "R-04": {
+                        "PP13": [5, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.415505765770149, 37.774843540537965],
+                            [-122.415481290265831, 37.774826498806092],
+                            [-122.415473616039762, 37.774820600946299],
+                            [-122.41543511977703, 37.774791015472402],
+                            [-122.415430495702338, 37.774787461738576],
+                            [-122.415397088580832, 37.774766464699475],
+                            [-122.415413867343901, 37.774774121560988],
+                            [-122.41542612694434, 37.77477726167556],
+                            [-122.415438228474329, 37.774777588328341],
+                            [-122.415451604193635, 37.774774962316521],
+                            [-122.415460872704614, 37.774770240764305],
+                            [-122.415477237314775, 37.774757039543765],
+                            [-122.415472486468687, 37.774753280145397],
+                            [-122.415481023286205, 37.774746328686966],
+                            [-122.415529214458701, 37.774783458508722],
+                            [-122.415520723129532, 37.774790118240119],
+                            [-122.415515855845783, 37.774786464085949],
+                            [-122.415504334404133, 37.774795775348188],
+                            [-122.415497330835422, 37.774806674007067],
+                            [-122.415494872101647, 37.774813874531702],
+                            [-122.415494834945235, 37.774821723707362],
+                            [-122.415496402981674, 37.774829107469436],
+                            [-122.415499662677476, 37.774835862713068],
+                            [-122.415505765770149, 37.774843540537965]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-01_001",
+                "location": "10th St between Market St and Mission St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [18435, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.417295584073969, 37.776481244025256],
+                            [-122.417145062045265, 37.776359252330948],
+                            [-122.417159751018758, 37.776348032468086],
+                            [-122.417142495910568, 37.77633399021164],
+                            [-122.416958070594873, 37.776184448934927],
+                            [-122.416897714132418, 37.776135075948467],
+                            [-122.416864636327688, 37.776108496605431],
+                            [-122.41680740440006, 37.776062140489607],
+                            [-122.416704886190715, 37.775978791880171],
+                            [-122.416621472133556, 37.775911412554258],
+                            [-122.416529957077543, 37.775836796106276],
+                            [-122.416008623858588, 37.77542137353251],
+                            [-122.416092984989049, 37.775353205949415],
+                            [-122.41678780702037, 37.775914908171984],
+                            [-122.41689138782975, 37.775997060076669],
+                            [-122.41739417950987, 37.776404591967832],
+                            [-122.417344209602987, 37.776443225331079],
+                            [-122.417295584073969, 37.776481244025256]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-01_002",
+                "location": "Jessie St - West Extension off 10th St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [400, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.416592022660112, 37.775701869562113],
+                            [-122.416504096975146, 37.775630389090132],
+                            [-122.416522909903236, 37.775634458783088],
+                            [-122.416535847916904, 37.775633519623206],
+                            [-122.416547861786768, 37.775630493441241],
+                            [-122.416558951512798, 37.775625275885844],
+                            [-122.41656891906419, 37.775617449552037],
+                            [-122.416578754594994, 37.775609518866283],
+                            [-122.416624169663507, 37.775646511333996],
+                            [-122.416611957762825, 37.775655902930744],
+                            [-122.416607271033371, 37.775652146292195],
+                            [-122.416599877882661, 37.775658042127624],
+                            [-122.416596445348432, 37.775661172659532],
+                            [-122.416593408875826, 37.775667225020818],
+                            [-122.416592352711461, 37.775671607764892],
+                            [-122.41659195664981, 37.77567724272118],
+                            [-122.416593276855281, 37.775683816836285],
+                            [-122.416595917266235, 37.775688199579378],
+                            [-122.416601726170384, 37.775693834534394],
+                            [-122.416592022660112, 37.775701869562113]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-02_001",
+                "location": "10th St between Howard St and Folsom St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [2200, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [390, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.414208885974972, 37.774007221369843],
+                            [-122.413995348653586, 37.773831929802299],
+                            [-122.413674706885445, 37.773569289514299],
+                            [-122.413621142992909, 37.773525240747709],
+                            [-122.413085382048664, 37.773088520616476],
+                            [-122.412981194181114, 37.773005691392179],
+                            [-122.412920892316691, 37.772957390812863],
+                            [-122.412908583361627, 37.772947864847161],
+                            [-122.413021262899335, 37.772859371846955],
+                            [-122.41397569405602, 37.77363428724783],
+                            [-122.413987820841498, 37.773644541957445],
+                            [-122.414323315553702, 37.773919819909999],
+                            [-122.414238775352729, 37.773984396507515],
+                            [-122.414208885974972, 37.774007221369843]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-02_04",
+                "location": "10th St between Howard St and Folsom St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [25300, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.414208885974972, 37.774007221369843],
+                            [-122.413995348653586, 37.773831929802299],
+                            [-122.413674706885445, 37.773569289514299],
+                            [-122.413621142992909, 37.773525240747709],
+                            [-122.413085382048664, 37.773088520616476],
+                            [-122.412981194181114, 37.773005691392179],
+                            [-122.412920892316691, 37.772957390812863],
+                            [-122.412908583361627, 37.772947864847161],
+                            [-122.413021262899335, 37.772859371846955],
+                            [-122.41397569405602, 37.77363428724783],
+                            [-122.413987820841498, 37.773644541957445],
+                            [-122.414323315553702, 37.773919819909999],
+                            [-122.414238775352729, 37.773984396507515],
+                            [-122.414208885974972, 37.774007221369843]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-02_002",
+                "location": "10th St between Folsom St and Harrison St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [2200, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [398, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.412679938269122, 37.772771925021274],
+                            [-122.411937200776805, 37.772180504339936],
+                            [-122.411911331811723, 37.7721599941218],
+                            [-122.411899703427935, 37.772168963787564],
+                            [-122.411892328977416, 37.7721637880991],
+                            [-122.411885162044726, 37.772161555131568],
+                            [-122.411879512199974, 37.772160521350294],
+                            [-122.41187276377434, 37.772160645404036],
+                            [-122.41186523064799, 37.772162299454081],
+                            [-122.41185916229621, 37.77216569025655],
+                            [-122.411824112333434, 37.772192609914583],
+                            [-122.411783271933572, 37.772159972154],
+                            [-122.411817465264846, 37.772132742349548],
+                            [-122.411822016528703, 37.772128090331833],
+                            [-122.411823899810273, 37.772122942098562],
+                            [-122.411824213690537, 37.772117979945676],
+                            [-122.411823703635108, 37.772111940074765],
+                            [-122.41182261486297, 37.772109633448729],
+                            [-122.411820064585811, 37.772105508658427],
+                            [-122.41181533292847, 37.772101519138999],
+                            [-122.411827833122345, 37.772092265909045],
+                            [-122.411784713821092, 37.772057809938801],
+                            [-122.411556925028194, 37.771879214711099],
+                            [-122.411507459460282, 37.771840649343204],
+                            [-122.411347362452048, 37.771715778638892],
+                            [-122.41138273959335, 37.771687172951374],
+                            [-122.411427648014694, 37.77165086032737],
+                            [-122.411456769577271, 37.771627312833409],
+                            [-122.411458453160066, 37.771625865707563],
+                            [-122.411460780022196, 37.771629224690614],
+                            [-122.411467381049576, 37.771635590452192],
+                            [-122.411536024653785, 37.771689025168399],
+                            [-122.411616907862438, 37.771752682902296],
+                            [-122.411712038483614, 37.771826927221802],
+                            [-122.411727482624372, 37.77183885621556],
+                            [-122.411873601732793, 37.77195397483073],
+                            [-122.411942323611001, 37.772009232333282],
+                            [-122.411976541680346, 37.772036042483784],
+                            [-122.412005300672448, 37.772058913903038],
+                            [-122.412102802762192, 37.772136819650001],
+                            [-122.412122321996009, 37.7721517388782],
+                            [-122.412290042349071, 37.772285414500587],
+                            [-122.412302363286969, 37.772295120104339],
+                            [-122.412474868673172, 37.772432195591371],
+                            [-122.41248731503687, 37.772441908630427],
+                            [-122.412791415125298, 37.772683950857761],
+                            [-122.412717415382446, 37.772741931783067],
+                            [-122.412679938269122, 37.772771925021274]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-02_006",
+                "location": "10th St between Folsom St and Harrison St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [25825, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.412679938269122, 37.772771925021274],
+                            [-122.411937200776805, 37.772180504339936],
+                            [-122.411911331811723, 37.7721599941218],
+                            [-122.411899703427935, 37.772168963787564],
+                            [-122.411892328977416, 37.7721637880991],
+                            [-122.411885162044726, 37.772161555131568],
+                            [-122.411879512199974, 37.772160521350294],
+                            [-122.41187276377434, 37.772160645404036],
+                            [-122.41186523064799, 37.772162299454081],
+                            [-122.41185916229621, 37.77216569025655],
+                            [-122.411824112333434, 37.772192609914583],
+                            [-122.411783271933572, 37.772159972154],
+                            [-122.411817465264846, 37.772132742349548],
+                            [-122.411822016528703, 37.772128090331833],
+                            [-122.411823899810273, 37.772122942098562],
+                            [-122.411824213690537, 37.772117979945676],
+                            [-122.411823703635108, 37.772111940074765],
+                            [-122.41182261486297, 37.772109633448729],
+                            [-122.411820064585811, 37.772105508658427],
+                            [-122.41181533292847, 37.772101519138999],
+                            [-122.411827833122345, 37.772092265909045],
+                            [-122.411784713821092, 37.772057809938801],
+                            [-122.411556925028194, 37.771879214711099],
+                            [-122.411507459460282, 37.771840649343204],
+                            [-122.411347362452048, 37.771715778638892],
+                            [-122.41138273959335, 37.771687172951374],
+                            [-122.411427648014694, 37.77165086032737],
+                            [-122.411456769577271, 37.771627312833409],
+                            [-122.411458453160066, 37.771625865707563],
+                            [-122.411460780022196, 37.771629224690614],
+                            [-122.411467381049576, 37.771635590452192],
+                            [-122.411536024653785, 37.771689025168399],
+                            [-122.411616907862438, 37.771752682902296],
+                            [-122.411712038483614, 37.771826927221802],
+                            [-122.411727482624372, 37.77183885621556],
+                            [-122.411873601732793, 37.77195397483073],
+                            [-122.411942323611001, 37.772009232333282],
+                            [-122.411976541680346, 37.772036042483784],
+                            [-122.412005300672448, 37.772058913903038],
+                            [-122.412102802762192, 37.772136819650001],
+                            [-122.412122321996009, 37.7721517388782],
+                            [-122.412290042349071, 37.772285414500587],
+                            [-122.412302363286969, 37.772295120104339],
+                            [-122.412474868673172, 37.772432195591371],
+                            [-122.41248731503687, 37.772441908630427],
+                            [-122.412791415125298, 37.772683950857761],
+                            [-122.412717415382446, 37.772741931783067],
+                            [-122.412679938269122, 37.772771925021274]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-03_001",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [2300, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [492.5, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411347362452048, 37.771715778638892],
+                            [-122.411338948715212, 37.77171207141518],
+                            [-122.411329976219491, 37.77170871318139],
+                            [-122.411321207102944, 37.771707194947609],
+                            [-122.411314985167778, 37.771705861339804],
+                            [-122.411304823474424, 37.771705722668322],
+                            [-122.411293185587013, 37.771706958589434],
+                            [-122.411281198136109, 37.771710101350862],
+                            [-122.411270577476401, 37.771714787676821],
+                            [-122.411265094642914, 37.771718391816748],
+                            [-122.411253357005876, 37.771726975000135],
+                            [-122.411126126611364, 37.771627995559349],
+                            [-122.411140556624829, 37.771615312627063],
+                            [-122.411146163143897, 37.771608498855699],
+                            [-122.41115092868516, 37.771598195102733],
+                            [-122.411153031129842, 37.771590771967972],
+                            [-122.411154012270686, 37.771579692660993],
+                            [-122.411152049988971, 37.771570940007308],
+                            [-122.411148265588579, 37.771562408938784],
+                            [-122.411140696787768, 37.771551329627549],
+                            [-122.411046997112607, 37.771476952278903],
+                            [-122.411009655169877, 37.771447504740692],
+                            [-122.410619940943363, 37.771143427984455],
+                            [-122.410350065220911, 37.770932426788669],
+                            [-122.409816647217539, 37.77049585143088],
+                            [-122.409870960371421, 37.77045487584553],
+                            [-122.409930824146443, 37.770409816862241],
+                            [-122.410186011705122, 37.770620735420501],
+                            [-122.410339863933899, 37.770747424223465],
+                            [-122.41080881421712, 37.771113418521679],
+                            [-122.41083703369668, 37.771135281823739],
+                            [-122.411253831671729, 37.771461143972473],
+                            [-122.411264016848136, 37.771465649564746],
+                            [-122.411273477849164, 37.771468511723626],
+                            [-122.411282681884742, 37.77147021055336],
+                            [-122.411295696578293, 37.771470526164215],
+                            [-122.4113074134019, 37.771469308666148],
+                            [-122.411316874874501, 37.771466873669972],
+                            [-122.411325016141632, 37.771463482068008],
+                            [-122.411332277271768, 37.771459220824305],
+                            [-122.411343389001232, 37.7714500026228],
+                            [-122.41147562958345, 37.771553489913366],
+                            [-122.411464022776926, 37.771562925512072],
+                            [-122.411457861818008, 37.771569882634765],
+                            [-122.411456211561159, 37.771572404591581],
+                            [-122.411451590842006, 37.771581274921765],
+                            [-122.411448510362561, 37.771591188818938],
+                            [-122.411448290328309, 37.771599711290897],
+                            [-122.411451040756418, 37.771612321069028],
+                            [-122.411454671321508, 37.771621539250297],
+                            [-122.411458453160066, 37.771625865707563],
+                            [-122.411456769577271, 37.771627312833409],
+                            [-122.411427648014694, 37.77165086032737],
+                            [-122.41138273959335, 37.771687172951374],
+                            [-122.411347362452048, 37.771715778638892]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-03_001",
+                "location": "10th St between Harrison St and Bryant St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [31993, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.411347362452048, 37.771715778638892],
+                            [-122.411338948715212, 37.77171207141518],
+                            [-122.411329976219491, 37.77170871318139],
+                            [-122.411321207102944, 37.771707194947609],
+                            [-122.411314985167778, 37.771705861339804],
+                            [-122.411304823474424, 37.771705722668322],
+                            [-122.411293185587013, 37.771706958589434],
+                            [-122.411281198136109, 37.771710101350862],
+                            [-122.411270577476401, 37.771714787676821],
+                            [-122.411265094642914, 37.771718391816748],
+                            [-122.411253357005876, 37.771726975000135],
+                            [-122.411126126611364, 37.771627995559349],
+                            [-122.411140556624829, 37.771615312627063],
+                            [-122.411146163143897, 37.771608498855699],
+                            [-122.41115092868516, 37.771598195102733],
+                            [-122.411153031129842, 37.771590771967972],
+                            [-122.411154012270686, 37.771579692660993],
+                            [-122.411152049988971, 37.771570940007308],
+                            [-122.411148265588579, 37.771562408938784],
+                            [-122.411140696787768, 37.771551329627549],
+                            [-122.411046997112607, 37.771476952278903],
+                            [-122.411009655169877, 37.771447504740692],
+                            [-122.410619940943363, 37.771143427984455],
+                            [-122.410350065220911, 37.770932426788669],
+                            [-122.409816647217539, 37.77049585143088],
+                            [-122.409870960371421, 37.77045487584553],
+                            [-122.409930824146443, 37.770409816862241],
+                            [-122.410186011705122, 37.770620735420501],
+                            [-122.410339863933899, 37.770747424223465],
+                            [-122.41080881421712, 37.771113418521679],
+                            [-122.41083703369668, 37.771135281823739],
+                            [-122.411253831671729, 37.771461143972473],
+                            [-122.411264016848136, 37.771465649564746],
+                            [-122.411273477849164, 37.771468511723626],
+                            [-122.411282681884742, 37.77147021055336],
+                            [-122.411295696578293, 37.771470526164215],
+                            [-122.4113074134019, 37.771469308666148],
+                            [-122.411316874874501, 37.771466873669972],
+                            [-122.411325016141632, 37.771463482068008],
+                            [-122.411332277271768, 37.771459220824305],
+                            [-122.411343389001232, 37.7714500026228],
+                            [-122.41147562958345, 37.771553489913366],
+                            [-122.411464022776926, 37.771562925512072],
+                            [-122.411457861818008, 37.771569882634765],
+                            [-122.411456211561159, 37.771572404591581],
+                            [-122.411451590842006, 37.771581274921765],
+                            [-122.411448510362561, 37.771591188818938],
+                            [-122.411448290328309, 37.771599711290897],
+                            [-122.411451040756418, 37.771612321069028],
+                            [-122.411454671321508, 37.771621539250297],
+                            [-122.411458453160066, 37.771625865707563],
+                            [-122.411456769577271, 37.771627312833409],
+                            [-122.411427648014694, 37.77165086032737],
+                            [-122.41138273959335, 37.771687172951374],
+                            [-122.411347362452048, 37.771715778638892]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-03_002",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [1350, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [299, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.409441724688548, 37.770190214422243],
+                            [-122.40938286616155, 37.770141524508027],
+                            [-122.409315325126641, 37.770086182268408],
+                            [-122.408878443237583, 37.769725748657237],
+                            [-122.40886624878577, 37.769735047996051],
+                            [-122.408835132604693, 37.769710008131504],
+                            [-122.408457218124099, 37.769425492499273],
+                            [-122.408678425886791, 37.769383458654055],
+                            [-122.408968284334478, 37.769602092365872],
+                            [-122.409508931080296, 37.77005002143833],
+                            [-122.409529394875065, 37.770066973128017],
+                            [-122.409565457279925, 37.770096349435349],
+                            [-122.409510659756648, 37.770137609743031],
+                            [-122.409485897630532, 37.77015637106777],
+                            [-122.409441724688548, 37.770190214422243]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-03_002",
+                "location": "10th St between Bryant St and Division St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [19425, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.409441724688548, 37.770190214422243],
+                            [-122.40938286616155, 37.770141524508027],
+                            [-122.409315325126641, 37.770086182268408],
+                            [-122.408878443237583, 37.769725748657237],
+                            [-122.40886624878577, 37.769735047996051],
+                            [-122.408835132604693, 37.769710008131504],
+                            [-122.408457218124099, 37.769425492499273],
+                            [-122.408678425886791, 37.769383458654055],
+                            [-122.408968284334478, 37.769602092365872],
+                            [-122.409508931080296, 37.77005002143833],
+                            [-122.409529394875065, 37.770066973128017],
+                            [-122.409565457279925, 37.770096349435349],
+                            [-122.409510659756648, 37.770137609743031],
+                            [-122.409485897630532, 37.77015637106777],
+                            [-122.409441724688548, 37.770190214422243]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-03_R-04_001",
+                "location": "12th St between Howard St and Folsom St",
+                "scope": "Planing",
+                "pp_a_qty": {
+                    "R-03": {
+                        "PP13": [22046, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.416824680457367, 37.771624244796357],
+                            [-122.41676091942233, 37.771714919168957],
+                            [-122.41624359446017, 37.771493218972012],
+                            [-122.416236846743274, 37.771502881651358],
+                            [-122.416228143166393, 37.771499944196968],
+                            [-122.416219146210537, 37.771498243565425],
+                            [-122.416208193394709, 37.771497779756821],
+                            [-122.416199000852828, 37.771498707374036],
+                            [-122.416190199482983, 37.771500871814155],
+                            [-122.416181006941102, 37.771504118474219],
+                            [-122.416170445297269, 37.771509684176856],
+                            [-122.416161448341398, 37.77151957875828],
+                            [-122.416148930837593, 37.771536121258649],
+                            [-122.416093482207472, 37.771510843698188],
+                            [-122.416109911431249, 37.771488812789819],
+                            [-122.416113627565181, 37.771480618836257],
+                            [-122.416114214323201, 37.771473043293476],
+                            [-122.416112845221221, 37.771462994102876],
+                            [-122.416108542329283, 37.7714546455435],
+                            [-122.416103261507374, 37.771448461424832],
+                            [-122.416094264551489, 37.771441890798172],
+                            [-122.416088494764566, 37.77143910794436],
+                            [-122.416094753516475, 37.771429831764223],
+                            [-122.415117605875182, 37.771009774187135],
+                            [-122.4151113471233, 37.771019359627722],
+                            [-122.415104306027374, 37.771016422154119],
+                            [-122.415094820106518, 37.771014025794003],
+                            [-122.415085040806673, 37.77101356198235],
+                            [-122.415074087990817, 37.771013948492055],
+                            [-122.415064113104975, 37.771016190248304],
+                            [-122.415056778630074, 37.771018663910297],
+                            [-122.415154767214617, 37.770874727565534],
+                            [-122.41515633190258, 37.770881143638434],
+                            [-122.415159656864532, 37.770889724168789],
+                            [-122.415166795753422, 37.770898304698122],
+                            [-122.415173250091328, 37.77090263361346],
+                            [-122.415179900015232, 37.770906112205957],
+                            [-122.415173106458042, 37.770915644514851],
+                            [-122.416824680457367, 37.771624244796357]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // #####
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "R-04_R-04_001",
+                "location": "12th St between Howard St and Folsom St",
+                "scope": "Hot Mix Asphalt",
+                "pp_a_qty": {
+                    "R-02": {
+                        "PP13": [2150, 0, 0]
+                    },
+                    "R-04": {
+                        "PP13": [321, 0, 0]
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.416824680457367, 37.771624244796357],
+                            [-122.41676091942233, 37.771714919168957],
+                            [-122.41624359446017, 37.771493218972012],
+                            [-122.416236846743274, 37.771502881651358],
+                            [-122.416228143166393, 37.771499944196968],
+                            [-122.416219146210537, 37.771498243565425],
+                            [-122.416208193394709, 37.771497779756821],
+                            [-122.416199000852828, 37.771498707374036],
+                            [-122.416190199482983, 37.771500871814155],
+                            [-122.416181006941102, 37.771504118474219],
+                            [-122.416170445297269, 37.771509684176856],
+                            [-122.416161448341398, 37.77151957875828],
+                            [-122.416148930837593, 37.771536121258649],
+                            [-122.416093482207472, 37.771510843698188],
+                            [-122.416109911431249, 37.771488812789819],
+                            [-122.416113627565181, 37.771480618836257],
+                            [-122.416114214323201, 37.771473043293476],
+                            [-122.416112845221221, 37.771462994102876],
+                            [-122.416108542329283, 37.7714546455435],
+                            [-122.416103261507374, 37.771448461424832],
+                            [-122.416094264551489, 37.771441890798172],
+                            [-122.416088494764566, 37.77143910794436],
+                            [-122.416094753516475, 37.771429831764223],
+                            [-122.415117605875182, 37.771009774187135],
+                            [-122.4151113471233, 37.771019359627722],
+                            [-122.415104306027374, 37.771016422154119],
+                            [-122.415094820106518, 37.771014025794003],
+                            [-122.415085040806673, 37.77101356198235],
+                            [-122.415074087990817, 37.771013948492055],
+                            [-122.415064113104975, 37.771016190248304],
+                            [-122.415056778630074, 37.771018663910297],
+                            [-122.415154767214617, 37.770874727565534],
+                            [-122.41515633190258, 37.770881143638434],
+                            [-122.415159656864532, 37.770889724168789],
+                            [-122.415166795753422, 37.770898304698122],
+                            [-122.415173250091328, 37.77090263361346],
+                            [-122.415179900015232, 37.770906112205957],
+                            [-122.415173106458042, 37.770915644514851],
+                            [-122.416824680457367, 37.771624244796357]
+                        ]
+                    ]
+                ]
+            }
+        }
 
     ]
 

@@ -1,23 +1,19 @@
 var max_pp_no = 15; // make this smarter
 
-function top_nav(nav_element, pp_no = null, bid_item_id = null)
+function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 
-{
+	var return_block = '';
+	var nav_path = '../';
 
-    var return_block = '';
-    var nav_path = '../';
+	if (nav_element == 'map') {
 
-    if (nav_element == 'map')
+		nav_path = '';
 
-    {
+	}
 
-        nav_path = '';
+	return_block =
 
-    }
-
-    return_block =
-
-    '<nav class="navbar navbar-expand-lg bg-nav navbar-dark bg-primary">\
+		'<nav class="navbar navbar-expand-lg bg-nav navbar-dark bg-primary">\
        <button class="navbar-toggler"\
                 type="button"\
                 data-bs-toggle="collapse"\
@@ -34,20 +30,18 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
 	     <ul class="dropdown-menu">';
-	     
-for ( var ii = 1; ii < max_pp_no; ii++)
 
-{ 
-	
-  return_block += '<li><a class="dropdown-item" href="' + nav_path +
-                  'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
-                  ' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
-  
-}	      
-	      
-return_block +=   
-	       
-	    '</ul>\
+	for (var ii = 1; ii < max_pp_no; ii++) {
+
+		return_block += '<li><a class="dropdown-item" href="' + nav_path +
+			'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
+				' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
+
+	}
+
+	return_block +=
+
+		'</ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">QTYs</a>\
@@ -164,10 +158,10 @@ return_block +=
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-16.html"><b>SW-16:</b> Pre-Con (Pre CIPL) TVI of (E) Mains</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25:</b> Post-Con TVI of (N) Mains </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25:</b> Post-Con TVI of (N) Mains</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26:</b> Post-Con TVI of Lined (E) Mains </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26:</b> Post-Con TVI of Lined (E) Mains</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -175,7 +169,7 @@ return_block +=
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23</b> - (N) CB - STD 87,188</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23:</b> (N) CB - STD 87,188</a>\
 	               </li>\
 	             </ul>\
 	       </li>\
@@ -183,46 +177,76 @@ return_block +=
 	         <a class="dropdown-item" href="#">Manholes &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03</b> - (N) MH - STD 87,181</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-03.html"><b>SW-03:</b> (N) MH - STD 87,181</a>\
 	           </li>\
 	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-04.html"><b>SW-04</b> - (N) MH - STD 87,182</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-04.html"><b>SW-04:</b> (N) MH - STD 87,182</a>\
 	           </li>\
 	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) MH - STD 87,184</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05:</b> (N) MH - STD 87,184</a>\
 	           </li>\
+			   <li>\
+			     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-07.html"><b>SW-07:</b> Mortar (E) MH</a>\
+			   </li>\
 	         </ul>\
 	       </li>\
 	       <li>\
 	         <a class="dropdown-item" href="#">Misc &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-31.html"><b>SW-31</b> - Potholing</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-31.html"><b>SW-31:</b> Potholing</a>\
 	           </li>\
 	         </ul>\
 	       </li>\
 	     </ul>\
 	   </li>\
+	   <li>\
+	    <a class="dropdown-item" href="#">PCOs &raquo;</a>\
+	    <ul class="submenu dropdown-menu">\
+		  <li>\
+		    <a class="dropdown-item" href="#">PCO 2 - 18" VCP on SVN - 14th St to 15th St &raquo;</a>\
+			<ul class="submenu dropdown-menu">\
+			  <li>\
+				<a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-05.html"><b>PCO-02 - SW-05:</b> Deletion - (N) Box MH per 87,184</a>\
+			  </li>\
+			  <li>\
+				<a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-07.html"><b>PCO-02 - SW-07:</b> Deletion - Mortar (E) MH</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-14.html"><b>PCO-02 - SW-14:</b> Deletion - Line (E) 3\'x5\' Brick Main</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-18.html"><b>PCO-02 - SW-18:</b> Deletion - Side Sewer and Culvert Re-Instatement</a>\
+		      </li>\
+		      <li>\
+		        <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-26.html"><b>PCO-02 - SW-26:</b> Deletion - Post-Con TVI of Lined (E) Mains</a>\
+		      </li>\
+		      <li>\
+		        <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-03.html"><b>PCO-02 - SW-03:</b> Addition - (N) MH - STD 87,181</a>\
+		      </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-19.html"><b>PCO-02 - SW-19:</b> Addition - Side Sewer Connection</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-25.html"><b>PCO-02 - SW-25:</b> Addition - Post-Con TVI of (N) Mains</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-27.html"><b>PCO-02 - SW-27:</b> Addition - Post-Con TVI of (N) Side Sewers and Culverts</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-36.html"><b>PCO-02 - SW-36:</b> Addition - Allowance to Perform Misc. Work</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-38.html"><b>PCO-02 - SW-38:</b> Addition - 18in VCP Main</a>\
+			  </li>\
+			  <li>\
+			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-39.html"><b>PCO-02 - SW-39:</b> Addition - Abandon (E) MH</a>\
+			  </li>\
+			</ul>\
+	      </li>\
+	    </ul>\
+      </li>\
 	 </ul>\
-	   </li>\
-	   <li class="nav-item dropdown">\
-	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FA</a>\
-	     <ul class="dropdown-menu">\
-	       <li>\
-	         <a class="dropdown-item" href="#">CO 2 &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="#">PCO 2 &raquo;</a>\
-	           <ul class="submenu dropdown-menu">\
-	             <li>\
-	               <a class="dropdown-item" href="' + nav_path + 'co/co_02/pco_02/pco_02_daily_cost_tracking.html"><b>PCO 2</b> Cost Tracking</a>\
-	               </li>\
-	             </ul>\
-	           </li>\
-	         </ul>\
-	       </li>\
-	     </ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tracking</a>\
@@ -244,42 +268,36 @@ return_block +=
          </ul>\
        </div>';
 
-    if (nav_element == 'payment_details')
+	if (nav_element == 'payment_details') {
 
-    {
+		return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
 
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
+	} else if (nav_element == 'qty') {
 
-    } else if (nav_element == 'qty')
+		return_block +=
 
-    {
-
-        return_block +=
-
-            '<div style="float:right;\
+			'<div style="float:right;\
                     padding-right:10px;\
                     color:white;\
                     font-weight:bold"\
                     data-toogle="tooltip"\
-	            title="' + base_sov[bid_item_sov_index_finder(bid_item_id)].description + ' (' + 
-	                       base_sov[bid_item_sov_index_finder(bid_item_id)].unit  + ')"\> Quantity Details for ' + bid_item_id + '</div>';
+	            title="' + base_sov[bid_item_sov_index_finder(bid_item_id)].description + ' (' +
+			base_sov[bid_item_sov_index_finder(bid_item_id)].unit + ')"\> Quantity Details for ' + bid_item_id + '</div>';
 
-    } else if (nav_element.includes('Asset_Tracking'))
+	} else if (nav_element.includes('Asset_Tracking')) {
 
-    {
+		return_block +=
 
-        return_block +=
-
-            '<div style="float:right;\
+			'<div style="float:right;\
                     padding-right:10px;\
                     color:white;\
                     font-weight:bold"\
                     >' + nav_element.replace(/_/g, " ") + '</div>';
 
-    }
+	}
 
-    return_block += '</nav>';
+	return_block += '</nav>';
 
-    return return_block
+	return return_block
 
 }

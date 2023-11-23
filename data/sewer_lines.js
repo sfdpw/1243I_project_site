@@ -162,6 +162,9 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
+                    },
+                    'PCO-02_SW-36': {
+                        'PP13': [0, 0, 10000]
                     }
                 },
                 get pp_summary() {

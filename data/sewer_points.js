@@ -2613,13 +2613,8 @@ var json_1243I_sewer_points = {
                 "location": "415 South Van Ness Ave",
                 "scope": "Install (N) manhole riser per std 87,185",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'PCO-02_SW-36': {
+                        'PP13': [0, 0, 20000]
                     }
                 },
                 get pp_summary() {
