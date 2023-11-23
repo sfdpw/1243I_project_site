@@ -39,7 +39,7 @@ var base_sov =
                 [8400, 0, 0], // PP10
                 [63000, 0, 0], // PP11
                 [60000, 0, 0], // PP12
-                [], // PP13
+                [30000, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -537,7 +537,7 @@ var base_sov =
                 [], // PP10
                 [8584.40, 0, 0], // PP11
                 [6181, 0, 0], // PP12
-                [], // PP13
+                [1076, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -654,7 +654,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [], // PP13
+                [28380, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -889,7 +889,7 @@ var base_sov =
 
         {
             "bid_item": "SW-07",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() {
                 if (this.linked_bi) { return linked_bid_item_string_geneator_from_sov(this.bid_item) }
                 else { return this.bid_item }
@@ -901,24 +901,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 51800,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1668,7 +1651,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [], // PP13
+                [0, 0, 18920], // PP13
                 [], // PP14
                 [], // PP15
             ],

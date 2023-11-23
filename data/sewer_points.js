@@ -144,13 +144,11 @@ var json_1243I_sewer_points = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Remove (E)",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                         'PP13': [0, 0, 3700]
+                     },
+                    'PCO-02_SW-07': {
+                        'PP13': [0, 0, -3700]
                     }
                 },
                 get pp_summary() {
@@ -447,13 +445,14 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and 15th St",
                 "scope": "Remove (E)",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP13': [0, 0, 3700]
+                    },
+                    'PCO-02_SW-07': {
+                        'PP13': [0, 0, -3700]
+                    },
+                    'PCO-02_SW-39': {
+                        'PP13': [0, 0, 3000]
                     }
                 },
                 get pp_summary() {
@@ -1413,7 +1412,6 @@ var json_1243I_sewer_points = {
 
         },
 
-
         // ######################################
 
         {
@@ -1424,13 +1422,8 @@ var json_1243I_sewer_points = {
                 "location": "South Van Ness Ave - North of 15th St",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'PCO-02_SW-03': {
+                        'PP13': [0, 0, 9500]
                     }
                 },
                 get pp_summary() {
@@ -3162,13 +3155,14 @@ var json_1243I_sewer_points = {
                 "location": "344 South Van Ness Ave",
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP13': [0, 0, 3700]
+                    },
+                    'PCO-02_SW-03': {
+                        'PP13': [0, 0, 9500]
+                    },
+                    'PCO-02_SW-07': {
+                        'PP13': [0, 0, -3700]
                     }
                 },
                 get pp_summary() {
@@ -3204,13 +3198,11 @@ var json_1243I_sewer_points = {
                 "location": "330 South Van Ness Ave",
                 "scope": "Remove (E)",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP13': [0, 0, 3700]
+                    },
+                    'PCO-02_SW-07': {
+                        'PP13': [0, 0, -3700]
                     }
                 },
                 get pp_summary() {
@@ -4125,7 +4117,14 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-05': {
                         'PP09': [0, 0, 40000]
+                    },   
+                    'PCO-02_SW-05': {
+                        'PP13': [0, 0, -40000]
+                    },
+                    'PCO-02_SW-03': {
+                        'PP13': [0, 0, 9500]
                     }
+
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -4365,13 +4364,11 @@ var json_1243I_sewer_points = {
                 "location": "310 South Van Ness Ave",
                 "scope": "Remove (E)",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP13': [0, 0, 3700]
+                    },
+                    'PCO-02_SW-07': {
+                        'PP13': [0, 0, -3700]
                     }
                 },
                 get pp_summary() {

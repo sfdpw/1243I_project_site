@@ -35,8 +35,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -58,7 +58,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
 
             },
@@ -102,8 +102,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -125,7 +125,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -150,7 +150,7 @@ var json_1243I_sewer_lines = {
                 "id_b": "none",
                 "location": "South Van Ness Ave between 15th St and 16th St",
                 "scope": "Line (E) 3ft x 5ft brick main",
-                 "pp_history": {
+                "pp_history": {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
@@ -162,14 +162,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
-                    }  
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -191,7 +191,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -228,14 +228,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
-                    } 
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -257,7 +257,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -300,8 +300,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -323,7 +323,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -366,8 +366,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -389,7 +389,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -429,14 +429,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
-                    } 
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -458,7 +458,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -495,14 +495,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
-                    } 
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -524,7 +524,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -570,8 +570,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -593,7 +593,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -636,8 +636,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "78.0",
@@ -659,7 +659,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -702,8 +702,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -725,7 +725,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -762,14 +762,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-26': {
                         'PP10': [0, 0, 240]
-                    } 
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -791,7 +791,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -825,14 +825,14 @@ var json_1243I_sewer_lines = {
                     //},
                     'SW-26': {
                         'PP10': [0, 100, 0]
-                    }                    
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -854,7 +854,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -897,8 +897,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "78.0",
@@ -920,7 +920,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -947,8 +947,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP08': [0, 136875, 0] 
-                    },                    
+                        'PP08': [0, 136875, 0]
+                    },
                     'SW-25': {
                         'PP10': [0, 656.25, 0]
                     }
@@ -957,8 +957,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -980,7 +980,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1007,19 +1007,19 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP04': [0, 88526.42,  1848.58],
-                        'PP08': [0,  1848.58, -1848.58],                        
+                        'PP04': [0, 88526.42, 1848.58],
+                        'PP08': [0, 1848.58, -1848.58],
                     },
                     'SW-25': {
-                        'PP04': [0, 314.25,  0],
+                        'PP04': [0, 314.25, 0],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1041,7 +1041,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1133,9 +1133,9 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP05': [0, 85587.78,  1787.22],
-                        'PP08': [0,  1787.22, -1787.22]
-                    },                
+                        'PP05': [0, 85587.78, 1787.22],
+                        'PP08': [0, 1787.22, -1787.22]
+                    },
                     'SW-25': {
                         'PP10': [0, 656.25, 0]
                     },
@@ -1147,8 +1147,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1170,7 +1170,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1198,14 +1198,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-13': {
                         'PP11': [0, 107325, 0]
+                    },
+                    'SW-25': {
+                        'PP13': [0, 225, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1227,7 +1230,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1255,14 +1258,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-13': {
                         'PP12': [0, 36450, 0]
+                    },
+                    'SW-25': {
+                        'PP13': [0, 225, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1284,7 +1290,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1370,14 +1376,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-13': {
                         'PP12': [0, 81000, 0]
+                    },
+                    'SW-25': {
+                        'PP13': [0, 225, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1399,7 +1408,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1426,8 +1435,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP04': [0, 62813.35,  1311.65],
-                        'PP08': [0,  1311.65, -1311.65],                        
+                        'PP04': [0, 62813.35, 1311.65],
+                        'PP08': [0, 1311.65, -1311.65],
                     },
                     'SW-25': {
                         'PP04': [0, 435.75, 0],
@@ -1437,8 +1446,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1460,7 +1469,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1487,8 +1496,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP03': [0,  79343.18,  1656.82],
-                        'PP08': [0,   1656.82, -1656.82]                        
+                        'PP03': [0, 79343.18, 1656.82],
+                        'PP08': [0, 1656.82, -1656.82]
                     },
                     'SW-25': {
                         'PP03': [0, 500, 0]
@@ -1498,8 +1507,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1521,7 +1530,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1548,8 +1557,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP02': [0, 81547.16,  1702.84],
-                        'PP08': [0,  1702.84, -1702.84]
+                        'PP02': [0, 81547.16, 1702.84],
+                        'PP08': [0, 1702.84, -1702.84]
                     },
                     'SW-25': {
                         'PP03': [0, 500, 0]
@@ -1559,8 +1568,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1582,7 +1591,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1609,8 +1618,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP03': [0, 47752.84,  997.16],
-                        'PP08': [0,   997.16, -997.16],
+                        'PP03': [0, 47752.84, 997.16],
+                        'PP08': [0, 997.16, -997.16],
                     },
                     'SW-25': {
                         'PP03': [0, 500, 0]
@@ -1620,8 +1629,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1643,7 +1652,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1670,9 +1679,9 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP07': [0,   54732.10,   1142.90],
-                        'PP08': [0,    1142.90,  -1142.90]
-                    },                    
+                        'PP07': [0, 54732.10, 1142.90],
+                        'PP08': [0, 1142.90, -1142.90]
+                    },
                     'SW-25': {
                         'PP10': [0, 656.25, 0]
                     },
@@ -1684,8 +1693,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1707,7 +1716,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1734,8 +1743,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP08': [0 , 48000, 0]
-                    },                    
+                        'PP08': [0, 48000, 0]
+                    },
                     'SW-25': {
                         'PP10': [0, 656.25, 0]
                     }
@@ -1744,8 +1753,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1767,7 +1776,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1794,19 +1803,19 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP01': [0, 112402.84,  2347.16],
-                        'PP08': [0,   2347.16, -2347.16]                        
+                        'PP01': [0, 112402.84, 2347.16],
+                        'PP08': [0, 2347.16, -2347.16]
                     },
                     'SW-25': {
-                        'PP02': [0,  500, 0]  
+                        'PP02': [0, 500, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1828,7 +1837,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1855,19 +1864,19 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP01': [0, 53262.78,  1112.22],
-                        'PP08': [0,  1112.22, -1112.22]
+                        'PP01': [0, 53262.78, 1112.22],
+                        'PP08': [0, 1112.22, -1112.22]
                     },
                     'SW-25': {
-                        'PP02': [0,  500, 0]  
+                        'PP02': [0, 500, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1889,7 +1898,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1917,14 +1926,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-11': {
                         'PP08': [0, 0, 15000]
+                    },
+                    'SW-25': {
+                        'PP13': [0, 225, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -1946,7 +1958,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -1985,8 +1997,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2008,7 +2020,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Abandoned')
+                    return sw_line_status_from_line_object(this, '(E) Abandoned')
                 }
             },
             "geometry": {
@@ -2047,8 +2059,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2070,7 +2082,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2104,8 +2116,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2127,7 +2139,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2153,25 +2165,31 @@ var json_1243I_sewer_lines = {
                 "location": "359 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP10': [0, 0, 3125]
                     },
-                     'SW-27': {
+                    'SW-27': {
                         'PP11': [0, 0, 50]
-                    }                   
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -2193,7 +2211,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2230,8 +2248,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2253,7 +2271,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2279,25 +2297,35 @@ var json_1243I_sewer_lines = {
                 "location": "324 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP10': [0, 0, 3250]
                     },
-                     'SW-27': {
-                        'PP11': [0, 0, 50]
-                    }                   
+                    'SW-27': {
+                        'PP11': [0, 0, 50],
+                        'PP13': [0, 0, -50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
+                    'PCO-02_SW-27': {
+                        'PP13': [0, 0, 50]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -2319,7 +2347,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2345,19 +2373,25 @@ var json_1243I_sewer_lines = {
                 "location": "330 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "101.0",
@@ -2379,7 +2413,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2405,19 +2439,25 @@ var json_1243I_sewer_lines = {
                 "location": "315 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -2439,7 +2479,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2465,25 +2505,31 @@ var json_1243I_sewer_lines = {
                 "location": "387 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
-                     'SW-21': {
+                    'SW-21': {
                         'PP10': [0, 0, 3125]
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -2505,7 +2551,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2530,27 +2576,33 @@ var json_1243I_sewer_lines = {
                 "id_b": "none",
                 "location": "395 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
-                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                "pp_history": {
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
-                     'SW-21': {
+                    'SW-21': {
                         'PP10': [0, 0, 3125]
                     },
-                     'SW-27': {
+                    'SW-27': {
                         'PP11': [0, 0, 50]
-                    }                   
-                    
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    }
+
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -2572,7 +2624,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2599,7 +2651,7 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0,  29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP10': [0, -29.12, -20.88]
                     }
                 },
@@ -2607,8 +2659,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2630,7 +2682,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -2658,10 +2710,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -2670,8 +2722,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -2693,7 +2745,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2732,8 +2784,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2755,7 +2807,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2794,8 +2846,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -2817,7 +2869,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2847,24 +2899,24 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88],
+                        'PP02': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88],
                     },
                     'SW-21': {
-                        'PP02': [0,  758.93,  303.57],
-                        'PP08': [0,  303.57, -303.57]
+                        'PP02': [0, 758.93, 303.57],
+                        'PP08': [0, 303.57, -303.57]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52.0",
@@ -2886,7 +2938,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2916,24 +2968,24 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88],
+                        'PP02': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88],
                     },
                     'SW-21': {
-                        'PP02': [0,  758.94,  303.56],
-                        'PP08': [0,  303.56, -303.56]
+                        'PP02': [0, 758.94, 303.56],
+                        'PP08': [0, 303.56, -303.56]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52.0",
@@ -2955,7 +3007,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -2985,16 +3037,16 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88],
+                        'PP02': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -3016,7 +3068,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3046,24 +3098,24 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP03': [0, 1607.14,  642.86],
-                        'PP08': [0,  642.86, -642.86]                        
+                        'PP03': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86]
                     },
                     'SW-27': {
-                        'PP03': [  13.55, 27.09,  9.36],
-                        'PP09': [ -13.55, 22.91, -9.36],
+                        'PP03': [13.55, 27.09, 9.36],
+                        'PP09': [-13.55, 22.91, -9.36],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -3085,7 +3137,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3124,8 +3176,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3147,7 +3199,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3177,7 +3229,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -3185,8 +3237,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -3208,7 +3260,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3238,7 +3290,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -3246,8 +3298,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -3269,7 +3321,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3308,8 +3360,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3331,7 +3383,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3365,8 +3417,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3388,7 +3440,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3425,8 +3477,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3448,7 +3500,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3487,8 +3539,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3510,7 +3562,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3535,20 +3587,26 @@ var json_1243I_sewer_lines = {
                 "id_b": "none",
                 "location": "366 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
-                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                "pp_history": {
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -3570,7 +3628,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3596,9 +3654,9 @@ var json_1243I_sewer_lines = {
                 "location": "373 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -3607,14 +3665,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -3636,7 +3700,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3664,10 +3728,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -3676,14 +3740,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    },                    
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -3705,7 +3769,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3733,10 +3797,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -3745,8 +3809,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -3768,7 +3832,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3796,14 +3860,14 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-0': {
                         'PP0': [0, 0, 0]
-                    }                       
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3825,7 +3889,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3853,17 +3917,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP09': [0, 0, 3562.50]
                     },
-                      'SW-27': {
+                    'SW-27': {
                         'PP10': [0, 0, 50]
                     }
                 },
@@ -3871,8 +3935,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -3894,7 +3958,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -3933,8 +3997,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -3956,7 +4020,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -3986,16 +4050,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,  20.88],
-                        'PP10': [0, -29.12, -20.88],                        
+                        'PP03': [0, 29.12, 20.88],
+                        'PP10': [0, -29.12, -20.88],
                     },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4017,7 +4081,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -4047,16 +4111,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -4078,7 +4142,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4117,8 +4181,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4140,7 +4204,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4167,8 +4231,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -4186,8 +4250,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -4209,7 +4273,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4243,8 +4307,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4266,7 +4330,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4285,67 +4349,67 @@ var json_1243I_sewer_lines = {
 
         // #################################################### 
 
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "unknown_lateral_030",
-		"id_b": "none",
-		"location": "140 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
-		    "SW-19": {
-		        "PP08": [0, 150, 0]
-		    },
-		    "SW-21": {
-		        "PP08": [0, 250, 0]
-		    }
-		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_030",
+                "id_b": "none",
+                "location": "140 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    "SW-19": {
+                        "PP08": [0, 150, 0]
+                    },
+                    "SW-21": {
+                        "PP08": [0, 250, 0]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 	
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
-		        get response_date() {
-		            return response_date_from_submittal_no(this.submittal_no)
-		        }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "104.0",
-		        "video_no": "4",
-		        "response": "NET",
-		        get response_date() {
-		            return response_date_from_submittal_no(this.submittal_no)
-		        }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "104.0",
+                        "video_no": "4",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.418322093296936, 37.771560180241949],
-		        [-122.418362634280214, 37.771551001864367]
-		    ]
-		]
-	    },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.418322093296936, 37.771560180241949],
+                        [-122.418362634280214, 37.771551001864367]
+                    ]
+                ]
+            },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
+        },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -4365,8 +4429,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4388,7 +4452,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4415,15 +4479,15 @@ var json_1243I_sewer_lines = {
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-19': {
-                        'PP07': [0, 150, 0 ]
+                        'PP07': [0, 150, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4445,7 +4509,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4471,19 +4535,25 @@ var json_1243I_sewer_lines = {
                 "location": "310 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "101.0",
@@ -4505,7 +4575,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4531,22 +4601,32 @@ var json_1243I_sewer_lines = {
                 "location": "340 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-21': {
                         'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
-                        'PP11': [0, 0, 50]
+                        'PP11': [0, 0, 50],
+                        'PP13': [0, 0, -50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
+                    'PCO-02_SW-27': {
+                        'PP13': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4568,7 +4648,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4607,8 +4687,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -4630,7 +4710,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -4656,19 +4736,25 @@ var json_1243I_sewer_lines = {
                 "location": "341 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -4690,7 +4776,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4716,19 +4802,25 @@ var json_1243I_sewer_lines = {
                 "location": "353 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -4750,7 +4842,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4776,9 +4868,9 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -4787,14 +4879,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -4816,7 +4914,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4842,9 +4940,9 @@ var json_1243I_sewer_lines = {
                 "location": "383 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -4853,15 +4951,21 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
-                    }                    
-                    
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    }
+
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -4883,7 +4987,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4911,10 +5015,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -4929,8 +5033,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -4952,7 +5056,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -4980,10 +5084,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -4992,8 +5096,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -5015,7 +5119,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5043,10 +5147,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -5061,8 +5165,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -5084,7 +5188,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5114,16 +5218,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59.0",
@@ -5145,7 +5249,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5175,22 +5279,22 @@ var json_1243I_sewer_lines = {
                         'PP04': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP04': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87]    
+                        'PP04': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP10': [0, 2875,  0]                
+                        'PP10': [0, 2875, 0]
                     },
                     'SW-27': {
-                        'PP11': [0, 50,  0]                
+                        'PP11': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -5212,7 +5316,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5242,24 +5346,24 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP03': [0,  1517.86,   607.14],
-                        'PP08': [0,   607.14,  -607.14],
+                        'PP03': [0, 1517.86, 607.14],
+                        'PP08': [0, 607.14, -607.14],
                     },
                     'SW-27': {
-                        'PP03': [  13.54, 27.08,  9.38],
-                        'PP09': [ -13.54, 22.92, -9.38],
+                        'PP03': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "56.0",
@@ -5281,7 +5385,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5311,7 +5415,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -5319,8 +5423,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -5342,7 +5446,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5372,24 +5476,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -5411,7 +5515,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5441,7 +5545,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -5449,8 +5553,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -5472,7 +5576,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5502,7 +5606,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -5510,8 +5614,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -5533,7 +5637,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5563,24 +5667,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -5602,7 +5706,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5628,19 +5732,25 @@ var json_1243I_sewer_lines = {
                 "location": "321 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -5662,7 +5772,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5701,8 +5811,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5724,7 +5834,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -5752,20 +5862,20 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    }         
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -5787,7 +5897,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5817,16 +5927,16 @@ var json_1243I_sewer_lines = {
                         'PP04': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP04': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87]    
+                        'PP04': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -5848,7 +5958,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5878,16 +5988,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59.0",
@@ -5909,7 +6019,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -5948,8 +6058,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -5971,7 +6081,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6001,16 +6111,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -6032,7 +6142,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6062,16 +6172,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -6093,7 +6203,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6123,16 +6233,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -6154,7 +6264,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6184,16 +6294,16 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -6215,7 +6325,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6254,8 +6364,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6277,7 +6387,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6316,8 +6426,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6339,7 +6449,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6369,7 +6479,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -6377,8 +6487,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -6400,7 +6510,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6430,7 +6540,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -6438,8 +6548,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -6461,7 +6571,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6491,7 +6601,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -6499,8 +6609,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -6522,7 +6632,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6561,8 +6671,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6584,7 +6694,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -6611,8 +6721,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -6624,8 +6734,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -6647,7 +6757,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6674,8 +6784,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -6693,8 +6803,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -6716,7 +6826,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6755,8 +6865,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6778,7 +6888,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -6817,8 +6927,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -6840,7 +6950,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6866,25 +6976,35 @@ var json_1243I_sewer_lines = {
                 "location": "333 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
- //                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP10': [0, 0, 3125]
                     },
-                     'SW-27': {
-                        'PP11': [0, 0, 50]
+                    'SW-27': {
+                        'PP11': [0, 0, 50],
+                        'PP13': [0, 0, -50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
+                    'PCO-02_SW-27': {
+                        'PP13': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -6906,7 +7026,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -6932,9 +7052,9 @@ var json_1243I_sewer_lines = {
                 "location": "356 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -6943,14 +7063,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -6972,7 +7098,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7000,10 +7126,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -7012,8 +7138,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -7035,7 +7161,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7061,19 +7187,25 @@ var json_1243I_sewer_lines = {
                 "location": "1486 15th St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -7095,7 +7227,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7123,10 +7255,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -7141,8 +7273,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -7164,7 +7296,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7192,10 +7324,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -7204,8 +7336,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -7227,7 +7359,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7255,10 +7387,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -7273,8 +7405,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -7296,7 +7428,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7326,16 +7458,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59.0",
@@ -7357,7 +7489,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7387,24 +7519,24 @@ var json_1243I_sewer_lines = {
                         'PP04': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP04': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87]    
+                        'PP04': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP04': [0,  1875,  750],
-                        'PP08': [0,   750, -750]    
-                    },  
+                        'PP04': [0, 1875, 750],
+                        'PP08': [0, 750, -750]
+                    },
                     'SW-27': {
-                        'PP04': [ 13.55,   27.09,   9.36],
-                        'PP09': [-13.55,   22.91,  -9.36],  
-                    },     
+                        'PP04': [13.55, 27.09, 9.36],
+                        'PP09': [-13.55, 22.91, -9.36],
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -7426,7 +7558,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7465,8 +7597,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7488,7 +7620,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7518,16 +7650,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59.0",
@@ -7549,7 +7681,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7579,24 +7711,24 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87]
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,  758.93,  303.57],
-                        'PP08': [0,  303.57, -303.57]
+                        'PP02': [0, 758.93, 303.57],
+                        'PP08': [0, 303.57, -303.57]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -7618,7 +7750,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7648,23 +7780,23 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP10': [0, 2625,  0]                
+                        'PP10': [0, 2625, 0]
                     },
                     'SW-27': {
-                        'PP03': [  13.54, 27.08,  9.38],
-                        'PP09': [ -13.54, 22.92, -9.38],
+                        'PP03': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "56.0",
@@ -7686,7 +7818,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7725,8 +7857,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7748,7 +7880,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7787,8 +7919,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -7810,7 +7942,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7840,7 +7972,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -7848,8 +7980,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43.0",
@@ -7871,7 +8003,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7901,7 +8033,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     }
                 },
@@ -7909,8 +8041,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -7932,7 +8064,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -7962,24 +8094,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.12,  20.88],
+                        'PP01': [0, 29.12, 20.88],
                         'PP09': [0, 20.88, -20.88]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -8001,7 +8133,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8019,7 +8151,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -8039,8 +8171,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "105.0",
@@ -8062,7 +8194,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8080,7 +8212,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -8100,8 +8232,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "105.0",
@@ -8123,7 +8255,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8131,7 +8263,7 @@ var json_1243I_sewer_lines = {
                 "coordinates": [
                     [
                         [-122.389216728175597, 37.786580832876588],
-                        [-122.389142,          37.786524 ]
+                        [-122.389142, 37.786524]
                     ]
                 ]
             },
@@ -8162,8 +8294,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8185,7 +8317,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8219,8 +8351,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8242,7 +8374,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -8268,19 +8400,25 @@ var json_1243I_sewer_lines = {
                 "location": "335 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -8302,7 +8440,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8328,19 +8466,25 @@ var json_1243I_sewer_lines = {
                 "location": "349 South Van Ness AVe",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -8362,7 +8506,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8388,9 +8532,9 @@ var json_1243I_sewer_lines = {
                 "location": "365 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -8399,14 +8543,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
-                    }                     
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -8428,7 +8578,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8456,10 +8606,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },                    
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -8474,8 +8624,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -8497,7 +8647,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8527,16 +8677,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -8558,7 +8708,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8597,8 +8747,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8620,7 +8770,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8650,16 +8800,16 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -8681,7 +8831,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8720,8 +8870,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8743,7 +8893,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8773,22 +8923,22 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP10': [0, 2625,  0]                
+                        'PP10': [0, 2625, 0]
                     },
                     'SW-27': {
-                        'PP11': [0, 50,  0]                
+                        'PP11': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -8810,7 +8960,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8844,8 +8994,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8867,7 +9017,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -8897,16 +9047,16 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -8928,7 +9078,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -8967,8 +9117,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -8990,7 +9140,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9029,8 +9179,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9052,7 +9202,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9082,7 +9232,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -9090,8 +9240,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -9113,7 +9263,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9143,7 +9293,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -9151,8 +9301,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43.0",
@@ -9174,7 +9324,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9213,8 +9363,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9236,7 +9386,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9262,9 +9412,9 @@ var json_1243I_sewer_lines = {
                 "location": "344 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -9273,14 +9423,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -9302,7 +9458,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9328,19 +9484,25 @@ var json_1243I_sewer_lines = {
                 "location": "350 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -9362,7 +9524,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9388,19 +9550,25 @@ var json_1243I_sewer_lines = {
                 "location": "377 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -9422,7 +9590,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9440,7 +9608,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -9451,10 +9619,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -9463,8 +9631,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -9486,7 +9654,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9505,7 +9673,7 @@ var json_1243I_sewer_lines = {
 
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -9516,17 +9684,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP10': [0, 0, 300]
-                    },    
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
-                    },                       
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -9548,15 +9716,15 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                       [ -122.417455457117896, 37.764452074665748 ],
-                       [ -122.417291318828674, 37.764463292098988 ]
+                        [-122.417455457117896, 37.764452074665748],
+                        [-122.417291318828674, 37.764463292098988]
                     ]
                 ]
             },
@@ -9566,7 +9734,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -9579,16 +9747,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "59.0",
@@ -9610,7 +9778,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9649,8 +9817,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9672,7 +9840,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -9711,8 +9879,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9734,7 +9902,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9773,8 +9941,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -9796,7 +9964,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9826,16 +9994,16 @@ var json_1243I_sewer_lines = {
                         'PP04': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP04': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88]    
+                        'PP04': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -9857,7 +10025,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9887,16 +10055,16 @@ var json_1243I_sewer_lines = {
                         'PP04': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP04': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87]    
+                        'PP04': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -9918,7 +10086,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -9948,16 +10116,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -9979,7 +10147,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10009,24 +10177,24 @@ var json_1243I_sewer_lines = {
                         'PP02': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     },
                     'SW-21': {
-                        'PP02': [ 0,   1651.79,  660.71 ],
-                        'PP08': [ 0,    660.71, -660.71 ],
+                        'PP02': [0, 1651.79, 660.71],
+                        'PP08': [0, 660.71, -660.71],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "53.0",
@@ -10048,7 +10216,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10087,8 +10255,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10110,7 +10278,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10140,7 +10308,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -10148,8 +10316,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -10171,7 +10339,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10201,7 +10369,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -10209,8 +10377,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43.0",
@@ -10232,7 +10400,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10259,8 +10427,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
@@ -10272,8 +10440,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -10295,7 +10463,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10329,8 +10497,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10352,7 +10520,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -10386,8 +10554,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10409,7 +10577,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10435,22 +10603,32 @@ var json_1243I_sewer_lines = {
                 "location": "334 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-21': {
                         'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
-                        'PP11': [0, 0, 50]
+                        'PP11': [0, 0, 50],
+                        'PP13': [0, 0, -50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
+                    'PCO-02_SW-27': {
+                        'PP13': [0, 0, 50]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10472,7 +10650,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10498,19 +10676,25 @@ var json_1243I_sewer_lines = {
                 "location": "360 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -10532,7 +10716,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10560,10 +10744,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -10578,8 +10762,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -10601,7 +10785,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10640,8 +10824,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10663,7 +10847,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -10702,8 +10886,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -10725,7 +10909,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -10755,16 +10939,16 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -10786,7 +10970,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10816,23 +11000,23 @@ var json_1243I_sewer_lines = {
                         'PP03': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP03': [0, 1607.14,  642.86],
-                        'PP08': [0,  642.86, -642.86]                        
+                        'PP03': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86]
                     },
                     'SW-27': {
-                        'PP11': [0, 50,  0]                
+                        'PP11': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -10854,7 +11038,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10884,24 +11068,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -10923,7 +11107,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -10953,24 +11137,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -10992,7 +11176,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11022,23 +11206,23 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP10': [0, 2250,  0]                
+                        'PP10': [0, 2250, 0]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -11060,7 +11244,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11090,23 +11274,23 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP11': [0, 50,  0]                
+                        'PP11': [0, 50, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -11128,7 +11312,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11154,25 +11338,25 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Elliot St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                   'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                    'SW-20': {
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     },
                     'SW-22': {
-                        'PP03': [ 266.22, 575.13,  208.65],
-                        'PP08': [-266.22, 474.87, -208.65],                        
+                        'PP03': [266.22, 575.13, 208.65],
+                        'PP08': [-266.22, 474.87, -208.65],
                     },
                     'SW-27': {
-                        'PP03': [  13.54, 27.08,  9.38],
-                        'PP09': [ -13.54, 22.92, -9.38],
+                        'PP03': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -11194,7 +11378,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11222,7 +11406,7 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP12': [0, 1000, 0]
-                    },    
+                    },
                     'SW-27': {
                         'PP12': [0, 50, 0]
                     }
@@ -11231,8 +11415,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11255,7 +11439,7 @@ var json_1243I_sewer_lines = {
                 "sw_type": "cl",
 
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11282,24 +11466,24 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     },
                     'SW-22': {
-                        'PP02': [  247.20,  534.04,  193.74 ],
-                        'PP08': [ -247.20,  440.94, -193.74 ]
+                        'PP02': [247.20, 534.04, 193.74],
+                        'PP08': [-247.20, 440.94, -193.74]
                     },
                     'SW-27': {
-                        'PP02': [  13.57,  27.13,  9.30 ],
-                        'PP09': [ -13.57,  22.87, -9.30 ]
+                        'PP02': [13.57, 27.13, 9.30],
+                        'PP09': [-13.57, 22.87, -9.30]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52.0",
@@ -11321,7 +11505,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11348,20 +11532,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP02': [  367.65,  794.23,  288.13 ],
-                        'PP08': [ 1082.36, -794.23, -288.13 ]
+                        'PP02': [367.65, 794.23, 288.13],
+                        'PP08': [1082.36, -794.23, -288.13]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [  36.46, -27.08, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [36.46, -27.08, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11383,7 +11567,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11410,20 +11594,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP02': [   380.32,  821.61,  298.06 ],
-                        'PP08': [  1119.67, -821.61, -298.06 ]
+                        'PP02': [380.32, 821.61, 298.06],
+                        'PP08': [1119.67, -821.61, -298.06]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [  36.46, -27.08, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [36.46, -27.08, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11445,7 +11629,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11472,20 +11656,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP04': [ 354.97,  766.84,  278.19],
-                        'PP08': [1045.03, -766.84, -278.19],                       
+                        'PP04': [354.97, 766.84, 278.19],
+                        'PP08': [1045.03, -766.84, -278.19],
                     },
                     'SW-27': {
-                        'PP04': [13.54,   27.09,   9.37],
-                        'PP09': [36.46,  -27.09,  -9.37],  
+                        'PP04': [13.54, 27.09, 9.37],
+                        'PP09': [36.46, -27.09, -9.37],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11507,7 +11691,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11538,14 +11722,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [50, 0, 0]
-                    },                    
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11567,7 +11751,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11604,8 +11788,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11627,7 +11811,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11659,14 +11843,14 @@ var json_1243I_sewer_lines = {
                     'SW-27': {
                         'PP09': [0, 50, 0]
                     }
-                    
+
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11688,7 +11872,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11725,8 +11909,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11748,7 +11932,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11776,7 +11960,7 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP12': [0, 1200, 0]
-                    },    
+                    },
                     'SW-27': {
                         'PP12': [0, 50, 0]
                     }
@@ -11785,8 +11969,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11808,7 +11992,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11835,18 +12019,18 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP09': [ 900, 0, 0 ]
+                        'PP09': [900, 0, 0]
                     },
                     'SW-27': {
-                        'PP11': [ 50, 0, 0 ]
+                        'PP11': [50, 0, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11868,7 +12052,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11906,8 +12090,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11929,7 +12113,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -11957,7 +12141,7 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-22': {
                         'PP12': [950, 0, 0]
-                    },    
+                    },
                     'SW-27': {
                         'PP12': [50, 0, 0]
                     }
@@ -11966,8 +12150,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -11989,7 +12173,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12028,8 +12212,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12051,7 +12235,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12090,8 +12274,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12113,7 +12297,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12152,8 +12336,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12175,7 +12359,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12214,8 +12398,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12237,7 +12421,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12276,8 +12460,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12299,7 +12483,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12338,8 +12522,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12361,7 +12545,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12400,8 +12584,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12423,7 +12607,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12462,8 +12646,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12485,7 +12669,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12512,16 +12696,16 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP03': [0,  29.12,   20.88],
-                        'PP09': [0,  20.88,  -20.88]
+                        'PP03': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "58.0",
@@ -12543,7 +12727,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12582,8 +12766,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12605,7 +12789,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12631,16 +12815,34 @@ var json_1243I_sewer_lines = {
                 "location": "South Van Ness Ave between 14th St and 15th St",
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
+                    'SW-14': {
+                        'PP13': [0, 0, 257 * 472]
+                    },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
+                    },
+                    'SW-26': {
+                        'PP13': [0, 0, 500]
+                    },
+                    'PCO-02_SW-14': {
+                        'PP13': [0, 0, -257 * 472]
+                    },
+                    'PCO-02_SW-25': {
+                        'PP13': [0, 0, 1500]
+                    },
+                    'PCO-02_SW-26': {
+                        'PP13': [0, 0, -500]
+                    },
+                    'PCO-02_SW-38': {
+                        'PP13': [0, 0, 257 * 790]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12662,7 +12864,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12688,16 +12890,34 @@ var json_1243I_sewer_lines = {
                 "location": "South Van Ness Ave between 14th St and 15th St",
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
+                    'SW-14': {
+                        'PP13': [0, 0, 258 * 472]
+                    },
                     'SW-16': {
                         'PP08': [0, 1350, 316.67]
+                    },
+                    'SW-26': {
+                        'PP13': [0, 0, 500]
+                    },
+                    'PCO-02_SW-14': {
+                        'PP13': [0, 0, -258 * 472]
+                    },
+                    'PCO-02_SW-25': {
+                        'PP13': [0, 0, 1500]
+                    },
+                    'PCO-02_SW-26': {
+                        'PP13': [0, 0, -500]
+                    },
+                    'PCO-02_SW-38': {
+                        'PP13': [0, 0, 258 * 790]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12719,7 +12939,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12753,8 +12973,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -12776,7 +12996,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12810,8 +13030,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -12833,7 +13053,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12859,21 +13079,19 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of South Van Ness Ave and 15th St",
                 "scope": "Remove (E)",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-14': {
+                        'PP13': [0, 0, 12 * 472]
+                    },
+                    'PCO-02_SW-14': {
+                        'PP13': [0, 0, -12 * 472]
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -12895,7 +13113,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12929,8 +13147,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -12952,7 +13170,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -12986,8 +13204,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -13009,7 +13227,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13043,8 +13261,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -13066,7 +13284,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13100,8 +13318,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -13123,7 +13341,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13162,8 +13380,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13185,7 +13403,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13224,8 +13442,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13247,7 +13465,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13286,8 +13504,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13309,7 +13527,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13348,8 +13566,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13371,7 +13589,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13410,8 +13628,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13433,7 +13651,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13472,8 +13690,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13495,7 +13713,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13534,8 +13752,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13557,7 +13775,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13588,17 +13806,17 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-22': {
                         'PP12': [0, 1800, 0]
-                    },    
+                    },
                     'SW-27': {
                         'PP12': [0, 50, 0]
-                    }  
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -13620,7 +13838,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13654,8 +13872,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -13677,7 +13895,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": 'cl',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13708,17 +13926,17 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-22': {
                         'PP12': [0, 800, 0]
-                    },    
+                    },
                     'SW-27': {
                         'PP12': [0, 50, 0]
-                    } 
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -13740,7 +13958,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13779,8 +13997,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13802,7 +14020,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13841,8 +14059,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13864,7 +14082,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -13903,8 +14121,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13926,7 +14144,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -13965,8 +14183,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -13988,7 +14206,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -14026,8 +14244,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -14049,7 +14267,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14086,8 +14304,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -14109,7 +14327,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14139,7 +14357,7 @@ var json_1243I_sewer_lines = {
                         'PP10': [0, 50, 0]
                     },
                     'SW-22': {
-                        'PP13': [0, 50*34, 0]
+                        'PP13': [0, 50 * 34, 0]
                     },
                     'SW-27': {
                         'PP13': [0, 50, 0]
@@ -14149,8 +14367,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -14172,7 +14390,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14203,7 +14421,7 @@ var json_1243I_sewer_lines = {
                         'PP10': [0, 50, 0]
                     },
                     'SW-22': {
-                        'PP13': [0, 50*23, 0]
+                        'PP13': [0, 50 * 23, 0]
                     },
                     'SW-27': {
                         'PP13': [0, 50, 0]
@@ -14213,8 +14431,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "89.0",
@@ -14236,7 +14454,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14275,8 +14493,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14298,7 +14516,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14337,8 +14555,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14360,7 +14578,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14399,8 +14617,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14422,7 +14640,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14448,17 +14666,17 @@ var json_1243I_sewer_lines = {
                 "location": "Intersection of Leland Ave and Elliot St - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                   'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                    'SW-20': {
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -14480,7 +14698,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14519,8 +14737,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14542,7 +14760,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14581,8 +14799,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14604,7 +14822,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14631,16 +14849,16 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP03': [0,  29.13,   20.87],
-                        'PP09': [0,  20.87,  -20.87]
+                        'PP03': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "55.0",
@@ -14662,7 +14880,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14701,8 +14919,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14724,7 +14942,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14763,8 +14981,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14786,7 +15004,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14825,8 +15043,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14848,7 +15066,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14887,8 +15105,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14910,7 +15128,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -14949,8 +15167,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -14972,7 +15190,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15011,8 +15229,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15034,7 +15252,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15073,8 +15291,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15096,7 +15314,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15135,8 +15353,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15158,7 +15376,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15197,8 +15415,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15220,7 +15438,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15259,8 +15477,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15282,7 +15500,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15321,8 +15539,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15344,7 +15562,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15383,8 +15601,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15406,7 +15624,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15433,16 +15651,16 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP02': [0,  29.13,  20.87],
-                        'PP09': [0,  20.87, -20.87],
+                        'PP02': [0, 29.13, 20.87],
+                        'PP09': [0, 20.87, -20.87],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52.0",
@@ -15464,7 +15682,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15482,7 +15700,7 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-        
+
         {
             "type": "Feature",
             "properties": {
@@ -15492,16 +15710,16 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP02': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88],
+                        'PP02': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "52.0",
@@ -15523,7 +15741,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15562,8 +15780,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15585,7 +15803,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15624,8 +15842,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15647,7 +15865,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -15686,8 +15904,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15709,7 +15927,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -15748,8 +15966,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15771,7 +15989,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15810,8 +16028,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15833,7 +16051,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15872,8 +16090,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15895,7 +16113,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15934,8 +16152,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -15957,7 +16175,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -15996,8 +16214,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16019,7 +16237,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16053,8 +16271,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -16076,7 +16294,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16116,8 +16334,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16139,7 +16357,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16173,8 +16391,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -16196,7 +16414,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16236,8 +16454,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -16259,7 +16477,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16287,10 +16505,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -16305,8 +16523,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -16328,7 +16546,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16367,8 +16585,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16390,7 +16608,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16429,8 +16647,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16452,7 +16670,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16491,8 +16709,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16514,7 +16732,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16553,8 +16771,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16576,7 +16794,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16615,8 +16833,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16638,7 +16856,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16668,7 +16886,7 @@ var json_1243I_sewer_lines = {
                         'PP09': [0, 930, 570]
                     },
                     'SW-12': {
-                        'PP10': [0, 0,  25200]
+                        'PP10': [0, 0, 25200]
                     },
                     'SW-16': {
                         'PP08': [0, 350, 66.66]
@@ -16681,8 +16899,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "74.0",
@@ -16704,7 +16922,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16741,8 +16959,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -16764,7 +16982,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16803,8 +17021,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16826,7 +17044,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16865,8 +17083,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16888,7 +17106,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16927,8 +17145,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -16950,7 +17168,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -16978,26 +17196,26 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP10': [0, 0, 3250]
                     },
-                     'SW-27': {
+                    'SW-27': {
                         'PP10': [0, 0, 50]
-                    },                   
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17019,7 +17237,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17058,8 +17276,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -17081,7 +17299,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Capped')
+                    return sw_line_status_from_line_object(this, '(E) Capped')
                 }
             },
             "geometry": {
@@ -17099,67 +17317,67 @@ var json_1243I_sewer_lines = {
         },
 
         // #################################################### 
-   
-   //     {
-   //         "type": "Feature",
-   //         "properties": {
-   //             "id_a": "L-364290",
-   //             "id_b": "none",
-   //             "location": "1501 15th St",
-   //             "scope": "Improve (E) side sewer as directed",
-   //             "pp_history": {
-   //                 'SW-0': {
-   //                     'PP0': {
-   //                         'SFPUC-SW': {
-   //                             'QTY': 0,
-   //                             'UNIT': ''
-   //                         }
-   //                     }
-   //                 }
-   //             },
-   //             get pp_summary() {
-   //                 return payment_summary_from_pp_history(this.pp_history)
-   //             },
-   //             get bid_items() {
-   //                 return bid_item_flattener(this.pp_history) 
-   //             }, 
-   //             "submittals": {
-   //                 "tvi_pre_con": {
-   //                     "submittal_no": "none",
-   //                     "video_no": "none",
-   //                     "response": "none",
-   //                     get response_date() {
-   //                         return response_date_from_submittal_no(this.submittal_no)
-   //                     }
-   //                 },
-   //                 "tvi_post_con": {
-   //                     "submittal_no": "none",
-   //                     "video_no": "none",
-   //                     "response": "none",
-   //                     get response_date() {
-   //                         return response_date_from_submittal_no(this.submittal_no)
-   //                   }
-   //                 }
-   //             },
-   //             "rlvnt": "none",
-   //             "sw_type": "lt",
-   //             get status() {
-   //                 return sw_line_status_from_line_object( this)
-   //             }
-   //         },
-   //         "geometry": {
-   //             "type": "MultiLineString",
-   //             "coordinates": [
-   //                 [
-   //                     [-122.417649651555294, 37.766471489786746],
-   //                     [-122.417752860490609, 37.766469149899706]
-   //                 ]
-   //             ]
-   //         },
-   //         get asset_coordinate() {
-   //             return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
-   //         }
-   //     },
+
+        //     {
+        //         "type": "Feature",
+        //         "properties": {
+        //             "id_a": "L-364290",
+        //             "id_b": "none",
+        //             "location": "1501 15th St",
+        //             "scope": "Improve (E) side sewer as directed",
+        //             "pp_history": {
+        //                 'SW-0': {
+        //                     'PP0': {
+        //                         'SFPUC-SW': {
+        //                             'QTY': 0,
+        //                             'UNIT': ''
+        //                         }
+        //                     }
+        //                 }
+        //             },
+        //             get pp_summary() {
+        //                 return payment_summary_from_pp_history(this.pp_history)
+        //             },
+        //             get bid_items() {
+        //                 return bid_item_flattener(this.pp_history) 
+        //             }, 
+        //             "submittals": {
+        //                 "tvi_pre_con": {
+        //                     "submittal_no": "none",
+        //                     "video_no": "none",
+        //                     "response": "none",
+        //                     get response_date() {
+        //                         return response_date_from_submittal_no(this.submittal_no)
+        //                     }
+        //                 },
+        //                 "tvi_post_con": {
+        //                     "submittal_no": "none",
+        //                     "video_no": "none",
+        //                     "response": "none",
+        //                     get response_date() {
+        //                         return response_date_from_submittal_no(this.submittal_no)
+        //                   }
+        //                 }
+        //             },
+        //             "rlvnt": "none",
+        //             "sw_type": "lt",
+        //             get status() {
+        //                 return sw_line_status_from_line_object( this)
+        //             }
+        //         },
+        //         "geometry": {
+        //             "type": "MultiLineString",
+        //             "coordinates": [
+        //                 [
+        //                     [-122.417649651555294, 37.766471489786746],
+        //                     [-122.417752860490609, 37.766469149899706]
+        //                 ]
+        //             ]
+        //         },
+        //         get asset_coordinate() {
+        //             return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+        //         }
+        //     },
 
         // #################################################### 
         {
@@ -17172,17 +17390,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
                         'PP10': [0, 0, 3250]
                     },
-                     'SW-27': {
+                    'SW-27': {
                         'PP10': [0, 0, 50]
                     }
                 },
@@ -17190,8 +17408,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -17213,7 +17431,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17241,26 +17459,26 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
                     'SW-21': {
-                        'PP10': [0, 0, 3250 ]
+                        'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    }                    
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17282,7 +17500,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17310,10 +17528,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17322,14 +17540,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    },                    
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17351,7 +17569,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17388,8 +17606,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17411,7 +17629,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17439,10 +17657,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -17451,8 +17669,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17474,7 +17692,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17502,10 +17720,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17520,8 +17738,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17543,7 +17761,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17571,10 +17789,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17583,14 +17801,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    }                    
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17612,7 +17830,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17640,10 +17858,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17652,14 +17870,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    }                    
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17681,7 +17899,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17709,10 +17927,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -17721,8 +17939,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17744,7 +17962,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17772,10 +17990,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17784,14 +18002,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP10': [0, 0, 50]
-                    }                   
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -17813,7 +18031,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17841,10 +18059,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -17859,8 +18077,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -17882,7 +18100,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17916,8 +18134,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -17939,7 +18157,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -17973,8 +18191,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -17996,7 +18214,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18030,8 +18248,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -18053,7 +18271,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18087,8 +18305,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -18110,7 +18328,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18149,8 +18367,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18172,7 +18390,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18211,8 +18429,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18234,7 +18452,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18273,8 +18491,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18296,7 +18514,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18335,8 +18553,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18358,7 +18576,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18397,8 +18615,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18420,7 +18638,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18459,8 +18677,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18482,7 +18700,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18521,8 +18739,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18544,7 +18762,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18583,8 +18801,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18606,7 +18824,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18645,8 +18863,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18668,7 +18886,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18707,8 +18925,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18730,7 +18948,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18758,14 +18976,17 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-11': {
                         'PP08': [0, 0, 5250]
+                    },
+                    'SW-25': {
+                        'PP13': [0, 225, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18787,7 +19008,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18826,8 +19047,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18849,7 +19070,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18888,8 +19109,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18911,7 +19132,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -18950,8 +19171,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -18973,7 +19194,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19004,14 +19225,14 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP14': [0, 50, 0]
-                    }  
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19033,7 +19254,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19072,8 +19293,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19095,7 +19316,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -19134,8 +19355,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19157,7 +19378,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -19196,8 +19417,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19219,7 +19440,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -19258,8 +19479,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19281,7 +19502,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19308,8 +19529,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP04': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88]    
+                        'PP04': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     },
                     'SW-27': {
                         'PP10': [0, 50, 0]
@@ -19319,8 +19540,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "65.0",
@@ -19342,7 +19563,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19381,8 +19602,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19404,7 +19625,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19443,8 +19664,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19466,7 +19687,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19505,8 +19726,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19528,7 +19749,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -19567,8 +19788,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19590,7 +19811,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19629,8 +19850,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19652,7 +19873,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19691,8 +19912,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19714,7 +19935,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19753,8 +19974,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19776,7 +19997,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19815,8 +20036,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19838,7 +20059,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19877,8 +20098,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19900,7 +20121,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -19939,8 +20160,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -19962,7 +20183,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20001,8 +20222,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20024,7 +20245,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20063,8 +20284,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20086,7 +20307,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20125,8 +20346,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20148,7 +20369,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20175,24 +20396,24 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
                     },
-                     'SW-22': {
+                    'SW-22': {
                         'PP10': [0, 1150, 0]
-                    },  
-                     'SW-27': {
+                    },
+                    'SW-27': {
                         'PP10': [0, 50, 0]
-                    },                   
+                    },
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -20214,7 +20435,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20253,8 +20474,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20276,7 +20497,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20315,8 +20536,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20338,7 +20559,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20365,15 +20586,15 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    }
+                        "PP10": [0, 200, 0]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -20395,7 +20616,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20422,11 +20643,11 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
+                        "PP10": [0, 200, 0]
+                    },
                     'SW-18': {
                         'PP10': [0, 300, 0]
-                    },                    
+                    },
                     'SW-20': {
                         'PP10': [0, 50, 0]
                     },
@@ -20441,8 +20662,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.2",
@@ -20464,7 +20685,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20503,8 +20724,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20526,7 +20747,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20565,8 +20786,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20588,7 +20809,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20627,8 +20848,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20650,7 +20871,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20689,8 +20910,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20712,7 +20933,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20751,8 +20972,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20774,7 +20995,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20813,8 +21034,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20836,7 +21057,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20876,8 +21097,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -20899,7 +21120,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20926,24 +21147,24 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-22': {
-                        'PP02': [  367.65,  794.23,  288.13 ],
-                        'PP08': [ -367.65,  655.78, -288.13 ]
+                        'PP02': [367.65, 794.23, 288.13],
+                        'PP08': [-367.65, 655.78, -288.13]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -20965,7 +21186,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -20992,24 +21213,24 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-22': {
-                        'PP02': [  367.65,  794.23,  288.13 ],
-                        'PP08': [ -367.65,  655.78, -288.13 ]
+                        'PP02': [367.65, 794.23, 288.13],
+                        'PP08': [-367.65, 655.78, -288.13]
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -21031,7 +21252,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21061,7 +21282,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -21069,8 +21290,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -21092,7 +21313,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21122,24 +21343,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP02': [0,   1607.14,  642.86],
-                        'PP08': [0,    642.86, -642.86],
+                        'PP02': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP02': [  13.54,  27.08,  9.38 ],
-                        'PP09': [ -13.54,  22.92, -9.38 ]
+                        'PP02': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "45.0",
@@ -21161,7 +21382,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21188,7 +21409,7 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -21196,8 +21417,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "43.0",
@@ -21219,7 +21440,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21258,8 +21479,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21281,7 +21502,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21320,8 +21541,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21343,7 +21564,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21382,8 +21603,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21405,7 +21626,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21444,8 +21665,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21467,7 +21688,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21506,8 +21727,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21529,7 +21750,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21568,8 +21789,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21591,7 +21812,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21618,20 +21839,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP01': [ 361.31,  780.53,  283.16],
+                        'PP01': [361.31, 780.53, 283.16],
                         'PP08': [1063.69, -780.53, -283.16],
                     },
                     'SW-27': {
-                        'PP01': [ 13.54,  27.08,  9.38],
-                        'PP09': [ 36.46, -27.08, -9.38]
-                              }   
+                        'PP01': [13.54, 27.08, 9.38],
+                        'PP09': [36.46, -27.08, -9.38]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21653,7 +21874,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21680,20 +21901,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP01': [ 342.29,  739.45,   268.26],
-                        'PP08': [1007.71, -739.45,  -268.26]
-                              },
+                        'PP01': [342.29, 739.45, 268.26],
+                        'PP08': [1007.71, -739.45, -268.26]
+                    },
                     'SW-27': {
-                        'PP01': [ 13.54,  27.08,   9.38],
-                        'PP09': [ 36.46, -27.08,  -9.38]
-                              }                      
-                             },
+                        'PP01': [13.54, 27.08, 9.38],
+                        'PP09': [36.46, -27.08, -9.38]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21715,7 +21936,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21742,7 +21963,7 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -21750,8 +21971,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -21773,7 +21994,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21812,8 +22033,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21835,7 +22056,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21874,8 +22095,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21897,7 +22118,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21936,8 +22157,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -21959,7 +22180,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -21998,8 +22219,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22021,7 +22242,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22060,8 +22281,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22083,7 +22304,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22122,8 +22343,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22145,7 +22366,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22184,8 +22405,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22207,7 +22428,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22234,19 +22455,19 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP01': [0, 89628.41,  1871.59],
-                        'PP08': [0,  1871.59, -1871.59],                       
+                        'PP01': [0, 89628.41, 1871.59],
+                        'PP08': [0, 1871.59, -1871.59],
                     },
                     'SW-25': {
-                        'PP02': [0,  500, 0]  
+                        'PP02': [0, 500, 0]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22268,7 +22489,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22298,24 +22519,24 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     },
                     'SW-21': {
-                        'PP01': [0, 1607.14,  642.86],
-                        'PP08': [0,  642.86, -642.86],
+                        'PP01': [0, 1607.14, 642.86],
+                        'PP08': [0, 642.86, -642.86],
                     },
                     'SW-27': {
-                        'PP01': [ 13.54, 27.09,  9.37],
+                        'PP01': [13.54, 27.09, 9.37],
                         'PP09': [-13.54, 22.91, -9.37]
-                              }                       
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22337,7 +22558,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22367,7 +22588,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22375,8 +22596,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22398,7 +22619,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22428,7 +22649,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22436,8 +22657,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22459,7 +22680,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22489,7 +22710,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22497,8 +22718,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22520,7 +22741,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22550,7 +22771,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22558,8 +22779,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22581,7 +22802,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22608,7 +22829,7 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22616,8 +22837,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22639,7 +22860,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Capped')
+                    return sw_line_status_from_line_object(this, '(E) Capped')
                 }
             },
             "geometry": {
@@ -22666,7 +22887,7 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -22674,8 +22895,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "39.0",
@@ -22697,7 +22918,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, sewer_status_code_array[12])
+                    return sw_line_status_from_line_object(this, sewer_status_code_array[12])
                 }
             },
             "geometry": {
@@ -22736,8 +22957,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22759,7 +22980,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22798,8 +23019,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22821,7 +23042,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22861,8 +23082,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22884,7 +23105,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22923,8 +23144,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -22946,7 +23167,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -22985,8 +23206,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23008,7 +23229,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23047,8 +23268,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23070,7 +23291,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23109,8 +23330,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23132,7 +23353,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23171,8 +23392,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23194,7 +23415,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -23221,24 +23442,24 @@ var json_1243I_sewer_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-20': {
-                        'PP04': [0,  29.12,  20.88],
-                        'PP09': [0,  20.88, -20.88]    
+                        'PP04': [0, 29.12, 20.88],
+                        'PP09': [0, 20.88, -20.88]
                     },
                     'SW-22': {
-                        'PP04': [ 367.65,  794.22,  288.13 ],
-                        'PP08': [-367.65,  655.78, -288.13 ],   
+                        'PP04': [367.65, 794.22, 288.13],
+                        'PP08': [-367.65, 655.78, -288.13],
                     },
                     'SW-27': {
-                        'PP04': [  13.54,   27.08,   9.38],
-                        'PP09': [ -13.54,   22.92,  -9.38],  
+                        'PP04': [13.54, 27.08, 9.38],
+                        'PP09': [-13.54, 22.92, -9.38],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
@@ -23260,7 +23481,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23299,8 +23520,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23322,7 +23543,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23361,8 +23582,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23384,7 +23605,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23411,20 +23632,20 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-22': {
-                        'PP04': [ 278.9,  602.52,  218.58 ],
-                        'PP08': [ 821.1, -602.52, -218.58 ]          
+                        'PP04': [278.9, 602.52, 218.58],
+                        'PP08': [821.1, -602.52, -218.58]
                     },
                     'SW-27': {
-                        'PP04': [13.54,   27.08,   9.38],
-                        'PP09': [36.46,  -27.08,  -9.38],  
+                        'PP04': [13.54, 27.08, 9.38],
+                        'PP09': [36.46, -27.08, -9.38],
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23446,7 +23667,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23485,8 +23706,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23508,7 +23729,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23547,8 +23768,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23570,7 +23791,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23609,8 +23830,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23632,7 +23853,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23671,8 +23892,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23694,7 +23915,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23733,8 +23954,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23756,7 +23977,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23795,8 +24016,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23818,7 +24039,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23857,8 +24078,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23880,7 +24101,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23919,8 +24140,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -23942,7 +24163,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -23981,8 +24202,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24004,7 +24225,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24043,8 +24264,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24066,7 +24287,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24105,8 +24326,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24128,7 +24349,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24167,8 +24388,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24190,7 +24411,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24229,8 +24450,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24252,7 +24473,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24291,8 +24512,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24314,7 +24535,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24345,7 +24566,7 @@ var json_1243I_sewer_lines = {
                         'PP01': [0, 150, 0]
                     },
                     'SW-20': {
-                        'PP01': [0, 29.13,  20.87],
+                        'PP01': [0, 29.13, 20.87],
                         'PP09': [0, 20.87, -20.87]
                     }
                 },
@@ -24353,8 +24574,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "44.0",
@@ -24376,7 +24597,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Capped')
+                    return sw_line_status_from_line_object(this, '(E) Capped')
                 }
             },
             "geometry": {
@@ -24403,9 +24624,9 @@ var json_1243I_sewer_lines = {
                 "location": "370 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -24414,14 +24635,20 @@ var json_1243I_sewer_lines = {
                     },
                     'SW-27': {
                         'PP11': [0, 0, 50]
-                    }                    
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "76.0",
@@ -24443,7 +24670,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -24473,10 +24700,10 @@ var json_1243I_sewer_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     }
@@ -24485,8 +24712,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "75.0",
@@ -24508,14 +24735,14 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [-122.417648231406119, 37.766457485415025], 
+                        [-122.417648231406119, 37.766457485415025],
                         [-122.417752485317848, 37.766454024360300]
                     ]
                 ]
@@ -24535,26 +24762,27 @@ var json_1243I_sewer_lines = {
                 "location": "315 South Van Ness Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
                     }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": 'none',
-			"response": 'none',
+                        "response": 'none',
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24571,7 +24799,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Capped' )
+                    return sw_line_status_from_line_object(this, '(E) Capped')
                 }
             },
             "geometry": {
@@ -24611,8 +24839,8 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
@@ -24634,7 +24862,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -24674,13 +24902,13 @@ var json_1243I_sewer_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": 'none',
-			"response": 'none',
+                        "response": 'none',
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24697,7 +24925,7 @@ var json_1243I_sewer_lines = {
                 "rlvnt": "none",
                 "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
             },
             "geometry": {
@@ -24713,20 +24941,20 @@ var json_1243I_sewer_lines = {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
-        
-// ####################################################         	
-        
+
+        // ####################################################         	
+
         {
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "L-160210",
-		"id_b": "3548001",
-		"location": "300 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
+            "type": "Feature",
+            "properties": {
+                "id_a": "L-160210",
+                "id_b": "3548001",
+                "location": "300 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-//                    'SW-19': {
-//                        'PP10': [0, 0, 150]
-//                    },
+                    'SW-18': {
+                        'PP13': [0, 0, 300]
+                    },
                     'SW-20': {
                         'PP10': [0, 0, 50]
                     },
@@ -24734,432 +24962,442 @@ var json_1243I_sewer_lines = {
                         'PP10': [0, 0, 3250]
                     },
                     'SW-27': {
-                        'PP11': [0, 0, 50]
-                    }                    
+                        'PP11': [0, 0, 50],
+                        'PP13': [0, 0, -50]
+                    },
+                    'PCO-02_SW-18': {
+                        'PP13': [0, 0, -300]
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': [0, 0, 150]
+                    },
+                    'PCO-02_SW-27': {
+                        'PP13': [0, 0, 50]
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
+                    return bid_item_flattener(this.pp_history)
                 },
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "76.0",
-		        "video_no": "1",
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "76.0",
+                        "video_no": "1",
                         "response": "Replace (per Email)",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "102.0",
-		        "video_no": "1",
-		        "response": "NET",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "102.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.417808385045504, 37.768142264615307],
-		        [-122.417913434441573, 37.768137388935706]
-		    ]
-		]
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417808385045504, 37.768142264615307],
+                        [-122.417913434441573, 37.768137388935706]
+                    ]
+                ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
+        },
 
-// ####################################################         	
-        
+        // ####################################################         	
+
         {
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "unknown_lateral_027",
-		"id_b": "none",
-		"location": "1501 15th St",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
-		    'SW-0': {
-		        'PP0': {
-		            'SFPUC-SW': {
-		                'QTY': 0,
-		                'UNIT': ''
-		            }
-		        }
-		    }
-		},
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_027",
+                "id_b": "none",
+                "location": "1501 15th St",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-                         [-122.417666192793845, 37.766634606015707],
-                         [-122.417768617747555, 37.766627819587441]
-		    ]
-		]
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417666192793845, 37.766634606015707],
+                        [-122.417768617747555, 37.766627819587441]
+                    ]
+                ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
+        },
 
-// ####################################################         	
+        // ####################################################         	
 
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": 'L-161771',
-		"id_b": "none",
-		"location": "501 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": 'L-161771',
+                "id_b": "none",
+                "location": "501 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
-		        "PP10": [0, 0, 50]
-		    }
-		},
+                        "PP10": [0, 0, 50]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
+                    return bid_item_flattener(this.pp_history)
                 },
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "75.0",
-		        "video_no": "22",
-		        "response": "MCN - Do Not Replace",
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75.0",
+                        "video_no": "22",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.417512952201989, 37.765012964396043],
-		        [-122.417392075315121, 37.76502079069661]
-		    ]
-		]
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417512952201989, 37.765012964396043],
+                        [-122.417392075315121, 37.76502079069661]
+                    ]
+                ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
+        },
 
-// ####################################################         	
+        // ####################################################         	
 
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "L-364285",
-		"id_b": "none",
-		"location": "510 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "L-364285",
+                "id_b": "none",
+                "location": "510 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
-		        "PP10": [0, 0, 50]
-		    }
-		},
+                        "PP10": [0, 0, 50]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "75.0",
-		        "video_no": "23",
-		        "response": "MCN - Do Not Replace",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75.0",
+                        "video_no": "23",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.41758645038864, 37.764715399406633],
-		        [-122.417482499137563, 37.76472232247535]
-		    ]
-		]
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.41758645038864, 37.764715399406633],
+                        [-122.417482499137563, 37.76472232247535]
+                    ]
+                ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
+        },
 
-// ####################################################         	
+        // ####################################################         	
 
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "unknown_lateral_028",
-		"id_b": "none",
-		"location": "460 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_028",
+                "id_b": "none",
+                "location": "460 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
-		        "PP10": [0, 0, 50]
-		    }
-		},
+                        "PP10": [0, 0, 50]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "75.0",
-		        "video_no": "14",
-		        "response": "MCN - Do Not Replace",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75.0",
+                        "video_no": "14",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.417604682769309, 37.765935622491767],
-		        [-122.417701403389174, 37.765932000315061]
-		    ]
-		]
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.417604682769309, 37.765935622491767],
+                        [-122.417701403389174, 37.765932000315061]
+                    ]
+                ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
-	
-// ####################################################         		
-	
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "unknown_lateral_029",
-		"id_b": "none",
-		"location": "490 South Van Ness Ave",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
+        },
+
+        // ####################################################         		
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_lateral_029",
+                "id_b": "none",
+                "location": "490 South Van Ness Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
                     'SW-10': {
                         'PP09': [0, 0, 200]
-                    },                       
+                    },
                     'SW-18': {
                         'PP09': [0, 0, 300]
-                    },       
+                    },
                     'SW-20': {
-		        "PP10": [0, 0, 50]
-		    }
-		},
+                        "PP10": [0, 0, 50]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "75.0",
-		        "video_no": "2",
-		        "response": "MCN - Do Not Replace",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "75.0",
+                        "video_no": "2",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.41756167141348, 37.765485639451896],
-		        [-122.417658905613223, 37.76548038981916]
-		    ]
-		]
-		    },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.41756167141348, 37.765485639451896],
+                        [-122.417658905613223, 37.76548038981916]
+                    ]
+                ]
+            },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	},
-	
-// ####################################################         		
-	
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "L-158310",
-		"id_b": "none",
-		"location": "252 12th St",
-		"scope": "Improve (E) side sewer as directed",
-		"pp_history": {
-		    "SW-10": {
-		        "PP10": [0, 200, 0]
-		    },
-		    "SW-20": {
-		        "PP10": [0, 50, 0]
-		    }
-		},
+        },
+
+        // ####################################################         		
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "L-158310",
+                "id_b": "none",
+                "location": "252 12th St",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    "SW-10": {
+                        "PP10": [0, 200, 0]
+                    },
+                    "SW-20": {
+                        "PP10": [0, 50, 0]
+                    }
+                },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "80.0",
-		        "video_no": "1",
-		        "response": "MCN - Do Not Replace",
+                    return bid_item_flattener(this.pp_history)
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "80.0",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none",
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "lt",
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "lt",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.415951875681529, 37.771308977391911],
-		        [-122.415998011174452, 37.771242223094383]
-		    ]
-		]
-	    },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.415951875681529, 37.771308977391911],
+                        [-122.415998011174452, 37.771242223094383]
+                    ]
+                ]
+            },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-	}
+        }
 
     ]
 }
