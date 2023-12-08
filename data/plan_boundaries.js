@@ -680,7 +680,7 @@ var json_1243I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', 1],
                 'specifier': '',
                 "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
