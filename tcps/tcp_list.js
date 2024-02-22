@@ -6,6 +6,9 @@ var project_tcp_array = [
 { 
  'numb': '002', 'desc': 'CIPL - SVN between 15th and 16th', 'rlvn': ['SW_03', 'SW_04']
  }, 
+ { 
+ 'numb': '002.1', 'desc': 'PCO 3 Spot Repair - SVN and Howard', 'rlvn': ['SW_06']
+ }, 
 { 
  'numb': '003', 'desc': 'CIPL - SVN between 14th and 15th', 'rlvn': ['SW_04', 'SW_05']
  }, 
