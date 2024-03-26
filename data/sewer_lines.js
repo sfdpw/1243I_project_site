@@ -653,7 +653,7 @@ var json_1243I_sewer_lines = {
                     "tvi_post_con": {
                         "submittal_no": "92.1",
                         "video_no": "1",
-                        "response": "SUB",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -848,7 +848,7 @@ var json_1243I_sewer_lines = {
                     "tvi_post_con": {
                         "submittal_no": "92.1",
                         "video_no": "3",
-                        "response": "SUB",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -914,7 +914,7 @@ var json_1243I_sewer_lines = {
                     "tvi_post_con": {
                         "submittal_no": "92.1",
                         "video_no": "2",
-                        "response": "SUB",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
