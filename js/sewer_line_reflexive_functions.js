@@ -45,7 +45,7 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         }
 
-    } else if (line_obj.scope.includes('Install (N)')) {
+    } else if (line_obj.scope.includes('Install (N)') || line_obj.scope.includes('Spot Repair (E)')) {
 
         if (line_obj.submittals.tvi_post_con.response == 'none') {
 

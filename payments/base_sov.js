@@ -1897,6 +1897,28 @@ var base_sov =
         // #######################
 
         {
+            "bid_item": "PCO-01",
+            "linked_bi": true,
+            get linked_bid_item() {
+                if (this.linked_bi) { return linked_bid_item_string_geneator_from_sov(this.bid_item) }
+                else { return this.bid_item }
+            },
+            "description": "Removal of Blockage from (E) 12in Sewer Main at South Van Ness Ave and Howard St",
+            "unit": "LS",
+            "qty": 1,
+            "unit_price": 24733.74,
+            "alloc_esh": 0,
+            "alloc_rnr": 24733.74,
+            "alloc_ssp": 0,
+            'pp_history': structuredClone(empty_pp_history_array),
+            get payment_details() {
+                return get_payment_details(this)
+            }
+        },
+
+        // #######################
+
+        {
             "bid_item": "PCO-02_SW-05",
             "linked_bi": true,
             get linked_bid_item() {
@@ -2076,7 +2098,7 @@ var base_sov =
                 [0, 0, 75000], // PP13
                 [], // PP14
                 [], // PP15
-            ],            get payment_details() {
+            ], get payment_details() {
                 return get_payment_details(this)
             }
         },
@@ -2202,7 +2224,7 @@ var base_sov =
                 [0, 0, 15500], // PP13
                 [], // PP14
                 [], // PP15
-            ],            get payment_details() {
+            ], get payment_details() {
                 return get_payment_details(this)
             }
         },
@@ -2240,7 +2262,7 @@ var base_sov =
                 [0, 0, 10500], // PP13
                 [], // PP14
                 [], // PP15
-            ],            get payment_details() {
+            ], get payment_details() {
                 return get_payment_details(this)
             }
         },
@@ -2305,6 +2327,28 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 3000,
+            'pp_history': structuredClone(empty_pp_history_array),
+            get payment_details() {
+                return get_payment_details(this)
+            }
+        },
+
+        // #######################
+
+        {
+            "bid_item": "PCO-03",
+            "linked_bi": true,
+            get linked_bid_item() {
+                if (this.linked_bi) { return linked_bid_item_string_geneator_from_sov(this.bid_item) }
+                else { return this.bid_item }
+            },
+            "description": "Spot Repair of (E) 12in Sewer Main at South Van Ness Ave and Howard St",
+            "unit": "LS",
+            "qty": 1,
+            "unit_price": 119255,
+            "alloc_esh": 0,
+            "alloc_rnr": 119255,
+            "alloc_ssp": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)

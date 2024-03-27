@@ -355,8 +355,12 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
+                    'SW-12': {
+                        'PP14': [0, 0, 50400]
+                    },
                     'SW-14': {
-                        'PP09': [0, 0, 73632]
+                        'PP09': [0, 0, 73632],
+                        'PP14': [0, 0, -36 * 472]
                     },
                     'SW-16': {
                         'PP08': [0, 1000, 250]
@@ -625,9 +629,9 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
-                    //'SW-14': {
-                    //    'PP11': [0, 71272, 0]
-                    //},
+                    'SW-14': {
+                        'PP14': [0, 154 * 472, 0]
+                    },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
                     },
@@ -823,9 +827,9 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 930, 570]
                     },
-                    //'SW-14': {
-                    //    'PP11': [0, 15576, 0]
-                    //},
+                    'SW-14': {
+                        'PP14': [0, 24 * 472, 0]
+                    },
                     'SW-26': {
                         'PP10': [0, 100, 0]
                     }
@@ -886,9 +890,9 @@ var json_1243I_sewer_lines = {
                     'SW-09': {
                         'PP09': [0, 1395, 855]
                     },
-                    //'SW-14': {
-                    //    'PP11': [0, 56168, 0]
-                    //},
+                    'SW-14': {
+                        'PP14': [0, 125 * 472, 0]
+                    },
                     'SW-16': {
                         'PP09': [0, 2025, 475]
                     },
@@ -19590,15 +19594,13 @@ var json_1243I_sewer_lines = {
                 "id_a": "P-82502",
                 "id_b": "none",
                 "location": "Intersection of South Van Ness Ave and Howard St",
-                "scope": "(E) to remain",
+                "scope": "Spot Repair (E) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'PCO-01': {
+                        'PP14': [0, 24733.74, 0],
+                    },
+                    'PCO-03': {
+                        'PP14': [0, 119255, 0],
                     }
                 },
                 get pp_summary() {
@@ -19617,9 +19619,9 @@ var json_1243I_sewer_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "115.1",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
