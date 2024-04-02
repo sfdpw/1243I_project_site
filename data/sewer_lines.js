@@ -1932,7 +1932,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP08': [0, 0, 15000, 0]
+                        'PP08': [0, 0, 15000, 0],
+                        'PP14': [0, 0, -15000, 15000]
                     },
                     'SW-25': {
                         'PP13': [0, 225, 0, 0]
@@ -18982,7 +18983,8 @@ var json_1243I_sewer_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-11': {
-                        'PP08': [0, 0, 5250, 0]
+                        'PP08': [0, 0, 5250, 0],
+                        'PP14': [0, 0, -5250, 5250]
                     },
                     'SW-25': {
                         'PP13': [0, 225, 0, 0]

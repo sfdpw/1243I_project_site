@@ -227,7 +227,8 @@ function pp_history_details(ffeature)
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 0);
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 1);
                 pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 2);
-                                 
+                pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 3);
+
                }
       
            }
