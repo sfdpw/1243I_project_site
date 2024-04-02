@@ -2,7 +2,8 @@ var fund_array =
 [
  'ESH',
  'R&R',
- 'SSIP'
+ 'SIP',
+ 'FOL'
 ];
 
 var payment_array = 

@@ -2,7 +2,7 @@ var empty_pp_history_array = []
 
 for (var jj = 0; jj < max_pp_no; jj++) {
 
-    empty_pp_history_array[jj] = [0, 0, 0];
+    empty_pp_history_array[jj] = [0, 0, 0, 0];
 
 }
 
@@ -25,21 +25,22 @@ var base_sov =
             "alloc_esh": 300000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
-                [3000, 0, 0], // PP02
-                [24000, 0, 0], // PP03
-                [27000, 0, 0], // PP04
-                [33000, 0, 0], // PP05
-                [12000, 0, 0], // PP06
-                [6000, 0, 0], // PP07
+                [3000, 0, 0, 0], // PP02
+                [24000, 0, 0, 0], // PP03
+                [27000, 0, 0, 0], // PP04
+                [33000, 0, 0, 0], // PP05
+                [12000, 0, 0, 0], // PP06
+                [6000, 0, 0, 0], // PP07
                 [], // PP08
-                [3600, 0, 0], // PP09
-                [8400, 0, 0], // PP10
-                [63000, 0, 0], // PP11
-                [60000, 0, 0], // PP12
-                [30000, 0, 0], // PP13
+                [3600, 0, 0, 0], // PP09
+                [8400, 0, 0, 0], // PP10
+                [63000, 0, 0, 0], // PP11
+                [60000, 0, 0, 0], // PP12
+                [30000, 0, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -64,6 +65,7 @@ var base_sov =
             "alloc_esh": 12000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -86,6 +88,7 @@ var base_sov =
             "alloc_esh": 313170,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -108,6 +111,7 @@ var base_sov =
             "alloc_esh": 1468005,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -130,6 +134,7 @@ var base_sov =
             "alloc_esh": 887172,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -152,6 +157,7 @@ var base_sov =
             "alloc_esh": 1409772,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -174,6 +180,7 @@ var base_sov =
             "alloc_esh": 48048,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -196,6 +203,7 @@ var base_sov =
             "alloc_esh": 150500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -218,6 +226,7 @@ var base_sov =
             "alloc_esh": 3630,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -240,6 +249,7 @@ var base_sov =
             "alloc_esh": 5005,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -262,6 +272,7 @@ var base_sov =
             "alloc_esh": 79695,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -284,6 +295,7 @@ var base_sov =
             "alloc_esh": 170500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -306,6 +318,7 @@ var base_sov =
             "alloc_esh": 500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -345,6 +358,7 @@ var base_sov =
             "alloc_esh": 500,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -384,6 +398,7 @@ var base_sov =
             "alloc_esh": 1250,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -406,6 +421,7 @@ var base_sov =
             "alloc_esh": 1250,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -445,6 +461,7 @@ var base_sov =
             "alloc_esh": 1250,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -484,18 +501,19 @@ var base_sov =
             "alloc_esh": 5000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
-                [400, 0, 0], // PP01
+                [400, 0, 0, 0], // PP01
                 [], // PP02
                 [], // PP03
-                [450, 0, 0], // PP04
+                [450, 0, 0, 0], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
                 [], // PP09
-                [350, 0, 0], // PP10
+                [350, 0, 0, 0], // PP10
                 [], // PP11
                 [], // PP12
                 [], // PP13
@@ -523,21 +541,22 @@ var base_sov =
             "alloc_esh": 145000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
-                [36250, 0, 0], // PP02
-                [72500, 0, 0], // PP03
-                [36250, 0, 0], // PP04
+                [36250, 0, 0, 0], // PP02
+                [72500, 0, 0, 0], // PP03
+                [36250, 0, 0, 0], // PP04
                 [], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
                 [], // PP09
                 [], // PP10
-                [8584.40, 0, 0], // PP11
-                [6181, 0, 0], // PP12
-                [1076, 0, 0], // PP13
+                [8584.40, 0, 0, 0], // PP11
+                [6181, 0, 0, 0], // PP12
+                [1076, 0, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -562,6 +581,7 @@ var base_sov =
             "alloc_esh": 77000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -601,6 +621,7 @@ var base_sov =
             "alloc_esh": 50000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -640,6 +661,7 @@ var base_sov =
             "alloc_esh": 100000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -654,7 +676,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [28380, 0, 0], // PP13
+                [28380, 0, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -679,13 +701,14 @@ var base_sov =
             "alloc_esh": 15000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
-                [0, 0, 0], // PP00
-                [5000, 0, 0], // PP01
+                [0, 0, 0, 0], // PP00
+                [5000, 0, 0, 0], // PP01
                 [], // PP02
                 [], // PP03
                 [], // PP04
-                [600, 0, 0], // PP05
+                [600, 0, 0, 0], // PP05
                 [], // PP06
                 [], // PP07
                 [], // PP08
@@ -718,22 +741,23 @@ var base_sov =
             "alloc_esh": 11000,
             "alloc_rnr": 171875,
             "alloc_ssp": 92125,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
-                [1100, 17187.50, 9212.50], // PP01
-                [550, 8593.75, 4606.25], // PP02
-                [660, 10312.50, 5527.50], // PP03
-                [770, 12031.25, 6448.75], // PP04
-                [550, 8593.75, 4606.25], // PP05
+                [1100, 17187.50, 9212.50, 0], // PP01
+                [550, 8593.75, 4606.25, 0], // PP02
+                [660, 10312.50, 5527.50, 0], // PP03
+                [770, 12031.25, 6448.75, 0], // PP04
+                [550, 8593.75, 4606.25, 0], // PP05
                 [], // PP06
-                [220, 3437.50, 1842.50], // PP07
-                [770, 12031.25, 6448.75], // PP08
-                [2310, 36093.75, 19346.25], // PP09
-                [4070, 36093.75, 34086.25], // PP10
-                [0, 13750, 0], // PP11
-                [0, 13750, 0], // PP12
+                [220, 3437.50, 1842.50, 0], // PP07
+                [770, 12031.25, 6448.75, 0], // PP08
+                [2310, 36093.75, 19346.25, 0], // PP09
+                [4070, 36093.75, 34086.25, 0], // PP10
+                [0, 13750, 0, 0], // PP11
+                [0, 13750, 0, 0], // PP12
                 [], // PP13
-                [], // PP14
+                [0, 0, -1375, 1375], // PP14
                 [], // PP15
             ],
             get payment_details() {
@@ -757,20 +781,21 @@ var base_sov =
             "alloc_esh": 11000,
             "alloc_rnr": 225500,
             "alloc_ssp": 38500,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
-                [1100, 22550, 3850], // PP01
-                [550, 11275, 1925], // PP02
-                [660, 13530, 2310], // PP03
-                [770, 15785, 2695], // PP04
-                [550, 11275, 1925], // PP05
+                [1100, 22550, 3850, 0], // PP01
+                [550, 11275, 1925, 0], // PP02
+                [660, 13530, 2310, 0], // PP03
+                [770, 15785, 2695, 0], // PP04
+                [550, 11275, 1925, 0], // PP05
                 [], // PP06
-                [220, 4510, 770], // PP07
-                [770, 15785, 2695], // PP08
-                [2310, 47355, 8085], // PP09
-                [4070, 55935, 14245], // PP10
-                [0, 13750, 0], // PP11
-                [0, 13750, 0], // PP12
+                [220, 4510, 770, 0], // PP07
+                [770, 15785, 2695, 0], // PP08
+                [2310, 47355, 8085, 0], // PP09
+                [4070, 55935, 14245, 0], // PP10
+                [0, 13750, 0, 0], // PP11
+                [0, 13750, 0, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -796,6 +821,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 170000,
             "alloc_ssp": 8500,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -818,6 +844,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 80000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -840,6 +867,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 120000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -862,6 +890,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 10000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -901,6 +930,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 51800,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -923,6 +953,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 41750,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -945,6 +976,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 18600,
             "alloc_ssp": 11400,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -967,6 +999,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 5000,
             "alloc_ssp": 14400,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -989,6 +1022,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 969750,
             "alloc_ssp": 20250,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1011,6 +1045,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 25200,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1033,6 +1068,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 228150,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1055,6 +1091,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 143016,
             "alloc_ssp": 789184,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1078,6 +1115,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 19610,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1100,6 +1138,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 20250,
             "alloc_ssp": 4750,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1122,6 +1161,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 800,
             "alloc_ssp": 7000,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1161,6 +1201,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 2400,
             "alloc_ssp": 21000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1183,6 +1224,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 13050,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1205,6 +1247,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 6000,
             "alloc_ssp": 4300,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1227,6 +1270,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 93750,
             "alloc_ssp": 37500,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1249,6 +1293,7 @@ var base_sov =
             "alloc_esh": 19650,
             "alloc_rnr": 42450,
             "alloc_ssp": 15400,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1271,6 +1316,7 @@ var base_sov =
             "alloc_esh": 65000,
             "alloc_rnr": 0,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1293,6 +1339,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 4950,
             "alloc_ssp": 3300,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1332,6 +1379,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7500,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1354,6 +1402,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 1100,
             "alloc_ssp": 3900,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1376,6 +1425,7 @@ var base_sov =
             "alloc_esh": 650,
             "alloc_rnr": 1300,
             "alloc_ssp": 450,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1398,6 +1448,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 70776,
             "alloc_ssp": 1800,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1420,6 +1471,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 54810,
             "alloc_ssp": 450,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1459,6 +1511,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 18338,
             "alloc_ssp": 150,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1498,6 +1551,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1520,6 +1574,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 2500,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1559,11 +1614,12 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 114000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
-                [0, 28500, 0], // PP01
-                [0, 28500, 0], // PP02
-                [0, 57000, 0], // PP03
+                [0, 28500, 0, 0], // PP01
+                [0, 28500, 0, 0], // PP02
+                [0, 57000, 0, 0], // PP03
                 [], // PP04
                 [], // PP05
                 [], // PP06
@@ -1571,7 +1627,7 @@ var base_sov =
                 [], // PP08
                 [], // PP09
                 [], // PP10
-                [0, 12876.60, 0], // PP11
+                [0, 12876.60, 0, 0], // PP11
                 [], // PP12
                 [], // PP13
                 [], // PP14
@@ -1598,6 +1654,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 61000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1637,6 +1694,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 7500,
             "alloc_ssp": 22500,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1651,7 +1709,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [0, 0, 18920], // PP13
+                [0, 0, 18920, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -1676,6 +1734,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 110000,
             "alloc_ssp": 15000,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1715,6 +1774,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 87000,
             "alloc_ssp": 30000,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1728,7 +1788,7 @@ var base_sov =
                 [], // PP09
                 [], // PP10
                 [], // PP11
-                [0, 6181, 0], // PP12
+                [0, 6181, 0, 0], // PP12
                 [], // PP13
                 [], // PP14
                 [], // PP15
@@ -1754,6 +1814,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1793,6 +1854,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1832,6 +1894,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1871,6 +1934,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 3000,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -1910,6 +1974,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 24733.74,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1932,6 +1997,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": -40000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1954,6 +2020,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": -18500,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1976,6 +2043,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": -248744,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -1998,6 +2066,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": -8700,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2020,6 +2089,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": -1000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2042,6 +2112,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 60000,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -2056,7 +2127,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [0, 0, 60000], // PP13
+                [0, 0, 60000, 0], // PP13
                 [], // PP14
                 [], // PP15
             ],
@@ -2081,6 +2152,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 75000,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -2095,7 +2167,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [0, 0, 75000], // PP13
+                [0, 0, 75000, 0], // PP13
                 [], // PP14
                 [], // PP15
             ], get payment_details() {
@@ -2119,6 +2191,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 28500,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2141,6 +2214,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 4350,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2163,6 +2237,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 3000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2185,6 +2260,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 250,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2207,6 +2283,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 15500,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -2221,7 +2298,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [0, 0, 15500], // PP13
+                [0, 0, 15500, 0], // PP13
                 [], // PP14
                 [], // PP15
             ], get payment_details() {
@@ -2245,6 +2322,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 10500,
+            "alloc_fol": 0,
             'pp_history': [
                 [], // PP00
                 [], // PP01
@@ -2259,7 +2337,7 @@ var base_sov =
                 [], // PP10
                 [], // PP11
                 [], // PP12
-                [0, 0, 10500], // PP13
+                [0, 0, 10500, 0], // PP13
                 [], // PP14
                 [], // PP15
             ], get payment_details() {
@@ -2283,6 +2361,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 30000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2305,6 +2384,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 406850,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2327,6 +2407,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 0,
             "alloc_ssp": 3000,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)
@@ -2349,6 +2430,7 @@ var base_sov =
             "alloc_esh": 0,
             "alloc_rnr": 119255,
             "alloc_ssp": 0,
+            "alloc_fol": 0,
             'pp_history': structuredClone(empty_pp_history_array),
             get payment_details() {
                 return get_payment_details(this)

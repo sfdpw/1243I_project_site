@@ -23,7 +23,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP03": [41288, 0, 0]
+                        "PP03": [41288, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -172,7 +172,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP04": [19033, 0, 0]
+                        "PP04": [19033, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -271,7 +271,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP04": [46221, 0, 0]
+                        "PP04": [46221, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -407,7 +407,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP05": [23418.50, 0, 0]
+                        "PP05": [23418.50, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -546,7 +546,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP07": [16436.50, 0, 0]
+                        "PP07": [16436.50, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -619,7 +619,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP12": [255, 0, 0]
+                        "PP12": [255, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -660,7 +660,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP12": [8730, 0, 0]
+                        "PP12": [8730, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -706,7 +706,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP12": [16468, 0, 0]
+                        "PP12": [16468, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -769,7 +769,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP12": [24.5, 0, 0]
+                        "PP12": [24.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -811,7 +811,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP12": [17.5, 0, 0]
+                        "PP12": [17.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -854,10 +854,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP03": [632, 0, 0]
+                        "PP03": [632, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP03": [113260.95 / 165, 0, 0]
+                        "PP03": [113260.95 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1006,10 +1006,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     'R-02': {
-                        'PP04': [319, 0, 0]
+                        'PP04': [319, 0, 0, 0]
                     },
                     'R-04': {
-                        'PP04': [48351.60 / 165, 0, 0]
+                        'PP04': [48351.60 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1108,10 +1108,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     'R-02': {
-                        'PP04': [795, 0, 0]
+                        'PP04': [795, 0, 0, 0]
                     },
                     'R-04': {
-                        'PP04': [120379.05 / 165, 0, 0]
+                        'PP04': [120379.05 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1247,10 +1247,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     'R-02': {
-                        'PP05': [59, 0, 0]
+                        'PP05': [59, 0, 0, 0]
                     },
                     'R-04': {
-                        'PP05': [66359.70 / 165, 0, 0]
+                        'PP05': [66359.70 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1389,10 +1389,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     'R-02': {
-                        'PP06': [584, 0, 0]
+                        'PP06': [584, 0, 0, 0]
                     },
                     'R-04': {
-                        'PP06': [63883.05 / 165, 0, 0]
+                        'PP06': [63883.05 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1517,10 +1517,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     'R-02': {
-                        'PP07': [709, 0, 0]
+                        'PP07': [709, 0, 0, 0]
                     },
                     'R-04': {
-                        'PP07': [44129.25 / 165, 0, 0]
+                        'PP07': [44129.25 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1593,10 +1593,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP12": [1840, 0, 0]
+                        "PP12": [1840, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP12": [65531.40 / 165, 0, 0]
+                        "PP12": [65531.40 / 165, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1670,7 +1670,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [7770, 0, 0]
+                        "PP03": [7770, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1718,7 +1718,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [414, 0, 0]
+                        "PP03": [414, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1755,7 +1755,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [1807, 0, 0]
+                        "PP03": [1807, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1792,7 +1792,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [30, 0, 0]
+                        "PP03": [30, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1829,7 +1829,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [145, 0, 0]
+                        "PP04": [145, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1866,7 +1866,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [122, 0, 0]
+                        "PP04": [122, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1903,7 +1903,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [901.5, 0, 0]
+                        "PP04": [901.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1946,7 +1946,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [29, 0, 0]
+                        "PP04": [29, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -1986,7 +1986,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [30, 0, 0]
+                        "PP04": [30, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2029,7 +2029,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [2082, 0, 0]
+                        "PP04": [2082, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2072,7 +2072,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [364, 0, 0]
+                        "PP04": [364, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2109,7 +2109,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [371, 0, 0]
+                        "PP04": [371, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2146,7 +2146,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [1400, 0, 0]
+                        "PP04": [1400, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2188,7 +2188,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [23, 0, 0]
+                        "PP04": [23, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2228,7 +2228,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [446, 0, 0]
+                        "PP04": [446, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2266,7 +2266,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [31, 0, 0]
+                        "PP04": [31, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2307,7 +2307,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [266, 0, 0]
+                        "PP04": [266, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2346,7 +2346,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [321, 0, 0]
+                        "PP04": [321, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2386,7 +2386,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [1909, 0, 0]
+                        "PP03": [1909, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2427,7 +2427,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [40.5, 0, 0]
+                        "PP03": [40.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2468,7 +2468,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [805, 0, 0]
+                        "PP03": [805, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2507,7 +2507,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP03": [36, 0, 0]
+                        "PP03": [36, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2547,7 +2547,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [1120, 0, 0]
+                        "PP04": [1120, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2587,7 +2587,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [32, 0, 0]
+                        "PP04": [32, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2627,7 +2627,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [32, 0, 0]
+                        "PP04": [32, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2667,7 +2667,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [840, 0, 0]
+                        "PP04": [840, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2708,7 +2708,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [650, 0, 0]
+                        "PP04": [650, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2745,7 +2745,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [279, 0, 0]
+                        "PP04": [279, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2782,7 +2782,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [890, 0, 0]
+                        "PP04": [890, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2819,7 +2819,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP04": [398, 0, 0]
+                        "PP04": [398, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2856,7 +2856,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [6300, 0, 0]
+                        "PP05": [6300, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2893,7 +2893,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [249, 0, 0]
+                        "PP05": [249, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2941,7 +2941,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [1499, 0, 0]
+                        "PP05": [1499, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -2988,7 +2988,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [1104, 0, 0]
+                        "PP05": [1104, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3045,7 +3045,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [3360, 0, 0]
+                        "PP05": [3360, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3104,7 +3104,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [970.5, 0, 0]
+                        "PP05": [970.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3163,7 +3163,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [405, 0, 0]
+                        "PP05": [405, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3209,7 +3209,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [120, 0, 0]
+                        "PP05": [120, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3253,7 +3253,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [684, 0, 0]
+                        "PP05": [684, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3290,7 +3290,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [5066, 0, 0]
+                        "PP05": [5066, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3335,7 +3335,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP05": [1088.5, 0, 0]
+                        "PP05": [1088.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3380,7 +3380,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP06": [72, 0, 0]
+                        "PP06": [72, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3417,7 +3417,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP06": [672, 0, 0]
+                        "PP06": [672, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3458,7 +3458,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP06": [1017.5, 0, 0]
+                        "PP06": [1017.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3512,7 +3512,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP06": [5311.56 / 12, 0, 0]
+                        "PP06": [5311.56 / 12, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3559,7 +3559,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP05": [8850, 0, 0]
+                        "PP05": [8850, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3633,7 +3633,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP06": [247, 0, 0]
+                        "PP06": [247, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3675,7 +3675,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP06": [143, 0, 0]
+                        "PP06": [143, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3718,7 +3718,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [840, 0, 0]
+                        "PP12": [840, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3755,7 +3755,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [2458, 0, 0]
+                        "PP12": [2458, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3796,7 +3796,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [220, 0, 0]
+                        "PP12": [220, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3834,7 +3834,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [247, 0, 0]
+                        "PP12": [247, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3871,7 +3871,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [90, 0, 0]
+                        "PP12": [90, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3908,7 +3908,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [390, 0, 0]
+                        "PP12": [390, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3945,7 +3945,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [140, 0, 0]
+                        "PP12": [140, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -3982,7 +3982,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [184, 0, 0]
+                        "PP12": [184, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4019,7 +4019,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [150, 0, 0]
+                        "PP12": [150, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4056,7 +4056,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [351, 0, 0]
+                        "PP12": [351, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4094,7 +4094,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [876, 0, 0]
+                        "PP12": [876, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4131,7 +4131,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [517, 0, 0]
+                        "PP12": [517, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4168,7 +4168,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [196, 0, 0]
+                        "PP12": [196, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4205,7 +4205,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [601, 0, 0]
+                        "PP12": [601, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4242,7 +4242,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [116, 0, 0]
+                        "PP12": [116, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4280,7 +4280,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [552, 0, 0]
+                        "PP12": [552, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4322,7 +4322,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [126, 0, 0]
+                        "PP12": [126, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4359,7 +4359,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [358, 0, 0]
+                        "PP12": [358, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4397,7 +4397,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [100, 0, 0]
+                        "PP12": [100, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4434,7 +4434,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [340, 0, 0]
+                        "PP12": [340, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4471,7 +4471,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [101, 0, 0]
+                        "PP12": [101, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4508,7 +4508,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [299, 0, 0]
+                        "PP12": [299, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4546,7 +4546,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [186, 0, 0]
+                        "PP12": [186, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4583,7 +4583,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [2093, 0, 0]
+                        "PP12": [2093, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4621,7 +4621,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [2990, 0, 0]
+                        "PP12": [2990, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4660,7 +4660,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [39, 0, 0]
+                        "PP12": [39, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4697,7 +4697,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [18, 0, 0]
+                        "PP12": [18, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4734,7 +4734,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [240, 0, 0]
+                        "PP12": [240, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4771,7 +4771,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [299, 0, 0]
+                        "PP12": [299, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4808,7 +4808,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [475, 0, 0]
+                        "PP12": [475, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4845,7 +4845,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [7098, 0, 0]
+                        "PP12": [7098, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4892,7 +4892,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [182, 0, 0]
+                        "PP12": [182, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4930,7 +4930,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [198, 0, 0]
+                        "PP12": [198, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -4967,7 +4967,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [420, 0, 0]
+                        "PP12": [420, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5004,7 +5004,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [138, 0, 0]
+                        "PP12": [138, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5041,7 +5041,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [120, 0, 0]
+                        "PP12": [120, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5078,7 +5078,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [598, 0, 0]
+                        "PP12": [598, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5115,7 +5115,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [59, 0, 0]
+                        "PP12": [59, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5152,7 +5152,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [138, 0, 0]
+                        "PP12": [138, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5189,7 +5189,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [424, 0, 0]
+                        "PP12": [424, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5228,7 +5228,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [1306, 0, 0]
+                        "PP12": [1306, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5265,7 +5265,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [779, 0, 0]
+                        "PP12": [779, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5302,7 +5302,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [1355, 0, 0]
+                        "PP12": [1355, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5339,7 +5339,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP12": [74, 0, 0]
+                        "PP12": [74, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5386,7 +5386,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Pavement",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP03": [140, 0, 0]
+                        "PP03": [140, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5426,7 +5426,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP02": [147, 0, 0]
+                        "PP02": [147, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5474,7 +5474,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP02": [307.5, 0, 0]
+                        "PP02": [307.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5516,7 +5516,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [194, 0, 0]
+                        "PP03": [194, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5562,7 +5562,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [274, 0, 0]
+                        "PP03": [274, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5606,7 +5606,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [203, 0, 0]
+                        "PP03": [203, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5651,7 +5651,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [175.5, 0, 0]
+                        "PP03": [175.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5694,7 +5694,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [176, 0, 0]
+                        "PP03": [176, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5739,7 +5739,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [192.5, 0, 0]
+                        "PP03": [192.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5781,7 +5781,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP03": [194.5, 0, 0]
+                        "PP03": [194.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5824,7 +5824,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP04": [157, 0, 0]
+                        "PP04": [157, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5871,7 +5871,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP04": [221, 0, 0]
+                        "PP04": [221, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5916,7 +5916,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP04": [146.5, 0, 0]
+                        "PP04": [146.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -5958,7 +5958,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP04": [93.75, 0, 0]
+                        "PP04": [93.75, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6000,7 +6000,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP04": [103, 0, 0]
+                        "PP04": [103, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6041,7 +6041,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-08': {
-                        'PP04': [209, 0, 0]
+                        'PP04': [209, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6089,7 +6089,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [168, 0, 0]
+                        "PP05": [168, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6134,7 +6134,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [154, 0, 0]
+                        "PP05": [154, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6180,7 +6180,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [142, 0, 0]
+                        "PP05": [142, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6223,7 +6223,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [180, 0, 0]
+                        "PP05": [180, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6266,7 +6266,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [36, 0, 0]
+                        "PP05": [36, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6314,7 +6314,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP05": [36, 0, 0]
+                        "PP05": [36, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6363,7 +6363,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP06": [263.25, 0, 0]
+                        "PP06": [263.25, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6407,7 +6407,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP06": [132, 0, 0]
+                        "PP06": [132, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6454,7 +6454,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP06": [177.88, 0, 0]
+                        "PP06": [177.88, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6502,7 +6502,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP06": [286, 0, 0]
+                        "PP06": [286, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6549,7 +6549,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP06": [166.75, 0, 0]
+                        "PP06": [166.75, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6593,7 +6593,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP12": [55, 0, 0]
+                        "PP12": [55, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6651,7 +6651,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP12": [46.5, 0, 0]
+                        "PP12": [46.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6707,7 +6707,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP12": [46.5, 0, 0]
+                        "PP12": [46.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6771,7 +6771,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP12": [40, 0, 0]
+                        "PP12": [40, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6828,7 +6828,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP12": [409, 0, 0]
+                        "PP12": [409, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6880,7 +6880,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP12": [363, 0, 0]
+                        "PP12": [363, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6930,7 +6930,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP12": [160, 0, 0]
+                        "PP12": [160, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -6979,7 +6979,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP02": [33, 0, 0]
+                        "PP02": [33, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7017,7 +7017,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP05": [24, 0, 0]
+                        "PP05": [24, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7079,7 +7079,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP05": [24, 0, 0]
+                        "PP05": [24, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7147,7 +7147,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [21, 0, 0]
+                        "PP04": [21, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7199,7 +7199,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP02": [29, 0, 0]
+                        "PP02": [29, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7257,7 +7257,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP02": [34, 0, 0]
+                        "PP02": [34, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7297,7 +7297,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [39, 0, 0]
+                        "PP03": [39, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7354,7 +7354,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [37, 0, 0]
+                        "PP03": [37, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7407,7 +7407,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [39, 0, 0]
+                        "PP03": [39, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7463,7 +7463,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [40, 0, 0]
+                        "PP03": [40, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7519,7 +7519,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [40, 0, 0]
+                        "PP03": [40, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7576,7 +7576,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [40, 0, 0]
+                        "PP03": [40, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7629,7 +7629,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP03": [37, 0, 0]
+                        "PP03": [37, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7683,7 +7683,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [30, 0, 0]
+                        "PP04": [30, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7739,7 +7739,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [45, 0, 0]
+                        "PP04": [45, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7793,7 +7793,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [31.5, 0, 0]
+                        "PP04": [31.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7841,7 +7841,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [19, 0, 0]
+                        "PP04": [19, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7878,7 +7878,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP04": [48, 0, 0]
+                        "PP04": [48, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7934,7 +7934,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP05": [37, 0, 0]
+                        "PP05": [37, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -7992,7 +7992,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP05": [27, 0, 0]
+                        "PP05": [27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8051,7 +8051,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP05": [34, 0, 0]
+                        "PP05": [34, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8108,7 +8108,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP05": [34, 0, 0]
+                        "PP05": [34, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8165,7 +8165,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP06": [39, 0, 0]
+                        "PP06": [39, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8219,7 +8219,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP06": [36, 0, 0]
+                        "PP06": [36, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8274,7 +8274,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP06": [33, 0, 0]
+                        "PP06": [33, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8329,7 +8329,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP06": [22, 0, 0]
+                        "PP06": [22, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8366,7 +8366,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP06": [5.5, 0, 0]
+                        "PP06": [5.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8403,7 +8403,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP06": [34.5, 0, 0]
+                        "PP06": [34.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8452,7 +8452,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP06": [30, 0, 0]
+                        "PP06": [30, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8508,7 +8508,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP02": [1, 0, 0]
+                        "PP02": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8553,7 +8553,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP02": [1, 0, 0]
+                        "PP02": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8591,7 +8591,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Placeholder Scope",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8634,7 +8634,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8678,7 +8678,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8720,7 +8720,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8766,7 +8766,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8808,7 +8808,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8849,7 +8849,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8895,7 +8895,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8935,7 +8935,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -8978,7 +8978,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9018,7 +9018,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9060,7 +9060,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9104,7 +9104,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9148,7 +9148,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9185,7 +9185,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9225,7 +9225,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9267,7 +9267,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP04": [1, 0, 0]
+                        "PP04": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9309,7 +9309,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9351,7 +9351,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9394,7 +9394,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9438,7 +9438,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9481,7 +9481,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9525,7 +9525,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9567,7 +9567,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9608,7 +9608,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9651,7 +9651,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP05": [1, 0, 0]
+                        "PP05": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9691,7 +9691,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP06": [1, 0, 0]
+                        "PP06": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9733,7 +9733,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP06": [1, 0, 0]
+                        "PP06": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9778,7 +9778,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP06": [1, 0, 0]
+                        "PP06": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9817,7 +9817,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP06": [1, 0, 0]
+                        "PP06": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9858,7 +9858,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP06": [1, 0, 0]
+                        "PP06": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9902,7 +9902,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [1439, 0, 0]
+                        "PP06": [1439, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9942,7 +9942,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [1474, 0, 0]
+                        "PP06": [1474, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -9980,7 +9980,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [417, 0, 0]
+                        "PP06": [417, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10020,7 +10020,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [116, 0, 0]
+                        "PP06": [116, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10058,7 +10058,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [1436, 0, 0]
+                        "PP06": [1436, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10096,7 +10096,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP06": [1126, 0, 0]
+                        "PP06": [1126, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10134,7 +10134,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP08": [1, 0, 0]
+                        "PP08": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10178,7 +10178,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP08": [1, 0, 0]
+                        "PP08": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10217,7 +10217,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10261,7 +10261,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10303,7 +10303,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10344,7 +10344,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10387,7 +10387,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10428,7 +10428,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP12": [1, 0, 0]
+                        "PP12": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10470,7 +10470,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Adjust (E) Frame and Grate",
                 "pp_a_qty": {
                     "R-15": {
-                        "PP03": [1, 0, 0]
+                        "PP03": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10865,7 +10865,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP08": [41, 0, 0]
+                        "PP08": [41, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10923,7 +10923,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP08": [31, 0, 0]
+                        "PP08": [31, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -10972,7 +10972,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP08": [217, 0, 0]
+                        "PP08": [217, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11016,7 +11016,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP08": [284, 0, 0]
+                        "PP08": [284, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11062,7 +11062,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP08": [67, 0, 0]
+                        "PP08": [67, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11099,7 +11099,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP08": [64, 0, 0]
+                        "PP08": [64, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11148,7 +11148,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP08": [161, 0, 0]
+                        "PP08": [161, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11194,7 +11194,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP08": [9, 0, 0]
+                        "PP08": [9, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11234,7 +11234,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP08": [20.5, 0, 0]
+                        "PP08": [20.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11276,7 +11276,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP08": [135, 0, 0]
+                        "PP08": [135, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11315,7 +11315,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP08": [389, 0, 0]
+                        "PP08": [389, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11355,7 +11355,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP08": [652, 0, 0]
+                        "PP08": [652, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11410,7 +11410,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP08": [196, 0, 0]
+                        "PP08": [196, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11452,7 +11452,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP08": [3163, 0, 0]
+                        "PP08": [3163, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11504,7 +11504,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP08": [1735, 0, 0]
+                        "PP08": [1735, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11541,7 +11541,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP08": [2857, 0, 0]
+                        "PP08": [2857, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11597,7 +11597,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP09": [1, 0, 0]
+                        "PP09": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11642,7 +11642,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP09": [1, 0, 0]
+                        "PP09": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11686,7 +11686,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP09": [26, 0, 0]
+                        "PP09": [26, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11738,7 +11738,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP09": [25, 0, 0]
+                        "PP09": [25, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11790,7 +11790,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP09": [193.6, 0, 0]
+                        "PP09": [193.6, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11833,7 +11833,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP09": [11, 0, 0]
+                        "PP09": [11, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11871,7 +11871,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [66, 0, 0]
+                        "PP09": [66, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11909,7 +11909,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP09": [74.77, 0, 0]
+                        "PP09": [74.77, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -11953,7 +11953,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP09": [504, 0, 0]
+                        "PP09": [504, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12007,7 +12007,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP09": [1, 0, 0]
+                        "PP09": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12051,7 +12051,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP09": [1, 0, 0]
+                        "PP09": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12095,7 +12095,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [70, 0, 0]
+                        "PP09": [70, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12132,7 +12132,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Reset (E) Granite Curb",
                 "pp_a_qty": {
                     "R-09": {
-                        "PP09": [11, 0, 0]
+                        "PP09": [11, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12178,7 +12178,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Gutter",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [6.5, 0, 0]
+                        "PP09": [6.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12221,7 +12221,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP09": [177, 0, 0]
+                        "PP09": [177, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12267,7 +12267,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP09": [22, 0, 0]
+                        "PP09": [22, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12314,7 +12314,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Reset (E) Granite Curb",
                 "pp_a_qty": {
                     "R-09": {
-                        "PP09": [16.5, 0, 0]
+                        "PP09": [16.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12357,7 +12357,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP10": [9636, 0, 0]
+                        "PP10": [9636, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12394,7 +12394,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [90, 0, 0]
+                        "PP09": [90, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12431,7 +12431,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Gutter",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [8.5, 0, 0]
+                        "PP09": [8.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12472,7 +12472,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP09": [20, 0, 0]
+                        "PP09": [20, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12520,7 +12520,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP09": [226.5, 0, 0]
+                        "PP09": [226.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12565,7 +12565,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP09": [389, 0, 0]
+                        "PP09": [389, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12617,7 +12617,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [105, 0, 0]
+                        "PP09": [105, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12654,7 +12654,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [142, 0, 0]
+                        "PP09": [142, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12691,7 +12691,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP09": [756, 0, 0]
+                        "PP09": [756, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12728,7 +12728,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP10": [46, 0, 0]
+                        "PP10": [46, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12765,7 +12765,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP10": [107, 0, 0]
+                        "PP10": [107, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12802,7 +12802,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP10": [159, 0, 0]
+                        "PP10": [159, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12839,7 +12839,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP10": [43, 0, 0]
+                        "PP10": [43, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12877,7 +12877,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP10": [154, 0, 0]
+                        "PP10": [154, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12915,7 +12915,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP10": [36, 0, 0]
+                        "PP10": [36, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12954,7 +12954,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP10": [6.5, 0, 0]
+                        "PP10": [6.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -12991,7 +12991,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Reset (E) Granite Curb",
                 "pp_a_qty": {
                     "R-09": {
-                        "PP10": [22, 0, 0]
+                        "PP10": [22, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13028,7 +13028,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP10": [1, 0, 0]
+                        "PP10": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13065,7 +13065,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP10": [1, 0, 0]
+                        "PP10": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13102,7 +13102,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Reset (E) Granite Curb",
                 "pp_a_qty": {
                     "R-09": {
-                        "PP10": [9, 0, 0]
+                        "PP10": [9, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13139,7 +13139,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP10": [16, 0, 0]
+                        "PP10": [16, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13179,7 +13179,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP10": [28.5, 0, 0]
+                        "PP10": [28.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13222,7 +13222,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP12": [28, 0, 0]
+                        "PP12": [28, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13261,7 +13261,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP10": [239, 0, 0]
+                        "PP10": [239, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13307,7 +13307,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP10": [213, 0, 0]
+                        "PP10": [213, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13354,7 +13354,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     "R-07": {
-                        "PP10": [451, 0, 0]
+                        "PP10": [451, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13393,7 +13393,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [1012, 0, 0]
+                        "PP11": [1012, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13431,7 +13431,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [308, 0, 0]
+                        "PP11": [308, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13468,7 +13468,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [396, 0, 0]
+                        "PP11": [396, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13505,7 +13505,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [127, 0, 0]
+                        "PP11": [127, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13542,7 +13542,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [888, 0, 0]
+                        "PP11": [888, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13592,7 +13592,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [1254, 0, 0]
+                        "PP11": [1254, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13629,7 +13629,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [760, 0, 0]
+                        "PP11": [760, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13666,7 +13666,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [9896, 0, 0]
+                        "PP11": [9896, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13703,7 +13703,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [11212, 0, 0]
+                        "PP11": [11212, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13742,7 +13742,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [10630, 0, 0]
+                        "PP11": [10630, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13779,7 +13779,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [4769, 0, 0]
+                        "PP11": [4769, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13816,7 +13816,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [687, 0, 0]
+                        "PP11": [687, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13853,7 +13853,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [1334, 0, 0]
+                        "PP11": [1334, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13890,7 +13890,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [556, 0, 0]
+                        "PP11": [556, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -13927,7 +13927,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [37974, 0, 0]
+                        "PP11": [37974, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14038,7 +14038,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [11279, 0, 0]
+                        "PP11": [11279, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14075,7 +14075,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [10955, 0, 0]
+                        "PP11": [10955, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14112,10 +14112,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP11": [3800, 0, 0]
+                        "PP11": [3800, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP11": [1341, 0, 0]
+                        "PP11": [1341, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14262,7 +14262,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP11": [215, 0, 0]
+                        "PP11": [215, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14301,10 +14301,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP11": [1500, 0, 0]
+                        "PP11": [1500, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP11": [497, 0, 0]
+                        "PP11": [497, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14345,7 +14345,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [980, 0, 0]
+                        "PP11": [980, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14382,7 +14382,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [697, 0, 0]
+                        "PP11": [697, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14420,7 +14420,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [168, 0, 0]
+                        "PP11": [168, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14458,7 +14458,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [1020, 0, 0]
+                        "PP11": [1020, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14495,7 +14495,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [650, 0, 0]
+                        "PP11": [650, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14534,7 +14534,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [754, 0, 0]
+                        "PP11": [754, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14574,7 +14574,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [1440, 0, 0]
+                        "PP11": [1440, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14612,7 +14612,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [528, 0, 0]
+                        "PP11": [528, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14651,7 +14651,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     "R-06": {
-                        "PP11": [912, 0, 0]
+                        "PP11": [912, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14687,7 +14687,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14731,7 +14731,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14774,7 +14774,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14817,7 +14817,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14858,7 +14858,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14900,7 +14900,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14944,7 +14944,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -14981,7 +14981,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     "R-12": {
-                        "PP13": [1, 0, 0]
+                        "PP13": [1, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15020,7 +15020,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP13": [54.5, 0, 0]
+                        "PP13": [54.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15080,7 +15080,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP13": [39.5, 0, 0]
+                        "PP13": [39.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15143,7 +15143,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP13": [17.5, 0, 0]
+                        "PP13": [17.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15183,7 +15183,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     "R-11": {
-                        "PP13": [36.5, 0, 0]
+                        "PP13": [36.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15222,7 +15222,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP13": [2.5, 0, 0]
+                        "PP13": [2.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15259,7 +15259,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Concrete Curb",
                 "pp_a_qty": {
                     "R-10": {
-                        "PP13": [4.5, 0, 0]
+                        "PP13": [4.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15296,7 +15296,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [445, 0, 0]
+                        "PP13": [445, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15340,7 +15340,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [201, 0, 0]
+                        "PP13": [201, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15380,7 +15380,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [15, 0, 0]
+                        "PP13": [15, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15416,7 +15416,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [221, 0, 0]
+                        "PP13": [221, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15459,7 +15459,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [467, 0, 0]
+                        "PP13": [467, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15508,7 +15508,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     "R-08": {
-                        "PP13": [291, 0, 0]
+                        "PP13": [291, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15554,7 +15554,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "R-05": {
-                        "PP13": [163486.44 / 12, 0, 0]
+                        "PP13": [163486.44 / 12, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15712,7 +15712,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [1848 + 27, 0, 0]
+                        "PP13": [1848 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15752,7 +15752,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [840 + 27, 0, 0]
+                        "PP13": [840 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15792,7 +15792,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [200 + 27, 0, 0]
+                        "PP13": [200 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15831,7 +15831,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [2895 + 27, 0, 0]
+                        "PP13": [2895 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15876,7 +15876,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [1485 + 27, 0, 0]
+                        "PP13": [1485 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15914,7 +15914,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [1250 + 27, 0, 0]
+                        "PP13": [1250 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15954,7 +15954,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [222 + 27, 0, 0]
+                        "PP13": [222 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -15997,7 +15997,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [46 + 27, 0, 0]
+                        "PP13": [46 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16034,7 +16034,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [10608 + 27, 0, 0]
+                        "PP13": [10608 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16094,10 +16094,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [4650, 0, 0]
+                        "PP13": [4650, 0, 0, 0]
                     },        
                     "R-04": {
-                        "PP13": [689, 0, 0]
+                        "PP13": [689, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16271,7 +16271,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [720 + 27, 0, 0]
+                        "PP13": [720 + 27, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16308,7 +16308,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 204, 0]
+                        "PP13": [0, 204, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16344,7 +16344,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 157, 0]
+                        "PP13": [0, 157, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16381,7 +16381,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "8in Concrete Base",
                 "pp_a_qty": {
                     "SW-28": {
-                        "PP13": [0, 814, 0]
+                        "PP13": [0, 814, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16422,7 +16422,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [32 * 17, 0, 0]
+                        'PP13': [32 * 17, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16460,7 +16460,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [60, 0, 0]
+                        'PP13': [60, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16503,7 +16503,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [39 * 55, 0, 0]
+                        'PP13': [39 * 55, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16545,7 +16545,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [13 * 333, 0, 0]
+                        'PP13': [13 * 333, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16586,7 +16586,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [11 * 14, 0, 0]
+                        'PP13': [11 * 14, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16623,7 +16623,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [12 * 331, 0, 0]
+                        'PP13': [12 * 331, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16662,7 +16662,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [10.5 * 12, 0, 0]
+                        'PP13': [10.5 * 12, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16699,7 +16699,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [23 * 221, 0, 0]
+                        'PP13': [23 * 221, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16737,7 +16737,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [23 * 65, 0, 0]
+                        'PP13': [23 * 65, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16774,7 +16774,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [13 * 220, 0, 0]
+                        'PP13': [13 * 220, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16811,7 +16811,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [14 * 33, 0, 0]
+                        'PP13': [14 * 33, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16848,7 +16848,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [2998, 0, 0]
+                        'PP13': [2998, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16887,7 +16887,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [102, 0, 0]
+                        'PP13': [102, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16924,7 +16924,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "10in Concrete Base",
                 "pp_a_qty": {
                     'R-06': {
-                        'PP13': [9 * 11, 0, 0]
+                        'PP13': [9 * 11, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -16962,10 +16962,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [1260, 0, 0]
+                        "PP13": [1260, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [264.5, 0, 0]
+                        "PP13": [264.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17015,10 +17015,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [80, 0, 0]
+                        "PP13": [80, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [6, 0, 0]
+                        "PP13": [6, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17070,10 +17070,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [80, 0, 0]
+                        "PP13": [80, 0, 0, 0]
                     },                   
                     "R-04": {
-                        "PP13": [5, 0, 0]
+                        "PP13": [5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17129,7 +17129,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [18435, 0, 0]
+                        "PP13": [18435, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17179,7 +17179,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [400, 0, 0]
+                        "PP13": [400, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17231,10 +17231,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [2200, 0, 0]
+                        "PP13": [2200, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [390, 0, 0]
+                        "PP13": [390, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17280,7 +17280,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [25300, 0, 0]
+                        "PP13": [25300, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17326,10 +17326,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [2200, 0, 0]
+                        "PP13": [2200, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [398, 0, 0]
+                        "PP13": [398, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17409,7 +17409,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [25825, 0, 0]
+                        "PP13": [25825, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17489,10 +17489,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [2300, 0, 0]
+                        "PP13": [2300, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [492.5, 0, 0]
+                        "PP13": [492.5, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17579,7 +17579,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [31993, 0, 0]
+                        "PP13": [31993, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17666,10 +17666,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [1350, 0, 0]
+                        "PP13": [1350, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [299, 0, 0]
+                        "PP13": [299, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17716,7 +17716,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [19425, 0, 0]
+                        "PP13": [19425, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17763,7 +17763,7 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Planing",
                 "pp_a_qty": {
                     "R-03": {
-                        "PP13": [22046, 0, 0]
+                        "PP13": [22046, 0, 0, 0]
                     }
                 },
                 get pp_history() {
@@ -17834,10 +17834,10 @@ var json_1243I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 "pp_a_qty": {
                     "R-02": {
-                        "PP13": [2150, 0, 0]
+                        "PP13": [2150, 0, 0, 0]
                     },
                     "R-04": {
-                        "PP13": [321, 0, 0]
+                        "PP13": [321, 0, 0, 0]
                     }
                 },
                 get pp_history() {

@@ -145,10 +145,10 @@ var json_1243I_sewer_points = {
                 "scope": "Remove (E)",
                 "pp_history": {
                     'SW-07': {
-                         'PP13': [0, 0, 3700]
+                         'PP13': [0, 0, 3700, 0]
                      },
                     'PCO-02_SW-07': {
-                        'PP13': [0, 0, -3700]
+                        'PP13': [0, 0, -3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -185,7 +185,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP08': [0, 0, 8500]
+                        'PP08': [0, 0, 8500, 0],
+                        'PP14': [0, 0, -8500, 8500]
                     }
                 },
                 get pp_summary() {
@@ -222,7 +223,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
                     'SW-04': {
-                        'PP12': [0, 40000, 0]
+                        'PP12': [0, 40000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -259,7 +260,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
                     'SW-04': {
-                        'PP12': [0, 40000, 0]
+                        'PP12': [0, 40000, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -296,8 +297,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP07': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP07': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -334,7 +335,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP08': [0, 8500, 0]
+                        'PP08': [0, 8500, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -370,8 +371,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP04': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -408,8 +409,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP05': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76]
+                        'PP05': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0]
                     }
                 },
                 get pp_summary() {
@@ -446,13 +447,13 @@ var json_1243I_sewer_points = {
                 "scope": "Remove (E)",
                 "pp_history": {
                     'SW-07': {
-                        'PP13': [0, 0, 3700]
+                        'PP13': [0, 0, 3700, 0]
                     },
                     'PCO-02_SW-07': {
-                        'PP13': [0, 0, -3700]
+                        'PP13': [0, 0, -3700, 0]
                     },
                     'PCO-02_SW-39': {
-                        'PP13': [0, 0, 3000]
+                        'PP13': [0, 0, 3000, 0]
                     }
                 },
                 get pp_summary() {
@@ -488,7 +489,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP02': [5000, 0, 0]
+                        'PP02': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -567,8 +568,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -605,7 +606,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP09': [5000, 0, 0]
+                        'PP09': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -642,7 +643,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP08': [5000, 0, 0]
+                        'PP08': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -679,7 +680,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,184",
                 "pp_history": {
                     'SW-05': {
-                        'PP08': [0, 0, 40000]
+                        'PP08': [0, 0, 40000, 0]
                     }
                 },
                 get pp_summary() {
@@ -1177,7 +1178,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,184",
                 "pp_history": {
                     'SW-05': {
-                        'PP08': [0, 0, 40000]
+                        'PP08': [0, 0, 40000, 0]
                     }
                 },
                 get pp_summary() {
@@ -1423,7 +1424,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'PCO-02_SW-03': {
-                        'PP13': [0, 0, 9500]
+                        'PP13': [0, 0, 9500, 0]
                     }
                 },
                 get pp_summary() {
@@ -1544,8 +1545,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP02': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76]
+                        'PP02': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0]
                     }
                 },
                 get pp_summary() {
@@ -1792,7 +1793,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP08': [0, 8500, 0]
+                        'PP08': [0, 8500, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -2291,8 +2292,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP04': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -2329,7 +2330,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP08': [0, 8500, 0]
+                        'PP08': [0, 8500, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -2408,8 +2409,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP04': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -2614,7 +2615,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole riser per std 87,185",
                 "pp_history": {
                     'PCO-02_SW-36': {
-                        'PP13': [0, 0, 20000]
+                        'PP13': [0, 0, 20000, 0]
                     }
                 },
                 get pp_summary() {
@@ -2735,8 +2736,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.23, 404.77],
-                        'PP08': [0, 404.77, -404.77],
+                        'PP01': [0, 8095.23, 404.77, 0],
+                        'PP08': [0, 404.77, -404.77, 0],
                     }
                 },
                 get pp_summary() {
@@ -3151,13 +3152,13 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-07': {
-                        'PP13': [0, 0, 3700]
+                        'PP13': [0, 0, 3700, 0]
                     },
                     'PCO-02_SW-03': {
-                        'PP13': [0, 0, 9500]
+                        'PP13': [0, 0, 9500, 0]
                     },
                     'PCO-02_SW-07': {
-                        'PP13': [0, 0, -3700]
+                        'PP13': [0, 0, -3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -3194,10 +3195,10 @@ var json_1243I_sewer_points = {
                 "scope": "Remove (E)",
                 "pp_history": {
                     'SW-07': {
-                        'PP13': [0, 0, 3700]
+                        'PP13': [0, 0, 3700, 0]
                     },
                     'PCO-02_SW-07': {
-                        'PP13': [0, 0, -3700]
+                        'PP13': [0, 0, -3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -3570,8 +3571,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -4111,13 +4112,13 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-05': {
-                        'PP09': [0, 0, 40000]
+                        'PP09': [0, 0, 40000, 0]
                     },   
                     'PCO-02_SW-05': {
-                        'PP13': [0, 0, -40000]
+                        'PP13': [0, 0, -40000, 0]
                     },
                     'PCO-02_SW-03': {
-                        'PP13': [0, 0, 9500]
+                        'PP13': [0, 0, 9500, 0]
                     }
 
                 },
@@ -4197,8 +4198,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP03': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -4360,10 +4361,10 @@ var json_1243I_sewer_points = {
                 "scope": "Remove (E)",
                 "pp_history": {
                     'SW-07': {
-                        'PP13': [0, 0, 3700]
+                        'PP13': [0, 0, 3700, 0]
                     },
                     'PCO-02_SW-07': {
-                        'PP13': [0, 0, -3700]
+                        'PP13': [0, 0, -3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -4652,8 +4653,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP03': [0, 8095.23, 404.77],
-                        'PP08': [0, 404.77, -404.77],
+                        'PP03': [0, 8095.23, 404.77, 0],
+                        'PP08': [0, 404.77, -404.77, 0],
                     }
                 },
                 get pp_summary() {
@@ -5026,8 +5027,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP01': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -5350,8 +5351,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP04': [0, 8095.23, 404.77],
-                        'PP08': [0, 404.77, -404.77],
+                        'PP04': [0, 8095.23, 404.77, 0],
+                        'PP08': [0, 404.77, -404.77, 0],
                     }
                 },
                 get pp_summary() {
@@ -5514,7 +5515,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP09': [5000, 0, 0]
+                        'PP09': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5551,7 +5552,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP09': [5000, 0, 0]
+                        'PP09': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5588,7 +5589,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP09': [5000, 0, 0]
+                        'PP09': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5625,7 +5626,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP08': [5000, 0, 0]
+                        'PP08': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5746,7 +5747,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP12': [5000, 0, 0]
+                        'PP12': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -6077,7 +6078,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP02': [5000, 0, 0]
+                        'PP02': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -6114,8 +6115,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76]
+                        'PP01': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0]
                     }
                 },
                 get pp_summary() {
@@ -6152,7 +6153,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP01': [5000, 0, 0]
+                        'PP01': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -6189,7 +6190,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
                     'SW-23': {
-                        'PP01': [5000, 0, 0]
+                        'PP01': [5000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -6394,8 +6395,8 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,181",
                 "pp_history": {
                     'SW-03': {
-                        'PP01': [0, 8095.24, 404.76],
-                        'PP08': [0, 404.76, -404.76],
+                        'PP01': [0, 8095.24, 404.76, 0],
+                        'PP08': [0, 404.76, -404.76, 0],
                     }
                 },
                 get pp_summary() {
@@ -6600,7 +6601,7 @@ var json_1243I_sewer_points = {
                 "scope": "Install (N) manhole per std 87,182",
                 "pp_history": {
                     'SW-04': {
-                        'PP12': [40000, 0, 0]
+                        'PP12': [40000, 0, 0, 0]
                     }
                 },
                 get pp_summary() {

@@ -98,6 +98,26 @@ function generate_qty_tracking_table(table_id, bid_item)
             footerFormatter: function() {
                 return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_ssp), '<b>')
             }
+        },
+        {
+            field: 'qty_fol',
+            title: 'FOL<br>QTY',
+            align: 'right',
+            class: 'period_qty_fol',
+            formatter: qty_formatter_with_dec,
+            footerFormatter: function() {
+                return '<b>'.concat(qty_formatter_with_dec_core_function(qty_array_to_date[bid_item].qty_fol, qty_array_to_date[bid_item].unit), '<b>')
+            }
+        },
+        {
+            field: 'amt_fol',
+            title: 'FOL<br>Amount',
+            align: 'center',
+            class: 'period_amt_fol',
+            formatter: dollar_formatter_accounting,
+            footerFormatter: function() {
+                return '<b>'.concat(dollar_formatter_accounting(qty_array_to_date[bid_item].amt_fol), '<b>')
+            }
         }
     ];
 

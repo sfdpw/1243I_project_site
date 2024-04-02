@@ -62,6 +62,8 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
                             'qty_rnr': construction_instance.properties.pp_history[bid_item][period_charge][1] / unit_price,
                             'amt_ssp': construction_instance.properties.pp_history[bid_item][period_charge][2],
                             'qty_ssp': construction_instance.properties.pp_history[bid_item][period_charge][2] / unit_price,
+                            'amt_fol': construction_instance.properties.pp_history[bid_item][period_charge][3],
+                            'qty_fol': construction_instance.properties.pp_history[bid_item][period_charge][3] / unit_price,
                             'amt_tot': construction_instance.properties.pp_history[bid_item][period_charge][0] +
                                 construction_instance.properties.pp_history[bid_item][period_charge][1] +
                                 construction_instance.properties.pp_history[bid_item][period_charge][2],
@@ -142,6 +144,8 @@ for (const bid_item of Object.keys(qty_array)) {
     bid_item_total.amt.rnr = 0;
     bid_item_total.qty.ssp = 0;
     bid_item_total.amt.ssp = 0;
+    bid_item_total.qty.fol = 0;
+    bid_item_total.amt.fol = 0;
     bid_item_total.qty.tot = 0;
     bid_item_total.amt.tot = 0;
 
@@ -153,6 +157,8 @@ for (const bid_item of Object.keys(qty_array)) {
         bid_item_total.amt.rnr += charge_instance.amt_rnr;
         bid_item_total.qty.ssp += charge_instance.qty_ssp;
         bid_item_total.amt.ssp += charge_instance.amt_ssp;
+        bid_item_total.qty.fol += charge_instance.qty_fol;
+        bid_item_total.amt.fol += charge_instance.amt_fol;
         bid_item_total.qty.tot += charge_instance.qty_tot;
         bid_item_total.amt.tot += charge_instance.amt_tot;
 
@@ -171,6 +177,8 @@ for (const bid_item of Object.keys(qty_array)) {
         'qty_rnr': bid_item_total.qty.rnr,
         'amt_ssp': bid_item_total.amt.ssp,
         'qty_ssp': bid_item_total.qty.ssp,
+        'amt_fol': bid_item_total.amt.fol,
+        'qty_fol': bid_item_total.qty.fol,
         'amt_tot': bid_item_total.amt.tot,
         'qty_tot': bid_item_total.qty.tot,
         'unit': uunit
@@ -194,6 +202,8 @@ var period_summary_row_obj =
     'qty_rnr': 0,
     'amt_ssp': 0,
     'qty_ssp': 0,
+    'amt_fol': 0,
+    'qty_fol': 0,
     'amt_tot': 0,
     'qty_tot': 0,
     'submittals.tvi_pre_con.submittal_no': '',
@@ -252,6 +262,8 @@ for (const bid_item of Object.keys(qty_array)) {
     var qty_period_details_qty_rnr = 0;
     var qty_period_details_amt_ssp = 0;
     var qty_period_details_qty_ssp = 0;
+    var qty_period_details_amt_fol = 0;
+    var qty_period_details_qty_fol = 0;
     var qty_period_details_amt_tot = 0;
     var qty_period_details_qty_tot = 0;
 
@@ -266,6 +278,8 @@ for (const bid_item of Object.keys(qty_array)) {
             qty_period_details_qty_rnr += qty_array[bid_item][instance_index].qty_rnr;
             qty_period_details_amt_ssp += qty_array[bid_item][instance_index].amt_ssp;
             qty_period_details_qty_ssp += qty_array[bid_item][instance_index].qty_ssp;
+            qty_period_details_amt_fol += qty_array[bid_item][instance_index].amt_fol;
+            qty_period_details_qty_fol += qty_array[bid_item][instance_index].qty_fol;
             qty_period_details_amt_tot += qty_array[bid_item][instance_index].amt_tot;
             qty_period_details_qty_tot += qty_array[bid_item][instance_index].qty_tot;
 
@@ -280,6 +294,8 @@ for (const bid_item of Object.keys(qty_array)) {
             qty_array[bid_item][instance_index].qty_rnr = qty_period_details_qty_rnr;
             qty_array[bid_item][instance_index].amt_ssp = qty_period_details_amt_ssp;
             qty_array[bid_item][instance_index].qty_ssp = qty_period_details_qty_ssp;
+            qty_array[bid_item][instance_index].amt_fol = qty_period_details_amt_fol;
+            qty_array[bid_item][instance_index].qty_fol = qty_period_details_qty_fol;
             qty_array[bid_item][instance_index].amt_tot = qty_period_details_amt_tot;
             qty_array[bid_item][instance_index].qty_tot = qty_period_details_qty_tot;
 
@@ -290,6 +306,8 @@ for (const bid_item of Object.keys(qty_array)) {
             qty_period_details_qty_rnr = 0;
             qty_period_details_amt_ssp = 0;
             qty_period_details_qty_ssp = 0;
+            qty_period_details_amt_fol = 0;
+            qty_period_details_qty_fol = 0;
             qty_period_details_amt_tot = 0;
             qty_period_details_qty_tot = 0;
 

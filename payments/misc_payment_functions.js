@@ -23,6 +23,8 @@ function get_payment_details(item_obj) {
     return_obj.period.amt.rnr = {};
     return_obj.period.qty.ssp = {};
     return_obj.period.amt.ssp = {};
+    return_obj.period.qty.fol = {};
+    return_obj.period.amt.fol = {};
     return_obj.period.qty.tot = {};
     return_obj.period.amt.tot = {};
 
@@ -36,6 +38,8 @@ function get_payment_details(item_obj) {
     return_obj.todate.amt.rnr = {};
     return_obj.todate.qty.ssp = {};
     return_obj.todate.amt.ssp = {};
+    return_obj.todate.qty.fol = {};
+    return_obj.todate.amt.fol = {};
     return_obj.todate.qty.tot = {};
     return_obj.todate.amt.tot = {};
 
@@ -44,8 +48,8 @@ function get_payment_details(item_obj) {
     for (var pp = 0; pp < item_obj.pp_history.length; pp++) {
 
         if (item_obj.pp_history[pp].length == 0) {
-            item_obj.pp_history[pp] = [0, 0, 0];
-        }
+            item_obj.pp_history[pp] = [0, 0, 0, 0];
+        } 
 
         return_obj.period.qty.esh[pp] = item_obj.pp_history[pp][0] / item_obj.unit_price;
         return_obj.period.amt.esh[pp] = item_obj.pp_history[pp][0];
@@ -56,7 +60,14 @@ function get_payment_details(item_obj) {
         return_obj.period.qty.ssp[pp] = item_obj.pp_history[pp][2] / item_obj.unit_price;
         return_obj.period.amt.ssp[pp] = item_obj.pp_history[pp][2];
 
-        return_obj.period.amt.tot[pp] = item_obj.pp_history[pp][0] + item_obj.pp_history[pp][1] + item_obj.pp_history[pp][2];
+        return_obj.period.qty.fol[pp] = item_obj.pp_history[pp][3] / item_obj.unit_price;
+        return_obj.period.amt.fol[pp] = item_obj.pp_history[pp][3];
+
+        return_obj.period.amt.tot[pp] =
+            item_obj.pp_history[pp][0] +
+            item_obj.pp_history[pp][1] +
+            item_obj.pp_history[pp][2] +
+            item_obj.pp_history[pp][3];
         return_obj.period.qty.tot[pp] = return_obj.period.amt.tot[pp] / item_obj.unit_price;
 
 
@@ -66,6 +77,7 @@ function get_payment_details(item_obj) {
             return_obj.period.qty.esh[pp] = '';
             return_obj.period.qty.rnr[pp] = '';
             return_obj.period.qty.ssp[pp] = '';
+            return_obj.period.qty.fol[pp] = '';
 
         }
 
@@ -79,6 +91,7 @@ function get_payment_details(item_obj) {
         return_obj.todate.amt.esh[pptd] = 0;
         return_obj.todate.amt.rnr[pptd] = 0;
         return_obj.todate.amt.ssp[pptd] = 0;
+        return_obj.todate.amt.fol[pptd] = 0;
         return_obj.todate.amt.tot[pptd] = 0;
 
         for (var pp = 0; pp <= pptd; pp++) {
@@ -86,6 +99,7 @@ function get_payment_details(item_obj) {
             return_obj.todate.amt.esh[pptd] += return_obj.period.amt.esh[pp];
             return_obj.todate.amt.rnr[pptd] += return_obj.period.amt.rnr[pp];
             return_obj.todate.amt.ssp[pptd] += return_obj.period.amt.ssp[pp];
+            return_obj.todate.amt.fol[pptd] += return_obj.period.amt.fol[pp];
             return_obj.todate.amt.tot[pptd] += return_obj.period.amt.tot[pp];
 
         }
@@ -93,6 +107,7 @@ function get_payment_details(item_obj) {
         return_obj.todate.qty.esh[pptd] = return_obj.todate.amt.esh[pptd] / item_obj.unit_price;
         return_obj.todate.qty.rnr[pptd] = return_obj.todate.amt.rnr[pptd] / item_obj.unit_price;
         return_obj.todate.qty.ssp[pptd] = return_obj.todate.amt.ssp[pptd] / item_obj.unit_price;
+        return_obj.todate.qty.fol[pptd] = return_obj.todate.amt.fol[pptd] / item_obj.unit_price;
         return_obj.todate.qty.tot[pptd] = return_obj.todate.amt.tot[pptd] / item_obj.unit_price;
 
         if (item_obj.description == '<b>Totals:<b>') {
@@ -101,6 +116,7 @@ function get_payment_details(item_obj) {
             return_obj.todate.qty.esh[pptd] = '';
             return_obj.todate.qty.rnr[pptd] = '';
             return_obj.todate.qty.ssp[pptd] = '';
+            return_obj.todate.qty.fol[pptd] = '';
 
         }
 
@@ -117,8 +133,17 @@ function get_payment_details(item_obj) {
     return_obj.allctd.qty.ssp = item_obj.alloc_ssp / item_obj.unit_price;
     return_obj.allctd.amt.ssp = item_obj.alloc_ssp;
 
-    return_obj.allctd.qty.tot = (item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp) / item_obj.unit_price;
-    return_obj.allctd.amt.tot = item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp;
+    return_obj.allctd.qty.fol = item_obj.alloc_fol / item_obj.unit_price;
+    return_obj.allctd.amt.fol = item_obj.alloc_fol;
+
+    return_obj.allctd.qty.tot = (
+        item_obj.alloc_esh +
+        item_obj.alloc_rnr +
+        item_obj.alloc_ssp +
+        item_obj.alloc_fol
+    ) / item_obj.unit_price;
+
+    return_obj.allctd.amt.tot = item_obj.alloc_esh + item_obj.alloc_rnr + item_obj.alloc_ssp + item_obj.alloc_fol;
 
     return return_obj
 
@@ -135,13 +160,14 @@ function payment_summary_from_pp_history(pp_history_obj) {
 
         if (bid_item != 'SW-0') {
 
-            return_obj[bid_item] = [0, 0, 0];
+            return_obj[bid_item] = [0, 0, 0, 0];
 
             for (const period_detail of Object.keys(pp_history_obj[bid_item])) {
 
                 return_obj[bid_item][0] += pp_history_obj[bid_item][period_detail][0];
                 return_obj[bid_item][1] += pp_history_obj[bid_item][period_detail][1];
                 return_obj[bid_item][2] += pp_history_obj[bid_item][period_detail][2];
+                return_obj[bid_item][3] += pp_history_obj[bid_item][period_detail][3];
 
             }
 
@@ -169,11 +195,12 @@ function pp_history_from_pp_qty_history(item_obj) {
 
         for (const pp_number of Object.keys(item_obj.pp_a_qty[bid_item])) {
 
-            return_obj[bid_item][pp_number] = [0, 0, 0];
+            return_obj[bid_item][pp_number] = [0, 0, 0, 0];
 
             return_obj[bid_item][pp_number][0] = item_obj.pp_a_qty[bid_item][pp_number][0] * unit_price;
             return_obj[bid_item][pp_number][1] = item_obj.pp_a_qty[bid_item][pp_number][1] * unit_price;
             return_obj[bid_item][pp_number][2] = item_obj.pp_a_qty[bid_item][pp_number][2] * unit_price;
+            return_obj[bid_item][pp_number][3] = item_obj.pp_a_qty[bid_item][pp_number][3] * unit_price;
 
         }
 
