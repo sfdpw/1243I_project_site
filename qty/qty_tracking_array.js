@@ -66,10 +66,12 @@ for (const construction_instance of json_1243I_sewer_points.features.concat(json
                             'qty_fol': construction_instance.properties.pp_history[bid_item][period_charge][3] / unit_price,
                             'amt_tot': construction_instance.properties.pp_history[bid_item][period_charge][0] +
                                 construction_instance.properties.pp_history[bid_item][period_charge][1] +
-                                construction_instance.properties.pp_history[bid_item][period_charge][2],
+                                construction_instance.properties.pp_history[bid_item][period_charge][2] +
+                                construction_instance.properties.pp_history[bid_item][period_charge][3],
                             'qty_tot': (construction_instance.properties.pp_history[bid_item][period_charge][0] +
                                 construction_instance.properties.pp_history[bid_item][period_charge][1] +
-                                construction_instance.properties.pp_history[bid_item][period_charge][2]) / unit_price,
+                                construction_instance.properties.pp_history[bid_item][period_charge][2] +
+                                construction_instance.properties.pp_history[bid_item][period_charge][3]) / unit_price,
                             'unit': uunit
 
                         };

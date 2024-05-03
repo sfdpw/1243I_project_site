@@ -19,13 +19,8 @@ var json_1243I_sewer_points = {
                 "location": "490 South Van Ness Ave",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -60,13 +55,8 @@ var json_1243I_sewer_points = {
                 "location": "566 South Van Ness Ave",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -102,13 +92,8 @@ var json_1243I_sewer_points = {
                 "location": "510 South Van Ness Ave",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -1009,13 +994,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Visitacion Ave and Sawyer St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 3700, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -1382,13 +1362,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and 15th St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -1955,13 +1930,8 @@ var json_1243I_sewer_points = {
                 "location": "490 South Van Ness Ave",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -2572,13 +2542,8 @@ var json_1243I_sewer_points = {
                 "location": "South Van Ness Ave - North of 17th St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -4070,13 +4035,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and 14th St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 3700, 0]
                     }
                 },
                 get pp_summary() {
@@ -5951,13 +5911,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and Erie St",
                 "scope": "Mortar (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-07': {
+                        'PP15': [0, 0, 0, 3700]
                     }
                 },
                 get pp_summary() {

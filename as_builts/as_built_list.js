@@ -92,11 +92,19 @@ var json_ab_list = [
 	'1243I_pp_13_ab_R_09_a',
 	'1243I_pp_13_ab_R_09_b',
 	'1243I_pp_13_ab_SW_10',
-        '1243I_pp_13_ab_CR_08',
-        '1243I_pp_13_ab_CR_09',
-        '1243I_pp_13_ab_CR_10'
-	
- ];
+	'1243I_pp_13_ab_CR_08',
+	'1243I_pp_13_ab_CR_09',
+	'1243I_pp_13_ab_CR_10',
+	'1243I_PP15_as_built_R_06_a',
+	'1243I_PP15_as_built_R_06_b',
+	'1243I_PP15_as_built_SW-03',
+	'1243I_PP15_as_built_SW-04',
+	'1243I_PP15_as_built_SW-05',
+	'1243I_PP15_as_built_SW-06',
+	'1243I_PP15_as_built_SW-07',
+	'1243I_PP15_as_built_SW-11'
+
+];
 
 
 
