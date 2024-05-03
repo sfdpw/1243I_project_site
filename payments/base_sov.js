@@ -1327,7 +1327,7 @@ var base_sov =
 
         {
             "bid_item": "SW-24",
-            'linked_bi': false,
+            'linked_bi': true,
             get linked_bid_item() {
                 if (this.linked_bi) { return linked_bid_item_string_geneator_from_sov(this.bid_item) }
                 else { return this.bid_item }
@@ -1340,24 +1340,8 @@ var base_sov =
             "alloc_rnr": 4950,
             "alloc_ssp": 3300,
             "alloc_fol": 0,
-            'pp_history': [
-                [], // PP00
-                [], // PP01
-                [], // PP02
-                [], // PP03
-                [], // PP04
-                [], // PP05
-                [], // PP06
-                [], // PP07
-                [], // PP08
-                [], // PP09
-                [], // PP10
-                [], // PP11
-                [], // PP12
-                [], // PP13
-                [], // PP14
-                [], // PP15
-            ],
+            'pp_history': structuredClone(empty_pp_history_array),
+
             get payment_details() {
                 return get_payment_details(this)
             }

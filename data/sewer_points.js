@@ -130,8 +130,8 @@ var json_1243I_sewer_points = {
                 "scope": "Remove (E)",
                 "pp_history": {
                     'SW-07': {
-                         'PP13': [0, 0, 3700, 0]
-                     },
+                        'PP13': [0, 0, 3700, 0]
+                    },
                     'PCO-02_SW-07': {
                         'PP13': [0, 0, -3700, 0]
                     }
@@ -1194,13 +1194,8 @@ var json_1243I_sewer_points = {
                 "location": "490 South Van Ness Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -1435,13 +1430,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and 15th St - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -1967,13 +1957,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and 15th St - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -2336,13 +2321,8 @@ var json_1243I_sewer_points = {
                 "location": "131 South Van Ness Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -3409,13 +3389,8 @@ var json_1243I_sewer_points = {
                 "location": "2 Loehr St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -3573,13 +3548,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Leland Ave and Elliot St - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -3604,6 +3574,41 @@ var json_1243I_sewer_points = {
 
         },
 
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "173276",
+                "id_b": "none",
+                "location": "Intersection of Leland Ave and Britton St - SWC",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
+                    }
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.41213842163252, 37.713785369679734]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+
+        },
 
         // ######################################
 
@@ -3783,13 +3788,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of South Van Ness Ave and Howard St - North Corner",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -3951,13 +3951,8 @@ var json_1243I_sewer_points = {
                 "location": "550 South Van Ness Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -4073,7 +4068,7 @@ var json_1243I_sewer_points = {
                 "pp_history": {
                     'SW-05': {
                         'PP09': [0, 0, 40000, 0]
-                    },   
+                    },
                     'PCO-02_SW-05': {
                         'PP13': [0, 0, -40000, 0]
                     },
@@ -4650,13 +4645,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Leland Ave and Rey St - SWC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -4692,13 +4682,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Visitacion Ave and Sawyer St - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -4723,6 +4708,128 @@ var json_1243I_sewer_points = {
 
         },
 
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "173332",
+                "id_b": "none",
+                "location": "Intersection of Velasco Ave and Rio Verde St - SWC",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.415179845006847, 37.708724289110677]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+
+        },
+
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "173333",
+                "id_b": "none",
+                "location": "Intersection of Velasco Ave and Rio Verde St - SEC",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ -122.415046174202033, 37.70868446926454 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+
+        },
+
+                // ######################################
+
+                {
+                    "type": "Feature",
+                    "properties": {
+                        "id_a": "163442",
+                        "id_b": "none",
+                        "location": "Intersection of Velasco Ave and Rio Verde St - NEC",
+                        "scope": "(E) to remain",
+                        "pp_history": {
+                            'SW-0': {
+                                'PP0': {
+                                    'SFPUC-SW': {
+                                        'QTY': 0,
+                                        'UNIT': ''
+                                    }
+                                }
+                            }
+                        },
+                        get pp_summary() {
+                            return payment_summary_from_pp_history(this.pp_history)
+                        },
+                        get bid_items() {
+                            return bid_item_flattener(this.pp_history)
+                        },
+                        "rlvnt": "none",
+                        "sw_type": "cb",
+                        get status() {
+                            return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                        }
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [ -122.415007668208858, 37.708774335881493 ]
+                    },
+                    get asset_coordinate() {
+                        return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+                    }
+        
+                },
 
         // ######################################
 
@@ -4902,13 +5009,8 @@ var json_1243I_sewer_points = {
                 "location": "565 South Van Ness Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 0, 150, 0]
                     }
                 },
                 get pp_summary() {
@@ -5184,13 +5286,8 @@ var json_1243I_sewer_points = {
                 "location": "337 Leland Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {
@@ -5226,13 +5323,8 @@ var json_1243I_sewer_points = {
                 "location": "Intersection of Leland Ave and Elliot St - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP15': [0, 150, 0, 0]
                     }
                 },
                 get pp_summary() {

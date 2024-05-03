@@ -171,6 +171,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23:</b> (N) CB - STD 87,188</a>\
 	               </li>\
+				   <li>\
+				   <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-24.html"><b>SW-24:</b> (N) CI Trap in (E) CB </a>\
+				 </li>\
 	             </ul>\
 	       </li>\
 	       <li>\
