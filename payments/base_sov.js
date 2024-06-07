@@ -43,6 +43,7 @@ var base_sov =
                 [30000, 0, 0, 0], // PP13
                 [], // PP14
                 [15000, 0, 0, 0], // PP15
+                [0, 0, 0, 0] // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -336,6 +337,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -376,6 +378,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -439,6 +442,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -479,6 +483,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -519,6 +524,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -559,6 +565,7 @@ var base_sov =
                 [1076, 0, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -599,6 +606,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -639,6 +647,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -679,6 +688,7 @@ var base_sov =
                 [28380, 0, 0, 0], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -719,6 +729,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -759,6 +770,7 @@ var base_sov =
                 [], // PP13
                 [0, 0, -1375, 1375], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -799,6 +811,7 @@ var base_sov =
                 [], // PP13
                 [0, 0, -2750, 2750], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -908,6 +921,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1179,6 +1193,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1473,6 +1488,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1513,6 +1529,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1576,7 +1593,8 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
-            ],
+                []  // PP16
+                            ],
             get payment_details() {
                 return get_payment_details(this)
             }
@@ -1616,6 +1634,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1656,6 +1675,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1696,6 +1716,7 @@ var base_sov =
                 [0, 0, 18920, 0], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1735,7 +1756,8 @@ var base_sov =
                 [], // PP12
                 [], // PP13
                 [], // PP14
-                [], // PP15
+                [0, 108331.59, 0, 0], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1776,6 +1798,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1816,6 +1839,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1856,6 +1880,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1896,6 +1921,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -1936,6 +1962,7 @@ var base_sov =
                 [], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -2114,6 +2141,7 @@ var base_sov =
                 [0, 0, 60000, 0], // PP13
                 [], // PP14
                 [], // PP15
+                []  // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)
@@ -2154,7 +2182,9 @@ var base_sov =
                 [0, 0, 75000, 0], // PP13
                 [], // PP14
                 [], // PP15
-            ], get payment_details() {
+                []  // PP16
+            ],
+            get payment_details() {
                 return get_payment_details(this)
             }
         },
@@ -2285,7 +2315,9 @@ var base_sov =
                 [0, 0, 15500, 0], // PP13
                 [], // PP14
                 [], // PP15
-            ], get payment_details() {
+                []  // PP16
+            ],
+            get payment_details() {
                 return get_payment_details(this)
             }
         },
@@ -2324,7 +2356,9 @@ var base_sov =
                 [0, 0, 10500, 0], // PP13
                 [], // PP14
                 [], // PP15
-            ], get payment_details() {
+                []  // PP16
+            ],
+            get payment_details() {
                 return get_payment_details(this)
             }
         },
