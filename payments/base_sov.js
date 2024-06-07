@@ -43,7 +43,7 @@ var base_sov =
                 [30000, 0, 0, 0], // PP13
                 [], // PP14
                 [15000, 0, 0, 0], // PP15
-                [0, 0, 0, 0] // PP16
+                [15000, 0, 0, 0] // PP16
             ],
             get payment_details() {
                 return get_payment_details(this)

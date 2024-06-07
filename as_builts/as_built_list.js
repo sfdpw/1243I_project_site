@@ -102,7 +102,8 @@ var json_ab_list = [
 	'1243I_pp_15_ab_SW_05',
 	'1243I_pp_15_ab_SW_06',
 	'1243I_pp_15_ab_SW_07',
-	'1243I_pp_15_ab_SW_11'
+	'1243I_pp_15_ab_SW_11',
+	'1243I_pp_16_ab_R_06'
 
 ];
 
